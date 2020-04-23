@@ -1,0 +1,120 @@
+\chapter*{Projekt in¿ynierski a praca magisterska}
+
+ W dalszej czêœci dokumentu znajduj¹ siê wytyczne dotycz¹ce projektu in¿ynierskiego. Nale¿y jednak zaznaczyæ, ¿e na ich przyk³adzie pokazano sposoby wykorzystania ró¿nych narzêdzi \LaTeX{}a, \textbf{dlatego tak¿e studenci realizuj¹cy pracê magistersk¹ powinni siê z nimi zaznajomiæ}. 
+
+ Dodatkowo \textbf{studenci studiów magisterskich} powinni zapoznaæ siê z~procedurami dyplomowania. \textbf{Praca magisterska} powinna zawieraæ nastêpuj¹ce elementy:
+\begin{itemize}
+        \item sformu³owanie problemu,
+        \item analizê literatury zwi¹zanej z tematem oraz istniej¹cymi rozwi¹zaniami problemu,
+        \item propozycjê rozwi¹zania problemu oraz wyczerpuj¹cy opis przyjêtego rozwi¹zania,
+        \item analizê wyników i wnioski koñcowe.
+\end{itemize}
+Sugerowana objêtoœæ [tej] pracy to 60-100 stron.
+
+Praca [magisterska] powinna powstaæ w oparciu o co najmniej 6 pozycji bibliograficznych kwalifikowanych przez promotora (monografie, artyku³y w czasopismach naukowych, publikacje w materia³ach konferencji
+
+
+\chapter{Wstêp}
+               
+Wprowadzenie do zagadnieñ poruszanych w pracy w ogólnym, zwiêz³ym ujêciu\footnote{Projekt in¿ynierski: $\pm$kilka paragrafów.}. Osadzenie ich w realiach codziennoœci, ewentualna klasyfikacja wœród problemów szerszej grupy do której nale¿¹ itp. Zdefiniowanie problemu do rozwi¹zania.
+
+\emph{Automatyczna analiza obrazów (AAO)\footnote{Tak wprowadzamy skróty.} jest niezwykle istotn¹ i szybko rozwijaj¹c¹ siê dziedzin¹ nauki. Bez narzêdzi (\ang{tools}) AAO trudno dziœ sobie wyobraziæ ksi¹¿ki o~przetwarzaniu obrazów \cite{Gonzalez} i~inne. Jednym z~popularniejszych narzêdzi analizy s¹ no¿yczki.}
+
+\section{Rozwi¹zania alternatywne}
+Opis ewentualnych znanych sposobów rozwi¹zania problemu wraz z ich ocen¹ najlepiej z wyraŸnym podzia³em na zalety i wady, przy czym najlepiej by z wymienionych wad po czêœci wynika³ cel i przyjête za³o¿enia.\footnote{$\pm$ pó³ strony}
+
+\emph{No¿yczki s¹ czêstym tematem prac badawczych. W~\cite{Malina} nie zosta³y wymienione ¿adne no¿yczki. No¿yczki, które nie zosta³y wymienione w~\cite{Gonzalez}, cechuj¹ siê pe³nym automatyzmem, niestety relatywnie szybko ulegaj¹ stêpieniu.}
+
+
+\section{Cel pracy}
+Sformu³owanie celu pracy. Okreœlenie koniecznych do realizacji zadañ, niezbêdnych do osi¹gniêcia celu. Mo¿na je uj¹æ i wymieniæ w postaci za³o¿eñ projektowych z ewentualnym podzia³em na za³o¿enia ogólne i szczegó³owe\footnote{Krótkie}.
+
+\emph{Celem pracy jest \textbf{stworzenie automatycznych no¿yczek tn¹cych stopnia trzeciego.} Wymaga to realizacji nastêpuj¹cych etapów:
+\begin{itemize}
+ \item wyboru narzêdzi,
+ \item opracowania architektury no¿yczek,
+ \item testowania no¿yczek w~warunkach zmiennej wilgotnoœci.
+\end{itemize}
+}
+
+
+\section{Uk³ad pracy}
+Czasem rozdzia³ koñczy siê omówieniem zawartoœci pracy, t³umacz¹cym co czytelnik znajdzie w kolejnych jej rozdzia³ach.
+
+Ka¿dy rozdzia³ warto jest równie¿ poprzedziæ krótkim wstêpem.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Metodologia}\label{Chapter_Metodologia}
+Dok³adne, szczegó³owe naœwietlenie problemu do rozwi¹zania, w sposób teoretyczny bez sugerowanych sposobów implementacyjnych. Ten rozdzia³ mo¿na po³¹czyæ z kolejnym, stanowi¹cym propozycjê przyjêtego rozwi¹zania. Propozycja fizycznej/programistycznej realizacji zadania, umo¿liwiaj¹ca osi¹gniêcie postawionego celu i spe³nienie za³o¿eñ projektowych. T³umaczenie proponowanego rozwi¹zania w~oparciu o~ogólny schemat blokowy.
+
+\emph{Stworzenie odpornych, automatycznych no¿yczek tn¹cych stopnia trzeciego wymaga opracowania wieloetapowej metodologii. W~pierwszej kolejnoœci rozwa¿ona zostanie odpornoœæ na korozjê cyfrow¹. W~dalszej czêœci pracy\ldots}
+
+\section{Problem 1}
+\emph{Stworzone no¿yczki powinny cechowaæ siê du¿¹ odpornoœci¹ na korozjê cyfrow¹. Mo¿na w~tym celu wykorzstaæ izolacjê od znaków wodnych (Rys.~\ref{f1}) na poziomie warstwy p³ótna.}
+
+\begin{figure}[H]
+ \subfloat[Podpis 1\label{f1:c1}]{\includegraphics[width=0.45\textwidth]{logoPS}} \; % <--- to daje odstêp w poziomie; \\ daje now¹ linijkê
+ \subfloat[Podpis 2\label{f1:c2}]{\includegraphics[width=0.45\textwidth]{logoRIB}} 
+  \caption{Podpis ca³oœci nawi¹zuj¹cy do podpisu \protect\subref{f1:c1}.\label{f1}} % wykorzystanie subref mo¿e wymagaæ dodania \protect !!!
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Czêœæ konstrukcyjna/Specyfikacja wewnêtrzna}
+Czêœæ konstrukcyjna lub implementacyjna, t³umacz¹ca sposób realizacji zadania, omówion¹ w poprzedniej czêœci opracowania. Wyjaœnienie wyborów elementów, sprzêtu lub programów. W przypadku programów obiektowych podzia³ na klasy, pola, metody wraz z uzasadnieniem.
+
+\emph{W trakcie realizacji zadania, w~pierwszym kroku, nale¿y odizolowaæ znaki wodne w~warstwie p³ótna. Wykorzystano w~tym celu dostêpn¹ w~œrodowisku XYZ funkcje Z. Parametry do funkcji okreœlono poprez\ldots}
+
+\section{Specyfikacja interfejsu programistycznego}
+
+Jeœli projekt, praca dotyczy systemu informatycznego, w dokumentacji umieszcza siê z~regu³y jedynie interfejs programistyczny (b¹dŸ jego fragmenty). Pe³ny kod mo¿na do³¹czyæ w za³¹czniku.
+
+%\lstset{ %
+%numbers=left, 
+%}
+
+\begin{lstlisting}
+private double losuj(int ile, double min, double max);
+\end{lstlisting}
+
+Metoda losuje liczbê z~podanego zakresu. Przed zwróceniem wartoœci, losowanie
+powtarzane jest wybran¹ liczbê razy w~celu zwiêkszenia czasu obliczeñ.
+
+\begin{itemize}
+ \item Parametry:
+    \begin{description}
+    \item[ile] okreœla ile rezy nale¿y losowaæ przed zwróceniem liczby,
+    \item[min] definiuje wartoœæ minimaln¹,
+    \item[max] definiuje wartoœæ minimaln¹,
+    \end{description}
+ \item Wartoœæ zwracana: wylosowana liczba
+ \item B³êdy: w~przypadku, gdy \lstinline{ile} $< 0$, zg³aszany jest wyj¹tek \lstinline{WrongIleException}
+\end{itemize}
+
+
+itd. 
+
+czasami warto omówiæ wybrane fragmenty razem z~implementacj¹
+
+\begin{lstlisting}[numbers=right, numbersep=-5pt]%, stepnumber=2]
+...
+double x = 2 ^ 1023-3 / 22;
+int z = (int)x; 
+p = x - z;
+...
+\end{lstlisting}
+
+\emph{w pierwszej kolejnoœci stosowana jest sta³a Krafta do redukcji z³o¿onoœci ciêcia (linijka~2).}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Instrukcja obs³ugi/Specyfikacja zewnêtrzna}
+Instrukcja obs³ugi zbudowanego urz¹dzenia/programu komputerowego. Dok³adne wyjaœnienie zasad pos³ugiwania siê tym, co zosta³o otrzymane w efekcie przeprowadzonych prac. Mo¿na wykorzystaæ zrzuty ekranów, scenariusze u¿ytkowe itp.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Rezultaty}
+Zobrazowanie i omówienie wyników otrzymywanych wskutek zastosowania danego urz¹dzenia b¹dŸ aplikacji. Badanie ewentualnych parametrów (takich jak dok³adnoœæ, czu³oœæ...), czy te¿ zachowania w szczególnych sytuacjach. O ile to mo¿liwe tabelaryzacja rezultatów oraz ich statystyczna interpretacja. Ocena zachowania zaproponowanego rozwi¹zania. Analiza mo¿liwych przyczyn wyst¹pienia b³êdów. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Podsumowanie}
+Nawi¹zanie do celu pracy oraz postawionych za³o¿eñ. Próba oceny realizacji celu, poprzez weryfikacjê otrzymanych rezultatów. Analiza dostrze¿onych problemów, b³êdnego, nieoczekiwanego dzia³ania, ewentualnych problemów napotkanych podczas realizacji. W przypadku niewyczerpania tematu, a tak¿e wspomnianego niepo¿¹danego zachowania urz¹dzenia/aplikacji sugestie ich eliminacji wymienione jako plany na przysz³oœæ.\footnote{Krótkie! 1-2 strony.}
+
+Wstêp wraz z podsumowaniem winny stanowiæ swego rodzaju klamrê, a nawet ca³oœæ w takim rozumieniu, ¿e przeczytanie wy³¹cznie tych dwóch rozdzia³ów t³umaczyæ powinno rozwa¿any problem wraz z efektami otrzymanymi w efekcie prac, stanowi¹cymi jego rozwi¹zanie, bez wnikania w sposób ich otrzymania (to zawiera czêœæ œrodkowa).

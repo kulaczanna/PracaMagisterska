@@ -1,0 +1,2 @@
+﻿Studenci realizujący pracę magisterską powinni zapoznać się z procesem dyplomowania oraz wymaganiami dotyczącymi formy pracy. Ich streszczenie można znaleźć w pliku Praca.pdf w katalogu latex.
+

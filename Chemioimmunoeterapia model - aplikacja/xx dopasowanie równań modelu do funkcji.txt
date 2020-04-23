@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% % growth and death terms
+% tumor_growth = a * T *(1 - (b * T));
+% NK_growth = e * C - f * N;
+% CD8T_decrease = (-m) * L;
+% lymphocytes_generated = alfa - (beta * C);
+% decay_of_chemioth_drug = (-gamma) * M; -------------------
+% exp_decay_of_IL2 = (-mi_i) * L - (j_prim * L * I) - (k_prim * T * I); ---
+% exp_decay_of_INF_alfa = (-g) * I_alfa;  ! ------------------
+% 
+% % fractional cell kill terms
+% tumor_NK_interact = (- c) * N * T;
+% tumor_inactivation_by_CD8T = (-D) * T;
+% chemio_on_tumor = K_T * (1 - (exp(-M))) * T; ----------
+% chemio_on_NK = K_N * (1 - exp(-M)) * N; ---------------
+% chemio_on_CD8T = K_L * (1 - exp(-M)) * L; -------------
+% chemio_on_lymphocytes = K_C * (1 - exp(-M)) * C; ------
+% IL2_stimmulates_CD8T = ((p_i * L * I) / g_i); ---------
+% 
+% % recruitment terms
+% recr_NK = g * ((T^2) / (h + (T^2))) * N;
+% tumor_CD8T_interact = jj * ((D^2 * T^2) / k + (D^2 + T^2)) * L;
+% tumor_NK_CD8T_impact = ((r1 * N) + (r2 * C)) * T;
+% 
+% % inactivation terms
+% I_alfa_CD8T_tumor_inactiv = c_prim * T * L; -----------
+% NK_inactiv_after_interact_with_tumor = (-p) * N * T;
+% CD8T_inactiv_after_interact_with_tumor = (-q) * L * T;
+% NK_regulation_of_CD8T = - u * N * (L^2);
+
+% % model
+% dTdt = tumor_growth + tumor_NK_interact + tumor_inactivation_by_CD8T - chemio_on_tumor - I_alfa_CD8T_tumor_inactiv;
+% dNdt = NK_growth + recr_NK + NK_inactiv_after_interact_with_tumor - chemio_on_NK;
+% dLdt = CD8T_decrease + tumor_CD8T_interact + CD8T_inactiv_after_interact_with_tumor ...
+%     + tumor_NK_CD8T_impact + NK_regulation_of_CD8T - chemio_on_CD8T + IL2_stimmulates_CD8T + v_L;
+% dCdt = lymphocytes_generated - chemio_on_lymphocytes;
+% dMdt = decay_of_chemioth_drug + v_M;
+% dIdt = exp_decay_of_IL2 + v_I;
+% dI_alfadt = v_alfa + exp_decay_of_INF_alfa;
+
+% rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; dI_alfadt; 0]; % wektor równañ

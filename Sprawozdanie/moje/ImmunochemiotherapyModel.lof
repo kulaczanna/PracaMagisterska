@@ -1,0 +1,20 @@
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Podzia\IeC {\l } limfocyt\'ow typu T \cite {7}.\relax }}{6}{figure.caption.5}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Wykresy zmian liczby kom\'orek badanych populacji -- kom\'orek nowotworowych $T(t)$, kom\'orek NK $N(t)$, limfocyt\'ow $T_{CD8+}$ $L(t)$ i\nobreakspace {}limfocyt\'ow kr\k a\.z\k acych $C(t)$.\relax }}{23}{figure.caption.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1 \cdot 10^{6}$. Regresja nowotworu po\nobreakspace {}czasie $T_{r}$\nobreakspace {}$\approx $ 7 dni (168 godzin).}}}{23}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$.}}}{23}{subfigure.1.2}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Wyniki otrzymane na\nobreakspace {}koniec symulacji, kt\'ora trwa\IeC {\l }a $T_{k}$ = 120 dni. Liczba kom\'orek nowotworowych na\nobreakspace {}koniec symulacji $T(120)$ w\nobreakspace {}zale\.zno\'sci od\nobreakspace {}pocz\k atkowej liczby kom\'orek nowotworowych $T(0)$.\relax }}{24}{figure.caption.11}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Wyniki otrzymane na\nobreakspace {}koniec symulacji, kt\'ora trwa\IeC {\l }a $T_{k}$ = 120 dni. D\IeC {\l }ugo\'s\'c promienia nowotworu [mm] na\nobreakspace {}koniec symulacji w\nobreakspace {}zale\.zno\'sci od\nobreakspace {}pocz\k atkowej liczby kr\k a\.z\k acych limfocyt\'ow $T(0)$.\relax }}{25}{figure.caption.12}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Wykresy zmian liczby kom\'orek badanych populacji -- kom\'orek nowotworowych $T(t)$, kom\'orek NK $N(t)$, limfocyt\'ow $T_{CD8+}$ $L(t)$ i\nobreakspace {}limfocyt\'ow kr\k a\.z\k acych $C(t)$.\relax }}{27}{figure.caption.14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby limfocyt\'ow kr\k a\.z\k acych $C(0) = 6 \cdot 10^{10}$. Regresja nowotworu po\nobreakspace {}czasie $T_{r}$\nobreakspace {}$\approx $ 7 dni (168 godzin).}}}{27}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zmiany liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby limfocyt\'ow kr\k a\.z\k acych $C(0) = 3,5 \cdot 10^{9}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 28 dni (672 godziny) oko\IeC {\l }o wartosci $9,8 \cdot 10^{8}$.}}}{27}{subfigure.4.2}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Wyniki otrzymane na\nobreakspace {}koniec symulacji, kt\'ora trwa\IeC {\l }a $T_{k}$ = 120 dni. Liczba kom\'orek nowotworowych na\nobreakspace {}koniec symulacji $T(120)$ w\nobreakspace {}zale\.zno\'sci od\nobreakspace {}pocz\k atkowej liczby kr\k a\.z\k acych limfocyt\'ow $C(0)$.\relax }}{28}{figure.caption.15}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Wyniki otrzymane na\nobreakspace {}koniec symulacji, kt\'ora trwa\IeC {\l }a $T_{k}$ = 120 dni. D\IeC {\l }ugo\'s\'c promienia nowotworu [mm] na\nobreakspace {}koniec symulacji w\nobreakspace {}zale\.zno\'sci od\nobreakspace {}pocz\k atkowej liczby kr\k a\.z\k acych limfocyt\'ow $C(0)$.\relax }}{29}{figure.caption.16}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}

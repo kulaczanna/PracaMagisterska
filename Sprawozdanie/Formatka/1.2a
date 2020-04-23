@@ -1,0 +1,4 @@
+1.2 -> 1.21 Usunięto nagłówek
+1.1 -> 1.2 Usunięto stronę pierwszą z LaTeXa, dodano szablony pierwszej strony w Word.
+1.0a-> 1.1 Strony tytułowe całkowicie w wordzie w osobnych plikach w podkatalogu "word"
+1.0 -> 1.0a: Poprawka strony tytułowej. Wystarczy zastąpić plik stronatytulowa.sty w wersji latexowej

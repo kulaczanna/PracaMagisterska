@@ -1,0 +1,53 @@
+
+OPIS RÓWNAÑ
+
+
+1. %\begin{itemize}
+%\item $aT(1-bT)$ -- liczba komórek nowotworowych powsta³ych w~chwili czasowej t (wzrost logistyczny),
+%\item $-cNT$ -- liczba komórek nowotworowych zniszczonych w~chwili czasowej t na~skutek ich interakcji z~komórkami NK,
+%\item $-DT$ -- liczba komórek nowotworowych zniszczonych w~chwili czasowej t na~skutek ich interakcji z~limfocytami $T_{CD8+}$,
+%\item $-K_{T}(1-e^{-M})T$ -- liczba komórek nowotworowych zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii,
+%\item $-c'TL$ -- liczba komórek nowotworowych zniszczonych w~chwili czasowej t na~skutek interakcji IFN-$\alpha$, limfocytów $T_{CD8+}$ i~komórek nowotworu;
+%\end{itemize}
+
+2. %\begin{itemize}
+%\item $eC$ -- liczba komórek NK powsta³ych w~chwili czasowej t z~kr¹¿¹cych limfocytów,
+%\item $-fN$ -- liczba zniszczonych komórek NK w~chwili czasowej t,
+%\item $g\dfrac{T^{2}}{h+T^{2}}N$ -- liczba komórek okreœlonych jako komórki NK podczas rekrutacji w~chwili czasowej t,
+%\item $-pNT$ -- liczba dezaktywowanych komórek NK w~chwili czasowej t na~skutek interakcji z~komórkami nowotworowymi,
+%\item $-K_{N}(1-e^{-M})N$ -- liczba komórek NK zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii;
+%\end{itemize}
+
+3. %\begin{itemize}
+%\item $-mL$ -- liczba limfocytów $T_{CD8+}$ zniszczonych w~chwili czasowej t na~skutek obecnoœci komórek nowotworowych,
+%\item $j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L$ -- liczba stymulowanych limfocytów $T_{CD8+}$ przez resztê komórek nowotworowych lizowanych przez limfocyty $T_{CD8+}$  w~chwili czasowej t,
+%\item $-qLT$ -- liczba dezaktywowanych limfocytów $T_{CD8+}$ w~chwili czasowej t na~skutek interakcji z~komórkami nowotworowymi,
+%\item $(r_{1}N+r_{2}C)T$ -- liczba stymulowanych limfocytów $T_{CD8+}$ przez resztê komórek nowotworowych lizowanych przez komórki NK oraz~limfocytów $T_{CD8+}$ powsta³ych na~skutek obecnoœci komórek nowotworowych w~chwili czasowej t,
+%\item $-uNL^{2}$ -- liczba dezaktywowanych limfocytów $T_{CD8+}$ w~chwili czasowej t na~skutek dzia³ania komórek NK,
+%\item $-K_{L}(1-e^{-M})L$ -- liczba limfocytów $T_{CD8+}$ zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii,
+%\item $\dfrac{p_{i}LI}{g_{i}}$ -- liczba limfocytów $T_{CD8+}$ stymulowanych przez IL-2,
+%\item $\nu_{L}(t)$ -- funkcja opisuj¹ca iloœæ i~czas podania TIL;
+%\end{itemize}
+
+4. 
+%\begin{itemize}
+%\item $\alpha-\beta C$ -- liczba powsta³ych i~zniszczonych limfocytów kr¹¿¹cych w~chwili czasowej t,
+%\item $-K_{C}(1-e^{-M})C$ -- liczba limfocytów kr¹¿¹cych zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii;
+%\end{itemize}
+
+5. %\begin{itemize}
+%\item $-\gamma M$ -- spadek stê¿enia cytostatyku na~skutek jego rozpadu,
+%\item $+\nu_{M}(t)$ -- funkcja opisuj¹ca iloœæ i~czas podania cytostatyku;
+%\end{itemize}
+
+6. %\begin{itemize}
+%\item $-\mu_{i}L$ -- spadek stê¿enia IL-2 na~skutek jej rozpadu,
+%\item $-j'LI$ -- liczba komórek IL-2 wch³oniêtych przez limfocyty $T_{CD8+}$ w~chwili czasowej t,
+%\item $-k'TI$ -- liczba dezaktywowanych komórek IL-2 przez prostaglandyny w~chwili czasowej t,
+%\item $\nu_{I}(t)$ -- funkcja opisuj¹ca iloœæ i~czas podania IL-2;
+%\end{itemize}
+
+7. %\begin{itemize}
+%\item $V_{\alpha}(t)$ -- funkcja opisuj¹ca iloœæ i~czas podania IFN-$\alpha$,
+%\item $-gI_{\alpha}$ -- spadek stê¿enia IFN-$\alpha$ na~skutek jego rozpadu;
+%\end{itemize}
