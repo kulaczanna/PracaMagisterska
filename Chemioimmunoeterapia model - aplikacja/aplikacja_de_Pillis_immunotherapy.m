@@ -1,7 +1,7 @@
 clc; clear all
 close all
 
-n = 7; % wybór przypadku
+n = 5; % wybór przypadku
 
 switch n
     case 1 % no treatment V_M i V_I musi byc rowne 0, regresja guza
