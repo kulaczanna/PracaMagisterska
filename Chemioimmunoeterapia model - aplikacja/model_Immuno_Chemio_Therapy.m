@@ -4,9 +4,6 @@ K_T = 0;
 K_N = 0;
 K_L = 0;
 K_C = 0;
-v_L = 0;
-v_M = 0;
-v_I = 0;
 v_alfa = 0;
 
 T = x(1);
@@ -47,16 +44,20 @@ c_CTL = 4.4e-9;
 g_prim = 1.7;
 j_prim = 3.3e-9;
 k_prim = 1.8e-8;
+mi_I = 1e1;
 
-% D = d * (((L / T)^l) / (s + ((L / T)^l))); % tumor inactivation by CD8+T
-D = count_D(d, L, T, s, l);
+V_M = 0;
+V_I = 0;
+V_L = 0;
+
+D = licz_D(d, L, T, s, l);
 % c_prim = c_CTL * (2 - (exp((-I_alfa) / I_alfa0))); % I_alfa, CD8T, tumor interact - inactivation
 c_prim = c_CTL;
 
 % równania modelu
 dTdt = (a * T *(1 - (b * T))) - (c * N * T) - (D * T) - (K_T * (1 - (exp(-M))) * T) - (c_prim * T * L);
 dNdt = (e * C) - (f * N) + (g * ((T^2) / (h + (T^2))) * N) - (p * N * T) - (K_N * (1 - exp(-M)) * N);
-dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / (k + (D^2 * T^2))) * L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T) - (u * N * (L^2)) - (K_L * (1 - exp(-M)) * L) + ((p_i * L * I) / (g_i)) + v_L;
+dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / (k + (D^2 * T^2))) * L) - (q * L * T) + (((r1 * N) + (r2 * C)) * T) - (u * N * (L^2)) - (K_L * (1 - exp(-M)) * L) + ((p_i * L * I) / (g_i)) + V_L;
 dCdt = alfa - (beta * C) - (K_C * (1 - exp(-M)) * C);
 dMdt = ((-gamma) * M) + V_M;
 dIdt = ((-mi_I) * L) - (j_prim * L * I) - (k_prim * T * I) + V_I;
