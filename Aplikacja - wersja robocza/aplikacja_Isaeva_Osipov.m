@@ -2,35 +2,36 @@ clc; clear all
 close all
 format long
 
-metoda_leczenia = 7;
+metoda_leczenia = 1;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
-% 2. brak leczenia - rozwój nowotworu 
+% 2. brak leczenia - rozwÃ³j nowotworu 
 % 3. chemioterapia, dawki co 5 dni, V_M = 5 - regresja nowotworu
-% 4. chemioterapia, dawki co 10 dni, V_M = 5 - rozwój nowotworu
+% 4. chemioterapia, dawki co 10 dni, V_M = 5 - rozwÃ³j nowotworu
 % 5. immunoterapia - regresja nowotworu
-% 6. immunoterapia - rozwój nowotworu
+% 6. immunoterapia - rozwÃ³j nowotworu
 % 7. immunoterapia + chemioterapia
 
 pacjent = 10; % 9 lub 10 jak w artykule
 
-% pocz¹tkowe stê¿enie leków
+% poczÄ…tkowe stÄ™Å¼enie lekÃ³w
 
-M_0 = 0; % stê¿enie cytostatyku M(t)
-liczba_dni_w_cyklu = 0; % co ile dni wystêpuje dodzowanie cytostatyku
-I_0 = 0; % stê¿enie IL-2 I(t)
-Ialfa_0 = 0; % stê¿enie IFN-alfa Ialfa(t)
+M_0 = 0; % stÄ™Å¼enie cytostatyku M(t)
+liczba_dni_w_cyklu = 0; % co ile dni wystÄ™puje dodzowanie cytostatyku
+I_0 = 0; % stÄ™Å¼enie IL-2 I(t)
+Ialfa_0 = 0; % stÄ™Å¼enie IFN-alfa Ialfa(t)
         
 switch metoda_leczenia
     case 1 % brak leczenia - regresja nowotworu
            % rys. 7 w artykule
-        T_0 = 1e6; % pocz¹tkowa liczba komórek nowotworowych T(t)
-        N_0 = 1e5; % pocz¹tkowa liczba 'naturalnych zabójców' N(t)
-        L_0 = 1e2; % pocz¹tkowa liczba limfocytów CD8+T L(t)
-        C_0 = 6e10; % pocz¹tkowa liczba limfocytów kr¹¿¹cych C(t)
+        T_0 = 1e8; % poczÄ…tkowa liczba komÃ³rek nowotworowych T(t)
+        I_0 = 2e7;
+        I_alfa_0 = 1e7;% poczÄ…tkowa liczba 'naturalnych zabÃ³jcÃ³w' N(t)
+        L_0 = 9e7; % poczÄ…tkowa liczba limfocytÃ³w CD8+T L(t)
+         % poczÄ…tkowa liczba limfocytÃ³w krÄ…Å¼Ä…cych C(t)
         
-    case 2 % brak leczenia - rozwój nowotworu 
+    case 2 % brak leczenia - rozwÃ³j nowotworu 
            % rys. 7 w artykule
         T_0 = 1e6;
         N_0 = 1e3;
@@ -45,7 +46,7 @@ switch metoda_leczenia
         C_0 = 6e8;
         liczba_dni_w_cyklu = 5;
        
-    case 4  % chemioterapia, dawki co 10 dni, V_M = 5 - rozwój nowotworu
+    case 4  % chemioterapia, dawki co 10 dni, V_M = 5 - rozwÃ³j nowotworu
             % rys. 8 w artykule
         T_0 = 2e7; %
         N_0 = 3e5; % zmiana
@@ -76,8 +77,8 @@ switch metoda_leczenia
         liczba_dni_w_cyklu = 10;
 end
 
-x = [T_0; N_0; L_0; C_0; M_0; I_0; Ialfa_0; liczba_dni_w_cyklu; pacjent; metoda_leczenia]; % parametry wejœciowe  uk³adu równañ
-t = 0 : 1/24 : 50; % czas symulacji
-[t,y] = ode45(@model_de_Pillis, t, x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
+x = [T_0; L_0; M_0; I_0; Ialfa_0; Ialfa_0; liczba_dni_w_cyklu; pacjent; metoda_leczenia]; % parametry wejÅ›ciowe  ukÅ‚adu rÃ³wnaÅ„
+t = 0 : 1/24 : 140; % czas symulacji
+[t,y] = ode45(@model_Isaeva_Osipov, t, x); % rozwiÄ…zanie ukÅ‚adu rÃ³wnaÅ„ rÃ³Å¼niczkowych
 
 wyswietl_wykresy(t, y);
