@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long
 
-metoda_leczenia = 7;
+metoda_leczenia = 5;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
@@ -80,4 +80,4 @@ x = [T_0; N_0; L_0; C_0; M_0; I_0; Ialfa_0; liczba_dni_w_cyklu; pacjent; metoda_
 t = 0 : 1/24 : 120; % czas symulacji
 [t,y] = ode45(@model_de_Pillis, t, x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
 
-wyswietl_wykresy(t, y, 1);
+wyswietl_wykresy(t, y);
