@@ -77,7 +77,7 @@ switch metoda_leczenia
 end
 
 x = [T_0; N_0; L_0; C_0; M_0; I_0; Ialfa_0; liczba_dni_w_cyklu; pacjent; metoda_leczenia]; % parametry wejœciowe  uk³adu równañ
-t = 0 : 1/24 : 50; % czas symulacji
+t = 0 : 1/24 : 120; % czas symulacji
 [t,y] = ode45(@model_de_Pillis, t, x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
 
-wyswietl_wykresy(t, y);
+wyswietl_wykresy(t, y, 1);
