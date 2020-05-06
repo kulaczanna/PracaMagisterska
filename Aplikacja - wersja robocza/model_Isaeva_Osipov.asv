@@ -74,7 +74,7 @@ end
                 || t >= 6*liczba_dni_w_cyklu && t <= (6*liczba_dni_w_cyklu)+1 ...
                 || t >= 7*liczba_dni_w_cyklu && t <= (7*liczba_dni_w_cyklu)+1 ...
                 || t >= 8*liczba_dni_w_cyklu && t <= (8*liczba_dni_w_cyklu)+1)
-            V_M = 1e6;
+            V_M = 1;
         end
     end
     
@@ -83,7 +83,7 @@ end
         if(t >= 0 && t <= 4 || t >= liczba_dni_w_cyklu && t <= liczba_dni_w_cyklu+4 ...
                 || t >= 2*liczba_dni_w_cyklu && t <= (2*liczba_dni_w_cyklu)+4 ...
                 || t >= 3*liczba_dni_w_cyklu && t <= (3*liczba_dni_w_cyklu)+4)
-            V_I = 10e6;
+            V_I = 10;
         end
     end
     
@@ -92,8 +92,8 @@ end
         if(t >= 0 && t <= 4 || t >= liczba_dni_w_cyklu && t <= liczba_dni_w_cyklu+4 ...
                 || t >= 2*liczba_dni_w_cyklu && t <= (2*liczba_dni_w_cyklu)+4 ...
                 || t >= 3*liczba_dni_w_cyklu && t <= (3*liczba_dni_w_cyklu)+4)
-            V_Ialfa = 5e6;
-            V_I = 10e6;
+            V_I = 5;
+            V_I = 10;
         end
     end
 

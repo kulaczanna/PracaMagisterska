@@ -36,15 +36,15 @@ t = 0 : 1/24 : 140; % czas symulacji
         x1 = [T_0; L_0; M_0; I_0; I_alfa_0; liczba_dni_w_cyklu1; grupa; metoda_leczenia]; % parametry wejściowe  układu równań
         [t,y1] = ode45(@model_Isaeva_Osipov, t, x1); % rozwiązanie układu równań różniczkowych
 
-% % immunoterapia IL-2
-        liczba_dni_w_cyklu2 = 10;
+% immunoterapia IL-2
+        liczba_dni_w_cyklu2 = 0;
         metoda_leczenia = 2;
                 
         x2 = [T_0; L_0; M_0; I_0; I_alfa_0; liczba_dni_w_cyklu2; grupa; metoda_leczenia]; % parametry wejściowe  układu równań
         [t,y2] = ode45(@model_Isaeva_Osipov, t, x2); % rozwiązanie układu równań różniczkowych
 
-% % immunoterapia IL-2 + IFN-alfa
-        liczba_dni_w_cyklu3 = 10;
+% immunoterapia IL-2 + IFN-alfa
+        liczba_dni_w_cyklu3 = 5;
         metoda_leczenia = 3;
                 
         x3 = [T_0; L_0; M_0; I_0; I_alfa_0; liczba_dni_w_cyklu3; grupa; metoda_leczenia]; % parametry wejściowe  układu równań
@@ -79,4 +79,4 @@ t = 0 : 1/24 : 140; % czas symulacji
 % t = 0 : 1/24 : 140; % czas symulacji
 % [t,y] = ode45(@model_Isaeva_Osipov, t, x); % rozwiązanie układu równań różniczkowych
 
-wyswietl_wykresy_i(t, y3);
+wyswietl_wykresy_i(t, y0, y1, y2, y3);
