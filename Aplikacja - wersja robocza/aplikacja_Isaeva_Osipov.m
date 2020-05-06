@@ -79,4 +79,4 @@ t = 0 : 1/24 : 140; % czas symulacji
 % t = 0 : 1/24 : 140; % czas symulacji
 % [t,y] = ode45(@model_Isaeva_Osipov, t, x); % rozwiązanie układu równań różniczkowych
 
-wyswietl_wykresy_i(t, y3);
+wyswietl_wykresy_i(t, y0, y1, y2, y3);

@@ -74,7 +74,7 @@ end
                 || t >= 6*liczba_dni_w_cyklu && t <= (6*liczba_dni_w_cyklu)+1 ...
                 || t >= 7*liczba_dni_w_cyklu && t <= (7*liczba_dni_w_cyklu)+1 ...
                 || t >= 8*liczba_dni_w_cyklu && t <= (8*liczba_dni_w_cyklu)+1)
-            V_M = 1e6;
+            V_M = 1;
         end
     end
     
@@ -101,7 +101,7 @@ end
 %% model
 
 I_alfa0 = 1e7;
-I_0 = 2e7;
+I_0 = 2.4e7;
 
 c = c_CTL*(2 - (exp((-I_alfa)/I_alfa0)));
 KT = K_T*(2 - (exp((-I)/I_0)));
