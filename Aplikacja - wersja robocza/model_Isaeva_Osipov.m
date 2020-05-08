@@ -96,8 +96,33 @@ end
             V_I = 10e6;
         end
     end
-
-
+    
+    if(metoda_leczenia == 4)
+        % 1 puls chemio i 1 puls immuno
+        if(t >= 0 && t <= 4)
+            V_M = 1;
+        elseif(t > 4 && t <= 8)
+                V_I = 10e6;
+        end
+    end
+    
+    if(metoda_leczenia == 5)
+        % 1 puls chemio i 1 puls immuno
+        if(t >= 0 && t <= 4)
+            V_I = 10e6;
+        elseif(t > 4 && t <= 8)
+            V_M = 1;
+        end
+    end
+        
+    if(metoda_leczenia == 6)
+        % funkcja stężenia interleukiny-2
+        if(t >= 0 && t <= 4)
+            V_M = 1;
+            V_I = 7e6;
+        end
+    end
+    
 %% model
 
 I_alfa0 = 1e7;

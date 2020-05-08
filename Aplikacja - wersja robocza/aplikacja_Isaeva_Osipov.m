@@ -18,7 +18,10 @@ grupa = 1;
 M_0 = 0; % stężenie cytostatyku M(t)
 % liczba_dni_w_cyklu = 5; % co ile dni występuje dodzowanie cytostatyku
 t = 0 : 1/24 : 140; % czas symulacji
-        
+w=2;
+
+switch w
+    case 1
  % brak leczenia
         T_0 = 8e6; % początkowa liczba komórek nowotworowych T(t)
         L_0 = 2.25e7; % początkowa liczba limfocytów CD8+T L(t)
@@ -49,34 +52,47 @@ t = 0 : 1/24 : 140; % czas symulacji
                 
         x3 = [T_0; L_0; M_0; I_0; I_alfa_0; liczba_dni_w_cyklu3; grupa; metoda_leczenia]; % parametry wejściowe  układu równań
         [t,y3] = ode45(@model_Isaeva_Osipov, t, x3); % rozwiązanie układu równań różniczkowych
-     
-%     case 4 % chemio/immuno
-%         T_0 = 1e8; % początkowa liczba komórek nowotworowych T(t)
-%         L_0 = 9e7; % początkowa liczba limfocytów CD8+T L(t)
-%         I_0 = 2e7; % początkowa liczba interleukin-2 I(t)
-%         I_alfa_0 = 1e7; % początkowa liczba interferonów-alfa I_alfa(t)
-%        
-%     case 5  % immuno/chemio
-%         T_0 = 1e8; % początkowa liczba komórek nowotworowych T(t)
-%         L_0 = 9e7; % początkowa liczba limfocytów CD8+T L(t)
-%         I_0 = 2e7; % początkowa liczba interleukin-2 I(t)
-%         I_alfa_0 = 1e7; % początkowa liczba interferonów-alfa I_alfa(t)
-%         
-%     case 6  % jednoczesna chemio i immuno
-%         T_0 = 1e8; % początkowa liczba komórek nowotworowych T(t)
-%         L_0 = 9e7; % początkowa liczba limfocytów CD8+T L(t)
-%         I_0 = 2e7; % początkowa liczba interleukin-2 I(t)
-%         I_alfa_0 = 1e7; % początkowa liczba interferonów-alfa I_alfa(t)
-%        
-%     case 7  % szczepionki
-%         T_0 = 1e8; % początkowa liczba komórek nowotworowych T(t)
-%         L_0 = 9e7; % początkowa liczba limfocytów CD8+T L(t)
-%         I_0 = 2e7; % początkowa liczba interleukin-2 I(t)
-%         I_alfa_0 = 1e7; % początkowa liczba interferonów-alfa I_alfa(t)
 
+    case 2
+        T_0 = 8e6; % początkowa liczba komórek nowotworowych T(t)
+        L_0 = 2.25e7; % początkowa liczba limfocytów CD8+T L(t)
+        I_0 = 2.4e7; % początkowa liczba interleukin-2 I(t)
+        I_alfa_0 = 1e7; % początkowa liczba interferonów-alfa I_alfa(t)
+        liczba_dni_w_cyklu0 = 0;
+        metoda_leczenia = 0;
+        
+        x0 = [T_0; L_0; M_0; I_0; I_alfa_0; liczba_dni_w_cyklu0; grupa; metoda_leczenia]; % parametry wejściowe  układu równań
+        [t,y0] = ode45(@model_Isaeva_Osipov, t, x0); % rozwiązanie układu równań różniczkowych
+
+         % chemio/immuno
+         liczba_dni_w_cyklu4 = 0;
+        metoda_leczenia = 4;
+        x4 = [T_0; L_0; M_0; I_0; I_alfa_0; liczba_dni_w_cyklu4; grupa; metoda_leczenia]; % parametry wejściowe  układu równań
+        [t,y1] = ode45(@model_Isaeva_Osipov, t, x4); % rozwiązanie układu równań różniczkowych
+
+         % immuno/chemio
+         liczba_dni_w_cyklu5 = 0;
+        metoda_leczenia = 5;
+         x5 = [T_0; L_0; M_0; I_0; I_alfa_0; liczba_dni_w_cyklu5; grupa; metoda_leczenia]; % parametry wejściowe  układu równań
+        [t,y2] = ode45(@model_Isaeva_Osipov, t, x5); % rozwiązanie układu równań różniczkowych
+
+        
+          % jednoczesna chemio i immuno
+         liczba_dni_w_cyklu6 = 0;
+        metoda_leczenia = 6;
+        x6 = [T_0; L_0; M_0; I_0; I_alfa_0; liczba_dni_w_cyklu6; grupa; metoda_leczenia]; % parametry wejściowe  układu równań
+        [t,y3] = ode45(@model_Isaeva_Osipov, t, x6); % rozwiązanie układu równań różniczkowych
+
+       
+%          % szczepionki
+%         T_0 = 1e8; % początkowa liczba komórek nowotworowych T(t)
+%         L_0 = 9e7; % początkowa liczba limfocytów CD8+T L(t)
+%         I_0 = 2e7; % początkowa liczba interleukin-2 I(t)
+%         I_alfa_0 = 1e7; % początkowa liczba interferonów-alfa I_alfa(t)
+end
 
 % x = [T_0; L_0; M_0; I_0; I_alfa_0; liczba_dni_w_cyklu; grupa; metoda_leczenia]; % parametry wejściowe  układu równań
 % t = 0 : 1/24 : 140; % czas symulacji
 % [t,y] = ode45(@model_Isaeva_Osipov, t, x); % rozwiązanie układu równań różniczkowych
 
-wyswietl_wykresy_i(t, y0, y1, y2, y3);
+wyswietl_wykresy_i(t, w, y0, y1, y2, y3);
