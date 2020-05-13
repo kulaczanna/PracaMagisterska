@@ -110,6 +110,11 @@ K_C = 6e-1;
 
 D = licz_D(d, L, T, s, l);
 
+% % 
+%  dprim = 7.3e6;
+%  eprim = 9.9e-9;
+%  fprim = 0.33;
+
 % równania modelu
 dTdt = (a * T *(1 - (b * T))) - (c * N * T) - ...
     (D * T) - (K_T * (1 - (exp(-M))) * T);
@@ -119,6 +124,7 @@ dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / ...
     (k + (D^2 * T^2))) * L) - (q * L * T) + ...
     (((r1 * N) + (r2 * C)) * T) - (u * N * (L^2)) - ...
     (K_L * (1 - (exp(-M))) * L) + ((p_I * L * I) / (g_I + I)) + V_L;
+% dLdt = dprim + (eprim*L*I) - (fprim*L) - (K_L*(1 - (exp(-M)))*L);
 dCdt = alfa - (beta * C) - (K_C * (1 - (exp(-M))) * C);
 dMdt = (-gamma * M) + V_M;
 dIdt = (-mi_I * I) + V_I;

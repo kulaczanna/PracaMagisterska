@@ -18,7 +18,7 @@ grupa = 1;
 M_0 = 0; % stężenie cytostatyku M(t)
 % liczba_dni_w_cyklu = 5; % co ile dni występuje dodzowanie cytostatyku
 t = 0 : 1/24 : 140; % czas symulacji
-w=2;
+w=1;
 
 switch w
     case 1

@@ -24,8 +24,8 @@ switch n
 end
 
 x = [T_0; N_0; L_0; C_0; M_0; I_0; I_alfa_0]; % parametry wejœciowe  uk³adu równañ
-
-[t,y] = ode45(@model_Immuno_Chemio_Therapy, [0 120], x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
+t = 0 : 1/24 : 120;
+[t,y] = ode45(@model_Immuno_Chemio_Therapy, t, x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
 
 % wyœwietlenie wykresów
 figure

@@ -273,13 +273,13 @@ gdzie:
 \item N(t) - liczba komórek NK w chwili czasowej t,
 \item L(t) - liczba limfocytów $T_{CD8+}$ w chwili czasowej t,
 \item C(t) - liczba limfocytów kr¹¿¹cych w chwili czasowej t,
-\item $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$.
+\item $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ - liza nowotworu pod~wp³ywem dzia³ania limfocytów $T_{CD8+}$.
 \end{itemize}
 
-\noindent \newline Pierwsze z~równañ modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} opisuje tempo zmian liczby komórek nowotworowych w~chwili czasowej t $\dfrac{dT}{dt}$ uwzglêdniaj¹c zarówno proces proliferacji tych komórek, jak~i~efekt cytotoksycznoœci wywo³any odpowiedzi¹ uk³adu immunologicznego.
+\noindent \newline Pierwsze z~równañ modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} opisuje tempo zmian $\dfrac{dT}{dt}$ liczby komórek nowotworowych, w~chwili czasowej t, uwzglêdniaj¹c zarówno proces proliferacji tych komórek, jak~i~efekt cytotoksycznoœci wywo³any odpowiedzi¹ uk³adu immunologicznego.
 \newline Wyra¿enie $aT(1-bT)$ zwiêksza prêdkoœæ zmian liczebnoœci populacji komórek nowotworowych, gdy¿ okreœla liczbê komórek nowotworowych, które powsta³y w~danej chwili czasowej t w~wyniku ich~proliferacji. Wyra¿enia $-cNT$ oraz~$-DT$ z~kolei hamuj¹ tempo zmian liczebnoœci komórek nowotworowych, gdy¿ przedstawiaj¹ odpowiednio: liczbê komórek nowotworowych zniszczonych na~skutek ich~interakcji z~komórkami NK oraz~z~limfocytami $T_{CD8+}$, w~danej chwili czasowej t. 
 
-Drugie równanie modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} okreœla tempo zmian $\dfrac{dN}{dt}$ liczebnoœci populacji komórek NK, w~chwili czasowe t, na~które wp³ywa kilka sk³adników. \newline Sk³adnik $eC$ to~liczba komórek NK powsta³ych z~kr¹¿¹cych limfocytów w~chwili czasowej t, $-fN$ opisuje liczbê komórek NK zniszczonych w~chwili czasowej t. \newline Sk³adowa $g\dfrac{T^{2}}{h+T^{2}}N$ okreœla liczbê nowopowsta³ych komórek okreœlonych jako NK w~chwili czasowej t, natomiast $-pNT$ to~komórki NK dezaktywowane w~chwili czasowej t na~skutek interakcji z~komórkami nowotworowymi.
+Drugie równanie modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} okreœla tempo zmian $\dfrac{dN}{dt}$ liczebnoœci populacji komórek NK, w~chwili czasowej t, na~które wp³ywa kilka sk³adników. \newline Sk³adnik $eC$ to~liczba komórek NK powsta³ych z~kr¹¿¹cych limfocytów w~chwili czasowej t, $-fN$ opisuje liczbê komórek NK zniszczonych w~chwili czasowej t. \newline Sk³adowa $g\dfrac{T^{2}}{h+T^{2}}N$ okreœla liczbê nowopowsta³ych komórek okreœlonych jako NK w~chwili czasowej t, natomiast $-pNT$ to~komórki NK dezaktywowane w~chwili czasowej t na~skutek interakcji z~komórkami nowotworowymi.
 
 Trzecim równaniem modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} zosta³o opisane tempo zmian liczebnoœci populacji limfocytów $T_{CD8+}$ $\dfrac{dL}{dt}$. \newline Pierwsza sk³adowa $-mL$ okreœla liczbê limfocytów $T_{CD8+}$ zniszczonych w~chwili czasowej t na~skutek obecnoœci komórek nowotworowych. Kolejna $j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L$ to~liczba limfocytów $T_{CD8+}$ stymulowanych przez komórki nowotworowe, które s¹~lizowane przez limfocyty $T_{CD8+}$  w~chwili czasowej t. Liczba dezaktywowanych limfocytów $T_{CD8+}$ w~chwili czasowej t na~skutek interakcji z~komórkami nowotworowymi jest~opisana przy~pomocy sk³adowej $-qLT$. Przedostatni¹ sk³adow¹ w~tym równaniu jest~$(r_{1}N+r_{2}C)T$ odpowiadaj¹ca liczbie limfocytów $T_{CD8+}$ stymulowanych przez komórki nowotworowe, które s¹~lizowane przez komórki NK oraz~limfocytów $T_{CD8+}$ powsta³ych na~skutek obecnoœci komórek nowotworowych w~chwili czasowej t. $-uNL^{2}$ wyznacza liczbê limfocytów $T_{CD8+}$ dezaktywowanych w~chwili czasowej t na~skutek dzia³ania komórek NK.
 
@@ -319,7 +319,7 @@ Przyjêto za³o¿enia dla~modelu jak w~rozdziale \ref{zalozenia}.
  
 \subsection{Równania i opis modelu}
 
-W~modelu \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, poza czterema populacjami uwzglêdnionymi w modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, rozwa¿amy dodatkowo zmiany stê¿enia trzech podawanych leków, czyli interleukin-2 ($I$), interferonów-$\alpha$ ($I_{\alpha}$) oraz cytostatyku u¿ytego w~chemioterapii ($M$). \newline \newline Przedstawione w~uk³adzie \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} równania odpowiadaj¹ zmianom liczby komórek, jak w~modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, ale~tak¿e opisuj¹ wp³yw podawanych leków na~nowotwór oraz~ich~rozpad w~organizmie. Modyfikacje wprowadzone do~modelu, odpowiadaj¹ce podawanym lekom zaznaczono w~uk³adzie \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} na~czerwono. \newline \newline Parametry modelu leczonego guza \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, ukazano w~tabeli \ref{parametry_modelu_z}.
+W~modelu \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, poza czterema populacjami uwzglêdnionymi w modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, rozwa¿amy dodatkowo zmiany stê¿enia trzech podawanych leków, czyli interleukin-2 ($I$), interferonów-$\alpha$ ($I_{\alpha}$) oraz cytostatyku u¿ytego w~chemioterapii ($M$). \newline \newline Przedstawione w~uk³adzie \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} równania okreœlaj¹ tempo zmian liczebnoœci populacji, jak w~modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, ale~tak¿e opisuj¹ wp³yw podawanych leków na~nowotwór oraz~ich~rozpad w~organizmie. Modyfikacje wprowadzone do~modelu, odpowiadaj¹ce podawanym lekom zaznaczono w~uk³adzie \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} na~czerwono. \newline \newline Parametry modelu leczonego guza \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, ukazano w~tabeli \ref{parametry_modelu_z}.
 
 \begin{equation}
 \label{równania_modelu_pillis_i_isaeva_z_leczeniem}
@@ -329,7 +329,7 @@ W~modelu \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, poza czterema popula
 \dfrac{dL}{dt}=-mL+j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L-qLT+(r_{1}N+r_{2}C)T-uNL^{2} \textcolor{red}{-K_{L}(1-e^{-M})L+\dfrac{p_{i}LI}{g_{i}}+ \nu_{L}(t)},\\\\
 \dfrac{dC}{dt}=\alpha-\beta C \textcolor{red}{-K_{C}(1-e^{-M})C},\\\\
 \textcolor{red}{ \dfrac{dM}{dt}=-\gamma M+\nu_{M}(t)},\\\\
-\textcolor{red}{ \dfrac{dI}{dt}=-\mu_{i}L-j'LI-k'TI+\nu_{I}(t)},\\\\
+\textcolor{red}{ \dfrac{dI}{dt}=-\mu_{i}I-j'LI-k'TI+\nu_{I}(t)},\\\\
 \textcolor{red}{ \dfrac{dI_{\alpha}}{dt}=\nu_{\alpha}(t)-g'I_{\alpha}},\\\\
 \end{array} \right.
 \end{equation}
@@ -343,8 +343,8 @@ gdzie:
 \item \textcolor{red}{M(t) - stê¿enie cytostatyku w chwili czasowej t},
 \item \textcolor{red}{I(t) - stê¿enie interleukin-2 w chwili czasowej t},
 \item \textcolor{red}{$I_{\alpha}$(t) - stê¿enie interferonów-$\alpha$ w chwili czasowej t},
-\item $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$,
-\item \textcolor{red}{$c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})$}.
+\item $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ - liza nowotworu pod~wp³ywem dzia³ania limfocytów $T_{CD8+}$,
+\item \textcolor{red}{$c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})$} - wp³yw stê¿enia interferonów-$\alpha$ na~rozpoznawanie komórek nowotworowych przez~limfocyty $T_{CD8+}$.
 \end{itemize}
 
 \begin{table}[!h]
