@@ -24,7 +24,7 @@ e = 2.08e-7;
 f = 4.12e-2;
 g = 1.25e-2;
 h = 2.02e7;
-jj = 2.49e-2;
+jot = 2.49e-2;
 r1 = 1.1e-7;
 r2 = 6.5e-11;
 u = 3e-10;
@@ -107,9 +107,9 @@ K_C = 6e-1;
     end
 
 D = licz_D(d, L, T, s, l);
-I_alfa0 = 5;
+I_alfa0 = 1e7;
 c_prim = c_CTL * (2 - (exp((-I_alfa) / I_alfa0))); % I_alfa, CD8T, tumor interact - inactivation
-% c_prim = c_CTL;
+% c_prim = c_CTL;       max exp ~0,65 zeby c prim by³o dodatnie
 % c_prim = 0;
 g_prim = 1.7;
 j_prim = 3.3e-9;
@@ -120,7 +120,7 @@ dTdt = (a * T *(1 - (b * T))) - (c * N * T) - (D * T) - ...
     (K_T * (1 - (exp(-M))) * T) - (c_prim * T * L);
 dNdt = (e * C) - (f * N) + (g * ((T^2) / (h + (T^2))) * N) - ...
     (p * N * T) - (K_N * (1 - exp(-M)) * N);
-dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / (k + (D^2 * T^2))) * L) - ...
+dLdt = ((-m) * L) + (jot * ((D^2 * T^2) / (k + (D^2 * T^2))) * L) - ...
     (q * L * T) + (((r1 * N) + (r2 * C)) * T) - (u * N * (L^2)) - ...
     (K_L * (1 - exp(-M)) * L) + ((p_I * L * I) / (g_I)) + V_L;
 dCdt = alfa - (beta * C) - (K_C * (1 - exp(-M)) * C);

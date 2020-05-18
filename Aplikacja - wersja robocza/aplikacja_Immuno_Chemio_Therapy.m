@@ -1,8 +1,8 @@
 clc; clear all
 close all
-format long
+format long e
 
-metoda_leczenia = 7;
+metoda_leczenia = 5;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
@@ -73,6 +73,26 @@ x = [T_0; N_0; L_0; C_0; M_0; I_0; Ialfa_0; liczba_dni_w_cyklu; pacjent; metoda_
 t = 0 : 1/24 : 120;
 [t,y] = ode45(@model_Immuno_Chemio_Therapy, t, x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
 
+for n = 1 : 2881
+    if(y(n,1) < 2e-5) 
+    y(n,1) = 2e-5;
+    end
+end
+for n = 1 : 2881
+    if(y(n,3) < 2e-5) 
+    y(n,3) = 2e-5;
+    end
+end
+for n = 1 : 2881
+    if(y(n,6) < 1e-5) 
+    y(n,6) = 1e-5;
+    end
+end
+for n = 1 : 2881
+    if(y(n,7) < 2e-5) 
+    y(n,7) = 2e-5;
+    end
+end
 % wyœwietlenie wykresów
 figure
 semilogy(t, y(:,1), 'b');
@@ -88,5 +108,5 @@ hold on
 semilogy(t, y(:,6), 'm');
 hold on
 semilogy(t, y(:,7), 'y');
-axis([0, 120, 10e-1, 10e12])
+axis([0, 120, 0, 10e12])
 legend('Tumour', 'Natural killer cells', 'CD8+ T cells', 'Circulating lymphocytes', 'Chemotherapy drug', 'IL2', 'IFN-alfa');
