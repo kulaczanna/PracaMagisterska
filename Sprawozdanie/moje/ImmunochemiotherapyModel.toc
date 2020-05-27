@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Limfocyty typu T}{7}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Kom\'orki NK}{10}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Interferony}{11}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Interleukiny}{12}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Interleukiny}{13}{subsection.2.2.4}%
 \contentsline {chapter}{\numberline {3.}Sposoby leczenia nowotwor\'ow}{14}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Immunoterapia}{14}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Nieswoista bierna immunoterapia}{14}{subsection.3.1.1}%
