@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  27 MAY 2020 07:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  27 MAY 2020 16:36
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -637,8 +637,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 (Rozdzialy.tex
 Rozdzia\PlPrIeC {\l } 1.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <10> on input line 6.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <5> on input line 6.
 
-Overfull \hbox (7.26859pt too wide) in paragraph at lines 4--6
+Overfull \hbox (7.26859pt too wide) in paragraph at lines 5--7
 []\OT4/cmr/m/n/12 W pra-cy przed-sta-wio-no mo-del opi-su-j¡-cy od-po-wied¹ ukª
 a-du im-mu-no-lo-gicz-ne-go na roz-
  []
@@ -650,58 +656,51 @@ a-du im-mu-no-lo-gicz-ne-go na roz-
 Rozdzia\PlPrIeC {\l } 2.
 [3
 
-]
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 50.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 50.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 50.
- [4]
-Overfull \hbox (25.85364pt too wide) in paragraph at lines 68--68
+] [4]
+Overfull \hbox (25.85364pt too wide) in paragraph at lines 69--69
 []|\OT4/cmr/m/n/12 Nieswoista 
  []
 
 
-Overfull \hbox (29.97026pt too wide) in paragraph at lines 68--68
+Overfull \hbox (29.97026pt too wide) in paragraph at lines 69--69
 \OT4/cmr/m/n/12 (wrodzona)|  
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 73--74
+Underfull \hbox (badness 7168) in paragraph at lines 74--75
 []\OT4/cmr/m/n/12 Hamowanie trans-for-ma-cji lim-fo-cy-tów
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 76--76
+Underfull \hbox (badness 2556) in paragraph at lines 77--77
 \OT4/cmr/m/n/12 któ-re ha-mu-j¡ uwal-nia-nie me-dia-to-rów
  []
 
 
-Overfull \hbox (52.19843pt too wide) in paragraph at lines 66--84
+Overfull \hbox (52.19843pt too wide) in paragraph at lines 67--85
  [][] 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 103--106
+Underfull \hbox (badness 10000) in paragraph at lines 104--107
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 [7]
-<./rysunki/Limf_TT2.jpg, id=364, 522.45187pt x 1002.74625pt>
+<./rysunki/Limf_TT2.jpg, id=368, 522.45187pt x 1002.74625pt>
 File: ./rysunki/Limf_TT2.jpg Graphic file (type jpg)
 <use ./rysunki/Limf_TT2.jpg>
-Package pdftex.def Info: ./rysunki/Limf_TT2.jpg  used on input line 141.
+Package pdftex.def Info: ./rysunki/Limf_TT2.jpg  used on input line 143.
 (pdftex.def)             Requested size: 308.71106pt x 592.5179pt.
 
 
@@ -716,40 +715,40 @@ Overfull \vbox (4.1086pt too high) has occurred while \output is active []
 
 
 [9 <./rysunki/Limf_TT2.jpg>]
-Overfull \hbox (5.3333pt too wide) in paragraph at lines 166--167
+Overfull \hbox (5.3333pt too wide) in paragraph at lines 168--169
 []\OT4/cmr/m/n/12 Limfocyty NK iden-ty-fi-ko-wa-ne s¡ po-przez eks-pre-sj¦ an-t
 y-ge-nu po-wierzch-nio-we-go CD56
  []
 
 
-Overfull \hbox (4.77843pt too wide) in paragraph at lines 172--173
+Overfull \hbox (11.34996pt too wide) in paragraph at lines 170--171
+[]\OT4/cmr/m/n/12 subpopulacj¦ ko-mó-rek $\OML/plm/m/it/12 NK[]$ \OT4/cmr/m/n/1
+2 o du-»ej eks-pre-sji re-cep-to-ra CD56 oraz bra-
+ []
+
+
+Overfull \hbox (4.77843pt too wide) in paragraph at lines 174--175
 []\OT4/cmr/m/n/12 Istniej¡ licz-ne efek-to-ro-we me-cha-ni-zmy cy-to-tok-sycz-n
 o-±ci sªu-»¡-ce ko-mór-kom NK do za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-[10]
-Overfull \hbox (12.84224pt too wide) in paragraph at lines 191--192
-[]\OT4/cmr/m/n/12 Pobudzone ko-mór-ki NK wy-wo-ªu-j¡ li-z¦ ko-mó-rek no-wo-two-
-ro-wych lub in-du-ku-j¡ ich apop-
- []
-
-[11] [12] [13]
+[10] [11] [12] [13]
 Rozdzia\PlPrIeC {\l } 3.
 [14
 
 ]
-Overfull \hbox (4.5596pt too wide) in paragraph at lines 285--286
+Overfull \hbox (4.5596pt too wide) in paragraph at lines 283--284
 []\OT4/cmr/m/n/12 W nie-swo-istej czyn-nej im-mu-no-te-ra-pii po-bu-dza-ny jest
  ukªad od-por-no-±cio-wy, a zwªasz-
  []
 
 [15]
-Overfull \hbox (5.1512pt too wide) in paragraph at lines 305--306
+Overfull \hbox (5.1512pt too wide) in paragraph at lines 303--304
 \OT4/cmr/m/n/12 sze-nie ma-sy gu-za u cho-rych z miej-sco-wo za-awan-so-wa-nym 
 no-wo-two-rem i umo»-
  []
@@ -759,63 +758,63 @@ Rozdzia\PlPrIeC {\l } 4.
 [17
 
 ] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 369--370
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
 [19]
-Underfull \hbox (badness 1577) in paragraph at lines 409--409
+Underfull \hbox (badness 1577) in paragraph at lines 407--407
 []\OT4/cmr/m/n/12 Wspóªczynnik ska-lo-wa-nia si-ªy ukªa-du
  []
 
 
-Overfull \hbox (7.26294pt too wide) in paragraph at lines 402--425
+Overfull \hbox (7.26294pt too wide) in paragraph at lines 400--423
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 20.32062pt on input line 425.
+LaTeX Warning: Float too large for page by 20.32062pt on input line 423.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 
  []
 
 [20]
-Overfull \hbox (55.01906pt too wide) detected at line 446
+Overfull \hbox (55.01906pt too wide) detected at line 444
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--470
+Underfull \hbox (badness 10000) in paragraph at lines 468--468
 []\OT4/cmr/m/n/12 Tempo roz-pa-du te-ra-peu-tycz-ne-go
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--472
+Underfull \hbox (badness 10000) in paragraph at lines 470--470
 []\OT4/cmr/m/n/12 Dezaktywacja mo-le-kuª interleukiny-2
  []
 
 
-Overfull \hbox (5.33495pt too wide) in paragraph at lines 464--475
+Overfull \hbox (5.33495pt too wide) in paragraph at lines 462--473
  [][] 
  []
 
@@ -823,14 +822,14 @@ Overfull \hbox (5.33495pt too wide) in paragraph at lines 464--475
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
 
  []
 
 [22] [23] [24]
 Rozdzia\PlPrIeC {\l } 5.
 
-Overfull \hbox (4.19926pt too wide) in paragraph at lines 495--496
+Overfull \hbox (4.19926pt too wide) in paragraph at lines 493--494
 []\OT4/cmr/m/n/12 W pra-cy prze-pro-wa-dzo-no mo-de-lo-wa-nie od-po-wie-dzi ukª
 a-du im-mu-no-lo-gicz-ne-go na roz-
  []
@@ -838,80 +837,80 @@ a-du im-mu-no-lo-gicz-ne-go na roz-
 [25
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 529--530
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
 
  []
 
 [26]
-<./rysunki/bez_lecz_sym1_regresja.jpg, id=568, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_regresja.jpg, id=570, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_regresja.jpg  used on input li
-ne 555.
+ne 553.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
-<./rysunki/bez_lecz_sym1_progres.jpg, id=569, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_progres.jpg, id=571, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 558.
+e 556.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 
 
-LaTeX Warning: Float too large for page by 50.4866pt on input line 561.
+LaTeX Warning: Float too large for page by 50.4866pt on input line 559.
 
 [27] [28 <./rysunki/bez_lecz_sym1_regresja.jpg> <./rysunki/bez_lecz_sym1_progre
 s.jpg>]
-<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=587, 630.10406pt x 382.42876pt>
+<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=589, 630.10406pt x 382.42876pt>
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 571.
+ine 569.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
  [29 <./rysunki/wykres_bez_lecz_t120_t0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=593, 629.35126pt x 384.6872pt>
+<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=595, 629.35126pt x 384.6872pt>
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 580.
+t line 578.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
  [30 <./rysunki/wykres_bez_lecz_promien_t0.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 599--600
+Underfull \hbox (badness 10000) in paragraph at lines 597--598
 
  []
 
-<./rysunki/bez_lecz_sym2_regresja.jpg, id=602, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym2_regresja.jpg, id=604, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_regresja.jpg  used on input li
-ne 625.
+ne 623.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
-<./rysunki/bez_lecz_sym2_progres.jpg, id=603, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym2_progres.jpg, id=605, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_progres.jpg  used on input lin
-e 628.
+e 626.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 
-LaTeX Warning: Float too large for page by 50.4866pt on input line 631.
+LaTeX Warning: Float too large for page by 50.4866pt on input line 629.
 
 [31] [32 <./rysunki/bez_lecz_sym2_regresja.jpg> <./rysunki/bez_lecz_sym2_progre
 s.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 634--636
+Underfull \hbox (badness 10000) in paragraph at lines 632--634
 
  []
 
-<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=617, 632.3625pt x 379.4175pt>
+<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=619, 632.3625pt x 379.4175pt>
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
-ine 639.
+ine 637.
 (pdftex.def)             Requested size: 441.01773pt x 264.6178pt.
 [33 <./rysunki/wykres_bez_lecz_t120_c0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=624, 626.34pt x 381.67593pt>
+<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=626, 626.34pt x 381.67593pt>
 File: ./rysunki/wykres_bez_lecz_promien_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_c0.jpg  used on inpu
-t line 648.
+t line 646.
 (pdftex.def)             Requested size: 441.01773pt x 268.75543pt.
  [34 <./rysunki/wykres_bez_lecz_promien_c0.jpg>] [35]
 Rozdzia\PlPrIeC {\l } 6.
@@ -954,11 +953,11 @@ Here is how much of TeX's memory you used:
  25281 multiletter control sequences out of 15000+200000
  547630 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,13n,51p,1155b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,13n,51p,1165b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{C
 :/Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Us
-ers/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plme.enc}{C:/Users/
-pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}<C:/Users/pc/A
+ers/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C:/Users/
+pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plme.enc}<C:/Users/pc/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plbx10.pfb><C:/Users/pc/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/pc
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plex10.pfb><C:/Users/p
@@ -975,10 +974,11 @@ c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr8.pfb><C:/Users/pc
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/p
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users
+/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users
 /pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (46 pages, 664115 bytes).
+Output written on ImmunochemiotherapyModel.pdf (46 pages, 669695 bytes).
 PDF statistics:
- 758 PDF objects out of 1000 (max. 8388607)
+ 763 PDF objects out of 1000 (max. 8388607)
  160 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
