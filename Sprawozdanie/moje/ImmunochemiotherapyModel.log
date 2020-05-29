@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  28 MAY 2020 09:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  29 MAY 2020 19:05
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -758,7 +758,7 @@ Rozdzia\PlPrIeC {\l } 3.
 [16
 
 ]
-Overfull \hbox (4.5596pt too wide) in paragraph at lines 312--313
+Overfull \hbox (4.5596pt too wide) in paragraph at lines 315--316
 []\OT4/cmr/m/n/12 W nie-swo-istej czyn-nej im-mu-no-te-ra-pii po-bu-dza-ny jest
  ukªad od-por-no-±cio-wy, a zwªasz-
  []
@@ -858,13 +858,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 556--557
  []
 
 [28]
-<./rysunki/bez_lecz_sym1_regresja.jpg, id=588, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_regresja.jpg, id=592, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_regresja.jpg  used on input li
 ne 582.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
-<./rysunki/bez_lecz_sym1_progres.jpg, id=589, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_progres.jpg, id=593, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
@@ -876,14 +876,14 @@ LaTeX Warning: Float too large for page by 50.4866pt on input line 588.
 
 [29] [30 <./rysunki/bez_lecz_sym1_regresja.jpg> <./rysunki/bez_lecz_sym1_progre
 s.jpg>]
-<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=606, 630.10406pt x 382.42876pt>
+<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=610, 630.10406pt x 382.42876pt>
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
 ine 598.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
  [31 <./rysunki/wykres_bez_lecz_t120_t0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=612, 629.35126pt x 384.6872pt>
+<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=616, 629.35126pt x 384.6872pt>
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
@@ -894,13 +894,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 626--627
 
  []
 
-<./rysunki/bez_lecz_sym2_regresja.jpg, id=621, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym2_regresja.jpg, id=625, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_regresja.jpg  used on input li
 ne 652.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
-<./rysunki/bez_lecz_sym2_progres.jpg, id=622, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym2_progres.jpg, id=626, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_progres.jpg  used on input lin
@@ -915,14 +915,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 661--663
 
  []
 
-<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=637, 632.3625pt x 379.4175pt>
+<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=641, 632.3625pt x 379.4175pt>
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
 ine 666.
 (pdftex.def)             Requested size: 441.01773pt x 264.6178pt.
 [35 <./rysunki/wykres_bez_lecz_t120_c0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=643, 626.34pt x 381.67593pt>
+<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=647, 626.34pt x 381.67593pt>
 File: ./rysunki/wykres_bez_lecz_promien_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_c0.jpg  used on inpu
@@ -957,44 +957,63 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
  (ImmunochemiotherapyModel.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
-Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
-d.
-(rerunfilecheck)             Checksum: 2481CCED8DE7A7F233B47BE33D32FE25;2697.
+
+
+Package rerunfilecheck Warning: File `ImmunochemiotherapyModel.out' has changed
+.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ImmunochemiotherapyModel.out':
+(rerunfilecheck)             Before: 2481CCED8DE7A7F233B47BE33D32FE25;2697
+(rerunfilecheck)             After:  0DB65E4477CA18AE57538F2EA8BA37A2;2697.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 9803 strings out of 480930
- 153144 string characters out of 2901168
+ 9807 strings out of 480930
+ 153208 string characters out of 2901168
  617263 words of memory out of 3000000
  25283 multiletter control sequences out of 15000+200000
  547630 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,13n,51p,1165b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{C
-:/Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Us
-ers/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C:/Users/
-pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plme.enc}<C:/Users/pc/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plbx10.pfb><C:/Users/pc/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/pc
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plex10.pfb><C:/Users/p
-c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi10.pfb><C:/Users/
-pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi12.pfb><C:/Users
-/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi6.pfb><C:/Users
-/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi7.pfb><C:/Users
-/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi8.pfb><C:/Users
-/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Users
-/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Users
-/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr6.pfb><C:/Users/
-pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr7.pfb><C:/Users/p
-c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr8.pfb><C:/Users/pc
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/p
-c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/
-pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users
-/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users
-/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (48 pages, 678644 bytes).
+pdfTeX warning (dest): name{subsection.3.1.4} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{C:/Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{C:/
+Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}{C:/User
+s/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C:/Users/pc
+/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plme.enc}<C:/Users/pc/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plbx10.pfb><C:/Users/pc/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/pc/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plex10.pfb><C:/Users/pc/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi10.pfb><C:/Users/pc
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi12.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi6.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi7.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi8.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr6.pfb><C:/Users/pc
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr7.pfb><C:/Users/pc/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr8.pfb><C:/Users/pc/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/pc
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
+Output written on ImmunochemiotherapyModel.pdf (48 pages, 678933 bytes).
 PDF statistics:
- 782 PDF objects out of 1000 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
+ 786 PDF objects out of 1000 (max. 8388607)
+ 168 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
