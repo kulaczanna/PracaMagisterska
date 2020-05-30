@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {3.2.1}Nieswoista bierna immunoterapia}{18}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Swoista bierna immunoterapia}{19}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Nieswoista czynna immunoterapia}{19}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Swoista czynna immunoterapia}{20}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.4}Swoista czynna immunoterapia}{19}{subsection.3.2.4}%
 \contentsline {section}{\numberline {3.3}Leczenie skojarzone}{20}{section.3.3}%
 \contentsline {chapter}{\numberline {4.}Model matematyczny}{21}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Model nieuwzgl\k edniaj\k acy procesu leczenia}{22}{section.4.1}%
@@ -33,5 +33,5 @@
 \contentsline {chapter}{\numberline {6.}Rezultaty}{40}{chapter.6}%
 \contentsline {chapter}{\numberline {7.}Analiza wynik\'ow}{41}{chapter.7}%
 \contentsline {chapter}{\numberline {8.}Podsumowanie}{42}{chapter.8}%
-\contentsline {chapter}{\numberline {9.}Dodatek}{46}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Tabela skr\'ot\'ow}{46}{section.9.1}%
+\contentsline {chapter}{\numberline {9.}Dodatek}{47}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Tabela skr\'ot\'ow}{47}{section.9.1}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  30 MAY 2020 22:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  31 MAY 2020 00:27
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -757,20 +757,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 346--347
 Rozdzia\PlPrIeC {\l } 3.
 [16
 
-] [17]
-Overfull \hbox (6.00063pt too wide) in paragraph at lines 402--404
-[]\OT4/cmr/m/n/12 Im mniej-szy jest no-wo-twór, tym bar-dziej wra»-li-wy na le-
-cze-nie cy-to-sta-tycz-ne. Im wi¦k-
+]
+Underfull \hbox (badness 10000) in paragraph at lines 378--379
+
  []
 
-[18]
-Overfull \hbox (4.5596pt too wide) in paragraph at lines 436--437
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+[17] [18]
+Overfull \hbox (4.5596pt too wide) in paragraph at lines 414--415
 []\OT4/cmr/m/n/12 W nie-swo-istej czyn-nej im-mu-no-te-ra-pii po-bu-dza-ny jest
  ukªad od-por-no-±cio-wy, a zwªasz-
  []
 
 [19]
-Overfull \hbox (5.1512pt too wide) in paragraph at lines 498--499
+Overfull \hbox (5.1512pt too wide) in paragraph at lines 476--477
 \OT4/cmr/m/n/12 sze-nie ma-sy gu-za u cho-rych z miej-sco-wo za-awan-so-wa-nym 
 no-wo-two-rem i umo»-
  []
@@ -780,63 +784,63 @@ Rozdzia\PlPrIeC {\l } 4.
 [21
 
 ] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
+Underfull \hbox (badness 10000) in paragraph at lines 540--541
 
  []
 
 [23]
-Underfull \hbox (badness 1577) in paragraph at lines 602--602
+Underfull \hbox (badness 1577) in paragraph at lines 580--580
 []\OT4/cmr/m/n/12 Wspóªczynnik ska-lo-wa-nia si-ªy ukªa-du
  []
 
 
-Overfull \hbox (7.26294pt too wide) in paragraph at lines 595--618
+Overfull \hbox (7.26294pt too wide) in paragraph at lines 573--596
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 20.32062pt on input line 618.
+LaTeX Warning: Float too large for page by 20.32062pt on input line 596.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--627
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--627
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
 [24]
-Overfull \hbox (55.01906pt too wide) detected at line 639
+Overfull \hbox (55.01906pt too wide) detected at line 617
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--663
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 []\OT4/cmr/m/n/12 Tempo roz-pa-du te-ra-peu-tycz-ne-go
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 665--665
+Underfull \hbox (badness 10000) in paragraph at lines 643--643
 []\OT4/cmr/m/n/12 Dezaktywacja mo-le-kuª interleukiny-2
  []
 
 
-Overfull \hbox (5.33495pt too wide) in paragraph at lines 657--668
+Overfull \hbox (5.33495pt too wide) in paragraph at lines 635--646
  [][] 
  []
 
@@ -844,14 +848,14 @@ Overfull \hbox (5.33495pt too wide) in paragraph at lines 657--668
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
+Underfull \hbox (badness 10000) in paragraph at lines 657--658
 
  []
 
 [26] [27] [28]
 Rozdzia\PlPrIeC {\l } 5.
 
-Overfull \hbox (4.19926pt too wide) in paragraph at lines 688--689
+Overfull \hbox (4.19926pt too wide) in paragraph at lines 666--667
 []\OT4/cmr/m/n/12 W pra-cy prze-pro-wa-dzo-no mo-de-lo-wa-nie od-po-wie-dzi ukª
 a-du im-mu-no-lo-gicz-ne-go na roz-
  []
@@ -859,80 +863,80 @@ a-du im-mu-no-lo-gicz-ne-go na roz-
 [29
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 722--723
+Underfull \hbox (badness 10000) in paragraph at lines 700--701
 
  []
 
 [30]
-<./rysunki/bez_lecz_sym1_regresja.jpg, id=614, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_regresja.jpg, id=623, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_regresja.jpg  used on input li
-ne 748.
+ne 726.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
-<./rysunki/bez_lecz_sym1_progres.jpg, id=615, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_progres.jpg, id=624, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 751.
+e 729.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 
 
-LaTeX Warning: Float too large for page by 50.4866pt on input line 754.
+LaTeX Warning: Float too large for page by 50.4866pt on input line 732.
 
 [31] [32 <./rysunki/bez_lecz_sym1_regresja.jpg> <./rysunki/bez_lecz_sym1_progre
 s.jpg>]
-<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=632, 630.10406pt x 382.42876pt>
+<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=641, 630.10406pt x 382.42876pt>
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 764.
+ine 742.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
  [33 <./rysunki/wykres_bez_lecz_t120_t0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=639, 629.35126pt x 384.6872pt>
+<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=648, 629.35126pt x 384.6872pt>
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 773.
+t line 751.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
  [34 <./rysunki/wykres_bez_lecz_promien_t0.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 792--793
+Underfull \hbox (badness 10000) in paragraph at lines 770--771
 
  []
 
-<./rysunki/bez_lecz_sym2_regresja.jpg, id=648, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym2_regresja.jpg, id=657, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_regresja.jpg  used on input li
-ne 818.
+ne 796.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
-<./rysunki/bez_lecz_sym2_progres.jpg, id=649, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym2_progres.jpg, id=658, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_progres.jpg  used on input lin
-e 821.
+e 799.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 
-LaTeX Warning: Float too large for page by 50.4866pt on input line 824.
+LaTeX Warning: Float too large for page by 50.4866pt on input line 802.
 
 [35] [36 <./rysunki/bez_lecz_sym2_regresja.jpg> <./rysunki/bez_lecz_sym2_progre
 s.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 827--829
+Underfull \hbox (badness 10000) in paragraph at lines 805--807
 
  []
 
-<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=663, 632.3625pt x 379.4175pt>
+<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=672, 632.3625pt x 379.4175pt>
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
-ine 832.
+ine 810.
 (pdftex.def)             Requested size: 441.01773pt x 264.6178pt.
 [37 <./rysunki/wykres_bez_lecz_t120_c0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=669, 626.34pt x 381.67593pt>
+<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=678, 626.34pt x 381.67593pt>
 File: ./rysunki/wykres_bez_lecz_promien_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_c0.jpg  used on inpu
-t line 841.
+t line 819.
 (pdftex.def)             Requested size: 441.01773pt x 268.75543pt.
  [38 <./rysunki/wykres_bez_lecz_promien_c0.jpg>] [39]
 Rozdzia\PlPrIeC {\l } 6.
@@ -948,14 +952,14 @@ Rozdzia\PlPrIeC {\l } 8.
 
 ] [43
 
-] [44]) (Dodatek.tex [45]
+] [44] [45]) (Dodatek.tex [46]
 Rozdzia\PlPrIeC {\l } 9.
 
-Overfull \hbox (3.3781pt too wide) in paragraph at lines 8--22
+Overfull \hbox (5.05586pt too wide) in paragraph at lines 8--32
  [][] 
  []
 
-) [46
+) [47
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
@@ -969,13 +973,13 @@ d.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 9812 strings out of 480930
- 153202 string characters out of 2901168
+ 9819 strings out of 480930
+ 153255 string characters out of 2901168
  617263 words of memory out of 3000000
- 25286 multiletter control sequences out of 15000+200000
+ 25288 multiletter control sequences out of 15000+200000
  547630 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,13n,51p,1169b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 53i,13n,51p,1591b,450s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{C
 :/Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}{C:/Us
 ers/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C:/Users/
@@ -998,9 +1002,9 @@ c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users
 /pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users
 /pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (50 pages, 691158 bytes).
+Output written on ImmunochemiotherapyModel.pdf (51 pages, 694631 bytes).
 PDF statistics:
- 810 PDF objects out of 1000 (max. 8388607)
- 170 named destinations out of 1000 (max. 500000)
+ 824 PDF objects out of 1000 (max. 8388607)
+ 175 named destinations out of 1000 (max. 500000)
  342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
