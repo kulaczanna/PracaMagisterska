@@ -1,11 +1,11 @@
 function [] = wyswietl_wykresy(t, y)
 
         figure
-        semilogy(t, y(:,1), 'r');
+        semilogy(t, y(:,1), 'm');
         hold on
         semilogy(t, y(:,2), 'g');
         hold on
-        semilogy(t, y(:,3), 'b');
+        semilogy(t, y(:,3), 'r');
         hold on
         semilogy(t, y(:,4), 'c');
         axis([0, 120, 10e-1, 10e12])

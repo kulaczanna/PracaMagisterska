@@ -71,7 +71,7 @@ K_C = 6e-1;
                 || t >= 6*liczba_dni_w_cyklu && t <= (6*liczba_dni_w_cyklu)+1 ...
                 || t >= 7*liczba_dni_w_cyklu && t <= (7*liczba_dni_w_cyklu)+1 ...
                 || t >= 8*liczba_dni_w_cyklu && t <= (8*liczba_dni_w_cyklu)+1)
-            V_M = 5;
+            V_M = 4.8;
         end
     end
     

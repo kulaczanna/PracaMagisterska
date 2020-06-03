@@ -41,7 +41,7 @@ switch metoda_leczenia
      
     case 3 % chemioterapia, dawki co 5 dni, V_M = 5 - regresja nowotworu
            % rys. 8 w artykule
-        T_0 = 2e7;
+        T_0 = 1e7; % zmiana wartoœci z 2e7!!!
         N_0 = 1e3;
         L_0 = 1e1;
         C_0 = 6e8;
@@ -50,24 +50,24 @@ switch metoda_leczenia
        
     case 4  % chemioterapia, dawki co 10 dni, V_M = 5 - rozwój nowotworu
             % rys. 8 w artykule
-        T_0 = 2e7;
+        T_0 = 1e7; % zmiana wartoœci z 2e7!!!
         N_0 = 1e3;
         L_0 = 1e1;
         C_0 = 6e8;
         liczba_dni_w_cyklu = 10;
 %         model = @model_de_Pillis_chemiotherapy;
         
-    case 5  % immunoterapia
+    case 5  % immunoterapia regresja
             % rys. 9 w artykule
-        T_0 = 1e6;
+        T_0 = 2e6;
         N_0 = 1e3;
         L_0 = 1e1;
         C_0 = 6e8;
 %         model = @model_de_Pillis_immunotherapy;
        
-    case 6  % immunoterapia
+    case 6  % immunoterapia rozwoj
             % rys. 9 w artykule
-        T_0 = 1e7;
+        T_0 = 2e7;
         N_0 = 1e3;
         L_0 = 1e1;
         C_0 = 6e8;
@@ -75,7 +75,7 @@ switch metoda_leczenia
 
     case 7  % biochemioterapia
             % rys. 10 w artykule
-        T_0 = 1e7;
+        T_0 = 2e7;
         N_0 = 1e3;
         L_0 = 1e1;
         C_0 = 6e8;
