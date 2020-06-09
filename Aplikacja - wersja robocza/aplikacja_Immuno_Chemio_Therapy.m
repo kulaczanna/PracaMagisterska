@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long e
 
-metoda_leczenia = 1;
+metoda_leczenia = 7;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
