@@ -73,23 +73,27 @@ end
 % funkcja stê¿enia TIL
     if(metoda_leczenia == 5 || metoda_leczenia == 6 || metoda_leczenia == 7)
         if(t >= 7 && t < 8)
-            V_L = 1e11;
+            V_L = 1e9;
+        else
+            V_L=0;
         end
         
 % funkcja stê¿enia interleukiny-2
         if(t >= 8 && t <= 8.45 || t >= 8.7 && t <= 9.15 ...
                 || t >= 9.4 && t <= 9.85 || t >= 10.1 && t <= 10.55 ...
                 || t >= 10.8 && t <= 11.25 || t >= 11.5 && t <= 11.85)
-        V_I = 5e6;
+          V_I = 5e10;
+        else
+          V_I = 0;
         end
     end
 
 D = licz_D(d, L, T, s, l);
 
-jot = 3.3e-9;
-ka = 1.8e-8;
-gie = 1.6e7;
-el = 3e6;
+% jot = 3.3e-9;
+% ka = 1.8e-8;
+% gie = 1.6e7;
+% el = 3e6;
 
 % równania modelu
 dTdt = (a * T *(1 - (b * T))) - (c * N * T) - ...
@@ -102,8 +106,8 @@ dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / ...
     (K_L * (1 - (exp(-M))) * L) + ((p_I * L * I) / (g_I + I)) + V_L;
 dCdt = alfa - (beta * C) - (K_C * (1 - (exp(-M))) * C);
 dMdt = ((-gamma) * M) + V_M;
-% dIdt = ((-mi_I) * I) + V_I;
-dIdt = V_I + ((gie*T)/(T+el)) - (jot * L * I) - (ka * T * I); % z Isaevy
+dIdt = ((-mi_I) * I) + V_I;
+% dIdt = V_I + ((gie*T)/(T+el)) - (jot * L * I) - (ka * T * I); % z Isaevy
 % dIalfadt = Ialfa;
 
 rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; 0; 0; 0];
