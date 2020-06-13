@@ -551,355 +551,355 @@ i chemioterapii.
 
 W tej pracy omawiany jest przypadek leczenia skojarzon¹ metod¹ chemioterapii i~immunoterapii, zwanej tak¿e biochemioterapi¹ \cite{1}.
 
-%\chapter{Model matematyczny}
-%
-%Model matematyczny wykorzystany w~pracy to~model bêd¹cy po³¹czeniem modelu de Pillis'a \cite{19} oraz~modelu Isaeva i~Osipov'a \cite{18} opisany w~literaturze \cite{1}. W~pierwszym etapie rozwa¿ymy model bez uwzglêdnienia procesu leczenia, który obejmuje cztery populacje komórek, tj.:
-%\begin{itemize}
-%\item $\mathcal{T}$ -- populacjê komórek nowotworowych,
-%\item $\mathcal{N}$ -- populacjê komórek NK,
-%\item $\mathcal{L}$ -- populacjê limfocytów $T_{CD8+}$,
-%\item $\mathcal{C}$ -- populacjê limfocytów kr¹¿¹cych,
-%\end{itemize}
-%
-%W drugim etapie model zostaje poddany modyfikacji, uwzglêdnia proces leczenia i~dodatkowo badane s¹ zmiany stê¿enia w~czasie trzech podawanych leków:
-%\begin{itemize}
-%\item $I(t)$ -- funkcja stê¿enia interleukin-2 w~czasie,
-%\item $I_{\alpha}$(t) -- funkcja stê¿enia interferonów-$\alpha$ w~czasie,
-%\item $M(t)$ -- funkcja stê¿enia cytostatyku u¿ytego w~chemioterapii w~czasie.
-%\end{itemize}
-%
-%W równaniach modelu przed~modyfikacj¹ uwzglêdniono takie czynniki, jak:
-%\begin{itemize}
-%\item naturalny rozwój i~œmieræ komórek,
-%\item œmieræ komórek nowotworowych pod wp³ywem komórek NK, limfocytów $T_{CD8+}$,
-%\item wytwarzanie komórek NK i~limfocytów $T_{CD8+}$,
-%\item dezaktywacjê komórek NK i~limfocytów $T_{CD8+}$.
-%\end{itemize}
-%
-%Natomiast w~modelu zmodyfikowanym wziêto pod~uwagê równie¿:
-%\begin{itemize}
-%\item iloœæ podawanych leków i~czas, w~którym zosta³y podane,
-%\item œmieræ komórek nowotworowych pod wp³ywem podawanych leków.
-%\end{itemize}
-%
-%\section{Model nieuwzglêdniaj¹cy procesu leczenia}
-%\subsection{Za³o¿enia modelu} \label{zalozenia}
-%
-%Przyjêto za³o¿enia jak~w~modelu de Pillis'a, Isaeva i~Osipov'a \cite{1}:
-%\begin{enumerate}
-%\item W~przypadku braku odpowiedzi uk³adu immunologicznego liczba komórek nowotworowych wzrasta logistycznie.
-%\item Komórki NK i~limfocyty $T_{CD8+}$ s¹ zdolne zniszczyæ komórki nowotworu.
-%\item Pod wp³ywem komórek nowotworowych komórki NK i~limfocyty $T_{CD8+}$ ulegaj¹ szybszej proliferacji oraz~wzrasta ich aktywnoœæ cytolityczna\footnote{Aktywnoœæ cytolityczna -- jeden z~mechanizmów cytotoksycznoœci limfocytów s³u¿¹cy do~niszczenia komórek zainfekowanych lub~nowotworowych \cite{15}.}.
-%\item Komórki NK s¹ zawsze obecne w~organizmie, tak¿e w~przypadku braku wystêpowania komórek nowotworowych.
-%\item W~organizmie wystêpuje du¿a liczba aktywnych limfocytów $T_{CD8+}$, tylko w~przypadku obecnoœci komórek nowotworowych. Jest to specyficzna odpowiedŸ immunologiczna.
-%\item Komórki NK i~limfocyty $T_{CD8+}$ ulegaj¹ ca³kowitej dezaktywacji po pewnej liczbie interakcji z~komórkami nowotworowymi.
-%\item Komórki nowotworowe dezaktywuj¹ siê pod wp³ywem interferonów $\alpha$.
-%\item Poziom kr¹¿¹cych limfocytów mo¿e s³u¿yæ do~oceny zdrowia pacjenta.
-%\item Odsetek komórek nowotworowych zniszczonych w~wyniku chemioterapii zale¿y od~iloœci cytostatyku obecnego w~organizmie. Maksymalny odsetek zniszczonych komórek wynosi mniej ni¿ 1 ze~wzglêdu na~to,¿e~pokonanie komórek nowotworowych wskutek chemioterapii jest mo¿liwe tylko na~niektórych etapach ich rozwoju.
-%\item Czêœæ komórek NK, limfocytów $T_{CD8+}$ i~limfocytów kr¹¿¹cych jest niszczona podczas chemioterapii.
-%\item Komórki NK i~limfocyty $T_{CD8+}$ uczestnicz¹ w~procesie stymulacji i~eliminacji aktywowanych komórek (efektorów); uproszczony model ma odzwierciedlaæ samoreguluj¹cy siê charakter uk³adu immunologicznego.
-%\end{enumerate}
-%
-%\newpage
-%\subsection{Równania i opis modelu}
-%
-%W~modelu nieleczonego guza, rozwa¿amy cztery populacje komórek, s¹~to~populacja komórek nowotworowych ($\mathcal{T}$), populacja komórek NK ($\mathcal{N}$), populacja limfocytów $T_{CD8+}$ ($\mathcal{L}$) oraz~populacja limfocytów kr¹¿¹cych ($\mathcal{C}$). \newline \newline Model nieleczonego guza nowotworowego jest uk³adem równañ ró¿niczkowych zwyczajnych \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}. Równania tego modelu przedstawiaj¹ tempo zmian proliferacji komórek nowotworowych oraz~tempo zmian liczby komórek uk³adu immunologicznego (komórek NK, limfocytów $T_{CD8+}$ oraz~limfocytów kr¹¿¹cych) w~odpowiedzi na~wzrost liczby komórek nowotworowych.\newline \newline
-%
-%\begin{equation}
-%\label{równania_modelu_pillis_i_isaeva_bez_leczenia}
-%\left\{ \begin{array}{ll}
-%\dfrac{dT}{dt}=aT(1-bT)-cNT-DT,\\\\
-%\dfrac{dN}{dt}=eC-fN+g\dfrac{T^{2}}{h+T^{2}}N-pNT,\\\\
-%\dfrac{dL}{dt}=-mL+j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L-qLT+(r_{1}N+r_{2}C)T-uNL^{2},\\\\
-%\dfrac{dC}{dt}=\alpha-\beta C,\\\\
-%\end{array} \right.
-%\end{equation}
-%
-%gdzie: 
-%\begin{itemize}
-%\item T(t) - liczba komórek nowotworowych w chwili czasowej t,
-%\item N(t) - liczba komórek NK w chwili czasowej t,
-%\item L(t) - liczba limfocytów $T_{CD8+}$ w chwili czasowej t,
-%\item C(t) - liczba limfocytów kr¹¿¹cych w chwili czasowej t,
-%\item $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ - liza nowotworu pod~wp³ywem dzia³ania limfocytów $T_{CD8+}$.
-%\end{itemize}
-%
-%\noindent \newline Pierwsze z~równañ modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} opisuje tempo zmian $\dfrac{dT}{dt}$ liczby komórek nowotworowych, w~chwili czasowej t, uwzglêdniaj¹c zarówno proces proliferacji tych komórek, jak~i~efekt cytotoksycznoœci wywo³any odpowiedzi¹ uk³adu immunologicznego.
-%\newline Wyra¿enie $aT(1-bT)$ zwiêksza prêdkoœæ zmian liczebnoœci populacji komórek nowotworowych, gdy¿ okreœla liczbê komórek nowotworowych, które powsta³y w~danej chwili czasowej t w~wyniku ich~proliferacji. Wyra¿enia $-cNT$ oraz~$-DT$ z~kolei hamuj¹ tempo zmian liczebnoœci komórek nowotworowych, gdy¿ przedstawiaj¹ odpowiednio: liczbê komórek nowotworowych zniszczonych na~skutek ich~interakcji z~komórkami NK oraz~z~limfocytami $T_{CD8+}$, w~danej chwili czasowej t. 
-%
-%Drugie równanie modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} okreœla tempo zmian $\dfrac{dN}{dt}$ liczebnoœci populacji komórek NK, w~chwili czasowej t, na~które wp³ywa kilka sk³adników. \newline Sk³adnik $eC$ to~liczba komórek NK powsta³ych z~kr¹¿¹cych limfocytów w~chwili czasowej t, $-fN$ opisuje liczbê komórek NK zniszczonych w~chwili czasowej t. \newline Sk³adowa $g\dfrac{T^{2}}{h+T^{2}}N$ okreœla liczbê nowopowsta³ych komórek okreœlonych jako NK w~chwili czasowej t, natomiast $-pNT$ to~komórki NK dezaktywowane w~chwili czasowej t na~skutek interakcji z~komórkami nowotworowymi.
-%
-%Trzecim równaniem modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} zosta³o opisane tempo zmian liczebnoœci populacji limfocytów $T_{CD8+}$ $\dfrac{dL}{dt}$. \newline Pierwsza sk³adowa $-mL$ okreœla liczbê limfocytów $T_{CD8+}$ zniszczonych w~chwili czasowej t na~skutek obecnoœci komórek nowotworowych. Kolejna $j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L$ to~liczba limfocytów $T_{CD8+}$ stymulowanych przez komórki nowotworowe, które s¹~lizowane przez limfocyty $T_{CD8+}$  w~chwili czasowej t. Liczba dezaktywowanych limfocytów $T_{CD8+}$ w~chwili czasowej t na~skutek interakcji z~komórkami nowotworowymi jest~opisana przy~pomocy sk³adowej $-qLT$. Przedostatni¹ sk³adow¹ w~tym równaniu jest~$(r_{1}N+r_{2}C)T$ odpowiadaj¹ca liczbie limfocytów $T_{CD8+}$ stymulowanych przez komórki nowotworowe, które s¹~lizowane przez komórki NK oraz~limfocytów $T_{CD8+}$ powsta³ych na~skutek obecnoœci komórek nowotworowych w~chwili czasowej t. $-uNL^{2}$ wyznacza liczbê limfocytów $T_{CD8+}$ dezaktywowanych w~chwili czasowej t na~skutek dzia³ania komórek NK.
-%
-%Równanie czwarte okreœla tempo zmian liczebnoœci populacji limfocytów kr¹¿¹cych $\dfrac{dC}{dt}$,w~chwili czasowej t, które jest modulowane poprzez ró¿nicê miêdzy sta³¹ liczb¹ $\alpha$ kr¹¿¹cych limfocytów a stopniem ich degradacji $-\beta C$, gdzie $\beta$ to~sta³a okreœlaj¹ca tempo wyniszczania kr¹¿¹cych limfocytów.
-%
-%\begin{table}[h]
-%\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{parametry_modelu}
-%	\centering
-%	\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline \hline
-%		Nazwa & Wartoœæ & Jednostka & Opis  \\ \hline
-%		a & $4,31 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo wzrostu nowotworu \\ \hline
-%		b & $1,02 \cdot 10^{-9}$ & komórka$^{-1}$ & Odwrotnoœæ pojemnoœci œrodowiska \\ \hline
-%		c & $6,41 \cdot 10^{-11}$ & dzieñ$^{-1} \cdot$ komórka$ ^{-1}$ & Liczba komórek nowotworu zabita przez komórki NK \\ \hline
-%		d & $2,34$ &  dzieñ$^{-1}$ & Wspó³czynnik si³y uk³adu odpornoœciowego \\ \hline
-%		e & $2,08 \cdot 10^{-7}$ & dzieñ$^{-1}$ & Liczba kr¹¿¹cych limfocytów, które sta³y siê komórkami NK \\ \hline
-%		l & $2,9$ & bezwymiarowe & Wspó³czynnik skalowania si³y uk³adu odpornoœciowego \\ \hline
-%		f & $4,12 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Tempo wyniszczania komórek NK \\ \hline
-%		g & $1,25 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Maksymalna liczba komórek NK wytwarzanych na~skutek obecnoœci komórek nowotworowych \\ \hline
-%		h & $2,02 \cdot 10^{7}$ & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji komórek NK \\ \hline
-%		j & $2,49 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Maksymalne tempo rekrutacji limfocytów $T_{CD8+}$ \\ \hline
-%		k & $3,66 \cdot 10^{7}$ & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji limfocytów $T_{CD8+}$ \\ \hline
-%		m & $2,04 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo wyniszczania limfocytów $T_{CD8+}$ \\ \hline
-%		q & $1,42 \cdot 10^{-6}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji limfocytów $T_{CD8+}$ przez komórki nowotworu \\ \hline
-%		p & $3,42 \cdot 10^{-6}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji komórek NK przez komórki nowotworu \\ \hline
-%		s & $8,39 \cdot 10^{-2}$ & bezwymiarowe & Wartoœæ ${(\frac{L}{T})}^{l}$ konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci cytotoksycznoœci limfocytów $T_{CD8+}$\\ \hline
-%		$r_{1}$ & $1,1 \cdot 10^{-7}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat niszczenia komórek nowotworowych przez komórki NK \\ \hline
-%		$r_{2}$ & $6,5 \cdot 10^{-11}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat interakcji komórek  nowotworowych z~kr¹¿¹cymi limfocytami \\ \hline
-%		u & $3 \cdot 10^{-10}$ & komórka$^{-2} \cdot$ dzieñ$^{-1}$ &  Wspó³czynnik Funkcji regulacyjnej limfocytów $T_{CD8+}$ nadzorowanej przez komórki NK\\ \hline
-%		$\alpha$ & $7,5 \cdot 10^{8}$ & komórka $\cdot$ dzieñ$^{-1}$ &  Sta³a liczba kr¹¿¹cych limfocytów\\ \hline
-%		$\beta$ & $1,2 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Tempo wyniszczania kr¹¿¹cych limfocytów\\ \hline
-%		\end{tabular}
-%\end{table}
-%
-%\section{Model uwzglêdniaj¹cy proces leczenia}
-%
-%Przyjêto za³o¿enia dla~modelu jak w~rozdziale \ref{zalozenia}.
-% 
-%\subsection{Równania i opis modelu}
-%
-%W~modelu \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, poza czterema populacjami uwzglêdnionymi w modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, rozwa¿amy dodatkowo zmiany stê¿enia trzech podawanych leków, czyli interleukin-2 ($I$), interferonów-$\alpha$ ($I_{\alpha}$) oraz cytostatyku u¿ytego w~chemioterapii ($M$). \newline \newline Przedstawione w~uk³adzie \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} równania okreœlaj¹ tempo zmian liczebnoœci populacji, jak w~modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, ale~tak¿e opisuj¹ wp³yw podawanych leków na~nowotwór oraz~ich~rozpad w~organizmie. Modyfikacje wprowadzone do~modelu, odpowiadaj¹ce podawanym lekom zaznaczono w~uk³adzie \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} na~czerwono. \newline \newline Parametry modelu leczonego guza \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, ukazano w~tabeli \ref{parametry_modelu_z}.
-%
-%\begin{equation}
-%\label{równania_modelu_pillis_i_isaeva_z_leczeniem}
-%\left\{ \begin{array}{ll}
-%\dfrac{dT}{dt}=aT(1-bT)-cNT-DT \textcolor{red}{-K_{T}(1-e^{-M})T - c'TL},\\\\
-%\dfrac{dN}{dt}=eC-fN+g\dfrac{T^{2}}{h+T^{2}}N-pNT \textcolor{red}{-K_{N}(1-e^{-M})N},\\\\
-%\dfrac{dL}{dt}=-mL+j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L-qLT+(r_{1}N+r_{2}C)T-uNL^{2} \textcolor{red}{-K_{L}(1-e^{-M})L+\dfrac{p_{i}LI}{g_{i}}+ \nu_{L}(t)},\\\\
-%\dfrac{dC}{dt}=\alpha-\beta C \textcolor{red}{-K_{C}(1-e^{-M})C},\\\\
-%\textcolor{red}{ \dfrac{dM}{dt}=-\gamma M+\nu_{M}(t)},\\\\
-%\textcolor{red}{ \dfrac{dI}{dt}=-\mu_{i}I-j'LI-k'TI+\nu_{I}(t)},\\\\
-%\textcolor{red}{ \dfrac{dI_{\alpha}}{dt}=\nu_{\alpha}(t)-g'I_{\alpha}},\\\\
-%\end{array} \right.
-%\end{equation}
-%
-%gdzie: 
-%\begin{itemize}
-%\item T(t) - liczba komórek nowotworowych w chwili czasowej t,
-%\item N(t) - liczba komórek NK w chwili czasowej t,
-%\item L(t) - liczba limfocytów $T_{CD8+}$ w chwili czasowej t,
-%\item C(t) - liczba limfocytów kr¹¿¹cych w chwili czasowej t,
-%\item \textcolor{red}{M(t) - stê¿enie cytostatyku w chwili czasowej t},
-%\item \textcolor{red}{I(t) - stê¿enie interleukin-2 w chwili czasowej t},
-%\item \textcolor{red}{$I_{\alpha}$(t) - stê¿enie interferonów-$\alpha$ w chwili czasowej t},
-%\item $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ - liza nowotworu pod~wp³ywem dzia³ania limfocytów $T_{CD8+}$,
-%\item \textcolor{red}{$c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})$} - wp³yw stê¿enia interferonów-$\alpha$ na~rozpoznawanie komórek nowotworowych przez~limfocyty $T_{CD8+}$.
-%\end{itemize}
-%
-%\begin{table}[!h]
-%\caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z}
-%	\centering
-%	\begin{tabular}{|c|c|c|p{0.49\linewidth}|} \hline 
-%		$\gamma$ & $9 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo rozpadu leku chemioterapeutycznego \\ \hline
-%		$p_{i}$ & $1,25 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Maksymalne tempo rekrutacji limfocytów $T_{CD8+}$ przez interleukiny-2 \\ \hline
-%		$g_{i}$ & $2 \cdot 10^{2}$ & komórka$^{2}$ & Wartoœæ stê¿enia interleukiny-2 konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci aktywnoœci cytolitycznej limfocytów $T_{CD8+}$ \\ \hline
-%		$\mu_{i}$ & $1 \cdot 10^{1}$ & dzieñ$^{-1}$ & Tempo rozpadu interleukiny-2 (leku) \\ \hline
-%		$C_{CTL}$ & $4,4 \cdot 10^{-9}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo dezaktywacji nowotworu przez limfocyty $T_{CD8+}$ \\ \hline
-%		g' & $1,7$ & dzieñ$^{-1}$ & Tempo rozpadu terapeutycznego interferonu-$\alpha$\\ \hline
-%		j' & $3,3 \cdot 10^{-9}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo wch³aniania interleukiny-2 przez limfocyty $T_{CD8+}$ \\ \hline
-%		k' & $1,8 \cdot 10^{-8}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Dezaktywacja moleku³ interleukiny-2 przez prostaglandyny \\ \hline
-%		\multicolumn{2}{|l|}{$I_{\alpha 0}$} & jednostki & Pocz¹tkowa iloœæ interferonu-$\alpha$ \\ \hline		
-%	\end{tabular}
-%\end{table}
-%
-%\noindent
-%W~odró¿nieniu od~modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, w~ pierwszym równaniu modelu \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} wystêpuje dodatkowo sk³adowa $-K_{T}(1-e^{-M})T$, która opisuje liczbê komórek nowotworowych zniszczonych w~danej chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii. Kolejn¹ modyfikacj¹ jest $-c'TL$, opisuj¹ca liczbê komórek nowotworowych zniszczonych w~danej chwili czasowej t na~skutek interakcji pomiêdzy IFN-$\alpha$, limfocytami $T_{CD8+}$ i~komórkami nowotworu.
-%
-%\noindent \newline W~drugim równaniu modele \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} i~\ref{równania_modelu_pillis_i_isaeva_z_leczeniem} ró¿ni¹ siê tylko sk³adow¹ $-K_{N}(1-e^{-M})N$ okreœlaj¹c¹ liczbê komórek NK zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii.
-%
-%\noindent \newline Trzecie równanie modelu \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, poza wyjaœnionymi wczeœniej sk³adowymi okreœla tak¿e $-K_{L}(1-e^{-M})L$ - liczbê limfocytów $T_{CD8+}$ zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii oraz $\dfrac{p_{i}LI}{g_{i}}$ - liczbê limfocytów $T_{CD8+}$ stymulowanych przez IL-2. Funkcj¹ opisuj¹c¹ iloœæ i~czas podania TIL jest $\nu_{L}(t)$.
-%
-%\noindent \newline Jedyn¹ zmian¹ w~równaniu czwartym w~stosunku do modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} jest~wprowadzenie sk³adowej $-K_{C}(1-e^{-M})C$ wyznaczaj¹cej liczbê limfocytów kr¹¿¹cych zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii.
-%
-%\noindent \newline \newline W~modelu leczonego guza \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} dodano kolejne trzy równania ró¿niczkowe opisuj¹ce tempo zmian stê¿eñ podawanych leków.
-%
-%\noindent \newline Równanie pi¹te okreœla zmiany stê¿enia cytostatyku w~organizmie $\dfrac{dM}{dt}$. Sk³adowa $-\gamma M$ odpowiada spadkowi stê¿enia cytostatyku na~skutek jego rozpadu, a~$\nu_{M}(t)$ to~wyra¿enie opisuj¹ce iloœæ i~czas podania cytostatyku.
-%
-%\noindent \newline Kolejne równanie uk³adu okreœla tempo zmian stê¿enia IL-2 w~organizmie $\dfrac{dI}{dt}$. Spadek stê¿enia IL-2 na~skutek jej rozpadu okreœla sk³adowa $-\mu_{i}L$. $-j'LI$ jest~liczb¹ komórek IL-2 wch³oniêtych przez limfocyty $T_{CD8+}$ w~chwili czasowej t, natomiast $-k'TI$, liczb¹ komórek IL-2 dezaktywowanych przez prostaglandyny w~chwili czasowej t. $\nu_{I}(t)$ to~funkcja opisuj¹ca iloœæ i~czas podania IL-2.
-%
-%\noindent \newline W~siódmym równaniu okreœlone jest~tempo zmian stê¿enia IFN-$\alpha$ w~organizmie $\dfrac{dI_{\alpha}}{dt}$. $-gI_{\alpha}$ okreœla spadek stê¿enia IFN-$\alpha$ na~skutek jego rozpadu, a~$\nu_{\alpha}(t)$ jest~funkcj¹ opisuj¹c¹ iloœæ i~czas podania IFN-$\alpha$.
-%
-%\chapter{Symulacje}
-%W pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór:
-%\begin{itemize}
-%\item bez uwzglêdnienia procesu leczenia,
-%\item z~uwzglêdnieniem leczenia wy³¹cznie metod¹ chemioterapii,
-%\item z~uwzglêdnieniem leczenia wy³¹cznie metod¹ immunoterapii,
-%\item z~uwzglêdnieniem leczenia skojarzonymi metodami chemioterapii i~immunoterapii.
-%\end{itemize}
-%
-%Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez}) dla modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} dobrano zgodnie z~literatur¹ \cite{1}. Dla~wiêkszej czytelnoœci, wielkoœæ nowotworu okreœlono równie¿ poprzez d³ugoœæ jego~promienia, przyjmuj¹c, ¿e~nowotwór ma~kszta³t zbli¿ony do~kuli, a~na~1~cm$^{3}$ przypada $10^{9}$ komórek \cite{23}.
-%
-%\begin{table}[!htb]
-%\caption{Warunki pocz¹tkowe dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{warunki_poczatkowe_bez}
-%	\centering
-%	\begin{tabular}{|c|c|c|} \hline \hline
-%		Wartoœæ [liczba komórek] & Rodzaj komórek & Promieñ nowotworu [mm]\\ \hline
-%		$T(0) = 1 \cdot 10^{6}$ & Komórki nowotworowe & 0,62 \\ \hline
-%		$N(0) = 1 \cdot 10^{5}$  & Komórki NK \\ \cline{1-2}
-%		$L(0) = 1 \cdot 10^{2}$ & Limfocyty $T_{CD8+}$ \\ \cline{1-2}
-%		$C(0) = 6 \cdot 10^{10}$ & Limfocyty kr¹¿¹ce \\ \cline{1-2}
-%		\end{tabular}
-%\end{table}
-%
-%\newpage
-%\section{OdpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór -- brak leczenia}
-%%\setlength{\parindent}{0pt}
-%%\noindent % brak akapitu
-%\subsection{Scenariusz I -- symulacja wykonana dla modelu nieleczonego guza}
-%
-%\noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego w~zale¿noœci od~pocz¹tkowej wielkoœci nowotworu (na~podstawie wielkoœci nowotworu po zadanym czasie symulacji).
-%
-%\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj., liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej wielkoœci nowotworu $T(0)$.
-%
-%\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia jak~w~tabeli \ref{parametry_modelu}.
-%
-%\noindent \newline \textbf{Czas symulacji:} \newline $T_{k}$ = 120 dni \newline \newline W tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono pocz¹tkow¹ liczbê komórek nowotworu $T(0)$, liczbê komórek nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.
-%
-%\begin{table}[!htb]
-%\caption{Pocz¹tkowa liczba komórek nowotworowych $T(0)$, liczba komórek nowotworowych po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.}\label{zmiany_poczatkowej_wartosci_T}
-%	\centering
-%\begin{tabular}{|c|c|c|c|} \hline \hline
-%		$T(0)$ & $T(120)$ & Objêtoœæ & Promieñ \\
-%		$[$liczba komórek$]$ & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
-%		$1 \cdot 10^{6}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-14}$ & $2,5 \cdot 10^{-5}$ \\ \hline
-%		$2 \cdot 10^{6}$ & $8,15 \cdot 10^{-8}$ & $8,15 \cdot 10^{-14}$ & $2,7 \cdot 10^{-5}$ \\ \hline
-%		$5 \cdot 10^{6}$ & $2,69 \cdot 10^{-8}$ & $2,69 \cdot 10^{-14}$ & $1,9 \cdot 10^{-5}$ \\ \hline
-%		$1 \cdot 10^{7}$ & $3,44 \cdot 10^{-8}$ & $3,44 \cdot 10^{-14}$ & $2 \cdot 10^{-5}$ \\ \hline
-%		$1,5 \cdot 10^{7}$ & $4,41 \cdot 10^{-8}$ & $4,41 \cdot 10^{-14}$ & $2,2 \cdot 10^{-5}$ \\ \hline
-%		$1,7 \cdot 10^{7}$ & $2,96 \cdot 10^{-8}$ & $2,96 \cdot 10^{-14}$ & $1,9 \cdot 10^{-5}$ \\ \hline
-%		$1,75 \cdot 10^{7}$ & $3,67 \cdot 10^{-8}$ & $3,67 \cdot 10^{-14}$ & $2,1 \cdot 10^{-5}$ \\ \hline
-%		$1,8 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		$2 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		$5 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		\end{tabular}
-%\end{table}
-%
-%Przyk³adowe zmiany liczby komórek ka¿dej z~czterech badanych populacji - komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$ przedstawiono na~poni¿szych wykresach (Rys. \ref{zmiany_liczby_kom_4_populacji}). 
-%
-%\begin{figure}
-%\centering
-%\subfloat[Zmiany liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1 \cdot 10^{6}$. Regresja nowotworu po~czasie $T_{r}$~$\approx$ 7 dni (168 godzin).]{\label{bez_lecz_stlumienie}
-%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_regresja}}
-%\quad
-%\subfloat[Zmiany liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.]{\label{bez_lecz_brak_stlumienia}
-%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}}
-%\caption{Wykresy zmian liczby komórek badanych populacji -- komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$.}
-%\label{zmiany_liczby_kom_4_populacji}
-%\end{figure}
-%
-%Na~pierwszym wykresie (Rys. \ref{bez_lecz_stlumienie}) przedstawiono regresjê nowotworu wskutek dzia³ania uk³adu immunologicznego po~oko³o 7 dniach.
-%Wykres drugi (Rys. \ref{bez_lecz_brak_stlumienia}) obrazuje przypadek, w~którym uk³ad immunologiczny nie jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
-%
-%\newpage
-%\indent Zmiany wielkoœci nowotworu otrzymane na~koniec symulacji trwaj¹cej $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~wykresie (Rys. \ref{wykres_bez_lecz_t120_t0}). 
-%
-%\begin{figure}[!htb]
-%	\centering
-%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-%	\caption{Wyniki otrzymane na~koniec symulacji, która trwa³a $T_{k}$ = 120 dni. Liczba komórek nowotworowych na~koniec symulacji $T(120)$ w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-%\end{figure}
-%
-%\newpage
-%Na~wykresie (Rys. \ref{wykres_bez_lecz_promien_t0}) pokazano zmiany d³ugoœci promienia nowotworu otrzymane na~koniec symulacji trwaj¹cej $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-%
-%\begin{figure}[!htb]
-%	\centering
-%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-%	\caption{Wyniki otrzymane na~koniec symulacji, która trwa³a $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] na~koniec symulacji w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-%\end{figure}
-%
-%Wnioski:
-%\begin{itemize}
-%\item zdrowy uk³ad immunologiczny jest w~stanie zniszczyæ komórki nowotworowe przy~wykorzystaniu wy³¹cznie komórek wystêpuj¹cych naturalnie w~organizmie (komórek NK, limfocytów $T_{CD8+}$, limfocytów kr¹¿¹cych) bez ingerencji dodatkowych czynników (np. leczenia);
-%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny nie jest w~stanie samoistnie pozbyæ siê nowotworu.
-%\end{itemize}
-%
-%\newpage
-%\subsection{Scenariusz II -- symulacja wykonana dla modelu nieleczonego guza}
-%
-%\noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego w~zale¿noœci od~pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$ (badanie stanu uk³adu immunologicznego na~podstawie wielkoœci nowotworu po zadanym czasie symulacji).
-%
-%\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj., liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$.
-%
-%\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia jak~w~tabeli \ref{parametry_modelu}.
-%
-%\noindent \newline \textbf{Czas symulacji:} \newline $T_{k}$ = 120 dni \newline \newline W~tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono pocz¹tkow¹ liczbê limfocytów kr¹¿¹cych $C(0)$, liczbê komórek nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.
-%
-%\begin{table}[!htb]
-%\caption{Pocz¹tkowa liczba limfocytów kr¹¿¹cych $C(0)$, liczba komórek nowotworowych po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.}\label{zmiany_poczatkowej_wartosci_C}
-%	\centering
-%\begin{tabular}{|c|c|c|c|} \hline \hline
-%		$C(0)$ & $T(120)$ & Objêtoœæ & Promieñ \\
-%		$[$liczba komórek$]$ & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [mm] \\ \hline
-%		$6 \cdot 10^{10}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-14}$ & $2,5 \cdot 10^{-5}$ \\ \hline
-%		$3 \cdot 10^{10}$ & $1,69 \cdot 10^{-7}$ & $1,69 \cdot 10^{-13}$ & $3,4 \cdot 10^{-5}$ \\ \hline
-%		$1 \cdot 10^{10}$ & $3,09 \cdot 10^{-8}$ & $1,33 \cdot 10^{-14}$ & $1,5 \cdot 10^{-5}$ \\ \hline
-%		$6 \cdot 10^{9}$ & $4,79 \cdot 10^{-8}$ & $4,79 \cdot 10^{-14}$ & $2,3 \cdot 10^{-5}$ \\ \hline
-%		$4 \cdot 10^{9}$ & $5,72 \cdot 10^{-8}$ & $5,72 \cdot 10^{-14}$ & $2,4 \cdot 10^{-5}$ \\ \hline
-%		$3,5 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		$3 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		$1 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		$6 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		$3 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		\end{tabular}
-%\end{table}
-%
-%Zmiany liczby komórek badanych populacji - komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$ przedstawiono na~wykresach (Rys. \ref{zmiany_liczby_kom_4_populacjiC}).
-%
-%\begin{figure}
-%\centering
-%\subfloat[Zmiany liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$. Regresja nowotworu po~czasie $T_{r}$~$\approx$ 7 dni (168 godzin).]{\label{bez_lecz_stlumienieC}
-%\includegraphics[width=0.85\textwidth]{bez_lecz_sym2_regresja}}
-%\quad
-%\subfloat[Zmiany liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0) = 3,5 \cdot 10^{9}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 28 dni (672 godziny) oko³o wartosci $9,8 \cdot 10^{8}$.]{\label{bez_lecz_brak_stlumieniaC}
-%\includegraphics[width=0.85\textwidth]{bez_lecz_sym2_progres}}
-%\caption{Wykresy zmian liczby komórek badanych populacji -- komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$.}
-%\label{zmiany_liczby_kom_4_populacjiC}
-%\end{figure}
-%
-%\newpage
-%Na~pierwszym z~nich (Rys. \ref{bez_lecz_stlumienieC}) przedstawiono regresjê nowotworu wskutek dzia³ania odpowiednio silnego uk³adu immunologicznego po~oko³o 7 dniach. Na~drugim wykresie (Rys. \ref{bez_lecz_brak_stlumieniaC}) liczba komórek nowotworowych stabilizuje siê po~28 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$). Uk³ad immunologiczny ze wzglêdu na~zmniejszon¹ liczbê kr¹¿¹cych limfocytów jest zbyt s³aby, by zniszczyæ komórki nowotworu.
-%\newline \newline \indent Zmiany wielkoœci nowotworu otrzymane na~koniec symulacji trwaj¹cej $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$ przedstawiono na~wykresie (Rys. \ref{wykres_bez_lecz_t120_c0}). 
-%
-%\begin{figure}[!htb]
-%	\centering
-%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_c0}
-%	\caption{Wyniki otrzymane na~koniec symulacji, która trwa³a $T_{k}$ = 120 dni. Liczba komórek nowotworowych na~koniec symulacji $T(120)$ w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$.}\label{wykres_bez_lecz_t120_c0} 
-%\end{figure}
-%
-%\newpage
-%Na~wykresie (Rys. \ref{wykres_bez_lecz_promien_c0}) pokazano zmiany d³ugoœci promienia nowotworu otrzymane na~koniec symulacji trwaj¹cej $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$.
-%
-%\begin{figure}[!htb]
-%	\centering
-%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_c0}
-%	\caption{Wyniki otrzymane na~koniec symulacji, która trwa³a $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] na~koniec symulacji w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$.}\label{wykres_bez_lecz_promien_c0} 
-%\end{figure}
-%
-%Wnioski:
-%\begin{itemize}
-%\item przy~odpowiednio du¿ej liczbie kr¹¿¹cych limfocytów ($C(0) \approx 4 \cdot 10^{9}$) uk³ad immunologiczny jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji zewnêtrznych czynników (np. leczenia),
-%\item przy~zbyt ma³ej liczbie kr¹¿¹cych limfocytów (z³y stan uk³adu immunologicznego) organizm nie jest w~stanie zniszczyæ komórek nowotworowych.
-%\end{itemize} 
-%
-%\newpage
-%\section{Leczenie metod¹ chemioterapii}
-%\section{Leczenie metod¹ immunoterapii}
-%\section{Po³¹czenie metod chemioterapii i~immunoterapii}
-%
-%\chapter{Rezultaty}
-%\chapter{Analiza wyników}
-%\chapter{Podsumowanie}
+\chapter{Model matematyczny}
+
+Model matematyczny wykorzystany w~pracy to~model bêd¹cy po³¹czeniem modelu de Pillis'a \cite{19} oraz~modelu Isaeva i~Osipov'a \cite{18} opisany w~literaturze \cite{1}. W~pierwszym etapie rozwa¿ymy model bez uwzglêdnienia procesu leczenia, który obejmuje cztery populacje komórek, tj.:
+\begin{itemize}
+\item $\mathcal{T}$ -- populacjê komórek nowotworowych,
+\item $\mathcal{N}$ -- populacjê komórek NK,
+\item $\mathcal{L}$ -- populacjê limfocytów $T_{CD8+}$,
+\item $\mathcal{C}$ -- populacjê limfocytów kr¹¿¹cych,
+\end{itemize}
+
+W drugim etapie model zostaje poddany modyfikacji, uwzglêdnia proces leczenia i~dodatkowo badane s¹ zmiany stê¿enia w~czasie trzech podawanych leków:
+\begin{itemize}
+\item $I(t)$ -- funkcja stê¿enia interleukin-2 w~czasie,
+\item $I_{\alpha}$(t) -- funkcja stê¿enia interferonów-$\alpha$ w~czasie,
+\item $M(t)$ -- funkcja stê¿enia cytostatyku u¿ytego w~chemioterapii w~czasie.
+\end{itemize}
+
+W równaniach modelu przed~modyfikacj¹ uwzglêdniono takie czynniki, jak:
+\begin{itemize}
+\item naturalny rozwój i~œmieræ komórek,
+\item œmieræ komórek nowotworowych pod wp³ywem komórek NK, limfocytów $T_{CD8+}$,
+\item wytwarzanie komórek NK i~limfocytów $T_{CD8+}$,
+\item dezaktywacjê komórek NK i~limfocytów $T_{CD8+}$.
+\end{itemize}
+
+Natomiast w~modelu zmodyfikowanym wziêto pod~uwagê równie¿:
+\begin{itemize}
+\item iloœæ podawanych leków i~czas, w~którym zosta³y podane,
+\item œmieræ komórek nowotworowych pod wp³ywem podawanych leków.
+\end{itemize}
+
+\section{Model nieuwzglêdniaj¹cy procesu leczenia}
+\subsection{Za³o¿enia modelu} \label{zalozenia}
+
+Przyjêto za³o¿enia jak~w~modelu de Pillis'a, Isaeva i~Osipov'a \cite{1}:
+\begin{enumerate}
+\item W~przypadku braku odpowiedzi uk³adu immunologicznego liczba komórek nowotworowych wzrasta logistycznie.
+\item Komórki NK i~limfocyty $T_{CD8+}$ s¹ zdolne zniszczyæ komórki nowotworu.
+\item Pod wp³ywem komórek nowotworowych komórki NK i~limfocyty $T_{CD8+}$ ulegaj¹ szybszej proliferacji oraz~wzrasta ich aktywnoœæ cytolityczna\footnote{Aktywnoœæ cytolityczna -- jeden z~mechanizmów cytotoksycznoœci limfocytów s³u¿¹cy do~niszczenia komórek zainfekowanych lub~nowotworowych \cite{15}.}.
+\item Komórki NK s¹ zawsze obecne w~organizmie, tak¿e w~przypadku braku wystêpowania komórek nowotworowych.
+\item W~organizmie wystêpuje du¿a liczba aktywnych limfocytów $T_{CD8+}$, tylko w~przypadku obecnoœci komórek nowotworowych. Jest to specyficzna odpowiedŸ immunologiczna.
+\item Komórki NK i~limfocyty $T_{CD8+}$ ulegaj¹ ca³kowitej dezaktywacji po pewnej liczbie interakcji z~komórkami nowotworowymi.
+\item Komórki nowotworowe dezaktywuj¹ siê pod wp³ywem interferonów $\alpha$.
+\item Poziom kr¹¿¹cych limfocytów mo¿e s³u¿yæ do~oceny zdrowia pacjenta.
+\item Odsetek komórek nowotworowych zniszczonych w~wyniku chemioterapii zale¿y od~iloœci cytostatyku obecnego w~organizmie. Maksymalny odsetek zniszczonych komórek wynosi mniej ni¿ 1 ze~wzglêdu na~to,¿e~pokonanie komórek nowotworowych wskutek chemioterapii jest mo¿liwe tylko na~niektórych etapach ich rozwoju.
+\item Czêœæ komórek NK, limfocytów $T_{CD8+}$ i~limfocytów kr¹¿¹cych jest niszczona podczas chemioterapii.
+\item Komórki NK i~limfocyty $T_{CD8+}$ uczestnicz¹ w~procesie stymulacji i~eliminacji aktywowanych komórek (efektorów); uproszczony model ma odzwierciedlaæ samoreguluj¹cy siê charakter uk³adu immunologicznego.
+\end{enumerate}
+
+\newpage
+\subsection{Równania i opis modelu}
+
+W~modelu nieleczonego guza rozwa¿amy cztery populacje komórek. S¹~to~populacja komórek nowotworowych ($\mathcal{T}$), populacja komórek NK ($\mathcal{N}$), populacja limfocytów $T_{CD8+}$ ($\mathcal{L}$) oraz~populacja limfocytów kr¹¿¹cych ($\mathcal{C}$). \newline \newline Model nieleczonego guza nowotworowego jest uk³adem równañ ró¿niczkowych zwyczajnych \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}. Równania tego modelu przedstawiaj¹ tempo zmian proliferacji komórek nowotworowych oraz~tempo zmian liczby komórek uk³adu immunologicznego (komórek NK, limfocytów $T_{CD8+}$ oraz~limfocytów kr¹¿¹cych) w~odpowiedzi na~wzrost liczby komórek nowotworowych.\newline \newline
+
+\begin{equation}
+\label{równania_modelu_pillis_i_isaeva_bez_leczenia}
+\left\{ \begin{array}{ll}
+\dfrac{dT}{dt}=aT(1-bT)-cNT-DT,\\\\
+\dfrac{dN}{dt}=eC-fN+g\dfrac{T^{2}}{h+T^{2}}N-pNT,\\\\
+\dfrac{dL}{dt}=-mL+j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L-qLT+(r_{1}N+r_{2}C)T-uNL^{2},\\\\
+\dfrac{dC}{dt}=\alpha-\beta C,\\\\
+\end{array} \right.
+\end{equation}
+
+gdzie: 
+\begin{itemize}
+\item T(t) - liczba komórek nowotworowych w chwili czasowej t,
+\item N(t) - liczba komórek NK w chwili czasowej t,
+\item L(t) - liczba limfocytów $T_{CD8+}$ w chwili czasowej t,
+\item C(t) - liczba limfocytów kr¹¿¹cych w chwili czasowej t,
+\item $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ - liza nowotworu pod~wp³ywem dzia³ania limfocytów $T_{CD8+}$.
+\end{itemize}
+
+\noindent \newline Pierwsze z~równañ modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} opisuje tempo zmian $\dfrac{dT}{dt}$ liczby komórek nowotworowych, w~chwili czasowej t, uwzglêdniaj¹c zarówno proces proliferacji tych komórek, jak~i~efekt cytotoksycznoœci wywo³any odpowiedzi¹ uk³adu immunologicznego.
+\newline Wyra¿enie $aT(1-bT)$ zwiêksza prêdkoœæ zmian liczebnoœci populacji komórek nowotworowych, gdy¿ okreœla liczbê komórek nowotworowych, które powsta³y w~danej chwili czasowej t w~wyniku ich~proliferacji. Wyra¿enia $-cNT$ oraz~$-DT$ z~kolei hamuj¹ tempo zmian liczebnoœci komórek nowotworowych, gdy¿ przedstawiaj¹ odpowiednio: liczbê komórek nowotworowych zniszczonych na~skutek ich~interakcji z~komórkami NK oraz~z~limfocytami $T_{CD8+}$, w~danej chwili czasowej t. 
+
+Drugie równanie modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} okreœla tempo zmian $\dfrac{dN}{dt}$ liczebnoœci populacji komórek NK, w~chwili czasowej t, na~które wp³ywa kilka sk³adników. \newline Sk³adniki $g\dfrac{T^{2}}{h+T^{2}}N$ oraz~$eC$ wp³ywaj¹ na zwiêkszenie prêdkoœci zmian liczby komórek NK. Pierwszy z~nich oznacza liczbê nowych komórek NK powsta³ych w~chwili czasowej t, natomiast drugi okreœla liczbê komórek NK, które wyodrêbni³y siê z~limfocytów kr¹¿¹cych w~chwili czasowej t. Do~czynników hamuj¹cych tempo zmian liczebnoœci populacji komórek NK nale¿¹ $-fN$, poniewa¿ oznacza liczbê komórek NK ulegaj¹cych apoptozie w~chwili czasowej t oraz~$-pNT$ okreœlaj¹cy liczbê komórek NK dezaktywowanych wskutek ich~interakcji z~komórkami nowotworowymi w~chwili czasowej t.
+
+Trzecim równaniem modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} zosta³o opisane tempo zmian $\dfrac{dL}{dt}$ liczebnoœci populacji limfocytów $T_{CD8+}$. Wyra¿enia $j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L$ oraz~$(r_{1}N+r_{2}C)T$ zwiêkszaj¹ prêdkoœæ zmian liczebnoœci tej populacji. Wyra¿enia te okreœlaj¹ liczbê limfocytów $T_{CD8+}$ stymulowanych w~chwili czasowej t odpowiednio komórkami nowotworowymi, które s¹ lizowane przez~inne limfocyty $T_{CD8+}$ oraz~komórkami nowotworowymi lizowanymi przez~komórki NK, a~tak¿e liczbê limfocytów $T_{CD8+}$ wytwarzanych na skutek interakcji komórek nowotworowych z limfocytami kr¹¿¹cymi. Z kolei wyra¿enia $-mL$, $-qLT$ i~$-uNL^{2}$ hamuj¹ prêdkoœæ zmian liczby limfocytów $T_{CD8+}$. Wyra¿enie $-mL$ oznacza zmniejszenie ekspresji limfocytów $T_{CD8+}$ z~powodu braku komórek nowotworowych w~zwi¹zku z~czym w~chwili czasowej t powstaje ich mniej. Natomiast liczba dezaktywowanych limfocytów $T_{CD8+}$ w~chwili czasowej t na~skutek ich~interakcji z~komórkami nowotworowymi oraz~na~skutek dzia³ania komórek NK zosta³a okreœlona poprzez wyra¿enia odpowiednio $-qLT$ i~$-uNL^{2}$.
+
+Równanie czwarte okreœla tempo zmian liczebnoœci populacji limfocytów kr¹¿¹cych $\dfrac{dC}{dt}$ w~chwili czasowej t, które jest modulowane poprzez ró¿nicê miêdzy sta³¹ liczb¹ $\alpha$ kr¹¿¹cych limfocytów a stopniem ich degradacji $-\beta C$, gdzie $\beta$ to~sta³a okreœlaj¹ca tempo wyniszczania kr¹¿¹cych limfocytów.
+
+\begin{table}[h]
+\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{parametry_modelu}
+	\centering
+	\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline \hline
+		Nazwa & Wartoœæ & Jednostka & Opis  \\ \hline
+		a & $4,31 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo wzrostu nowotworu \\ \hline
+		b & $1,02 \cdot 10^{-9}$ & komórka$^{-1}$ & Odwrotnoœæ pojemnoœci œrodowiska \\ \hline
+		c & $6,41 \cdot 10^{-11}$ & dzieñ$^{-1} \cdot$ komórka$ ^{-1}$ & Liczba komórek nowotworu zabita przez komórki NK \\ \hline
+		d & $2,34$ &  dzieñ$^{-1}$ & Wspó³czynnik si³y uk³adu odpornoœciowego \\ \hline
+		e & $2,08 \cdot 10^{-7}$ & dzieñ$^{-1}$ & Liczba kr¹¿¹cych limfocytów, które sta³y siê komórkami NK \\ \hline
+		l & $2,9$ & bezwymiarowe & Wspó³czynnik skalowania si³y uk³adu odpornoœciowego \\ \hline
+		f & $4,12 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Tempo wyniszczania komórek NK \\ \hline
+		g & $1,25 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Maksymalna liczba komórek NK wytwarzanych na~skutek obecnoœci komórek nowotworowych \\ \hline
+		h & $2,02 \cdot 10^{7}$ & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji komórek NK \\ \hline
+		j & $2,49 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Maksymalne tempo rekrutacji limfocytów $T_{CD8+}$ \\ \hline
+		k & $3,66 \cdot 10^{7}$ & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji limfocytów $T_{CD8+}$ \\ \hline
+		m & $2,04 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo wyniszczania limfocytów $T_{CD8+}$ \\ \hline
+		q & $1,42 \cdot 10^{-6}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji limfocytów $T_{CD8+}$ przez komórki nowotworu \\ \hline
+		p & $3,42 \cdot 10^{-6}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji komórek NK przez komórki nowotworu \\ \hline
+		s & $8,39 \cdot 10^{-2}$ & bezwymiarowe & Wartoœæ ${(\frac{L}{T})}^{l}$ konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci cytotoksycznoœci limfocytów $T_{CD8+}$\\ \hline
+		$r_{1}$ & $1,1 \cdot 10^{-7}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat niszczenia komórek nowotworowych przez komórki NK \\ \hline
+		$r_{2}$ & $6,5 \cdot 10^{-11}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat interakcji komórek  nowotworowych z~kr¹¿¹cymi limfocytami \\ \hline
+		u & $3 \cdot 10^{-10}$ & komórka$^{-2} \cdot$ dzieñ$^{-1}$ &  Wspó³czynnik Funkcji regulacyjnej limfocytów $T_{CD8+}$ nadzorowanej przez komórki NK\\ \hline
+		$\alpha$ & $7,5 \cdot 10^{8}$ & komórka $\cdot$ dzieñ$^{-1}$ &  Sta³a liczba kr¹¿¹cych limfocytów\\ \hline
+		$\beta$ & $1,2 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Tempo wyniszczania kr¹¿¹cych limfocytów\\ \hline
+		\end{tabular}
+\end{table}
+
+\section{Model uwzglêdniaj¹cy proces leczenia}
+
+Przyjêto za³o¿enia dla~modelu jak w~rozdziale \ref{zalozenia}.
+ 
+\subsection{Równania i opis modelu}
+
+W~modelu \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, poza czterema populacjami uwzglêdnionymi w modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, rozwa¿amy dodatkowo zmiany stê¿enia trzech podawanych leków, czyli interleukin-2 ($I$), interferonów-$\alpha$ ($I_{\alpha}$) oraz cytostatyku u¿ytego w~chemioterapii ($M$). \newline \newline Przedstawione w~uk³adzie \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} równania okreœlaj¹ tempo zmian liczebnoœci populacji, jak w~modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, ale~tak¿e opisuj¹ wp³yw podawanych leków na~nowotwór oraz~ich~rozpad w~organizmie. Modyfikacje wprowadzone do~modelu, odpowiadaj¹ce podawanym lekom zaznaczono w~uk³adzie \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} na~czerwono. \newline \newline Parametry modelu leczonego guza \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, ukazano w~tabeli \ref{parametry_modelu_z}.
+
+\begin{equation}
+\label{równania_modelu_pillis_i_isaeva_z_leczeniem}
+\left\{ \begin{array}{ll}
+\dfrac{dT}{dt}=aT(1-bT)-cNT-DT \textcolor{red}{-K_{T}(1-e^{-M})T - c'TL},\\\\
+\dfrac{dN}{dt}=eC-fN+g\dfrac{T^{2}}{h+T^{2}}N-pNT \textcolor{red}{-K_{N}(1-e^{-M})N},\\\\
+\dfrac{dL}{dt}=-mL+j\dfrac{D^{2}T^{2}}{k+D^{2}T^{2}}L-qLT+(r_{1}N+r_{2}C)T-uNL^{2} \textcolor{red}{-K_{L}(1-e^{-M})L+\dfrac{p_{i}LI}{g_{i}}+ \nu_{L}(t)},\\\\
+\dfrac{dC}{dt}=\alpha-\beta C \textcolor{red}{-K_{C}(1-e^{-M})C},\\\\
+\textcolor{red}{ \dfrac{dM}{dt}=-\gamma M+\nu_{M}(t)},\\\\
+\textcolor{red}{ \dfrac{dI}{dt}=-\mu_{i}I-j'LI-k'TI+\nu_{I}(t)},\\\\
+\textcolor{red}{ \dfrac{dI_{\alpha}}{dt}=\nu_{\alpha}(t)-g'I_{\alpha}},\\\\
+\end{array} \right.
+\end{equation}
+
+gdzie: 
+\begin{itemize}
+\item T(t) - liczba komórek nowotworowych w chwili czasowej t,
+\item N(t) - liczba komórek NK w chwili czasowej t,
+\item L(t) - liczba limfocytów $T_{CD8+}$ w chwili czasowej t,
+\item C(t) - liczba limfocytów kr¹¿¹cych w chwili czasowej t,
+\item \textcolor{red}{M(t) - stê¿enie cytostatyku w chwili czasowej t},
+\item \textcolor{red}{I(t) - stê¿enie interleukin-2 w chwili czasowej t},
+\item \textcolor{red}{$I_{\alpha}$(t) - stê¿enie interferonów-$\alpha$ w chwili czasowej t},
+\item $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ - liza nowotworu pod~wp³ywem dzia³ania limfocytów $T_{CD8+}$,
+\item \textcolor{red}{$c'=c_{CTL}(2-e^{\frac{I_{\alpha}}{I_{\alpha 0}}})$} - wp³yw stê¿enia interferonów-$\alpha$ na~rozpoznawanie komórek nowotworowych przez~limfocyty $T_{CD8+}$.
+\end{itemize}
+
+\begin{table}[!h]
+\caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z}
+	\centering
+	\begin{tabular}{|c|c|c|p{0.49\linewidth}|} \hline 
+		$\gamma$ & $9 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo rozpadu leku chemioterapeutycznego \\ \hline
+		$p_{i}$ & $1,25 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Maksymalne tempo rekrutacji limfocytów $T_{CD8+}$ przez interleukiny-2 \\ \hline
+		$g_{i}$ & $2 \cdot 10^{2}$ & komórka$^{2}$ & Wartoœæ stê¿enia interleukiny-2 konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci aktywnoœci cytolitycznej limfocytów $T_{CD8+}$ \\ \hline
+		$\mu_{i}$ & $1 \cdot 10^{1}$ & dzieñ$^{-1}$ & Tempo rozpadu interleukiny-2 (leku) \\ \hline
+		$C_{CTL}$ & $4,4 \cdot 10^{-9}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo dezaktywacji nowotworu przez limfocyty $T_{CD8+}$ \\ \hline
+		g' & $1,7$ & dzieñ$^{-1}$ & Tempo rozpadu terapeutycznego interferonu-$\alpha$\\ \hline
+		j' & $3,3 \cdot 10^{-9}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo wch³aniania interleukiny-2 przez limfocyty $T_{CD8+}$ \\ \hline
+		k' & $1,8 \cdot 10^{-8}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Dezaktywacja moleku³ interleukiny-2 przez prostaglandyny \\ \hline
+		\multicolumn{2}{|l|}{$I_{\alpha 0}$} & jednostki & Pocz¹tkowa iloœæ interferonu-$\alpha$ \\ \hline		
+	\end{tabular}
+\end{table}
+
+\noindent
+W~odró¿nieniu od~modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, w~ pierwszym równaniu modelu \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} wystêpuje dodatkowo sk³adowa $-K_{T}(1-e^{-M})T$, która opisuje liczbê komórek nowotworowych zniszczonych w~danej chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii. Kolejn¹ modyfikacj¹ jest $-c'TL$, opisuj¹ca liczbê komórek nowotworowych zniszczonych w~danej chwili czasowej t na~skutek interakcji pomiêdzy IFN-$\alpha$, limfocytami $T_{CD8+}$ i~komórkami nowotworu.
+
+\noindent \newline W~drugim równaniu modele \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} i~\ref{równania_modelu_pillis_i_isaeva_z_leczeniem} ró¿ni¹ siê tylko sk³adow¹ $-K_{N}(1-e^{-M})N$ okreœlaj¹c¹ liczbê komórek NK zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii.
+
+\noindent \newline Trzecie równanie modelu \ref{równania_modelu_pillis_i_isaeva_z_leczeniem}, poza wyjaœnionymi wczeœniej sk³adowymi okreœla tak¿e $-K_{L}(1-e^{-M})L$ - liczbê limfocytów $T_{CD8+}$ zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii oraz $\dfrac{p_{i}LI}{g_{i}}$ - liczbê limfocytów $T_{CD8+}$ stymulowanych przez IL-2. Funkcj¹ opisuj¹c¹ iloœæ i~czas podania TIL jest $\nu_{L}(t)$.
+
+\noindent \newline Jedyn¹ zmian¹ w~równaniu czwartym w~stosunku do modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} jest~wprowadzenie sk³adowej $-K_{C}(1-e^{-M})C$ wyznaczaj¹cej liczbê limfocytów kr¹¿¹cych zniszczonych w~chwili czasowej t na~skutek dzia³ania cytostatyku podanego podczas chemioterapii.
+
+\noindent \newline \newline W~modelu leczonego guza \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} dodano kolejne trzy równania ró¿niczkowe opisuj¹ce tempo zmian stê¿eñ podawanych leków.
+
+\noindent \newline Równanie pi¹te okreœla zmiany stê¿enia cytostatyku w~organizmie $\dfrac{dM}{dt}$. Sk³adowa $-\gamma M$ odpowiada spadkowi stê¿enia cytostatyku na~skutek jego rozpadu, a~$\nu_{M}(t)$ to~wyra¿enie opisuj¹ce iloœæ i~czas podania cytostatyku.
+
+\noindent \newline Kolejne równanie uk³adu okreœla tempo zmian stê¿enia IL-2 w~organizmie $\dfrac{dI}{dt}$. Spadek stê¿enia IL-2 na~skutek jej rozpadu okreœla sk³adowa $-\mu_{i}L$. $-j'LI$ jest~liczb¹ komórek IL-2 wch³oniêtych przez limfocyty $T_{CD8+}$ w~chwili czasowej t, natomiast $-k'TI$, liczb¹ komórek IL-2 dezaktywowanych przez prostaglandyny w~chwili czasowej t. $\nu_{I}(t)$ to~funkcja opisuj¹ca iloœæ i~czas podania IL-2.
+
+\noindent \newline W~siódmym równaniu okreœlone jest~tempo zmian stê¿enia IFN-$\alpha$ w~organizmie $\dfrac{dI_{\alpha}}{dt}$. $-gI_{\alpha}$ okreœla spadek stê¿enia IFN-$\alpha$ na~skutek jego rozpadu, a~$\nu_{\alpha}(t)$ jest~funkcj¹ opisuj¹c¹ iloœæ i~czas podania IFN-$\alpha$.
+
+\chapter{Symulacje}
+W pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór:
+\begin{itemize}
+\item bez uwzglêdnienia procesu leczenia,
+\item z~uwzglêdnieniem leczenia wy³¹cznie metod¹ chemioterapii,
+\item z~uwzglêdnieniem leczenia wy³¹cznie metod¹ immunoterapii,
+\item z~uwzglêdnieniem leczenia skojarzonymi metodami chemioterapii i~immunoterapii.
+\end{itemize}
+
+Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez}) dla modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia} dobrano zgodnie z~literatur¹ \cite{1}. Dla~wiêkszej czytelnoœci, wielkoœæ nowotworu okreœlono równie¿ poprzez d³ugoœæ jego~promienia, przyjmuj¹c, ¿e~nowotwór ma~kszta³t zbli¿ony do~kuli, a~na~1~cm$^{3}$ przypada $10^{9}$ komórek \cite{23}.
+
+\begin{table}[!htb]
+\caption{Warunki pocz¹tkowe dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{warunki_poczatkowe_bez}
+	\centering
+	\begin{tabular}{|c|c|c|} \hline \hline
+		Wartoœæ [liczba komórek] & Rodzaj komórek & Promieñ nowotworu [mm]\\ \hline
+		$T(0) = 1 \cdot 10^{6}$ & Komórki nowotworowe & 0,62 \\ \hline
+		$N(0) = 1 \cdot 10^{5}$  & Komórki NK \\ \cline{1-2}
+		$L(0) = 1 \cdot 10^{2}$ & Limfocyty $T_{CD8+}$ \\ \cline{1-2}
+		$C(0) = 6 \cdot 10^{10}$ & Limfocyty kr¹¿¹ce \\ \cline{1-2}
+		\end{tabular}
+\end{table}
+
+\newpage
+\section{OdpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór -- brak leczenia}
+%\setlength{\parindent}{0pt}
+%\noindent % brak akapitu
+\subsection{Scenariusz I -- symulacja wykonana dla modelu nieleczonego guza}
+
+\noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego w~zale¿noœci od~pocz¹tkowej wielkoœci nowotworu (na~podstawie wielkoœci nowotworu po zadanym czasie symulacji).
+
+\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj., liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej wielkoœci nowotworu $T(0)$.
+
+\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia jak~w~tabeli \ref{parametry_modelu}.
+
+\noindent \newline \textbf{Czas symulacji:} \newline $T_{k}$ = 120 dni \newline \newline W tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono pocz¹tkow¹ liczbê komórek nowotworu $T(0)$, liczbê komórek nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.
+
+\begin{table}[!htb]
+\caption{Pocz¹tkowa liczba komórek nowotworowych $T(0)$, liczba komórek nowotworowych po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.}\label{zmiany_poczatkowej_wartosci_T}
+	\centering
+\begin{tabular}{|c|c|c|c|} \hline \hline
+		$T(0)$ & $T(120)$ & Objêtoœæ & Promieñ \\
+		$[$liczba komórek$]$ & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		$1 \cdot 10^{6}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-14}$ & $2,5 \cdot 10^{-5}$ \\ \hline
+		$2 \cdot 10^{6}$ & $8,15 \cdot 10^{-8}$ & $8,15 \cdot 10^{-14}$ & $2,7 \cdot 10^{-5}$ \\ \hline
+		$5 \cdot 10^{6}$ & $2,69 \cdot 10^{-8}$ & $2,69 \cdot 10^{-14}$ & $1,9 \cdot 10^{-5}$ \\ \hline
+		$1 \cdot 10^{7}$ & $3,44 \cdot 10^{-8}$ & $3,44 \cdot 10^{-14}$ & $2 \cdot 10^{-5}$ \\ \hline
+		$1,5 \cdot 10^{7}$ & $4,41 \cdot 10^{-8}$ & $4,41 \cdot 10^{-14}$ & $2,2 \cdot 10^{-5}$ \\ \hline
+		$1,7 \cdot 10^{7}$ & $2,96 \cdot 10^{-8}$ & $2,96 \cdot 10^{-14}$ & $1,9 \cdot 10^{-5}$ \\ \hline
+		$1,75 \cdot 10^{7}$ & $3,67 \cdot 10^{-8}$ & $3,67 \cdot 10^{-14}$ & $2,1 \cdot 10^{-5}$ \\ \hline
+		$1,8 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		$2 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		$5 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		\end{tabular}
+\end{table}
+
+Przyk³adowe zmiany liczby komórek ka¿dej z~czterech badanych populacji - komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$ przedstawiono na~poni¿szych wykresach (Rys. \ref{zmiany_liczby_kom_4_populacji}). 
+
+\begin{figure}
+\centering
+\subfloat[Zmiany liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1 \cdot 10^{6}$. Regresja nowotworu po~czasie $T_{r}$~$\approx$ 7 dni (168 godzin).]{\label{bez_lecz_stlumienie}
+\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_regresja}}
+\quad
+\subfloat[Zmiany liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.]{\label{bez_lecz_brak_stlumienia}
+\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}}
+\caption{Wykresy zmian liczby komórek badanych populacji -- komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$.}
+\label{zmiany_liczby_kom_4_populacji}
+\end{figure}
+
+Na~pierwszym wykresie (Rys. \ref{bez_lecz_stlumienie}) przedstawiono regresjê nowotworu wskutek dzia³ania uk³adu immunologicznego po~oko³o 7 dniach.
+Wykres drugi (Rys. \ref{bez_lecz_brak_stlumienia}) obrazuje przypadek, w~którym uk³ad immunologiczny nie jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+
+\newpage
+\indent Zmiany wielkoœci nowotworu otrzymane na~koniec symulacji trwaj¹cej $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~wykresie (Rys. \ref{wykres_bez_lecz_t120_t0}). 
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+	\caption{Wyniki otrzymane na~koniec symulacji, która trwa³a $T_{k}$ = 120 dni. Liczba komórek nowotworowych na~koniec symulacji $T(120)$ w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+\end{figure}
+
+\newpage
+Na~wykresie (Rys. \ref{wykres_bez_lecz_promien_t0}) pokazano zmiany d³ugoœci promienia nowotworu otrzymane na~koniec symulacji trwaj¹cej $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+	\caption{Wyniki otrzymane na~koniec symulacji, która trwa³a $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] na~koniec symulacji w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+\end{figure}
+
+Wnioski:
+\begin{itemize}
+\item zdrowy uk³ad immunologiczny jest w~stanie zniszczyæ komórki nowotworowe przy~wykorzystaniu wy³¹cznie komórek wystêpuj¹cych naturalnie w~organizmie (komórek NK, limfocytów $T_{CD8+}$, limfocytów kr¹¿¹cych) bez ingerencji dodatkowych czynników (np. leczenia);
+\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny nie jest w~stanie samoistnie pozbyæ siê nowotworu.
+\end{itemize}
+
+\newpage
+\subsection{Scenariusz II -- symulacja wykonana dla modelu nieleczonego guza}
+
+\noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego w~zale¿noœci od~pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$ (badanie stanu uk³adu immunologicznego na~podstawie wielkoœci nowotworu po zadanym czasie symulacji).
+
+\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj., liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$.
+
+\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia jak~w~tabeli \ref{parametry_modelu}.
+
+\noindent \newline \textbf{Czas symulacji:} \newline $T_{k}$ = 120 dni \newline \newline W~tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono pocz¹tkow¹ liczbê limfocytów kr¹¿¹cych $C(0)$, liczbê komórek nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.
+
+\begin{table}[!htb]
+\caption{Pocz¹tkowa liczba limfocytów kr¹¿¹cych $C(0)$, liczba komórek nowotworowych po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.}\label{zmiany_poczatkowej_wartosci_C}
+	\centering
+\begin{tabular}{|c|c|c|c|} \hline \hline
+		$C(0)$ & $T(120)$ & Objêtoœæ & Promieñ \\
+		$[$liczba komórek$]$ & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [mm] \\ \hline
+		$6 \cdot 10^{10}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-14}$ & $2,5 \cdot 10^{-5}$ \\ \hline
+		$3 \cdot 10^{10}$ & $1,69 \cdot 10^{-7}$ & $1,69 \cdot 10^{-13}$ & $3,4 \cdot 10^{-5}$ \\ \hline
+		$1 \cdot 10^{10}$ & $3,09 \cdot 10^{-8}$ & $1,33 \cdot 10^{-14}$ & $1,5 \cdot 10^{-5}$ \\ \hline
+		$6 \cdot 10^{9}$ & $4,79 \cdot 10^{-8}$ & $4,79 \cdot 10^{-14}$ & $2,3 \cdot 10^{-5}$ \\ \hline
+		$4 \cdot 10^{9}$ & $5,72 \cdot 10^{-8}$ & $5,72 \cdot 10^{-14}$ & $2,4 \cdot 10^{-5}$ \\ \hline
+		$3,5 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		$3 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		$1 \cdot 10^{9}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		$6 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		$3 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		\end{tabular}
+\end{table}
+
+Zmiany liczby komórek badanych populacji - komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$ przedstawiono na~wykresach (Rys. \ref{zmiany_liczby_kom_4_populacjiC}).
+
+\begin{figure}
+\centering
+\subfloat[Zmiany liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$. Regresja nowotworu po~czasie $T_{r}$~$\approx$ 7 dni (168 godzin).]{\label{bez_lecz_stlumienieC}
+\includegraphics[width=0.85\textwidth]{bez_lecz_sym2_regresja}}
+\quad
+\subfloat[Zmiany liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0) = 3,5 \cdot 10^{9}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 28 dni (672 godziny) oko³o wartosci $9,8 \cdot 10^{8}$.]{\label{bez_lecz_brak_stlumieniaC}
+\includegraphics[width=0.85\textwidth]{bez_lecz_sym2_progres}}
+\caption{Wykresy zmian liczby komórek badanych populacji -- komórek nowotworowych $T(t)$, komórek NK $N(t)$, limfocytów $T_{CD8+}$ $L(t)$ i~limfocytów kr¹¿¹cych $C(t)$.}
+\label{zmiany_liczby_kom_4_populacjiC}
+\end{figure}
+
+\newpage
+Na~pierwszym z~nich (Rys. \ref{bez_lecz_stlumienieC}) przedstawiono regresjê nowotworu wskutek dzia³ania odpowiednio silnego uk³adu immunologicznego po~oko³o 7 dniach. Na~drugim wykresie (Rys. \ref{bez_lecz_brak_stlumieniaC}) liczba komórek nowotworowych stabilizuje siê po~28 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$). Uk³ad immunologiczny ze wzglêdu na~zmniejszon¹ liczbê kr¹¿¹cych limfocytów jest zbyt s³aby, by zniszczyæ komórki nowotworu.
+\newline \newline \indent Zmiany wielkoœci nowotworu otrzymane na~koniec symulacji trwaj¹cej $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$ przedstawiono na~wykresie (Rys. \ref{wykres_bez_lecz_t120_c0}). 
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_c0}
+	\caption{Wyniki otrzymane na~koniec symulacji, która trwa³a $T_{k}$ = 120 dni. Liczba komórek nowotworowych na~koniec symulacji $T(120)$ w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$.}\label{wykres_bez_lecz_t120_c0} 
+\end{figure}
+
+\newpage
+Na~wykresie (Rys. \ref{wykres_bez_lecz_promien_c0}) pokazano zmiany d³ugoœci promienia nowotworu otrzymane na~koniec symulacji trwaj¹cej $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$.
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_c0}
+	\caption{Wyniki otrzymane na~koniec symulacji, która trwa³a $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] na~koniec symulacji w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$.}\label{wykres_bez_lecz_promien_c0} 
+\end{figure}
+
+Wnioski:
+\begin{itemize}
+\item przy~odpowiednio du¿ej liczbie kr¹¿¹cych limfocytów ($C(0) \approx 4 \cdot 10^{9}$) uk³ad immunologiczny jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji zewnêtrznych czynników (np. leczenia),
+\item przy~zbyt ma³ej liczbie kr¹¿¹cych limfocytów (z³y stan uk³adu immunologicznego) organizm nie jest w~stanie zniszczyæ komórek nowotworowych.
+\end{itemize} 
+
+\newpage
+\section{Leczenie metod¹ chemioterapii}
+\section{Leczenie metod¹ immunoterapii}
+\section{Po³¹czenie metod chemioterapii i~immunoterapii}
+
+\chapter{Rezultaty}
+\chapter{Analiza wyników}
+\chapter{Podsumowanie}
 
 %nowe
 %Nowo odkryta odmiana limfocytów T...
