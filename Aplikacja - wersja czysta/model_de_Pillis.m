@@ -29,10 +29,13 @@ r2 = 6.5e-11;
 u = 3e-10;
 gamma = 9e-1;
 mi_I = 1e1;
-p_I = 7e3; %%%%%%%%%%tu zmiana
+p_I = 9e3; %%%%%%%%%%tu zmiana
 %p_I = 1.25e-1;
 %p_I=1.25e3;
 g_I = 2e7;
+
+j_prim = 3.3e-9;
+k_prim = 1.8e-8;
 
     switch pacjent
         case 9
