@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long
 
-metoda_leczenia = 3;
+metoda_leczenia = 4;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
@@ -59,7 +59,7 @@ switch metoda_leczenia
         
     case 5  % immunoterapia regresja
             % rys. 9 w artykule
-        T_0 = 1e6;  %2e6
+        T_0 = 2e6;
         N_0 = 1e3;
         L_0 = 1e1;
         C_0 = 6e8;
@@ -67,7 +67,7 @@ switch metoda_leczenia
        
     case 6  % immunoterapia rozwoj
             % rys. 9 w artykule
-        T_0 = 1e7;  %2e7
+        T_0 = 2e7;
         N_0 = 1e3;
         L_0 = 1e1;
         C_0 = 6e8;
