@@ -1,21 +1,18 @@
 function rownania = model_de_Pillis(t, x)
 
+%% wartoœci pocz¹tkowe
 T = x(1);
 N = x(2);
 L = x(3);
 C = x(4);
 M = x(5);
 I = x(6);
-Ialfa = x(7);
-liczba_dni_w_cyklu = x(8);
+
+liczba_dni_w_cyklu = x(7);
+metoda_leczenia = x(8);
 pacjent = x(9);
-metoda_leczenia = x(10);
 
-V_M = 0;
-V_L = 0;
-V_I = 0;
-
-% ustawienie parametrów
+%% wartoœci parametrów
 a = 4.31e-1;
 b = 1.02e-9;
 c = 6.41e-11;
@@ -27,15 +24,12 @@ jj = 2.49e-2;
 r1 = 1.1e-7;
 r2 = 6.5e-11;
 u = 3e-10;
-gamma = 9e-1;
-mi_I = 1e1;
-p_I = 9e3; %%%%%%%%%%tu zmiana
-%p_I = 1.25e-1;
-%p_I=1.25e3;
-g_I = 2e7;
 
-j_prim = 3.3e-9;
-k_prim = 1.8e-8;
+gamma = 9e-1;
+
+p_I = 9e3; %p_I = 1.25e-1; %p_I = 1.25e3;
+g_I = 2e7;
+mi_I = 1e1;
 
     switch pacjent
         case 9
@@ -46,8 +40,10 @@ k_prim = 1.8e-8;
             q = 1.42e-6;
             p = 3.42e-6;
             s = 8.39e-2;
+
             alfa = 7.5e8;
             beta = 1.2e-2;
+
         case 10
             d = 1.88;
             l = 1.81;
@@ -56,58 +52,45 @@ k_prim = 1.8e-8;
             q = 1.59e-6;
             p = 3.59e-6;
             s = 5.12e-1;
+
             alfa = 5e8;
             beta = 8e-3;
     end
 
-% parametry dla chemioterapii
+%% leczenie
+
+V_L = 0; % liczba TIL tumor infiltrating lymphocytes = limfocyty TCD8+
+V_M = 0; % iloœæ cytostatyku
+V_I = 0; % iloœæ IL-2
+
+%% chemioterapia
+% parametry
 K_T = 9e-1;
 K_N = 6e-1;
 K_L = 6e-1;
 K_C = 6e-1;
 
-% funkcja stê¿enia cytostatyku
+% podanie cytostatyku
     if(metoda_leczenia == 3 || metoda_leczenia == 4 || metoda_leczenia == 7)
-        if(t >= 0 && t <= 1 || t >= liczba_dni_w_cyklu && t <= liczba_dni_w_cyklu+1 ...
-                || t >= 2*liczba_dni_w_cyklu && t <= (2*liczba_dni_w_cyklu)+1 ...
-                || t >= 3*liczba_dni_w_cyklu && t <= (3*liczba_dni_w_cyklu)+1 ...
-                || t >= 4*liczba_dni_w_cyklu && t <= (4*liczba_dni_w_cyklu)+1 ...
-                || t >= 5*liczba_dni_w_cyklu && t <= (5*liczba_dni_w_cyklu)+1 ...
-                || t >= 6*liczba_dni_w_cyklu && t <= (6*liczba_dni_w_cyklu)+1 ...
-                || t >= 7*liczba_dni_w_cyklu && t <= (7*liczba_dni_w_cyklu)+1 ...
-                || t >= 8*liczba_dni_w_cyklu && t <= (8*liczba_dni_w_cyklu)+1)
-            V_M = 5;
-        end
+        
+        V_M = podaj_cytostatyk(t, liczba_dni_w_cyklu);
+        
     end
     
-% funkcja stê¿enia TIL
+% podanie TIL
     if(metoda_leczenia == 5 || metoda_leczenia == 6 || metoda_leczenia == 7)
-        if(t >= 7 && t < 8)
-            V_L = 1e9;
-        end
+      
+        V_L = podaj_TIL(t, 7, 8);
 
-% funkcja stê¿enia interleukiny-2
-        if(t >= 8 && t <= 8.3 || t >= 8.5 && t <= 8.8 ...
-                || t >= 9 && t <= 9.3 || t >= 9.5 && t <= 9.8 ...
-                || t >= 10 && t <= 10.3 || t >= 10.5 && t <= 10.8)
-        %         ...
-        %             || t >= 20 && t <= 20.5 || t >= 21 && t <= 21.5 ...
-        %             || t >= 22 && t <= 22.5 || t >= 23 && t <= 23.5 ...
-        %             || t >= 24 && t <= 24.5 || t >= 80 && t <= 80.5 ...
-        %             || t >= 81 && t <= 81.5 || t >= 82 && t <= 82.5 ...
-        %             || t >= 83 && t <= 83.5 || t >= 84 && t <= 84.5 ...
-        %             || t >= 85 && t <= 85.5 || t >= 86 && t <= 86.5 ...
-        %             || t >= 87 && t <= 87.5 || t >= 88 && t <= 88.5 ...
-        %             || t >= 89 && t <= 89.5)
+% podanie IL-2
+       
+        V_I = podaj_IL2(t, 8, 0.3, 0.2);
 
-        % V_I = 2e7; % tu wychodzi dobry wykres w 7 przypadku
-         V_I = 5e6;
-        end
     end
 
-D = licz_D(d, L, T, s, l);
+    D = licz_D(d, L, T, s, l);
 
-% równania modelu
+%% równania modelu
 dTdt = (a * T *(1 - (b * T))) - (c * N * T) - ...
     (D * T) - (K_T * (1 - (exp(-M))) * T);
 dNdt = (e * C) - (f * N) + (g * ((T^2) / (h + (T^2))) * N) - ...
@@ -119,8 +102,7 @@ dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / ...
 dCdt = alfa - (beta * C) - (K_C * (1 - (exp(-M))) * C);
 dMdt = (-gamma * M) + V_M;
 dIdt = (-mi_I * I) + V_I;
-dIalfadt = Ialfa;
 
-rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; dIalfadt; 0; 0; 0];
+rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; 0; 0; 0];
 end
 
