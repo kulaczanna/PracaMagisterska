@@ -14,8 +14,6 @@ metoda_leczenia = x(10);
 V_M = 0;
 V_L = 0;
 V_I = 0;
-V_alfa = 0;
-Ialfa_0 = 1e7;
 
 % ustawienie parametrów
 a = 4.31e-1;
@@ -31,16 +29,13 @@ r2 = 6.5e-11;
 u = 3e-10;
 gamma = 9e-1;
 mi_I = 1e1;
-p_I = 7e3; %%%%%%%%%%tu zmiana
+p_I = 9e3; %%%%%%%%%%tu zmiana
 %p_I = 1.25e-1;
 %p_I=1.25e3;
 g_I = 2e7;
 
 j_prim = 3.3e-9;
 k_prim = 1.8e-8;
-
-g_prim = 1.7;
-c_CTL = 4.4e-9;
 
     switch pacjent
         case 9
@@ -71,7 +66,6 @@ K_N = 6e-1;
 K_L = 6e-1;
 K_C = 6e-1;
 
-%% chemioterapia
 % funkcja stê¿enia cytostatyku
     if(metoda_leczenia == 3 || metoda_leczenia == 4 || metoda_leczenia == 7)
         if(t >= 0 && t <= 1 || t >= liczba_dni_w_cyklu && t <= liczba_dni_w_cyklu+1 ...
@@ -86,20 +80,16 @@ K_C = 6e-1;
         end
     end
     
-%% immunoterapia  
-   
-if(metoda_leczenia == 5 || metoda_leczenia == 6 || metoda_leczenia == 7 || metoda_leczenia == 8)
-        
 % funkcja stê¿enia TIL
-        if(t >= 6 && t < 7)
+    if(metoda_leczenia == 5 || metoda_leczenia == 6 || metoda_leczenia == 7)
+        if(t >= 7 && t < 8)
             V_L = 1e9;
         end
 
 % funkcja stê¿enia interleukiny-2
         if(t >= 8 && t <= 8.3 || t >= 8.5 && t <= 8.8 ...
                 || t >= 9 && t <= 9.3 || t >= 9.5 && t <= 9.8 ...
-                || t >= 10 && t <= 10.3 || t >= 10.5 && t <= 10.8 ...
-                || t >= 11 && t <= 11.3 || t >= 11.5 && t <= 11.8)
+                || t >= 10 && t <= 10.3 || t >= 10.5 && t <= 10.8)
         %         ...
         %             || t >= 20 && t <= 20.5 || t >= 21 && t <= 21.5 ...
         %             || t >= 22 && t <= 22.5 || t >= 23 && t <= 23.5 ...
@@ -113,33 +103,23 @@ if(metoda_leczenia == 5 || metoda_leczenia == 6 || metoda_leczenia == 7 || metod
         % V_I = 2e7; % tu wychodzi dobry wykres w 7 przypadku
          V_I = 5e6;
         end
-    
-% funkcja stê¿enia IFN-alfa
-    if(metoda_leczenia == 8)
-        if(t >= 0 && t <= 4 || t >= liczba_dni_w_cyklu && t <= liczba_dni_w_cyklu+4 ...
-                || t >= 2*liczba_dni_w_cyklu && t <= (2*liczba_dni_w_cyklu)+4 ...
-                || t >= 3*liczba_dni_w_cyklu && t <= (3*liczba_dni_w_cyklu)+4)
-            V_alfa = 5e6;
-        end
     end
-end
 
 D = licz_D(d, L, T, s, l);
-c_prim = licz_c_prim(c_CTL, Ialfa, Ialfa_0);
 
 % równania modelu
 dTdt = (a * T *(1 - (b * T))) - (c * N * T) - ...
-    (D * T) - (K_T * (1 - (exp(-M))) * T) - (c_prim * T * L);
+    (D * T) - (K_T * (1 - (exp(-M))) * T);
 dNdt = (e * C) - (f * N) + (g * ((T^2) / (h + (T^2))) * N) - ...
     (p * N * T) - (K_N * (1 - (exp(-M))) * N);
 dLdt = ((-m) * L) + (jj * ((D^2 * T^2) / ...
     (k + (D^2 * T^2))) * L) - (q * L * T) + ...
     (((r1 * N) + (r2 * C)) * T) - (u * N * (L^2)) - ...
-    (K_L * (1 - (exp(-M))) * L) + ((p_I * L * I) / g_I) + V_L;
+    (K_L * (1 - (exp(-M))) * L) + ((p_I * L * I) / (g_I + I)) + V_L;
 dCdt = alfa - (beta * C) - (K_C * (1 - (exp(-M))) * C);
 dMdt = (-gamma * M) + V_M;
-dIdt = (-mi_I * I) - (j_prim * L * I) - (k_prim * T * I) + V_I;
-dIalfadt = V_alfa - g_prim * Ialfa;
+dIdt = (-mi_I * I) + V_I;
+dIalfadt = Ialfa;
 
 rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; dIalfadt; 0; 0; 0];
 end

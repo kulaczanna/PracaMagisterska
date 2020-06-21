@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long
 
-metoda_leczenia = 8;
+metoda_leczenia = 7;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
@@ -81,14 +81,6 @@ switch metoda_leczenia
         C_0 = 6e8;
         liczba_dni_w_cyklu = 10;
 %         model = @model_de_Pillis_biochemiotherapy;
-
- case 8  % IFN-alfa Il2 i TIL
-            % rys. 10 w artykule
-        T_0 = 2e7;
-        N_0 = 1e5;
-        L_0 = 1e2;
-        C_0 = 6e10;
-        liczba_dni_w_cyklu = 10;
 end
 
 x = [T_0; N_0; L_0; C_0; M_0; I_0; Ialfa_0; liczba_dni_w_cyklu; pacjent; metoda_leczenia]; % parametry wejœciowe  uk³adu równañ
