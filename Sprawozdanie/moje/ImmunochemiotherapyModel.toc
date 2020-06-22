@@ -5,33 +5,34 @@
 \contentsline {chapter}{\numberline {2.}Wst\k ep}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Procesy nowotworowe}{3}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Budowa uk\IeC {\l }adu immunologicznego i\nobreakspace {}jego znaczenie w\nobreakspace {}procesie leczenia nowotwor\'ow}{5}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Limfocyty typu T}{7}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Kom\'orki NK}{10}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Interferony}{11}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Interleukiny}{13}{subsection.2.2.4}%
-\contentsline {chapter}{\numberline {3.}Leczenie nowotwor\'ow}{16}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Chemioterapia}{16}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Immunoterapia}{18}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Nieswoista bierna immunoterapia}{20}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Swoista bierna immunoterapia}{20}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Nieswoista czynna immunoterapia}{20}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Swoista czynna immunoterapia}{21}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Leczenie skojarzone}{21}{section.3.3}%
-\contentsline {chapter}{\numberline {4.}Model matematyczny}{23}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Model nieuwzgl\k edniaj\k acy procesu leczenia}{23}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Za\IeC {\l }o\.zenia modelu}{24}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}R\'ownania i opis modelu}{25}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Model uwzgl\k edniaj\k acy proces leczenia}{26}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}R\'ownania i opis modelu}{26}{subsection.4.2.1}%
-\contentsline {chapter}{\numberline {5.}Symulacje}{31}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Odpowied\'z uk\IeC {\l }adu immunologicznego na\nobreakspace {}rozwijaj\k acy si\k e w\nobreakspace {}organizmie nowotw\'or -- brak leczenia}{32}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Scenariusz I -- symulacja wykonana dla modelu nieleczonego guza}{32}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Scenariusz II -- symulacja wykonana dla modelu nieleczonego guza}{37}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Leczenie metod\k a chemioterapii}{41}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Leczenie metod\k a immunoterapii}{41}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii}{41}{section.5.4}%
-\contentsline {chapter}{\numberline {6.}Rezultaty}{42}{chapter.6}%
-\contentsline {chapter}{\numberline {7.}Analiza wynik\'ow}{43}{chapter.7}%
-\contentsline {chapter}{\numberline {8.}Podsumowanie}{44}{chapter.8}%
-\contentsline {chapter}{\numberline {9.}Dodatek}{49}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Tabela skr\'ot\'ow}{49}{section.9.1}%
+\contentsline {subsection}{\numberline {2.2.1}Kom\'orki NK}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Limfocyty typu T}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Interleukiny}{11}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {3.}Leczenie nowotwor\'ow}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Chemioterapia}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Immunoterapia}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Nieswoista bierna immunoterapia}{18}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Swoista bierna immunoterapia}{18}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Nieswoista czynna immunoterapia}{18}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Swoista czynna immunoterapia}{19}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Leczenie skojarzone}{19}{section.3.3}%
+\contentsline {chapter}{\numberline {4.}Model matematyczny}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Model nieuwzgl\k edniaj\k acy procesu leczenia}{21}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Za\IeC {\l }o\.zenia modelu}{22}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}R\'ownania i opis modelu}{23}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Model uwzgl\k edniaj\k acy proces leczenia}{25}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}R\'ownania i opis modelu}{25}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {5.}Symulacje}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Odpowied\'z uk\IeC {\l }adu immunologicznego na\nobreakspace {}rozwijaj\k acy si\k e w\nobreakspace {}organizmie nowotw\'or -- brak leczenia}{30}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Scenariusz I -- symulacja wykonana dla modelu nieleczonego guza}{30}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Scenariusz II -- symulacja wykonana dla modelu nieleczonego guza}{35}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Leczenie metod\k a chemioterapii}{39}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Leczenie metod\k a immunoterapii}{39}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii}{39}{section.5.4}%
+\contentsline {chapter}{\numberline {6.}Rezultaty}{40}{chapter.6}%
+\contentsline {chapter}{\numberline {7.}Analiza wynik\'ow}{41}{chapter.7}%
+\contentsline {chapter}{\numberline {8.}Podsumowanie}{42}{chapter.8}%
+\contentsline {chapter}{\numberline {9.}Rozw\'oj}{43}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Interferony}{43}{section.9.1}%
+\contentsline {chapter}{\numberline {10.}Dodatek}{50}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Tabela skr\'ot\'ow}{50}{section.10.1}%
