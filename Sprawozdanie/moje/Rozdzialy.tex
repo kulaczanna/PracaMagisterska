@@ -635,30 +635,59 @@ Równanie czwarte okreœla tempo zmian liczebnoœci populacji limfocytów kr¹¿¹cych 
 \begin{table}[h]
 \caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{parametry_modelu}
 	\centering
-	\begin{tabular}{|c|c|c|p{0.47\linewidth}|} \hline \hline
-		Nazwa & Wartoœæ & Jednostka & Opis  \\ \hline
-		a & $4,31 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo wzrostu nowotworu \\ \hline
-		b & $1,02 \cdot 10^{-9}$ & komórka$^{-1}$ & Odwrotnoœæ pojemnoœci œrodowiska \\ \hline
-		c & $6,41 \cdot 10^{-11}$ & dzieñ$^{-1} \cdot$ komórka$ ^{-1}$ & Liczba komórek nowotworu zabita przez komórki NK \\ \hline
-		d & $2,34$ &  dzieñ$^{-1}$ & Wspó³czynnik si³y uk³adu odpornoœciowego \\ \hline
-		e & $2,08 \cdot 10^{-7}$ & dzieñ$^{-1}$ & Liczba kr¹¿¹cych limfocytów, które sta³y siê komórkami NK \\ \hline
-		l & $2,9$ & bezwymiarowe & Wspó³czynnik skalowania si³y uk³adu odpornoœciowego \\ \hline
-		f & $4,12 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Tempo wyniszczania komórek NK \\ \hline
-		g & $1,25 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Maksymalna liczba komórek NK wytwarzanych na~skutek obecnoœci komórek nowotworowych \\ \hline
-		h & $2,02 \cdot 10^{7}$ & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji komórek NK \\ \hline
-		j & $2,49 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Maksymalne tempo rekrutacji limfocytów $T_{CD8+}$ \\ \hline
-		k & $3,66 \cdot 10^{7}$ & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji limfocytów $T_{CD8+}$ \\ \hline
-		m & $2,04 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo wyniszczania limfocytów $T_{CD8+}$ \\ \hline
-		q & $1,42 \cdot 10^{-6}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji limfocytów $T_{CD8+}$ przez komórki nowotworu \\ \hline
-		p & $3,42 \cdot 10^{-6}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji komórek NK przez komórki nowotworu \\ \hline
-		s & $8,39 \cdot 10^{-2}$ & bezwymiarowe & Wartoœæ ${(\frac{L}{T})}^{l}$ konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci cytotoksycznoœci limfocytów $T_{CD8+}$\\ \hline
-		$r_{1}$ & $1,1 \cdot 10^{-7}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat niszczenia komórek nowotworowych przez komórki NK \\ \hline
-		$r_{2}$ & $6,5 \cdot 10^{-11}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat interakcji komórek  nowotworowych z~kr¹¿¹cymi limfocytami \\ \hline
-		u & $3 \cdot 10^{-10}$ & komórka$^{-2} \cdot$ dzieñ$^{-1}$ &  Wspó³czynnik Funkcji regulacyjnej limfocytów $T_{CD8+}$ nadzorowanej przez komórki NK\\ \hline
-		$\alpha$ & $7,5 \cdot 10^{8}$ & komórka $\cdot$ dzieñ$^{-1}$ &  Sta³a liczba kr¹¿¹cych limfocytów\\ \hline
-		$\beta$ & $1,2 \cdot 10^{-2}$ & dzieñ$^{-1}$ & Tempo wyniszczania kr¹¿¹cych limfocytów\\ \hline
+	\begin{tabular}{|c|c|p{0.65\linewidth}|} \hline \hline
+		Nazwa & Jednostka & Opis  \\ \hline
+		a & dzieñ$^{-1}$ & Tempo wzrostu nowotworu \\ \hline
+		b & komórka$^{-1}$ & Odwrotnoœæ pojemnoœci œrodowiska \\ \hline
+		c & dzieñ$^{-1} \cdot$ komórka$ ^{-1}$ & Minimalna liczba komórek nowotworu zabita przez komórki NK \\ \hline
+		d & dzieñ$^{-1}$ & Wspó³czynnik skutecznoœci zabijania komórek nowotworowych przez limfocyty $T_{CD8+}$ \\ \hline
+		e & dzieñ$^{-1}$ & Liczba komórek NK wyodrêbnionych z limfocytów kr¹¿¹cych \\ \hline
+		l & bezwymiarowe & Wspó³czynnik skalowania skutecznoœci uk³adu odpornoœciowego \\ \hline
+		f & dzieñ$^{-1}$ & Œmiertelnoœæ komórek NK \\ \hline
+		g & dzieñ$^{-1}$ & Maksymalna liczba komórek NK wytwarzanych na~skutek obecnoœci komórek nowotworowych \\ \hline
+		h & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji komórek NK \\ \hline
+		j & dzieñ$^{-1}$ & Maksymalna liczba limfocytów $T_{CD8+}$ wytwarzanych na skutek obecnoœci komórek nowotworowych \\ \hline
+		k & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji limfocytów $T_{CD8+}$ \\ \hline
+		m & dzieñ$^{-1}$ & Œmiertelnoœæ limfocytów $T_{CD8+}$ \\ \hline
+		q & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji limfocytów $T_{CD8+}$ przez komórki nowotworu \\ \hline
+		p & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji komórek NK przez komórki nowotworu \\ \hline
+		s & bezwymiarowe & Wartoœæ ${(\frac{L}{T})}^{l}$ konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci cytotoksycznoœci limfocytów $T_{CD8+}$\\ \hline
+		$r_{1}$ & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat niszczenia komórek nowotworowych przez komórki NK \\ \hline
+		$r_{2}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo stymulacji wytwarzania limfocytów $T_{CD8+}$ jako rezultat interakcji komórek  nowotworowych z~kr¹¿¹cymi limfocytami \\ \hline
+		u & komórka$^{-2} \cdot$ dzieñ$^{-1}$ &  Wspó³czynnik funkcji komórek NK reguluj¹cej limfocyty $T_{CD8+}$ \\ \hline
+		$\alpha$ & komórka $\cdot$ dzieñ$^{-1}$ &  Sta³a liczba kr¹¿¹cych limfocytów\\ \hline
+		$\beta$ & dzieñ$^{-1}$ & Tempo wyniszczania kr¹¿¹cych limfocytów\\ \hline
 		\end{tabular}
 \end{table}
+
+%\begin{table}[h]
+%\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu}
+%	\centering
+%	\begin{tabular}{|c|c|c|p{0.65\linewidth}|} \hline \hline
+%		Nazwa & \multicolumn{3}{|c|}{Wartoœæ}  \\ \cline{2-4}
+%		 & Pacjent 1 & Pacjent 2 & Pacjent 3  \\ \hline
+%		a & $4,31 \cdot 10^{-1}$ & $4,31 \cdot 10^{-1}$ & \\ \hline
+%		b & $1,02 \cdot 10^{-9}$ & $1,02 \cdot 10^{-9}$ & \\ \hline
+%		c & $6,41 \cdot 10^{-11}$ & $6,41 \cdot 10^{-11}$ & \\ \hline
+%		d & $2,34$ & $1,88$ & \\ \hline
+%		e & $2,08 \cdot 10^{-7}$ & $2,08 \cdot 10^{-7}$ & \\ \hline
+%		l & $2,09$ & $1,81$ & \\ \hline
+%		f & $4,12 \cdot 10^{-2}$ & $4,12 \cdot 10^{-2}$ & \\ \hline
+%		g & $1,25 \cdot 10^{-2}$ & $1,25 \cdot 10^{-2}$ & \\ \hline
+%		h & $2,02 \cdot 10^{7}$ & $2,02 \cdot 10^{7}$ & \\ \hline
+%		j & $2,49 \cdot 10^{-2}$ & $2,49 \cdot 10^{-2}$ & \\ \hline
+%		k & $3,66 \cdot 10^{7}$ & $5,66 \cdot 10^{7}$ & \\ \hline
+%		m & $2,04 \cdot 10^{-1}$ & $9,12$ & \\ \hline
+%		q & $1,42 \cdot 10^{-6}$ & $1,59 \cdot 10^{-6}$ & \\ \hline
+%		p & $3,42 \cdot 10^{-6}$ & $3,59 \cdot 10^{-6}$ & \\ \hline
+%		s & $8,39 \cdot 10^{-2}$ & $5,12 \cdot 10^{-1}$ & \\ \hline
+%		$r_{1}$ & $1,1 \cdot 10^{-7}$ & $1,1 \cdot 10^{-7}$ & \\ \hline
+%		$r_{2}$ & $6,5 \cdot 10^{-11}$ & $6,5 \cdot 10^{-11}$ & \\ \hline
+%		u & $3 \cdot 10^{-10}$ & $3 \cdot 10^{-10}$ & \\ \hline
+%		$\alpha$ & $7,5 \cdot 10^{8}$ & $5 \cdot 10^{8}$ & \\ \hline
+%		$\beta$ & $1,2 \cdot 10^{-2}$ & $8 \cdot 10^{-3}$ & \\ \hline
+%		\end{tabular}
+%\end{table}
 
 \section{Model uwzglêdniaj¹cy proces leczenia}
 
@@ -694,18 +723,35 @@ gdzie:
 \begin{table}[!h]
 \caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z}
 	\centering
-	\begin{tabular}{|c|c|c|p{0.49\linewidth}|} \hline 
-		$\gamma$ & $9 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Tempo rozpadu leku chemioterapeutycznego \\ \hline
-		$p_{i}$ & $1,25 \cdot 10^{-1}$ & dzieñ$^{-1}$ & Maksymalne tempo rekrutacji limfocytów $T_{CD8+}$ przez interleukiny-2 \\ \hline
-		$g_{i}$ & $2 \cdot 10^{2}$ & komórka$^{2}$ & Wartoœæ stê¿enia interleukiny-2 konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci aktywnoœci cytolitycznej limfocytów $T_{CD8+}$ \\ \hline
-		$\mu_{i}$ & $1 \cdot 10^{1}$ & dzieñ$^{-1}$ & Tempo rozpadu interleukiny-2 (leku) \\ \hline
-		$C_{CTL}$ & $4,4 \cdot 10^{-9}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo dezaktywacji nowotworu przez limfocyty $T_{CD8+}$ \\ \hline
-		g' & $1,7$ & dzieñ$^{-1}$ & Tempo rozpadu terapeutycznego interferonu-$\alpha$\\ \hline
-		j' & $3,3 \cdot 10^{-9}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Tempo wch³aniania interleukiny-2 przez limfocyty $T_{CD8+}$ \\ \hline
-		k' & $1,8 \cdot 10^{-8}$ & komórka$^{-1} \cdot$ dzieñ$^{-1}$ & Dezaktywacja moleku³ interleukiny-2 przez prostaglandyny \\ \hline
-		\multicolumn{2}{|l|}{$I_{\alpha 0}$} & jednostki & Pocz¹tkowa iloœæ interferonu-$\alpha$ \\ \hline		
+	\begin{tabular}{|c|c|p{0.65\linewidth}|} \hline \hline
+	    Nazwa  & Jednostka & Opis \\ \hline
+		$\gamma$ & dzieñ$^{-1}$ & Tempo rozpadu leku chemioterapeutycznego \\ \hline
+		$K_{T}$ & dzieñ$^{-1}$ & U³amek komórek nowotworowych zniszczonych poprzez dzia³anie cytostatyka \\ \hline
+		$K_{N}$ & dzieñ$^{-1}$ & U³amek komórek NK zniszczonych poprzez dzia³anie cytostatyka \\ \hline
+		$K_{L}$ & dzieñ$^{-1}$ & U³amek limfocytów $T_{CD8+}$ zniszczonych poprzez dzia³anie cytostatyka \\ \hline
+		$K_{C}$ & dzieñ$^{-1}$ & U³amek limfocytów kr¹¿¹cych zniszczonych poprzez dzia³anie cytostatyka \\ \hline
+		$p_{I}$ & dzieñ$^{-1}$ & Maksymalna liczba limfocytów $T_{CD8+}$ wytwarzanych na skutek obecnoœci IL-2 \\ \hline
+		$g_{I}$ & komórka$^{2}$ & Wartoœæ stê¿enia interleukiny-2 konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci aktywnoœci cytolitycznej limfocytów $T_{CD8+}$ \\ \hline
+		$\mu_{I}$ & dzieñ$^{-1}$ & Tempo rozpadu interleukiny-2 (leku) \\ \hline	
 	\end{tabular}
 \end{table}
+
+%\begin{table}[!h]
+%\caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z}
+%	\centering
+%	\begin{tabular}{|c|c|c|p{0.65\linewidth}|} \hline \hline
+%		Nazwa & Wartoœæ \\ \cline{2-2}
+%	     & Pacjent 1, 2, 3 \\ \hline
+%		$\gamma$ & $9 \cdot 10^{-1}$ \\ \hline
+%		$K_{T}$ & $9 \cdot 10^{-1}$ \\ \hline
+%		$K_{N}$ & $6 \cdot 10^{-1}$ \\ \hline
+%		$K_{L}$ & $6 \cdot 10^{-1}$ \\ \hline
+%		$K_{C}$ & $6 \cdot 10^{-1}$ \\ \hline
+%		$p_{I}$ & $9 \cdot 10^{3}$ \\ \hline
+%		$g_{I}$ & $2 \cdot 10^{7}$ \\ \hline
+%		$\mu_{I}$ & $1 \cdot 10^{1}$ \\ \hline	
+%	\end{tabular}
+%\end{table}
 
 \noindent
 W~odró¿nieniu od~modelu \ref{równania_modelu_pillis_i_isaeva_bez_leczenia}, w~modelu \ref{równania_modelu_pillis_i_isaeva_z_leczeniem} wystêpuj¹ dwa dodatkowe równania odnosz¹ce siê do~tempa zmian stê¿enia cytostatyka $\dfrac{dM}{dt}$ oraz IL-2 $\dfrac{dI}{dt}$ w~organizmie.
