@@ -17,11 +17,11 @@
 \contentsline {subsection}{\numberline {3.2.4}Swoista czynna immunoterapia}{19}{subsection.3.2.4}%
 \contentsline {section}{\numberline {3.3}Leczenie skojarzone}{19}{section.3.3}%
 \contentsline {chapter}{\numberline {4.}Model matematyczny}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Model nieuwzgl\k edniaj\k acy procesu leczenia}{21}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Za\IeC {\l }o\.zenia modelu}{22}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}R\'ownania i opis modelu}{23}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Model uwzgl\k edniaj\k acy proces leczenia}{25}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}R\'ownania i opis modelu}{25}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.1}Za\IeC {\l }o\.zenia modelu}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Model nieuwzgl\k edniaj\k acy procesu leczenia}{23}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}R\'ownania i opis modelu}{23}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Model uwzgl\k edniaj\k acy proces leczenia}{26}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}R\'ownania i opis modelu}{26}{subsection.4.3.1}%
 \contentsline {chapter}{\numberline {5.}Symulacje}{29}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Odpowied\'z uk\IeC {\l }adu immunologicznego na\nobreakspace {}rozwijaj\k acy si\k e w\nobreakspace {}organizmie nowotw\'or -- brak leczenia}{30}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Scenariusz I -- symulacja wykonana dla modelu nieleczonego guza}{30}{subsection.5.1.1}%

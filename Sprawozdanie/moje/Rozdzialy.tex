@@ -501,9 +501,9 @@ W tej pracy omawiany jest przypadek leczenia skojarzon¹ metod¹ chemioterapii i~i
 
 Model matematyczny wykorzystany w~pracy to~model de Pillis \cite{19}. Zosta³ on zaimplementowany przy pomocy programu MATLAB w wersji R2020a.
 
-\section{Model nieuwzglêdniaj¹cy procesu leczenia}
+\section{Za³o¿enia modelu} \label{zalozenia}
 
-W~pierwszym etapie rozwa¿ymy model bez uwzglêdnienia procesu leczenia, który obejmuje cztery populacje komórek, tj.:
+W~pierwszym etapie rozwa¿amy model \cite{19} bez uwzglêdnienia procesu leczenia, który obejmuje cztery populacje komórek, tj.:
 \begin{itemize}
 \item $\mathcal{T}$ -- populacjê komórek nowotworowych,
 \item $\mathcal{N}$ -- populacjê komórek NK,
@@ -511,13 +511,13 @@ W~pierwszym etapie rozwa¿ymy model bez uwzglêdnienia procesu leczenia, który obe
 \item $\mathcal{C}$ -- populacjê limfocytów kr¹¿¹cych,
 \end{itemize}
 
-W drugim etapie model zostaje poddany modyfikacji, uwzglêdnia proces leczenia i~dodatkowo badane s¹ zmiany stê¿enia w~czasie dwóch podawanych leków:
+W drugim etapie rozwa¿any jest model \cite{19} uwzglêdniaj¹cy proces leczenia i~dodatkowo badane s¹ zmiany stê¿enia w~czasie podawanych leków:
 \begin{itemize}
 \item $M(t)$ -- funkcja stê¿enia cytostatyka u¿ytego w~chemioterapii w~czasie,
-\item $I(t)$ -- funkcja stê¿enia interleukin-2 w~czasie.
+\item $I(t)$ -- funkcja stê¿enia interleukin-2 u¿ytych w immunoterapii w~czasie.
 \end{itemize}
 
-W równaniach modelu przed~modyfikacj¹ uwzglêdniono takie czynniki, jak:
+W równaniach modelu w pierwszym etapie uwzglêdniono takie czynniki, jak:
 \begin{itemize}
 \item naturalny rozwój i~œmieræ komórek,
 \item œmieræ komórek nowotworowych pod wp³ywem komórek NK, limfocytów $T_{CD8+}$,
@@ -525,14 +525,13 @@ W równaniach modelu przed~modyfikacj¹ uwzglêdniono takie czynniki, jak:
 \item dezaktywacjê komórek NK i~limfocytów $T_{CD8+}$.
 \end{itemize}
 
-Natomiast w~modelu zmodyfikowanym wziêto pod~uwagê równie¿:
+Natomiast w~drugim etapie wziêto pod~uwagê równie¿:
 \begin{itemize}
-\item iloœæ podawanych leków i~czas, w~którym zosta³y podane,
+\item dawki podawanych leków i~schemat ich podawania,
 \item œmieræ komórek nowotworowych pod wp³ywem podawanych leków.
 \end{itemize}
 
-\subsection{Za³o¿enia modelu} \label{zalozenia}
-
+\newpage
 Przyjêto za³o¿enia jak~w~modelu de Pillis \cite{19}:
 \begin{enumerate}
 \item W~przypadku braku odpowiedzi uk³adu immunologicznego liczba komórek nowotworowych wzrasta logistycznie.
@@ -548,9 +547,13 @@ Przyjêto za³o¿enia jak~w~modelu de Pillis \cite{19}:
 \end{enumerate}
 
 \newpage
+\section{Model nieuwzglêdniaj¹cy procesu leczenia}
+
+Przyjêto za³o¿enia dla~modelu jak w~rozdziale \ref{zalozenia}.
+
 \subsection{Równania i opis modelu}
 
-W~modelu nieleczonego guza rozwa¿amy cztery populacje komórek. S¹~to~populacja komórek nowotworowych ($\mathcal{T}$), populacja komórek NK ($\mathcal{N}$), populacja limfocytów $T_{CD8+}$ ($\mathcal{L}$) oraz~populacja limfocytów kr¹¿¹cych ($\mathcal{C}$). \newline \newline Model nieleczonego guza nowotworowego \ref{równania_modelu_pillis_bez_leczenia} jest uk³adem równañ ró¿niczkowych zwyczajnych. Równania tego modelu przedstawiaj¹ tempo zmian proliferacji komórek nowotworowych oraz~tempo zmian liczby komórek uk³adu immunologicznego (komórek NK, limfocytów $T_{CD8+}$ oraz~limfocytów kr¹¿¹cych) w~odpowiedzi na~wzrost liczby komórek nowotworowych.\newline \newline
+W~modelu nieleczonego guza rozwa¿amy cztery populacje komórek. S¹~to~populacja komórek nowotworowych ($\mathcal{T}$), populacja komórek NK ($\mathcal{N}$), populacja limfocytów $T_{CD8+}$ ($\mathcal{L}$) oraz~populacja limfocytów kr¹¿¹cych ($\mathcal{C}$). \newline \newline Model nieleczonego guza nowotworowego \ref{równania_modelu_pillis_bez_leczenia} jest uk³adem równañ ró¿niczkowych zwyczajnych. Równania tego modelu przedstawiaj¹ tempo zmian proliferacji komórek nowotworowych oraz~tempo zmian liczby komórek uk³adu immunologicznego (komórek NK, limfocytów $T_{CD8+}$ oraz~limfocytów kr¹¿¹cych) w~odpowiedzi na~wzrost liczby komórek nowotworowych. \newline \newline Parametry modelu nieleczonego guza \ref{równania_modelu_pillis_bez_leczenia}, ukazano w~tabeli \ref{parametry_modelu}.
 
 \begin{equation}
 \label{równania_modelu_pillis_bez_leczenia}
@@ -580,7 +583,7 @@ Trzecim równaniem modelu \ref{równania_modelu_pillis_bez_leczenia} zosta³o opisa
 
 Równanie czwarte okreœla tempo zmian liczebnoœci populacji limfocytów kr¹¿¹cych $\dfrac{dC}{dt}$ w~chwili czasowej t, które jest modulowane poprzez ró¿nicê miêdzy sta³¹ liczb¹ $\alpha$ kr¹¿¹cych limfocytów a stopniem ich degradacji $-\beta C$, gdzie $\beta$ to~sta³a okreœlaj¹ca tempo wyniszczania kr¹¿¹cych limfocytów.
 
-\begin{table}[h]
+\begin{table}[h!]
 \caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{parametry_modelu}
 	\centering
 	\begin{tabular}{|c|c|p{0.65\linewidth}|} \hline \hline
@@ -593,9 +596,9 @@ Równanie czwarte okreœla tempo zmian liczebnoœci populacji limfocytów kr¹¿¹cych 
 		l & bezwymiarowe & Wspó³czynnik skalowania skutecznoœci uk³adu odpornoœciowego \\ \hline
 		f & dzieñ$^{-1}$ & Œmiertelnoœæ komórek NK \\ \hline
 		g & dzieñ$^{-1}$ & Maksymalna liczba komórek NK wytwarzanych na~skutek obecnoœci komórek nowotworowych \\ \hline
-		h & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji komórek NK \\ \hline
+		h & komórka$^{2}$ & Wartoœæ ${T^{2}}$ konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci cytotoksycznoœci komórek NK \\ \hline
 		j & dzieñ$^{-1}$ & Maksymalna liczba limfocytów $T_{CD8+}$ wytwarzanych na skutek obecnoœci komórek nowotworowych \\ \hline
-		k & komórka$^{2}$ & Wspó³czynnik stromoœci krzywej rekrutacji limfocytów $T_{CD8+}$ \\ \hline
+		k & komórka$^{2}$ & Wartoœæ ${D^{2}T^{2}}$ konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci cytotoksycznoœci limfocytów $T_{CD8+}$ \\ \hline
 		m & dzieñ$^{-1}$ & Œmiertelnoœæ limfocytów $T_{CD8+}$ \\ \hline
 		q & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji limfocytów $T_{CD8+}$ przez komórki nowotworu \\ \hline
 		p & dzieñ$^{-1} \cdot$ komórka$^{-1}$ & Tempo dezaktywacji komórek NK przez komórki nowotworu \\ \hline
@@ -608,35 +611,6 @@ Równanie czwarte okreœla tempo zmian liczebnoœci populacji limfocytów kr¹¿¹cych 
 		\end{tabular}
 \end{table}
 
-%\begin{table}[h]
-%\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu}
-%	\centering
-%	\begin{tabular}{|c|c|c|p{0.65\linewidth}|} \hline \hline
-%		Nazwa & \multicolumn{3}{|c|}{Wartoœæ}  \\ \cline{2-4}
-%		 & Pacjent 1 & Pacjent 2 & Pacjent 3  \\ \hline
-%		a & $4,31 \cdot 10^{-1}$ & $4,31 \cdot 10^{-1}$ & \\ \hline
-%		b & $1,02 \cdot 10^{-9}$ & $1,02 \cdot 10^{-9}$ & \\ \hline
-%		c & $6,41 \cdot 10^{-11}$ & $6,41 \cdot 10^{-11}$ & \\ \hline
-%		d & $2,34$ & $1,88$ & \\ \hline
-%		e & $2,08 \cdot 10^{-7}$ & $2,08 \cdot 10^{-7}$ & \\ \hline
-%		l & $2,09$ & $1,81$ & \\ \hline
-%		f & $4,12 \cdot 10^{-2}$ & $4,12 \cdot 10^{-2}$ & \\ \hline
-%		g & $1,25 \cdot 10^{-2}$ & $1,25 \cdot 10^{-2}$ & \\ \hline
-%		h & $2,02 \cdot 10^{7}$ & $2,02 \cdot 10^{7}$ & \\ \hline
-%		j & $2,49 \cdot 10^{-2}$ & $2,49 \cdot 10^{-2}$ & \\ \hline
-%		k & $3,66 \cdot 10^{7}$ & $5,66 \cdot 10^{7}$ & \\ \hline
-%		m & $2,04 \cdot 10^{-1}$ & $9,12$ & \\ \hline
-%		q & $1,42 \cdot 10^{-6}$ & $1,59 \cdot 10^{-6}$ & \\ \hline
-%		p & $3,42 \cdot 10^{-6}$ & $3,59 \cdot 10^{-6}$ & \\ \hline
-%		s & $8,39 \cdot 10^{-2}$ & $5,12 \cdot 10^{-1}$ & \\ \hline
-%		$r_{1}$ & $1,1 \cdot 10^{-7}$ & $1,1 \cdot 10^{-7}$ & \\ \hline
-%		$r_{2}$ & $6,5 \cdot 10^{-11}$ & $6,5 \cdot 10^{-11}$ & \\ \hline
-%		u & $3 \cdot 10^{-10}$ & $3 \cdot 10^{-10}$ & \\ \hline
-%		$\alpha$ & $7,5 \cdot 10^{8}$ & $5 \cdot 10^{8}$ & \\ \hline
-%		$\beta$ & $1,2 \cdot 10^{-2}$ & $8 \cdot 10^{-3}$ & \\ \hline
-%		\end{tabular}
-%\end{table}
-
 \newpage
 \section{Model uwzglêdniaj¹cy proces leczenia}
 
@@ -644,7 +618,7 @@ Przyjêto za³o¿enia dla~modelu jak w~rozdziale \ref{zalozenia}.
  
 \subsection{Równania i opis modelu}
 
-W~modelu \ref{równania_modelu_pillis_z_leczeniem}, poza czterema populacjami uwzglêdnionymi w modelu \ref{równania_modelu_pillis_bez_leczenia}, rozwa¿amy dodatkowo zmiany stê¿enia dwóch podawanych leków, czyli cytostatyka u¿ytego w~chemioterapii ($M$) oraz interleukin-2 ($I$) wykorzystanych do~immunoterapii. \newline \newline Przedstawione w~uk³adzie \ref{równania_modelu_pillis_z_leczeniem} równania okreœlaj¹ tempo zmian liczebnoœci populacji, jak w~modelu \ref{równania_modelu_pillis_bez_leczenia}, ale~tak¿e opisuj¹ wp³yw podawanych leków na~nowotwór oraz~ich~rozpad w~organizmie. Modyfikacje wprowadzone do~modelu, odpowiadaj¹ce podawanym lekom zaznaczono w~uk³adzie \ref{równania_modelu_pillis_z_leczeniem} na~czerwono. \newline \newline Parametry modelu leczonego guza \ref{równania_modelu_pillis_z_leczeniem}, ukazano w~tabeli \ref{parametry_modelu_z}.
+W~modelu \ref{równania_modelu_pillis_z_leczeniem}, poza czterema populacjami uwzglêdnionymi w modelu \ref{równania_modelu_pillis_bez_leczenia}, rozwa¿amy dodatkowo zmiany stê¿enia dwóch podawanych leków, czyli cytostatyka u¿ytego w~chemioterapii ($M$) oraz interleukin-2 ($I$) wykorzystanych do~immunoterapii. \newline \newline Przedstawione w~uk³adzie \ref{równania_modelu_pillis_z_leczeniem} równania okreœlaj¹ tempo zmian liczebnoœci populacji, jak w~modelu \ref{równania_modelu_pillis_bez_leczenia}, ale~tak¿e opisuj¹ wp³yw podawanych leków na~nowotwór oraz~ich~rozpad w~organizmie. Wyra¿enia odró¿niaj¹ce obydwa modele, odpowiadaj¹ce podawanym lekom zaznaczono w~uk³adzie \ref{równania_modelu_pillis_z_leczeniem} na~czerwono. \newline \newline Parametry modelu leczonego guza \ref{równania_modelu_pillis_z_leczeniem}, ukazano w~tabeli \ref{parametry_modelu_z}.
 
 \begin{equation}
 \label{równania_modelu_pillis_z_leczeniem}
@@ -669,7 +643,17 @@ gdzie:
 \item $D=d\dfrac{(\frac{L}{T})^{l}}{s+(\frac{L}{T})^{l}}$ - liza nowotworu pod~wp³ywem dzia³ania limfocytów $T_{CD8+}$.
 \end{itemize}
 
-\begin{table}[!h]
+\noindent
+W~odró¿nieniu od~modelu \ref{równania_modelu_pillis_bez_leczenia}, w~modelu \ref{równania_modelu_pillis_z_leczeniem} wystêpuj¹ dwa dodatkowe równania odnosz¹ce siê do~tempa zmian stê¿enia cytostatyka $\dfrac{dM}{dt}$ oraz IL-2 $\dfrac{dI}{dt}$ w~organizmie.
+Wyra¿enia $-\gamma M$ oraz $-\mu_{i}L$ hamuj¹ tempo tych zmian poprzez spadek stê¿enia odpowiednio: cytostatyka i~IL-2 na~skutek rozpadu tych substancji.
+
+Wyra¿enia $\nu_{L}(t)$, $\nu_{M}(t)$ oraz~$\nu_{I}(t)$ odpowiadaj¹ zewnêtrznemu podawaniu leków: TIL (limfocytów $T_{CD8+}$), cytostatyka oraz IL-2, w~zwi¹zku z~czym zwiêkszaj¹ tempo zmian stê¿enia tych leków w organizmie.
+
+Wp³yw chemioterapii na~tempo zmian $\dfrac{dT}{dt}$, $\dfrac{dN}{dt}$, $\dfrac{dL}{dt}$ oraz $\dfrac{dC}{dt}$ liczebnoœci populacji odpowiednio: komórek nowotworowych, komórek NK, limfocytów $T_{CD8+}$ oraz limfocytów kr¹¿¹cych okreœlono za pomoc¹ wyra¿enia $-K_{i}(1-e^{-M})i$, gdzie i = T, N, L, C. Wyra¿enie to opisuje dzia³anie cytostatyka hamuj¹ce tempo zmian liczebnoœci ka¿dej z wy¿ej wymienionych populacji. Dzia³anie to wyra¿a siê liczb¹ komórek nowotworowych, komórek NK, limfocytów $T_{CD8+}$ oraz limfocytów kr¹¿¹cych zniszczonych w danej chwili czasowej t.
+
+Wp³yw immunoterapii na~tempo zmian $\dfrac{dL}{dt}$ liczebnoœci populacji limfocytów $T_{CD8+}$ zosta³ okreœlony poprzez wyra¿enie $\dfrac{p_{i}LI}{g_{i}+I}$, które przyspiesza tempo tych zmian, gdy¿ oznacza liczbê limfocytów $T_{CD8+}$ stymulowanych poprzez podawan¹ zewnêtrznie IL-2 w danej chwili czasowej t.
+\\
+\begin{table}[h!]
 \caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z}
 	\centering
 	\begin{tabular}{|c|c|p{0.65\linewidth}|} \hline \hline
@@ -684,33 +668,6 @@ gdzie:
 		$\mu_{I}$ & dzieñ$^{-1}$ & Tempo rozpadu interleukiny-2 (leku) \\ \hline	
 	\end{tabular}
 \end{table}
-
-%\begin{table}[!h]
-%\caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z}
-%	\centering
-%	\begin{tabular}{|c|c|c|p{0.65\linewidth}|} \hline \hline
-%		Nazwa & Wartoœæ \\ \cline{2-2}
-%	     & Pacjent 1, 2, 3 \\ \hline
-%		$\gamma$ & $9 \cdot 10^{-1}$ \\ \hline
-%		$K_{T}$ & $9 \cdot 10^{-1}$ \\ \hline
-%		$K_{N}$ & $6 \cdot 10^{-1}$ \\ \hline
-%		$K_{L}$ & $6 \cdot 10^{-1}$ \\ \hline
-%		$K_{C}$ & $6 \cdot 10^{-1}$ \\ \hline
-%		$p_{I}$ & $9 \cdot 10^{3}$ \\ \hline
-%		$g_{I}$ & $2 \cdot 10^{7}$ \\ \hline
-%		$\mu_{I}$ & $1 \cdot 10^{1}$ \\ \hline	
-%	\end{tabular}
-%\end{table}
-
-\noindent
-W~odró¿nieniu od~modelu \ref{równania_modelu_pillis_bez_leczenia}, w~modelu \ref{równania_modelu_pillis_z_leczeniem} wystêpuj¹ dwa dodatkowe równania odnosz¹ce siê do~tempa zmian stê¿enia cytostatyka $\dfrac{dM}{dt}$ oraz IL-2 $\dfrac{dI}{dt}$ w~organizmie.
-Wyra¿enia $-\gamma M$ oraz $-\mu_{i}L$ hamuj¹ tempo tych zmian poprzez spadek stê¿enia odpowiednio: cytostatyka i~IL-2 na~skutek rozpadu tych substancji.
-
-Wyra¿enia $\nu_{L}(t)$, $\nu_{M}(t)$ oraz~$\nu_{I}(t)$ odpowiadaj¹ zewnêtrznemu podawaniu leków: TIL (limfocytów $T_{CD8+}$), cytostatyka oraz IL-2, w~zwi¹zku z~czym zwiêkszaj¹ tempo zmian stê¿enia tych leków w organizmie.
-
-Wp³yw chemioterapii na~tempo zmian $\dfrac{dT}{dt}$, $\dfrac{dN}{dt}$, $\dfrac{dL}{dt}$ oraz $\dfrac{dC}{dt}$ liczebnoœci populacji odpowiednio: komórek nowotworowych, komórek NK, limfocytów $T_{CD8+}$ oraz limfocytów kr¹¿¹cych okreœlono za pomoc¹ wyra¿enia $-K_{i}(1-e^{-M})i$, gdzie i = T, N, L, C. Wyra¿enie to opisuje dzia³anie cytostatyka hamuj¹ce tempo zmian liczebnoœci ka¿dej z wy¿ej wymienionych populacji. Dzia³anie to wyra¿a siê liczb¹ komórek nowotworowych, komórek NK, limfocytów $T_{CD8+}$ oraz limfocytów kr¹¿¹cych zniszczonych w danej chwili czasowej t.
-
-Wp³yw immunoterapii na~tempo zmian $\dfrac{dL}{dt}$ liczebnoœci populacji limfocytów $T_{CD8+}$ zosta³ okreœlony poprzez wyra¿enie $\dfrac{p_{i}LI}{g_{i}+I}$, które przyspiesza tempo tych zmian, gdy¿ oznacza liczbê limfocytów $T_{CD8+}$ stymulowanych poprzez podawan¹ zewnêtrznie IL-2 w danej chwili czasowej t.
 
 \chapter{Symulacje}
 W pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór:
@@ -739,6 +696,36 @@ Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez}) dla modelu \ref{równania_
 \section{OdpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór -- brak leczenia}
 %\setlength{\parindent}{0pt}
 %\noindent % brak akapitu
+
+\begin{table}[h!]
+\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu}
+	\centering
+	\begin{tabular}{|c|c|c|p{0.65\linewidth}|} \hline \hline
+		Nazwa & \multicolumn{3}{|c|}{Wartoœæ}  \\ \cline{2-4}
+		 & Pacjent 1 & Pacjent 2 & Pacjent 3  \\ \hline
+		a & $4,31 \cdot 10^{-1}$ & $4,31 \cdot 10^{-1}$ & \\ \hline
+		b & $1,02 \cdot 10^{-9}$ & $1,02 \cdot 10^{-9}$ & \\ \hline
+		c & $6,41 \cdot 10^{-11}$ & $6,41 \cdot 10^{-11}$ & \\ \hline
+		d & $2,34$ & $1,88$ & \\ \hline
+		e & $2,08 \cdot 10^{-7}$ & $2,08 \cdot 10^{-7}$ & \\ \hline
+		l & $2,09$ & $1,81$ & \\ \hline
+		f & $4,12 \cdot 10^{-2}$ & $4,12 \cdot 10^{-2}$ & \\ \hline
+		g & $1,25 \cdot 10^{-2}$ & $1,25 \cdot 10^{-2}$ & \\ \hline
+		h & $2,02 \cdot 10^{7}$ & $2,02 \cdot 10^{7}$ & \\ \hline
+		j & $2,49 \cdot 10^{-2}$ & $2,49 \cdot 10^{-2}$ & \\ \hline
+		k & $3,66 \cdot 10^{7}$ & $5,66 \cdot 10^{7}$ & \\ \hline
+		m & $2,04 \cdot 10^{-1}$ & $9,12$ & \\ \hline
+		q & $1,42 \cdot 10^{-6}$ & $1,59 \cdot 10^{-6}$ & \\ \hline
+		p & $3,42 \cdot 10^{-6}$ & $3,59 \cdot 10^{-6}$ & \\ \hline
+		s & $8,39 \cdot 10^{-2}$ & $5,12 \cdot 10^{-1}$ & \\ \hline
+		$r_{1}$ & $1,1 \cdot 10^{-7}$ & $1,1 \cdot 10^{-7}$ & \\ \hline
+		$r_{2}$ & $6,5 \cdot 10^{-11}$ & $6,5 \cdot 10^{-11}$ & \\ \hline
+		u & $3 \cdot 10^{-10}$ & $3 \cdot 10^{-10}$ & \\ \hline
+		$\alpha$ & $7,5 \cdot 10^{8}$ & $5 \cdot 10^{8}$ & \\ \hline
+		$\beta$ & $1,2 \cdot 10^{-2}$ & $8 \cdot 10^{-3}$ & \\ \hline
+		\end{tabular}
+\end{table}
+
 \subsection{Scenariusz I -- symulacja wykonana dla modelu nieleczonego guza}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego w~zale¿noœci od~pocz¹tkowej wielkoœci nowotworu (na~podstawie wielkoœci nowotworu po zadanym czasie symulacji).
@@ -877,6 +864,24 @@ Wnioski:
 \end{itemize} 
 
 \newpage
+
+\begin{table}[h!]
+\caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z}
+	\centering
+	\begin{tabular}{|c|c|c|p{0.65\linewidth}|} \hline \hline
+		Nazwa & Wartoœæ \\ \cline{2-2}
+	     & Pacjent 1, 2, 3 \\ \hline
+		$\gamma$ & $9 \cdot 10^{-1}$ \\ \hline
+		$K_{T}$ & $9 \cdot 10^{-1}$ \\ \hline
+		$K_{N}$ & $6 \cdot 10^{-1}$ \\ \hline
+		$K_{L}$ & $6 \cdot 10^{-1}$ \\ \hline
+		$K_{C}$ & $6 \cdot 10^{-1}$ \\ \hline
+		$p_{I}$ & $9 \cdot 10^{3}$ \\ \hline
+		$g_{I}$ & $2 \cdot 10^{7}$ \\ \hline
+		$\mu_{I}$ & $1 \cdot 10^{1}$ \\ \hline	
+	\end{tabular}
+\end{table}
+
 \section{Leczenie metod¹ chemioterapii}
 \section{Leczenie metod¹ immunoterapii}
 \section{Po³¹czenie metod chemioterapii i~immunoterapii}
