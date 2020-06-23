@@ -34,5 +34,6 @@
 \contentsline {chapter}{\numberline {8.}Podsumowanie}{42}{chapter.8}%
 \contentsline {chapter}{\numberline {9.}Rozw\'oj}{43}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Interferony}{43}{section.9.1}%
-\contentsline {chapter}{\numberline {10.}Dodatek}{50}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Tabela skr\'ot\'ow}{50}{section.10.1}%
+\contentsline {section}{\numberline {9.2}Nowa odmiana limfocyt\'ow typu T}{45}{section.9.2}%
+\contentsline {chapter}{\numberline {10.}Dodatek}{52}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Tabela skr\'ot\'ow}{52}{section.10.1}%

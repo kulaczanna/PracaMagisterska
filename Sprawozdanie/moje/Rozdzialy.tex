@@ -332,6 +332,12 @@ pieczenia\cite{39}.} czêœci koñczyn. Mog¹~one ulec nasileniu wraz~z~objawami ata
 
 \section{Immunoterapia}
 
+%>>>> TIL -(tumor infiltrating lymphocyte) therapy: These cells are derived from
+%lymphocytes recovered from the patient tumors. They are then incubated
+%with high concentrations of IL-2 in vitro and are comprised of activated
+%NK cells and CTL cells. They are then injected back into the patient at the
+%tumor site.
+
 Podczas immunoterapii dochodzi do~ingerencji w~uk³ad odpornoœciowy, co ma na~celu wzmocnienie lub~modyfikacjê mechanizmów obronnych walcz¹cych z~nowotworem\cite{10, 27, 31}.
 Je¿eli nie~jest~mo¿liwe ca³kowite wyeliminowanie komórek nowotworowych, to~immunoterapia ma~za~zadanie czasowe zahamowanie rozwoju nowotworu oraz~wstrzymanie przerzutów. Cel~ten mo¿na osi¹gn¹æ poprzez zwiêkszenie aktywnoœci uk³adu immunologicznego lub~przez zahamowanie supresyjnego dzia³ania nowotworu\cite{27}.
 
@@ -692,6 +698,8 @@ Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez}) dla modelu \ref{równania_
 		\end{tabular}
 \end{table}
 
+Dla lepszej czytelnoœci na wszystkich wykresach oœ odpowiadaj¹c¹ liczbie komórek przedstawiono w skali logarytmicznej.
+
 \newpage
 \section{OdpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór -- brak leczenia}
 %\setlength{\parindent}{0pt}
@@ -732,7 +740,7 @@ Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez}) dla modelu \ref{równania_
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj., liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej wielkoœci nowotworu $T(0)$.
 
-\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia jak~w~tabeli \ref{parametry_modelu}.
+\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia ukazano w tabeli \ref{parametry_modelu}.
 
 \noindent \newline \textbf{Czas symulacji:} \newline $T_{k}$ = 120 dni \newline \newline W tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono pocz¹tkow¹ liczbê komórek nowotworu $T(0)$, liczbê komórek nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.
 
@@ -802,7 +810,7 @@ Wnioski:
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj., liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$.
 
-\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia jak~w~tabeli \ref{parametry_modelu}.
+\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia ukazano w tabeli \ref{parametry_modelu}.
 
 \noindent \newline \textbf{Czas symulacji:} \newline $T_{k}$ = 120 dni \newline \newline W~tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono pocz¹tkow¹ liczbê limfocytów kr¹¿¹cych $C(0)$, liczbê komórek nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.
 
@@ -920,7 +928,6 @@ Interferon $\alpha$, bêd¹cy pierwsz¹ cytokin¹ zarejestrowan¹ do leczenia nowotwo
 IFN-$\alpha2a$ znajduje zastosowanie (w~po³¹czeniu z~retinoidami) w~terapii zaawansowanej postaci raka p³askonab³onkowego skóry i raka szyjki macicy powoduj¹c ich~regresjê. Podczas terapii naczyniaków oraz~czerniaka hamuje proliferacjê komórek œródb³onka naczyñ\cite{33}.
 %nowe k
 
-\newpage
 Interferon posiada~wyraŸne powinowactwo do~komórek nerwowych i~w~du¿ym stê¿eniu dzia³a neurotoksycznie. 
 Podczas leczenia interferonem mog¹ wyst¹piæ niepo¿¹dane zaburzenia \cite{21}:
 
@@ -944,9 +951,43 @@ Zaburzenia psychiczne czêsto pojawiaj¹ siê u~pacjentów leczonych przy~pomocy int
 Badania\cite{33} wykaza³y, ¿e~niskie dawki rekombinowanego ludzkiego IFN-$\alpha$ maj¹~dzia³anie immunostymuluj¹ce, natomiast IFN-$\alpha$ w~wysokich dawkach dzia³a immunosupresyjnie, o~czym œwiadcz¹ zmiany aktywnoœci komórek NK, liczby limfocytow i~ekspresji $\beta$-mikroglobuliny. Doustne podanie IFN-$\alpha$ skutkuje wzrostem liczby limfocytów CD3+, CD4+, CD8+, CD25+.
 %nowe k
 
-%nowe
-%Nowo odkryta odmiana limfocytów T...
-%nowe
+\section{Nowa odmiana limfocytów typu T}
+Ta komórka uk³adu odpornoœciowego potrafi zabiæ wiêkszoœæ typów raka. Naukowcy mówi¹ o prze³omie
+
+Naukowcy z Walii odnaleŸli przez przypadek nieznany typ komórki uk³adu odpornoœciowego zdolnej zabiæ wiêkszoœæ typów raka. Choæ do praktycznego wykorzystania tej wiedzy droga daleka, ju¿ mówi siê o olbrzymim prze³omie w walce z chorob¹ nowotworow¹.
+
+W laboratorium uniwersytetu w Cardiff przegl¹dano próbki z miejscowego banku krwi w poszukiwaniu limfocytów T zdolnych niszczyæ ró¿ne bakterie. W którymœ momencie trafiono na komórkê, której typu jeszcze nigdy nie widziano. Posiada ona receptor, który niczym harpun wbija siê w komórki rakowe omijaj¹c zupe³nie te zdrowe. Limfocyt T ofiarê dopada i na miejscu zabija. W czasie eksperymentów naukowcom uda³o siê w ten sposób pokonaæ komórki raka p³uc, skóry, krwi, jelita grubego, piersi, koœci, prostaty, jajników, nerek i szyjki macicy.
+
+Odnalezienie komórki uk³adu odpornoœciowego o tak szerokich zdolnoœciach walki z rakiem jest czymœ bardzo nietypowym. To by³ przypadek. Nikt nie wiedzia³, ¿e taki typ limfocytu T istnieje. Jej odnalezienie daje mo¿liwoœæ przygotowania uniwersalnej terapii na wiele typów raka. Nie s¹dziliœmy, ¿e to w ogóle mo¿liwe – t³umaczy g³ówny autor raportu z badañ opisanego w magazynie ”Nature”, prof. Andrew Sewell z wydzia³u medycyny walijskiej uczelni.
+
+Prof. Sewell nie umie powiedzieæ na tym etapie, czy ów limfocyt T wystêpuje skrajnie rzadko, czy obecny na niej receptor, choæ powszechny, to u wiêkszoœci z nas nigdy nie by³ aktywowany. Choæ istniej¹ ju¿ terapie (CAR-T, TCR-T) wykorzystuj¹ce modyfikowane w laboratoriach w³asne komórki uk³adu odpornoœciowego pacjenta, to stosuje siê je g³ównie do walki z ró¿nymi typami bia³aczki.
+
+Problemem, który odkrycie z Walii mo¿e wyeliminowaæ, jest selektywnoœæ stosowania wspomnianych  terapii. Np. CAR-T nie potrafi niszczyæ sta³ych komórek nowotworowych (ang. solid tumors, stanowi¹ wiêkszoœæ diagnozowanych przypadków raka) a TCR-T mo¿e, ale u ka¿dego pacjenta trzeba dopasowaæ dzia³anie modyfikowanych komórek uk³adu odpornoœciowego do jego typu raka. Taka ”personalizacja” komórek jest szalenie kosztowna. Ogranicza to liczbê pacjentów, ale  i typów choroby nowotworowej z którymi mo¿na walczyæ.
+
+ymczasem, nowoodkryty limfocyt T nie wymaga dopasowywania siê i reaguje z nowotworami od dowolnej osoby. Przyczepia siê on do tzw. moleku³y MR1, która wygl¹da tak samo u ró¿nych ludzi. Leczenie z zastosowaniem tej komórki uk³adu odpornoœciowego dawa³oby szansê na stworzenie uniwersalnego leku dla wszystkich, i co wa¿ne - tañszego. W rozmowie z dziennikiem ”Daily Telegraph” prof. Sewell wspomnia³, bez wchodzenia w szczegó³y, ¿e ”w³aœciwi ludzie” zainteresowali siê ju¿ stworzeniem terapii na bazie ich odkrycia a postêpy prac w tym kierunku bêd¹ posuwaæ siê ”ca³kiem szybko”. Testy na pacjentach maj¹ rozpocz¹æ siê pod koniec roku. \cite{42}
+
+New T-cell could make ‘universal’ cancer therapy possible
+Researchers at Cardiff University have discovered a new type of killer T-cell that offers hope of a “one-size-fits-all” cancer therapy.
+T-cell therapies for cancer - where immune cells are removed, modified and returned to the patient’s blood to seek and destroy cancer cells - are the latest paradigm in cancer treatments. The most widely-used therapy, known as CAR-T, is personalised to each patient but targets only a few types of cancers and has not been successful for solid tumours, which make up the vast majority of cancers. Cardiff researchers have now discovered T-cells equipped with a new type of T-cell receptor (TCR) which recognises and kills most human cancer types, while ignoring healthy cells.
+
+This TCR recognises a molecule present on the surface of a wide range of cancer cells as well as in many of the body’s normal cells but, remarkably, is able to distinguish between healthy cells and cancerous ones, killing only the latter. The researchers said this meant it offered “exciting opportunities for pan-cancer, pan-population” immunotherapies not previously thought possible.
+
+Conventional T-cells scan the surface of other cells to find anomalies and eliminate cancerous cells - which express abnormal proteins - but ignore cells that contain only “normal” proteins. The scanning system recognises small parts of cellular proteins that are bound to cell-surface molecules called human leukocyte antigen (HLA), allowing killer T-cells to see what’s occurring inside cells by scanning their surface. HLA varies widely between individuals, which has previously prevented scientists from creating a single T-cell-based treatment that targets most cancers in all people. But the Cardiff study describes a unique TCR that can recognise many types of cancer via a single HLA-like molecule called MR1. Unlike HLA, MR1 does not vary in the human population - meaning it is a hugely attractive new target for immunotherapies.
+
+T-cells equipped with the new TCR were shown, in the lab, to kill lung, skin, blood, colon, breast, bone, prostate, ovarian, kidney and cervical cancer cells, while ignoring healthy cells. To test the therapeutic potential of these cells in vivo, the researchers injected T-cells able to recognise MR1 into mice bearing human cancer and with a human immune system. This showed “encouraging” cancer-clearing results which the researchers said was comparable to the now NHS-approved CAR-T therapy in a similar animal model. The Cardiff group were further able to show that T-cells of melanoma patients modified to express this new TCR could destroy not only the patient’s own cancer cells, but also other patients’ cancer cells in the laboratory, regardless of the patient’s HLA type.
+
+Professor Andrew Sewell, lead author on the study and an expert in T-cells from Cardiff University’s School of Medicine, said it was “highly unusual” to find a TCR with such broad cancer specificity and this raised the prospect of “universal” cancer therapy. “We hope this new TCR may provide us with a different route to target and destroy a wide range of cancers in all individuals,” he said. “Current TCR-based therapies can only be used in a minority of patients with a minority of cancers. Cancer-targeting via MR1-restricted T-cells is an exciting new frontier - it raises the prospect of a ‘one-size-fits-all’ cancer treatment; a single type of T-cell that could be capable of destroying many different types of cancers across the population. Previously nobody believed this could be possible.”
+
+Experiments are under way to determine the precise molecular mechanism by which the new TCR distinguishes between healthy cells and cancer. The researchers believe it may work by sensing changes in cellular metabolism which causes different metabolic intermediates to be presented at the cancer cell surface by MR1.
+
+The Cardiff group hope to trial this new approach in patients towards the end of this year following further safety testing. Professor Sewell said a vital aspect of this ongoing safety testing was to further ensure killer T-cells modified with the new TCR recognise cancer cells only. “There are plenty of hurdles to overcome however if this testing is successful, then I would hope this new treatment could be in use in patients in a few years’ time,” he said.
+
+Professor Oliver Ottmann, Cardiff University’s Head of Haematology, whose department delivers CAR-T therapy, said: “This new type of T-cell therapy has enormous potential to overcome current limitations of CAR-T, which has been struggling to identify suitable and safe targets for more than a few cancer types.”
+
+Professor Awen Gallimore, of the University’s division of infection and immunity and cancer immunology lead for the Wales Cancer Research Centre, said: “If this transformative new finding holds up, it will lay the foundation for a ‘universal’ T-cell medicine, mitigating against the tremendous costs associated with the identification, generation and manufacture of personalised T-cells. This is truly exciting and potentially a great step forward for the accessibility of cancer immunotherapy.” The research was funded by the Wellcome Trust, Health and Care Research Wales and Tenovus.
+
+Professor Kieran Walshe, Director of Health and Care Research Wales, said: “We fund research that aims to make a real difference to people’s lives. This study is a significant development in the fight against cancer and it has the potential to transform the treatment of thousands of patients.” \cite{43}
+
 
 \begin{thebibliography}{9}
 \bibitem{1} Mustafa Mamat, Subiyanto i~Agus Kartono, ,,Mathematical Model of Cancer Treatments Using Immunotherapy, Chemotherapy and Biochemotherapy",
@@ -991,7 +1032,8 @@ przebiegu infekcji wirusowych'', Katedra i Zak³ad Histologii, Gdañski Uniwersyte
 \bibitem{38} Marek Z. Wojtukiewicz, Zbigniew Sawicki, Ewa Sierko, Anna Kieszkowska-Grudny, ,,Zespó³ przewlek³ego zmêczenia u chorych na nowotwory poddawanych chemioterapii'', Nowotwory, Journal of Oncology, 6, 695-701, 2007 
 \bibitem{39} dr n. med. Jaros³aw Strychar, ,,Zaburzenia czucia koñczyn górnych'', Ursynowskie Centrum Zabiegowe
 \bibitem{40} Andrzej Szczudlik, Monika Rudziñska, ,,Atlas ataksji'', Wydawnictwo Uniwersytetu Jagielloñskiego, Kraków, 2010
-\bibitem{41} Kamila Wojas-Krawczyk, Pawe³ Krawczyk, ,,Rozwój koncepcji przeciwnowotworowej immunoterapii'', Katedra i Klinika Pneumonologii, Onkologii i Alergologii
-Uniwersytetu Medycznego, Onkologia w Praktyce Klinicznej
+\bibitem{41} Kamila Wojas-Krawczyk, Pawe³ Krawczyk, ,,Rozwój koncepcji przeciwnowotworowej immunoterapii'', Katedra i Klinika Pneumonologii, Onkologii i Alergologii Uniwersytetu Medycznego, Onkologia w Praktyce Klinicznej
 2015, tom 11, nr 2, 69–75, Lublin, 2015
+\bibitem{42} https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-ktora-zabija-wiekszosc-typow-raka
+\bibitem{43} https://healthcare-in-europe.com/en/news/new-t-cell-could-make-universal-cancer-therapy-possible.html
 \end{thebibliography}
