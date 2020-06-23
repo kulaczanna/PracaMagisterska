@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  22 JUN 2020 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  23 JUN 2020 05:56
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -798,22 +798,22 @@ Rozdzia\PlPrIeC {\l } 4.
 [21
 
 ] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
 
  []
 
 [23]
-Overfull \hbox (15.72644pt too wide) in paragraph at lines 583--606
+Overfull \hbox (15.72644pt too wide) in paragraph at lines 586--609
  [][] 
  []
 
@@ -821,22 +821,22 @@ Overfull \hbox (15.72644pt too wide) in paragraph at lines 583--606
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
 
 
-Overfull \hbox (62.64171pt too wide) detected at line 656
+Overfull \hbox (62.64171pt too wide) detected at line 659
 []
  []
 
 [25]
-Underfull \hbox (badness 1635) in paragraph at lines 678--678
+Underfull \hbox (badness 1635) in paragraph at lines 681--681
 []\OT4/cmr/m/n/12 Uªamek lim-fo-cy-tów kr¡-»¡-cych znisz-czo-nych po-przez
  []
 
@@ -846,7 +846,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [26] [27] [28]
 Rozdzia\PlPrIeC {\l } 5.
 
-Overfull \hbox (4.19926pt too wide) in paragraph at lines 713--714
+Overfull \hbox (4.19926pt too wide) in paragraph at lines 716--717
 []\OT4/cmr/m/n/12 W pra-cy prze-pro-wa-dzo-no mo-de-lo-wa-nie od-po-wie-dzi ukª
 a-du im-mu-no-lo-gicz-ne-go na roz-
  []
@@ -854,7 +854,7 @@ a-du im-mu-no-lo-gicz-ne-go na roz-
 [29
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 747--748
+Underfull \hbox (badness 10000) in paragraph at lines 750--751
 
  []
 
@@ -863,17 +863,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 747--748
 File: ./rysunki/bez_lecz_sym1_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_regresja.jpg  used on input li
-ne 773.
+ne 776.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 <./rysunki/bez_lecz_sym1_progres.jpg, id=615, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 776.
+e 779.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 
 
-LaTeX Warning: Float too large for page by 50.4866pt on input line 779.
+LaTeX Warning: Float too large for page by 50.4866pt on input line 782.
 
 [31] [32 <./rysunki/bez_lecz_sym1_regresja.jpg> <./rysunki/bez_lecz_sym1_progre
 s.jpg>]
@@ -881,17 +881,17 @@ s.jpg>]
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 789.
+ine 792.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
  [33 <./rysunki/wykres_bez_lecz_t120_t0.jpg>]
 <./rysunki/wykres_bez_lecz_promien_t0.jpg, id=639, 629.35126pt x 384.6872pt>
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 798.
+t line 801.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
  [34 <./rysunki/wykres_bez_lecz_promien_t0.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 817--818
+Underfull \hbox (badness 10000) in paragraph at lines 820--821
 
  []
 
@@ -899,20 +899,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 817--818
 File: ./rysunki/bez_lecz_sym2_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_regresja.jpg  used on input li
-ne 843.
+ne 846.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 <./rysunki/bez_lecz_sym2_progres.jpg, id=649, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_progres.jpg  used on input lin
-e 846.
+e 849.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
 
-LaTeX Warning: Float too large for page by 50.4866pt on input line 849.
+LaTeX Warning: Float too large for page by 50.4866pt on input line 852.
 
 [35] [36 <./rysunki/bez_lecz_sym2_regresja.jpg> <./rysunki/bez_lecz_sym2_progre
 s.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 852--854
+Underfull \hbox (badness 10000) in paragraph at lines 855--857
 
  []
 
@@ -920,14 +920,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 852--854
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
-ine 857.
+ine 860.
 (pdftex.def)             Requested size: 441.01773pt x 264.6178pt.
 [37 <./rysunki/wykres_bez_lecz_t120_c0.jpg>]
 <./rysunki/wykres_bez_lecz_promien_c0.jpg, id=669, 626.34pt x 381.67593pt>
 File: ./rysunki/wykres_bez_lecz_promien_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_c0.jpg  used on inpu
-t line 866.
+t line 869.
 (pdftex.def)             Requested size: 441.01773pt x 268.75543pt.
  [38 <./rysunki/wykres_bez_lecz_promien_c0.jpg>] [39]
 Rozdzia\PlPrIeC {\l } 6.
@@ -997,7 +997,7 @@ c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users
 /pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users
 /pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (54 pages, 699783 bytes).
+Output written on ImmunochemiotherapyModel.pdf (54 pages, 699869 bytes).
 PDF statistics:
  845 PDF objects out of 1000 (max. 8388607)
  179 named destinations out of 1000 (max. 500000)
