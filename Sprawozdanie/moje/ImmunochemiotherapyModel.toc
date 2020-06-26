@@ -26,32 +26,32 @@
 \contentsline {section}{\numberline {5.1}Odpowied\'z uk\IeC {\l }adu immunologicznego na\nobreakspace {}rozwijaj\k acy si\k e w\nobreakspace {}organizmie nowotw\'or -- brak leczenia}{30}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Scenariusz I -- symulacja wykonana dla modelu nieleczonego guza}{30}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Scenariusz II -- symulacja wykonana dla modelu nieleczonego guza}{35}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Scenariusz III -- symulacja wykonana dla modelu nieleczonego guza}{38}{subsection.5.1.3}%
-\contentsline {chapter}{\numberline {6.}Symulacje - leczenie}{39}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Leczenie metod\k a chemioterapii}{40}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie chemioterapi\k a}{40}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Scenariusz II -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie chemioterapi\k a}{40}{subsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.1.3}Scenariusz III -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie chemioterapi\k a}{40}{subsection.6.1.3}%
-\contentsline {subsection}{\numberline {6.1.4}Scenariusz IV -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie chemioterapi\k a}{40}{subsection.6.1.4}%
-\contentsline {section}{\numberline {6.2}Leczenie metod\k a immunoterapii}{41}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie immunoterapi\k a}{41}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Scenariusz II -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie immunoterapi\k a}{41}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Scenariusz III -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie immunoterapi\k a}{41}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Scenariusz IV -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie immunoterapi\k a}{41}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}Scenariusz V -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie immunoterapi\k a}{41}{subsection.6.2.5}%
-\contentsline {section}{\numberline {6.3}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii}{42}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{42}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Scenariusz II -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{42}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Scenariusz III -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{42}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Scenariusz IV -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{42}{subsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.3.5}Scenariusz V -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{42}{subsection.6.3.5}%
-\contentsline {section}{\numberline {6.4}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{43}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego jeszcze nie wiem jak :)}{43}{subsection.6.4.1}%
-\contentsline {chapter}{\numberline {7.}Rezultaty}{44}{chapter.7}%
-\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{45}{chapter.8}%
-\contentsline {chapter}{\numberline {9.}Podsumowanie}{46}{chapter.9}%
-\contentsline {chapter}{\numberline {10.}Rozw\'oj}{47}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Interferony}{47}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Nowa odmiana limfocyt\'ow typu T}{49}{section.10.2}%
-\contentsline {chapter}{\numberline {11.}Dodatek}{56}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Tabela skr\'ot\'ow}{56}{section.11.1}%
+\contentsline {subsection}{\numberline {5.1.3}Scenariusz III -- symulacja wykonana dla modelu nieleczonego guza}{39}{subsection.5.1.3}%
+\contentsline {chapter}{\numberline {6.}Symulacje - leczenie}{40}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Leczenie metod\k a chemioterapii}{41}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie chemioterapi\k a}{41}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Scenariusz II -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie chemioterapi\k a}{41}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Scenariusz III -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie chemioterapi\k a}{41}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Scenariusz IV -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie chemioterapi\k a}{41}{subsection.6.1.4}%
+\contentsline {section}{\numberline {6.2}Leczenie metod\k a immunoterapii}{42}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie immunoterapi\k a}{42}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Scenariusz II -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie immunoterapi\k a}{42}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Scenariusz III -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie immunoterapi\k a}{42}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Scenariusz IV -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie immunoterapi\k a}{42}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}Scenariusz V -- symulacja wykonana dla modelu guza leczonego wy\IeC {\l }\k acznie immunoterapi\k a}{42}{subsection.6.2.5}%
+\contentsline {section}{\numberline {6.3}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii}{43}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{43}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Scenariusz II -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{43}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Scenariusz III -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{43}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Scenariusz IV -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{43}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Scenariusz V -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{43}{subsection.6.3.5}%
+\contentsline {section}{\numberline {6.4}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{44}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego jeszcze nie wiem jak :)}{44}{subsection.6.4.1}%
+\contentsline {chapter}{\numberline {7.}Rezultaty}{45}{chapter.7}%
+\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{46}{chapter.8}%
+\contentsline {chapter}{\numberline {9.}Podsumowanie}{47}{chapter.9}%
+\contentsline {chapter}{\numberline {10.}Rozw\'oj}{48}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Interferony}{48}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Nowa odmiana limfocyt\'ow typu T}{50}{section.10.2}%
+\contentsline {chapter}{\numberline {11.}Dodatek}{57}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Tabela skr\'ot\'ow}{57}{section.11.1}%
