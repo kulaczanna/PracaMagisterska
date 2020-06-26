@@ -675,19 +675,13 @@ Wp³yw immunoterapii na~tempo zmian $\dfrac{dL}{dt}$ liczebnoœci populacji limfoc
 	\end{tabular}
 \end{table}
 
-\chapter{Symulacje}
-W pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór:
-\begin{itemize}
-\item bez uwzglêdnienia procesu leczenia,
-\item z~uwzglêdnieniem leczenia wy³¹cznie metod¹ chemioterapii,
-\item z~uwzglêdnieniem leczenia wy³¹cznie metod¹ immunoterapii,
-\item z~uwzglêdnieniem leczenia skojarzonymi metodami chemioterapii i~immunoterapii.
-\end{itemize}
+\chapter{Symulacje - brak leczenia}
+W pierwszej czêœci pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.
 
-Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez}) dla modelu \ref{równania_modelu_pillis_bez_leczenia} dobrano zgodnie z~literatur¹ \cite{1}. Dla~wiêkszej czytelnoœci, wielkoœæ nowotworu okreœlono równie¿ poprzez d³ugoœæ jego~promienia, przyjmuj¹c, ¿e~nowotwór ma~kszta³t zbli¿ony do~kuli, a~na~1~cm$^{3}$ przypada $10^{9}$ komórek \cite{23}.
+Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez1}) oraz~wartoœci parametrów (Tab. \ref{parametry_modelu_bez1}) dla~modelu \ref{równania_modelu_pillis_bez_leczenia} dobrano zgodnie z~literatur¹ \cite{19}. Warunki te odpowiadaj¹ zdrowemu uk³adowi immunologicznemu, natomiast wartoœæ pocz¹tkowej liczby komórek nowotworowych $T_{0} = 1 \cdot 10^{6}$ wynika z faktu, ¿e dopiero przy tej wielkoœci mo¿liwe jest kliniczne rozpoznanie guza \cite{19}.
 
 \begin{table}[!htb]
-\caption{Warunki pocz¹tkowe dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{warunki_poczatkowe_bez}
+\caption{Warunki pocz¹tkowe modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{warunki_poczatkowe_bez1}
 	\centering
 	\begin{tabular}{|c|c|c|} \hline \hline
 		Wartoœæ [liczba komórek] & Rodzaj komórek & Promieñ nowotworu [mm]\\ \hline
@@ -698,49 +692,41 @@ Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez}) dla modelu \ref{równania_
 		\end{tabular}
 \end{table}
 
-Dla lepszej czytelnoœci na~wszystkich wykresach oœ odpowiadaj¹c¹ liczbie komórek przedstawiono w~skali logarytmicznej.
+Dla~wiêkszej czytelnoœci, wielkoœæ nowotworu okreœlono równie¿ poprzez d³ugoœæ jego~promienia, przyjmuj¹c, ¿e~nowotwór ma~kszta³t zbli¿ony do~kuli, a~na~1~cm$^{3}$ przypada $10^{9}$ komórek \cite{23}.
+
+\begin{table}[h!]
+\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu_bez1}
+	\centering
+	\begin{tabular}{|c|c||c|p{0.15\linewidth}|} \hline \hline
+		Nazwa & Wartoœæ & Nazwa & Wartoœæ \\ \hline
+		a & $4,31 \cdot 10^{-1}$ & k & $3,66 \cdot 10^{7}$ \\ \hline
+		b & $1,02 \cdot 10^{-9}$ & m & $2,04 \cdot 10^{-1}$ \\ \hline
+		c & $6,41 \cdot 10^{-11}$ & q & $1,42 \cdot 10^{-6}$ \\ \hline
+		d & $2,34$ & p & $3,42 \cdot 10^{-6}$ \\ \hline
+		e & $2,08 \cdot 10^{-7}$ & s & $8,39 \cdot 10^{-2}$ \\ \hline
+		l & $2,09$ & $r_{1}$ & $1,1 \cdot 10^{-7}$ \\ \hline
+		f & $4,12 \cdot 10^{-2}$ & $r_{2}$ & $6,5 \cdot 10^{-11}$ \\ \hline
+		g & $1,25 \cdot 10^{-2}$ & u & $3 \cdot 10^{-10}$ \\ \hline
+		h & $2,02 \cdot 10^{7}$ & $\alpha$ & $7,5 \cdot 10^{8}$ \\ \hline
+		j & $2,49 \cdot 10^{-2}$ & $\beta$ & $1,2 \cdot 10^{-2}$ \\ \hline
+		\end{tabular}
+\end{table}
+
+\noindent Na~wykresach oœ odpowiadaj¹c¹ liczbie komórek przedstawiono w~skali logarytmicznej.
 
 \newpage
 \section{OdpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór -- brak leczenia}
 %\setlength{\parindent}{0pt}
 %\noindent % brak akapitu
 
-\begin{table}[h!]
-\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu}
-	\centering
-	\begin{tabular}{|c|c|c|p{0.65\linewidth}|} \hline \hline
-		Nazwa & \multicolumn{3}{|c|}{Wartoœæ} \\ \cline{2-4}
-		 & Pacjent 1 & Pacjent 2 & Pacjent 3 \\ \hline
-		a & $4,31 \cdot 10^{-1}$ & $4,31 \cdot 10^{-1}$ & \\ \hline
-		b & $1,02 \cdot 10^{-9}$ & $1,02 \cdot 10^{-9}$ & \\ \hline
-		c & $6,41 \cdot 10^{-11}$ & $6,41 \cdot 10^{-11}$ & \\ \hline
-		d & $2,34$ & $1,88$ & \\ \hline
-		e & $2,08 \cdot 10^{-7}$ & $2,08 \cdot 10^{-7}$ & \\ \hline
-		l & $2,09$ & $1,81$ & \\ \hline
-		f & $4,12 \cdot 10^{-2}$ & $4,12 \cdot 10^{-2}$ & \\ \hline
-		g & $1,25 \cdot 10^{-2}$ & $1,25 \cdot 10^{-2}$ & \\ \hline
-		h & $2,02 \cdot 10^{7}$ & $2,02 \cdot 10^{7}$ & \\ \hline
-		j & $2,49 \cdot 10^{-2}$ & $2,49 \cdot 10^{-2}$ & \\ \hline
-		k & $3,66 \cdot 10^{7}$ & $5,66 \cdot 10^{7}$ & \\ \hline
-		m & $2,04 \cdot 10^{-1}$ & $9,12$ & \\ \hline
-		q & $1,42 \cdot 10^{-6}$ & $1,59 \cdot 10^{-6}$ & \\ \hline
-		p & $3,42 \cdot 10^{-6}$ & $3,59 \cdot 10^{-6}$ & \\ \hline
-		s & $8,39 \cdot 10^{-2}$ & $5,12 \cdot 10^{-1}$ & \\ \hline
-		$r_{1}$ & $1,1 \cdot 10^{-7}$ & $1,1 \cdot 10^{-7}$ & \\ \hline
-		$r_{2}$ & $6,5 \cdot 10^{-11}$ & $6,5 \cdot 10^{-11}$ & \\ \hline
-		u & $3 \cdot 10^{-10}$ & $3 \cdot 10^{-10}$ & \\ \hline
-		$\alpha$ & $7,5 \cdot 10^{8}$ & $5 \cdot 10^{8}$ & \\ \hline
-		$\beta$ & $1,2 \cdot 10^{-2}$ & $8 \cdot 10^{-3}$ & \\ \hline
-		\end{tabular}
-\end{table}
-
 \subsection{Scenariusz I -- symulacja wykonana dla modelu nieleczonego guza}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego w~zale¿noœci od~pocz¹tkowej wielkoœci nowotworu (na~podstawie wielkoœci nowotworu po~zadanym czasie symulacji).
 
-\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj., liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej wielkoœci nowotworu $T(0)$.
+\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez1}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej wielkoœci nowotworu $T(0)$.
 
-\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia ukazano w~tabeli \ref{parametry_modelu}.
+\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia ukazano w~tabeli \ref{parametry_modelu_bez1}.
+
 
 \noindent \newline \textbf{Czas symulacji:} \newline $T_{k}$ = 120 dni \newline \newline W~tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono pocz¹tkow¹ liczbê komórek nowotworu $T(0)$, liczbê komórek nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.
 
@@ -808,9 +794,9 @@ Wnioski:
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego w~zale¿noœci od~pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$ (badanie stanu uk³adu immunologicznego na~podstawie wielkoœci nowotworu po~zadanym czasie symulacji).
 
-\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj., liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$.
+\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez1}, a~nastêpnie doœwiadczalnie zmieniano wartoœæ pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$.
 
-\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia ukazano w~tabeli \ref{parametry_modelu}.
+\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia ukazano w~tabeli \ref{parametry_modelu_bez1}.
 
 \noindent \newline \textbf{Czas symulacji:} \newline $T_{k}$ = 120 dni \newline \newline W~tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono pocz¹tkow¹ liczbê limfocytów kr¹¿¹cych $C(0)$, liczbê komórek nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w~chwili $T_{k}$ = 120 dni.
 
@@ -871,29 +857,44 @@ Wnioski:
 \item przy~zbyt ma³ej liczbie kr¹¿¹cych limfocytów (z³y stan uk³adu immunologicznego) organizm nie~jest w~stanie zniszczyæ komórek nowotworowych.
 \end{itemize} 
 
-\newpage
-
-\begin{table}[h!]
-\caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z}
-	\centering
-	\begin{tabular}{|c|c|c|p{0.65\linewidth}|} \hline \hline
-		Nazwa & Wartoœæ \\ \cline{2-2}
-	    & Pacjent 1, 2, 3 \\ \hline
-		$\gamma$ & $9 \cdot 10^{-1}$ \\ \hline
-		$K_{T}$ & $9 \cdot 10^{-1}$ \\ \hline
-		$K_{N}$ & $6 \cdot 10^{-1}$ \\ \hline
-		$K_{L}$ & $6 \cdot 10^{-1}$ \\ \hline
-		$K_{C}$ & $6 \cdot 10^{-1}$ \\ \hline
-		$p_{I}$ & $9 \cdot 10^{3}$ \\ \hline
-		$g_{I}$ & $2 \cdot 10^{7}$ \\ \hline
-		$\mu_{I}$ & $1 \cdot 10^{1}$ \\ \hline	
-	\end{tabular}
-\end{table}
-
 \subsection{Scenariusz III -- symulacja wykonana dla modelu nieleczonego guza}
 os³abviony uk³ad mniej nk , tcd8 i limf kr
 
-\newpage
+\chapter{Symulacje - leczenie}
+W drugiej czêœci pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór:
+\begin{itemize}
+\item z~uwzglêdnieniem leczenia wy³¹cznie metod¹ chemioterapii,
+\item z~uwzglêdnieniem leczenia wy³¹cznie metod¹ immunoterapii,
+\item z~uwzglêdnieniem leczenia skojarzonymi metodami chemioterapii i~immunoterapii.
+\end{itemize}
+
+Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_z1}), wartoœci parametrów (Tab. \ref{parametry_modelu_bez1}) oraz~dodatkowe wartoœci parametrów uwzglêdniaj¹cych proces leczenia (Tab. \ref{parametry_modelu_z1}) dla~modelu \ref{równania_modelu_pillis_z_leczeniem} dobrano zgodnie z~literatur¹ \cite{19}. Warunki pocz¹tkowe odpowiadaj¹ os³abionemu uk³adowi immunologicznemu.
+
+\begin{table}[!htb]
+\caption{Warunki pocz¹tkowe dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{warunki_poczatkowe_z1}
+	\centering
+	\begin{tabular}{|c|c|c|} \hline \hline
+		Wartoœæ [liczba komórek] & Rodzaj komórek & Promieñ nowotworu [mm]\\ \hline
+		$T(0) = 1 \cdot 10^{6}$ & Komórki nowotworowe & 0,62 \\ \hline
+		$N(0) = 1 \cdot 10^{3}$ & Komórki NK \\ \cline{1-2}
+		$L(0) = 1 \cdot 10^{1}$ & Limfocyty $T_{CD8+}$ \\ \cline{1-2}
+		$C(0) = 6 \cdot 10^{8}$ & Limfocyty kr¹¿¹ce \\ \cline{1-2}
+		\end{tabular}
+\end{table}
+
+Ponownie, wielkoœæ nowotworu okreœlono poprzez d³ugoœæ jego~promienia, przyjmuj¹c, ¿e~nowotwór ma~kszta³t zbli¿ony do~kuli, a~na~1~cm$^{3}$ przypada $10^{9}$ komórek \cite{23}.
+
+\begin{table}[h!]
+\caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z1}
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline \hline
+		Nazwa & $\gamma$ & $K_{T}$ & $K_{N}$ & $K_{L}$ & $K_{C}$ & $p_{I}$ & $g_{I}$ & $\mu_{I}$ \\ \hline
+		Wartoœæ & $9 \cdot 10^{-1}$ & $9 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $9 \cdot 10^{3}$ & $2 \cdot 10^{7}$ & $1 \cdot 10^{1}$ \\ \hline	
+	\end{tabular}
+\end{table}
+
+\noindent Na~wykresach oœ odpowiadaj¹c¹ liczbie komórek przedstawiono w~skali logarytmicznej.
+
 \section{Leczenie metod¹ chemioterapii}
 \subsection{Scenariusz I -- symulacja wykonana dla modelu guza leczonego wy³¹cznie chemioterapi¹}
 zmiana liczby dni w cyklu
@@ -933,6 +934,34 @@ najpierw immuno potem skojarzone
 \newpage
 \section{Porównanie stanu uk³adów immunologicznych u ró¿nych pacjentów}
 \subsection{Scenariusz I -- symulacja wykonana dla modelu guza leczonego jeszcze nie wiem jak :)}
+\begin{table}[h!]
+\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu}
+	\centering
+	\begin{tabular}{|c|c|c|p{0.65\linewidth}|} \hline \hline
+		Nazwa & \multicolumn{3}{|c|}{Wartoœæ} \\ \cline{2-4}
+		 & Pacjent 1 & Pacjent 2 & Pacjent 3 \\ \hline
+		a & $4,31 \cdot 10^{-1}$ & $4,31 \cdot 10^{-1}$ & \\ \hline
+		b & $1,02 \cdot 10^{-9}$ & $1,02 \cdot 10^{-9}$ & \\ \hline
+		c & $6,41 \cdot 10^{-11}$ & $6,41 \cdot 10^{-11}$ & \\ \hline
+		d & $2,34$ & $1,88$ & \\ \hline
+		e & $2,08 \cdot 10^{-7}$ & $2,08 \cdot 10^{-7}$ & \\ \hline
+		l & $2,09$ & $1,81$ & \\ \hline
+		f & $4,12 \cdot 10^{-2}$ & $4,12 \cdot 10^{-2}$ & \\ \hline
+		g & $1,25 \cdot 10^{-2}$ & $1,25 \cdot 10^{-2}$ & \\ \hline
+		h & $2,02 \cdot 10^{7}$ & $2,02 \cdot 10^{7}$ & \\ \hline
+		j & $2,49 \cdot 10^{-2}$ & $2,49 \cdot 10^{-2}$ & \\ \hline
+		k & $3,66 \cdot 10^{7}$ & $5,66 \cdot 10^{7}$ & \\ \hline
+		m & $2,04 \cdot 10^{-1}$ & $9,12$ & \\ \hline
+		q & $1,42 \cdot 10^{-6}$ & $1,59 \cdot 10^{-6}$ & \\ \hline
+		p & $3,42 \cdot 10^{-6}$ & $3,59 \cdot 10^{-6}$ & \\ \hline
+		s & $8,39 \cdot 10^{-2}$ & $5,12 \cdot 10^{-1}$ & \\ \hline
+		$r_{1}$ & $1,1 \cdot 10^{-7}$ & $1,1 \cdot 10^{-7}$ & \\ \hline
+		$r_{2}$ & $6,5 \cdot 10^{-11}$ & $6,5 \cdot 10^{-11}$ & \\ \hline
+		u & $3 \cdot 10^{-10}$ & $3 \cdot 10^{-10}$ & \\ \hline
+		$\alpha$ & $7,5 \cdot 10^{8}$ & $5 \cdot 10^{8}$ & \\ \hline
+		$\beta$ & $1,2 \cdot 10^{-2}$ & $8 \cdot 10^{-3}$ & \\ \hline
+		\end{tabular}
+\end{table}
 
 \chapter{Rezultaty}
 \chapter{Analiza wyników}
