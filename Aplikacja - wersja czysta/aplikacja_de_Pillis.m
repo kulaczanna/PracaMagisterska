@@ -23,7 +23,7 @@ I_0 = 0; % stê¿enie IL-2 I(t)
 switch metoda_leczenia
     case 1 % brak leczenia - regresja nowotworu
            % rys. 7 w artykule
-        T_0 = 1e6; % pocz¹tkowa liczba komórek nowotworowych T(t)
+        T_0 = 1.8e7; % pocz¹tkowa liczba komórek nowotworowych T(t)
         N_0 = 1e5; % pocz¹tkowa liczba 'naturalnych zabójców' N(t)
         L_0 = 1e2; % pocz¹tkowa liczba limfocytów CD8+T L(t)
         C_0 = 6e10; % pocz¹tkowa liczba limfocytów kr¹¿¹cych C(t)
@@ -79,3 +79,10 @@ t = 0 : 1/24 : 120; % czas symulacji
 [t,y] = ode45(@model_de_Pillis, t, x); % rozwi¹zanie uk³adu równañ ró¿niczkowych
 
 wyswietl_wykresy(t, y);
+
+for n = 1 : 2881
+    if(y(n,1) < 1) 
+    t(n)
+    break
+    end
+end

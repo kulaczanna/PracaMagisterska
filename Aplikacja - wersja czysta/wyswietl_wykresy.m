@@ -10,7 +10,8 @@ hold on
 semilogy(t, y(:,4), 'c');
 axis([0, 120, 10e-1, 10e12])
 legend('Komórki nowotworowe', 'Komórki NK', 'Limfocyty T_{CD8+}', 'Kr¹¿¹ce limfocyty');
-ylabel('Liczba komórek')
+title({'Zmiany w czasie liczby komórek badanych populacji';'dla wartoœci pocz¹tkowych:';'T(0) = 10^6, N(0) = 10^5, L(0) = 10^2, C(0) = 3,5*10^9'})
+ylabel('Liczba komórek [log]')
 xlabel('Czas [dni]')
 
 figure
