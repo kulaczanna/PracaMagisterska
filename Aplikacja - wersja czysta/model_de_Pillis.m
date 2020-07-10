@@ -11,6 +11,7 @@ I = x(6);
 liczba_dni_w_cyklu = x(7);
 metoda_leczenia = x(8);
 pacjent = x(9);
+dawkowanie = x(10);
 
 %% wartoœci parametrów
 a = 4.31e-1;
@@ -73,7 +74,7 @@ K_C = 6e-1;
 % podanie cytostatyku
     if(metoda_leczenia == 3 || metoda_leczenia == 4 || metoda_leczenia == 7)
         
-        V_M = podaj_cytostatyk(t, liczba_dni_w_cyklu);
+        V_M = podaj_cytostatyk(t, liczba_dni_w_cyklu, dawkowanie);
         
     end
     
@@ -103,6 +104,6 @@ dCdt = alfa - (beta * C) - (K_C * (1 - (exp(-M))) * C);
 dMdt = (-gamma * M) + V_M;
 dIdt = (-mi_I * I) + V_I;
 
-rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; 0; 0; 0];
+rownania = [dTdt; dNdt; dLdt; dCdt; dMdt; dIdt; 0; 0; 0; 0];
 end
 
