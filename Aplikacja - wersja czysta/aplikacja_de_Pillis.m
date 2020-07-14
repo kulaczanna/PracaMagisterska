@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long
 
-metoda_leczenia = 6;
+metoda_leczenia = 7;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
@@ -42,7 +42,7 @@ switch metoda_leczenia
         N_0 = 1e5;
         L_0 = 1e2;
         C_0 = 3.5e9;
-        liczba_dni_w_cyklu = 4;
+        liczba_dni_w_cyklu = 8;
         dni_dawkowania = 1;
        
     case 4  % chemioterapia, dawki co 10 dni, V_M = 5 - rozwój nowotworu
@@ -85,7 +85,8 @@ switch metoda_leczenia
 %         N_0 = 1e3;
 %         L_0 = 1e1;
 %         C_0 = 6e8;
-        liczba_dni_w_cyklu = 12;
+        liczba_dni_w_cyklu = 8;
+        dni_dawkowania = 1;
 end
 
 x = [T_0; N_0; L_0; C_0; M_0; I_0; liczba_dni_w_cyklu; metoda_leczenia; pacjent; dni_dawkowania]; % parametry wejœciowe  uk³adu równañ
