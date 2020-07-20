@@ -56,6 +56,18 @@ mi_I = 1e1;
 
             alfa = 5e8;
             beta = 8e-3;
+            
+            case 11
+            d = 2.11;
+            l = 1.95;
+            k = 4.66e7;
+            m = 4.662;
+            q = 1.505e-6;
+            p = 3.51e-6;
+            s = 2.98e-1;
+
+            alfa = 6.25e8;
+            beta = 1e-2;
     end
 
 %% leczenie
@@ -85,7 +97,7 @@ K_C = 6e-1;
 
 % podanie IL-2
        
-        V_I = podaj_IL2(t, 1, 0.3, 0.2);
+        V_I = podaj_IL2(t, 8, 0.3, 0.2);
 
     end
 

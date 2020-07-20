@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long
 
-metoda_leczenia = 7;
+metoda_leczenia = 2;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
@@ -32,9 +32,9 @@ switch metoda_leczenia
     case 2 % brak leczenia - rozwój nowotworu 
            % rys. 7 w artykule
         T_0 = 1e6;
-        N_0 = 1e3;
-        L_0 = 1e1;
-        C_0 = 6e8;
+        N_0 = 1e5;
+        L_0 = 1e2;
+        C_0 = 6e10;
      
     case 3 % chemioterapia, dawki co 5 dni, V_M = 5 - regresja nowotworu
            % rys. 8 w artykule
