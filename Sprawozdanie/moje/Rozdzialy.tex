@@ -919,10 +919,21 @@ W symulacji leczenia metod¹ chemioterapii wziêto pod uwagê takie zmienne, jak:
 
 Cykl podawania leku okreœla czas ci¹g³ego podawania leku oraz przerwy pomiêdzy kolejnymi dawkami konieczne do regeneracji organizmu. Przyk³adowy schemat cyklu mo¿na okreœliæ poprzez: [1 5], co oznacza, podawanie leku przez 1 dzieñ (24 godziny) oraz 5 dni (120 godzin) przerwy. Nastêpnie cykl mo¿e byæ powtórzony, co oznacza³oby kolejny 1 dzieñ podawania leku, 5 dni przerwy. Podczas symulacji pomiêdzy kolejnymi powtórzeniami cyklu nie uwzglêdniono ¿adnych przerw.
 
+\begin{table}[h!]
+\caption{Chemioterapia -- warunki pocz¹tkowe}\label{warunki pocz¹tkowe_chemioterapii}
+	\centering
+\begin{tabular}{|c|c|c|c|c|c|} \hline \hline
+		Czas & Liczba dni & Schemat & Liczba & Dawka & Dzieñ rozpoczêcia \\
+		dozowania & cyklu & cyklu & powtórzeñ cyklu & pocz¹tkowa & leczenia \\ \hline
+		1 & 4 & [1 3] & 9 & 5 & 1 \\ \hline
+		\end{tabular}
+\end{table} 
+
+\newpage
 \subsection{Scenariusz I -- zmiana liczby dni cyklu (d³ugoœci przerwy pomiêdzy kolejnymi dawkami leku)}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~liczby dni cyklu podawania cytostatyka.
 
-\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Pocz¹tkowa liczba dni cyklu podawania cytostatyka to 4, w czym 1 dzieñ podawania leku, co jest równoznaczne ze schematem [1 3]. Liczba powtórzeñ cyklu wynosi³a 9.
+\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. czas dozowania leku, liczbê dni cyklu, schemat podawania leku, liczbê powtórzeñ cyklu, dawkê cytostatyka oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}.
 
 \noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu uwzglêdniaj¹cego leczenie ukazano w~tabelach \ref{parametry_modelu_bez1} i \ref{parametry_modelu_z1}.
 
@@ -990,7 +1001,7 @@ Wnioski:
 \subsection{Scenariusz II -- zmiana czasu dozowania pojedynczej dawki oraz liczby dni cyklu}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~czasu dozowania pojedynczej dawki oraz liczby dni cyklu podawania cytostatyka.
 
-\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Pocz¹tkowa d³ugoœæ dozowania pojedynczej dawki wynosi³a 1 dzieñ. Liczba powtórzeñ cyklu wynosi³a 9. Liczba dni cyklu podawania cytostatyka wynosi³a 4, 8 oraz 12.
+\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. czas dozowania leku, liczbê dni cyklu, schemat podawania leku, liczbê powtórzeñ cyklu, dawkê cytostatyka oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}.
 
 \noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu uwzglêdniaj¹cego leczenie ukazano w~tabelach \ref{parametry_modelu_bez1} i \ref{parametry_modelu_z1}.
 
