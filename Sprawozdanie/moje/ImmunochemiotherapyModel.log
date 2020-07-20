@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  20 JUL 2020 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  20 JUL 2020 14:54
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -513,9 +513,6 @@ LaTeX Warning: Label `wykres_bez_lecz_t120_t0' multiply defined.
 
 
 LaTeX Warning: Label `wykres_bez_lecz_promien_t0' multiply defined.
-
-
-LaTeX Warning: Label `zmiany_poczatkowej_wartosci_T' multiply defined.
 
 
 LaTeX Warning: Label `bez_lecz_brak_stlumienia' multiply defined.
@@ -1142,14 +1139,19 @@ t line 1069.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[49] [50] [51] [52]
+[49] [50] [51]
+Overfull \hbox (64.22795pt too wide) in paragraph at lines 1101--1132
+ [][] 
+ []
+
+[52]
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1121.
+e 1138.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [53]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1127--1128
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1144--1145
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1157,12 +1159,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1131.
+ine 1148.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1137.
+t line 1154.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1171,10 +1173,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1189.
+e 1207.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [58]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1195--1196
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1213--1214
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1182,12 +1184,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1199.
+ine 1217.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1205.
+t line 1223.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1196,10 +1198,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1260.
+e 1278.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [64]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1266--1267
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1284--1285
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1207,12 +1209,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1270.
+ine 1288.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1276.
+t line 1294.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1221,10 +1223,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1328.
+e 1346.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [69]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1334--1335
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1352--1353
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1232,12 +1234,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1338.
+ine 1356.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1344.
+t line 1362.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1246,10 +1248,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1396.
+e 1414.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [74]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1402--1403
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1420--1421
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1257,12 +1259,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1406.
+ine 1424.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1412.
+t line 1430.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1271,10 +1273,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1464.
+e 1482.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [79]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1470--1471
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1488--1489
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1282,12 +1284,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1474.
+ine 1492.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1480.
+t line 1498.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1296,10 +1298,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1532.
+e 1550.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [84]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1538--1539
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1556--1557
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1307,12 +1309,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1542.
+ine 1560.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1548.
+t line 1566.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1321,10 +1323,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1603.
+e 1621.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [90]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1609--1610
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1627--1628
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1332,12 +1334,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1613.
+ine 1631.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1619.
+t line 1637.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1346,10 +1348,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1671.
+e 1689.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [95]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1677--1678
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1695--1696
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1357,12 +1359,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1681.
+ine 1699.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1687.
+t line 1705.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1371,10 +1373,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1739.
+e 1757.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [100]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1745--1746
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1763--1764
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1382,12 +1384,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1749.
+ine 1767.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1755.
+t line 1773.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1396,10 +1398,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1807.
+e 1825.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [105]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1813--1814
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1831--1832
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1407,12 +1409,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1817.
+ine 1835.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1823.
+t line 1841.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1421,10 +1423,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1875.
+e 1893.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [110]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1881--1882
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1899--1900
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1432,18 +1434,18 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1885.
+ine 1903.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1891.
+t line 1909.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [111] [112] [113]
-Overfull \hbox (45.41396pt too wide) in paragraph at lines 1912--1936
+Overfull \hbox (45.41396pt too wide) in paragraph at lines 1930--1954
  [][] 
  []
 
@@ -1451,10 +1453,10 @@ Overfull \hbox (45.41396pt too wide) in paragraph at lines 1912--1936
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1974.
+e 1992.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [117]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1980--1981
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1998--1999
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1462,12 +1464,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1984.
+ine 2002.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1990.
+t line 2008.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1491,13 +1493,13 @@ Rozdzia\PlPrIeC {\l } 10.
 ] [125] [126] [127] [128] [129
 
 ] [130] [131]
-Underfull \hbox (badness 10000) in paragraph at lines 2145--2146
+Underfull \hbox (badness 10000) in paragraph at lines 2163--2164
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2146--2147
+Underfull \hbox (badness 10000) in paragraph at lines 2164--2165
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
@@ -1521,20 +1523,26 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
 (ImmunochemiotherapyModel.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
-Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
-d.
-(rerunfilecheck)             Checksum: 20DC7FC98F2CF1547743876B3A22EBDF;4383.
 
+
+Package rerunfilecheck Warning: File `ImmunochemiotherapyModel.out' has changed
+.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ImmunochemiotherapyModel.out':
+(rerunfilecheck)             Before: BD610BF74B01C78201DE2A42ADD17AE1;4423
+(rerunfilecheck)             After:  07E701943873ECCEEC0919DD3EB0E6F0;4424.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 10014 strings out of 480930
- 155468 string characters out of 2901168
- 620263 words of memory out of 3000000
- 25310 multiletter control sequences out of 15000+200000
+ 10015 strings out of 480930
+ 155482 string characters out of 2901168
+ 621263 words of memory out of 3000000
+ 25311 multiletter control sequences out of 15000+200000
  548194 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,13n,50p,2228b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1558,9 +1566,9 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (142 pages, 973800 bytes).
+Output written on ImmunochemiotherapyModel.pdf (142 pages, 976186 bytes).
 PDF statistics:
- 1704 PDF objects out of 1728 (max. 8388607)
+ 1706 PDF objects out of 1728 (max. 8388607)
  349 named destinations out of 1000 (max. 500000)
  489 words of extra memory for PDF output out of 10000 (max. 10000000)
 
