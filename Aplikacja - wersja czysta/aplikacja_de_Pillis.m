@@ -34,7 +34,7 @@ switch metoda_leczenia
         T_0 = 1e6;
         N_0 = 1e5;
         L_0 = 1e2;
-        C_0 = 6e10;
+        C_0 = 3e9;
      
     case 3 % chemioterapia, dawki co 5 dni, V_M = 5 - regresja nowotworu
            % rys. 8 w artykule
