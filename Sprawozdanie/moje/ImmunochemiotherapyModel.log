@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  20 JUL 2020 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  21 JUL 2020 08:01
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -1523,16 +1523,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
 (ImmunochemiotherapyModel.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
+Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
+d.
+(rerunfilecheck)             Checksum: 07E701943873ECCEEC0919DD3EB0E6F0;4424.
 
-
-Package rerunfilecheck Warning: File `ImmunochemiotherapyModel.out' has changed
-.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ImmunochemiotherapyModel.out':
-(rerunfilecheck)             Before: BD610BF74B01C78201DE2A42ADD17AE1;4423
-(rerunfilecheck)             After:  07E701943873ECCEEC0919DD3EB0E6F0;4424.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1566,7 +1560,7 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (142 pages, 976186 bytes).
+Output written on ImmunochemiotherapyModel.pdf (142 pages, 976388 bytes).
 PDF statistics:
  1706 PDF objects out of 1728 (max. 8388607)
  349 named destinations out of 1000 (max. 500000)
