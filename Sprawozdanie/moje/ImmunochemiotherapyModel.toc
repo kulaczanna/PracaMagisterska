@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {6.1.5}Scenariusz V -- zmiana liczby powt\'orze\'n cyklu}{61}{subsection.6.1.5}%
 \contentsline {subsection}{\numberline {6.1.6}Scenariusz VI -- zmiana dnia rozpocz\k ecia leczenia}{66}{subsection.6.1.6}%
 \contentsline {section}{\numberline {6.2}Leczenie metod\k a immunoterapii -- symulacje wykonane dla modelu leczonego guza}{71}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Scenariusz I -- zmiana wielko\'sci guza w dniu rozpocz\k ecia leczenia}{71}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.1}Scenariusz I -- zmiana wielko\'sci guza w dniu rozpocz\k ecia leczenia}{72}{subsection.6.2.1}%
 \contentsline {section}{\numberline {6.3}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii -- symulacje wykonane dla modelu leczonego guza}{77}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Scenariusz I}{77}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}Scenariusz II}{82}{subsection.6.3.2}%
