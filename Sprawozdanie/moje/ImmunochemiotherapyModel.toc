@@ -33,7 +33,7 @@
 \contentsline {subsection}{\numberline {6.1.3}Scenariusz III -- zmiana dawki podawanego cytostatyka}{51}{subsection.6.1.3}%
 \contentsline {subsection}{\numberline {6.1.4}Scenariusz IV -- zmiana dawki podawanego cytostatyka w kolejnych powt\'orzeniach cyklu}{56}{subsection.6.1.4}%
 \contentsline {subsection}{\numberline {6.1.5}Scenariusz V -- zmiana liczby powt\'orze\'n cyklu}{61}{subsection.6.1.5}%
-\contentsline {subsection}{\numberline {6.1.6}Scenariusz IV -- zmiana dawki podawanego cytostatyka w kolejnych powt\'orzeniach cyklu}{66}{subsection.6.1.6}%
+\contentsline {subsection}{\numberline {6.1.6}Scenariusz VI -- zmiana dnia rozpocz\k ecia leczenia}{66}{subsection.6.1.6}%
 \contentsline {section}{\numberline {6.2}Leczenie metod\k a immunoterapii -- symulacje wykonane dla modelu leczonego guza}{71}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}Scenariusz I}{71}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}Scenariusz II}{76}{subsection.6.2.2}%
