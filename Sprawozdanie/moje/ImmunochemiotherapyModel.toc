@@ -35,24 +35,20 @@
 \contentsline {subsection}{\numberline {6.1.5}Scenariusz V -- zmiana liczby powt\'orze\'n cyklu}{61}{subsection.6.1.5}%
 \contentsline {subsection}{\numberline {6.1.6}Scenariusz VI -- zmiana dnia rozpocz\k ecia leczenia}{66}{subsection.6.1.6}%
 \contentsline {section}{\numberline {6.2}Leczenie metod\k a immunoterapii -- symulacje wykonane dla modelu leczonego guza}{71}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Scenariusz I}{71}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Scenariusz II}{76}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Scenariusz III}{81}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Scenariusz IV}{86}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}Scenariusz V}{91}{subsection.6.2.5}%
-\contentsline {section}{\numberline {6.3}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii -- symulacje wykonane dla modelu leczonego guza}{97}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Scenariusz I}{97}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Scenariusz II}{102}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Scenariusz III}{107}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Scenariusz IV}{112}{subsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.3.5}Scenariusz V}{117}{subsection.6.3.5}%
-\contentsline {section}{\numberline {6.4}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{123}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego jeszcze nie wiem jak :)}{123}{subsection.6.4.1}%
-\contentsline {chapter}{\numberline {7.}Rezultaty}{130}{chapter.7}%
-\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{131}{chapter.8}%
-\contentsline {chapter}{\numberline {9.}Podsumowanie}{132}{chapter.9}%
-\contentsline {chapter}{\numberline {10.}Rozw\'oj}{133}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Interferony}{133}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Nowa odmiana limfocyt\'ow typu T}{135}{section.10.2}%
-\contentsline {chapter}{\numberline {11.}Dodatek}{142}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Tabela skr\'ot\'ow}{142}{section.11.1}%
+\contentsline {subsection}{\numberline {6.2.1}Scenariusz I -- zmiana wielko\'sci guza w dniu rozpocz\k ecia leczenia}{71}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii -- symulacje wykonane dla modelu leczonego guza}{77}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Scenariusz I}{77}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Scenariusz II}{82}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Scenariusz III}{87}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Scenariusz IV}{92}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Scenariusz V}{97}{subsection.6.3.5}%
+\contentsline {section}{\numberline {6.4}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{103}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego jeszcze nie wiem jak :)}{103}{subsection.6.4.1}%
+\contentsline {chapter}{\numberline {7.}Rezultaty}{110}{chapter.7}%
+\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{111}{chapter.8}%
+\contentsline {chapter}{\numberline {9.}Podsumowanie}{112}{chapter.9}%
+\contentsline {chapter}{\numberline {10.}Rozw\'oj}{113}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Interferony}{113}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Nowa odmiana limfocyt\'ow typu T}{115}{section.10.2}%
+\contentsline {chapter}{\numberline {11.}Dodatek}{122}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Tabela skr\'ot\'ow}{122}{section.11.1}%
