@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  22 JUL 2020 08:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  22 JUL 2020 08:33
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -605,6 +605,15 @@ LaTeX Warning: Label `wykres_bez_lecz_t120_t0' multiply defined.
 LaTeX Warning: Label `wykres_bez_lecz_promien_t0' multiply defined.
 
 
+LaTeX Warning: Label `bez_lecz_brak_stlumienia' multiply defined.
+
+
+LaTeX Warning: Label `wykres_bez_lecz_t120_t0' multiply defined.
+
+
+LaTeX Warning: Label `wykres_bez_lecz_promien_t0' multiply defined.
+
+
 LaTeX Warning: Label `zmiany_poczatkowej_wartosci_T' multiply defined.
 
 
@@ -795,18 +804,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [3] (ImmunochemiotherapyModel.lof [4
 
-] [5] [6] [7])
+] [5] [6] [7] [8])
 \tf@lof=\write5
 \openout5 = `ImmunochemiotherapyModel.lof'.
 
- [8]
-(ImmunochemiotherapyModel.lot [9
+ [9]
+(ImmunochemiotherapyModel.lot [10
 
 ])
 \tf@lot=\write6
 \openout6 = `ImmunochemiotherapyModel.lot'.
 
- [10] (Rozdzialy.tex
+ [11] (Rozdzialy.tex
 Rozdzia\PlPrIeC {\l } 1.
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <10> on input line 6.
@@ -890,7 +899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
-<./rysunki/Limf_TT2.jpg, id=836, 522.45187pt x 1002.74625pt>
+<./rysunki/Limf_TT2.jpg, id=863, 522.45187pt x 1002.74625pt>
 File: ./rysunki/Limf_TT2.jpg Graphic file (type jpg)
 <use ./rysunki/Limf_TT2.jpg>
 Package pdftex.def Info: ./rysunki/Limf_TT2.jpg  used on input line 254.
@@ -1003,7 +1012,7 @@ Rozdzia\PlPrIeC {\l } 5.
 [28
 
 ]
-<./rysunki/bez_lecz_sym1_regresja.jpg, id=1045, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_regresja.jpg, id=1071, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_regresja.jpg  used on input li
@@ -1020,7 +1029,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 771--772
  []
 
 [30]
-<./rysunki/bez_lecz_sym1_progres.jpg, id=1059, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_progres.jpg, id=1085, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
@@ -1032,13 +1041,13 @@ Overfull \hbox (3.9089pt too wide) in paragraph at lines 782--783
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
 
-<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=1066, 630.10406pt x 382.42876pt>
+<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=1092, 630.10406pt x 382.42876pt>
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
 ine 786.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
-<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=1067, 629.35126pt x 384.6872pt>
+<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=1093, 629.35126pt x 384.6872pt>
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
@@ -1054,21 +1063,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 819--820
  []
 
 [35]
-<./rysunki/bez_lecz_sym2_progres.jpg, id=1090, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym2_progres.jpg, id=1116, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_progres.jpg  used on input lin
 e 846.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [36 <./rysunki/bez_lecz_sym2_progres.jpg>]
-<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=1096, 632.3625pt x 379.4175pt>
+<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=1122, 632.3625pt x 379.4175pt>
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
 ine 856.
 (pdftex.def)             Requested size: 441.01773pt x 264.6178pt.
  [37 <./rysunki/wykres_bez_lecz_t120_c0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=1102, 626.34pt x 381.67593pt>
+<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=1128, 626.34pt x 381.67593pt>
 File: ./rysunki/wykres_bez_lecz_promien_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_c0.jpg  used on inpu
@@ -1506,7 +1515,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1851--1852
  []
 
 
-Overfull \hbox (8.75339pt too wide) in paragraph at lines 1857--1871
+Overfull \hbox (8.75339pt too wide) in paragraph at lines 1857--1882
  [][] 
  []
 
@@ -1514,10 +1523,10 @@ Overfull \hbox (8.75339pt too wide) in paragraph at lines 1857--1871
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1879.
+e 1890.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [102]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1885--1886
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1896--1897
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1525,12 +1534,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1889.
+ine 1900.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1895.
+t line 1906.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1539,10 +1548,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 1950.
+e 1961.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [108]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 1956--1957
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 1967--1968
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1550,12 +1559,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 1960.
+ine 1971.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 1966.
+t line 1977.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1564,10 +1573,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 2018.
+e 2029.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [113]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 2024--2025
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 2035--2036
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1575,12 +1584,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 2028.
+ine 2039.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 2034.
+t line 2045.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1589,10 +1598,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 2086.
+e 2097.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [118]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 2092--2093
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 2103--2104
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1600,12 +1609,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 2096.
+ine 2107.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 2102.
+t line 2113.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1614,10 +1623,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 2154.
+e 2165.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [123]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 2160--2161
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 2171--2172
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1625,12 +1634,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 2164.
+ine 2175.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 2170.
+t line 2181.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1639,10 +1648,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 2222.
+e 2233.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [128]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 2228--2229
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 2239--2240
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1650,18 +1659,18 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 2232.
+ine 2243.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 2238.
+t line 2249.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [129] [130] [131]
-Overfull \hbox (45.41396pt too wide) in paragraph at lines 2259--2283
+Overfull \hbox (45.41396pt too wide) in paragraph at lines 2270--2294
  [][] 
  []
 
@@ -1669,10 +1678,10 @@ Overfull \hbox (45.41396pt too wide) in paragraph at lines 2259--2283
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 2321.
+e 2332.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [135]
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 2327--2328
+Overfull \hbox (3.9089pt too wide) in paragraph at lines 2338--2339
 \OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
@@ -1680,12 +1689,12 @@ o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 2331.
+ine 2342.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 2337.
+t line 2348.
 (pdftex.def)             Requested size: 441.01773pt x 269.56682pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1709,13 +1718,13 @@ Rozdzia\PlPrIeC {\l } 10.
 ] [143] [144] [145] [146] [147
 
 ] [148] [149]
-Underfull \hbox (badness 10000) in paragraph at lines 2492--2493
+Underfull \hbox (badness 10000) in paragraph at lines 2503--2504
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2493--2494
+Underfull \hbox (badness 10000) in paragraph at lines 2504--2505
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
@@ -1739,16 +1748,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
 (ImmunochemiotherapyModel.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
+Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
+d.
+(rerunfilecheck)             Checksum: 22D536B64C97CC2D2312FF32B23EB742;5463.
 
-
-Package rerunfilecheck Warning: File `ImmunochemiotherapyModel.out' has changed
-.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ImmunochemiotherapyModel.out':
-(rerunfilecheck)             Before: F1E4F6250D6F3360CFACA8FD42B100AE;5259
-(rerunfilecheck)             After:  22D536B64C97CC2D2312FF32B23EB742;5463.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1756,44 +1759,35 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
  10071 strings out of 480930
- 156402 string characters out of 2901168
- 626263 words of memory out of 3000000
- 25324 multiletter control sequences out of 15000+200000
+ 156407 string characters out of 2901168
+ 627263 words of memory out of 3000000
+ 25326 multiletter control sequences out of 15000+200000
  548194 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,13n,50p,2228b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.97} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.92} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.95} has been referenced but does not
- exist, replaced by a fixed one
-
-{C:/Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C:/
-Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{C:/User
-s/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plme.enc}{C:/Users/pc
-/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}<C:/Users/pc/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/pc/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plex10.pfb><C:/Users/pc/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi10.pfb><C:/Users/pc/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi12.pfb><C:/Users/pc
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi6.pfb><C:/Users/pc
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi8.pfb><C:/Users/pc
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/pc
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/pc
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr6.pfb><C:/Users/pc/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr7.pfb><C:/Users/pc/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr8.pfb><C:/Users/pc/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/pc/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/pc
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/pc
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (161 pages, 1048537 bytes).
+{C:/Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plms.enc}{C
+:/Users/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plmi.enc}{C:/Us
+ers/pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plme.enc}{C:/Users/
+pc/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/pl/plrm.enc}<C:/Users/pc/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plbx12.pfb><C:/Users/pc/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plex10.pfb><C:/Users/pc
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi10.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi12.pfb><C:/Users/
+pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi6.pfb><C:/Users/
+pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plmi8.pfb><C:/Users/
+pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr10.pfb><C:/Users/
+pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr12.pfb><C:/Users/
+pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr6.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr7.pfb><C:/Users/pc
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plr8.pfb><C:/Users/pc/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/p
+c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
+pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
+pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
+Output written on ImmunochemiotherapyModel.pdf (162 pages, 1053766 bytes).
 PDF statistics:
- 1921 PDF objects out of 2073 (max. 8388607)
- 392 named destinations out of 1000 (max. 500000)
- 513 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1938 PDF objects out of 2073 (max. 8388607)
+ 390 named destinations out of 1000 (max. 500000)
+ 521 words of extra memory for PDF output out of 10000 (max. 10000000)
 
