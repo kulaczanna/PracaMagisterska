@@ -39,19 +39,22 @@
 \contentsline {subsection}{\numberline {6.2.2}Scenariusz II -- zmiana dawki IL-2 przy r\'ownoczesnym wykorzystaniu TIL podczas leczenia}{77}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}Scenariusz III -- zmiana dawki TIL przy r\'ownoczesnym wykorzystaniu IL-2 podczas leczenia}{82}{subsection.6.2.3}%
 \contentsline {subsection}{\numberline {6.2.4}Scenariusz IV -- zmiana dawki IL-2 bez wykorzystania TIL podczas leczenia}{87}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii -- symulacje wykonane dla modelu leczonego guza}{92}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Scenariusz I}{92}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Scenariusz II}{97}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Scenariusz III}{102}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Scenariusz IV}{107}{subsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.3.5}Scenariusz V}{112}{subsection.6.3.5}%
-\contentsline {section}{\numberline {6.4}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{118}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego jeszcze nie wiem jak :)}{118}{subsection.6.4.1}%
-\contentsline {chapter}{\numberline {7.}Rezultaty}{125}{chapter.7}%
-\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{126}{chapter.8}%
-\contentsline {chapter}{\numberline {9.}Podsumowanie}{127}{chapter.9}%
-\contentsline {chapter}{\numberline {10.}Rozw\'oj}{128}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Interferony}{128}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Nowa odmiana limfocyt\'ow typu T}{130}{section.10.2}%
-\contentsline {chapter}{\numberline {11.}Dodatek}{137}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Tabela skr\'ot\'ow}{137}{section.11.1}%
+\contentsline {subsection}{\numberline {6.2.5}Scenariusz V -- zmiana dawki TIL bez wykorzystania IL-2 podczas leczenia}{92}{subsection.6.2.5}%
+\contentsline {subsection}{\numberline {6.2.6}Scenariusz VI -- zmiana dnia rozpocz\k ecia leczenia (dozowania IL-2) przy r\'ownoczesnym wykorzystania TIL (dla warunk\'ow pocz\k atkowych) podczas leczenia}{96}{subsection.6.2.6}%
+\contentsline {subsection}{\numberline {6.2.7}Scenariusz VII -- zmiana liczby powt\'orze\'n dozowania IL-2 przy r\'ownoczesnym wykorzystania TIL (dla warunk\'ow pocz\k atkowych) podczas leczenia}{100}{subsection.6.2.7}%
+\contentsline {section}{\numberline {6.3}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii -- symulacje wykonane dla modelu leczonego guza}{106}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Scenariusz I}{106}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Scenariusz II}{111}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Scenariusz III}{116}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Scenariusz IV}{121}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Scenariusz V}{126}{subsection.6.3.5}%
+\contentsline {section}{\numberline {6.4}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{132}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego jeszcze nie wiem jak :)}{132}{subsection.6.4.1}%
+\contentsline {chapter}{\numberline {7.}Rezultaty}{139}{chapter.7}%
+\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{140}{chapter.8}%
+\contentsline {chapter}{\numberline {9.}Podsumowanie}{141}{chapter.9}%
+\contentsline {chapter}{\numberline {10.}Rozw\'oj}{142}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Interferony}{142}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Nowa odmiana limfocyt\'ow typu T}{144}{section.10.2}%
+\contentsline {chapter}{\numberline {11.}Dodatek}{151}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Tabela skr\'ot\'ow}{151}{section.11.1}%
