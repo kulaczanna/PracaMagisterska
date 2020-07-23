@@ -46,17 +46,22 @@
 \contentsline {section}{\numberline {6.3}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii -- symulacje wykonane dla modelu leczonego guza}{110}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}Scenariusz I -- zmiana parametr\'ow chemioterapii przy sta\IeC {\l }ych warto\'sciach parametr\'ow immunoterapii}{110}{subsection.6.3.1}%
 \contentsline {subsubsection}{Zmiana liczby dni cyklu}{111}{section*.79}%
-\contentsline {subsubsection}{Zmiana dawki cytostatyka}{111}{section*.81}%
-\contentsline {subsubsection}{Zmiana liczby powt\'orze\'n cyklu}{111}{section*.83}%
-\contentsline {subsubsection}{Zmiana d\IeC {\l }ugo\'sci dozowania cytostatyka}{111}{section*.85}%
-\contentsline {subsubsection}{Zmiana czasu rozpocz\k ecia chemioterapii}{111}{section*.87}%
-\contentsline {section}{\numberline {6.4}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{116}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego jeszcze nie wiem jak :)}{116}{subsection.6.4.1}%
-\contentsline {chapter}{\numberline {7.}Rezultaty}{125}{chapter.7}%
-\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{126}{chapter.8}%
-\contentsline {chapter}{\numberline {9.}Podsumowanie}{127}{chapter.9}%
-\contentsline {chapter}{\numberline {10.}Rozw\'oj}{128}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Interferony}{128}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Nowa odmiana limfocyt\'ow typu T}{130}{section.10.2}%
-\contentsline {chapter}{\numberline {11.}Dodatek}{137}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Tabela skr\'ot\'ow}{137}{section.11.1}%
+\contentsline {subsubsection}{Zmiana d\IeC {\l }ugo\'sci dozowania cytostatyka}{111}{section*.81}%
+\contentsline {subsubsection}{Zmiana czasu rozpocz\k ecia chemioterapii}{111}{section*.83}%
+\contentsline {subsubsection}{Zmiana liczby powt\'orze\'n cyklu}{111}{section*.85}%
+\contentsline {subsubsection}{Zmiana dawki cytostatyka}{111}{section*.87}%
+\contentsline {subsection}{\numberline {6.3.2}Scenariusz II -- zmiana parametr\'ow immunoterapii przy sta\IeC {\l }ych warto\'sciach parametr\'ow chemioterapii}{112}{subsection.6.3.2}%
+\contentsline {subsubsection}{Zmiana dawki IL-2 przy r\'ownoczesnym wykorzystaniu TIL}{114}{section*.89}%
+\contentsline {subsubsection}{Zmiana dawki IL-2 bez wykorzystania TIL}{114}{section*.91}%
+\contentsline {subsubsection}{Zmiana liczby powt\'orze\'n cyklu IL-2 bez wykorzystania TIL}{114}{section*.93}%
+\contentsline {subsubsection}{Zmiana dnia rozpocz\k ecia leczenia IL-2 bez wykorzystania TIL}{114}{section*.95}%
+\contentsline {section}{\numberline {6.4}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{115}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego jeszcze nie wiem jak :)}{115}{subsection.6.4.1}%
+\contentsline {chapter}{\numberline {7.}Rezultaty}{121}{chapter.7}%
+\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{122}{chapter.8}%
+\contentsline {chapter}{\numberline {9.}Podsumowanie}{123}{chapter.9}%
+\contentsline {chapter}{\numberline {10.}Rozw\'oj}{124}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Interferony}{124}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Nowa odmiana limfocyt\'ow typu T}{126}{section.10.2}%
+\contentsline {chapter}{\numberline {11.}Dodatek}{133}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Tabela skr\'ot\'ow}{133}{section.11.1}%
