@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long
 
-metoda_leczenia = 3;
+metoda_leczenia = 7;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
@@ -85,7 +85,7 @@ switch metoda_leczenia
 %         N_0 = 1e3;
 %         L_0 = 1e1;
 %         C_0 = 6e8;
-        liczba_dni_w_cyklu = 8;
+        liczba_dni_w_cyklu = 4;
         dni_dawkowania = 1;
 end
 
