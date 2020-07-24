@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  24 JUL 2020 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  24 JUL 2020 20:55
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -618,6 +618,9 @@ LaTeX Warning: Label `warunki_pocz\k atkowe_immunoterapii' multiply defined.
 
 
 LaTeX Warning: Label `parametry_modelu' multiply defined.
+
+
+LaTeX Warning: Label `czasy_wdrozenia_roznych_terapii' multiply defined.
 
 )
 \openout1 = `ImmunochemiotherapyModel.aux'.
@@ -1627,48 +1630,56 @@ Overfull \hbox (23.90775pt too wide) in paragraph at lines 2425--2439
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: Reference `rozni_pacjenci' on page 118 undefined on input line 2
+445.
+
 [118]
+
+LaTeX Warning: Reference `rozni_pacjenci' on page 119 undefined on input line 2
+448.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[119] [120] [121] [122] [123] [124] [125] [126]
+[119] [120] [121] [122] [123] [124] [125]
 Rozdzia\PlPrIeC {\l } 7.
-[127
+[126
 
 ]
 Rozdzia\PlPrIeC {\l } 8.
-[128
+[127
 
 ]
 Rozdzia\PlPrIeC {\l } 9.
-[129
+[128
 
 ]
 Rozdzia\PlPrIeC {\l } 10.
-[130
+[129
 
-] [131] [132] [133] [134] [135
+] [130] [131] [132] [133] [134
 
-] [136] [137]
-Underfull \hbox (badness 10000) in paragraph at lines 2645--2646
+] [135] [136]
+Underfull \hbox (badness 10000) in paragraph at lines 2638--2639
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2646--2647
+Underfull \hbox (badness 10000) in paragraph at lines 2639--2640
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
 
-) (Dodatek.tex [138]
+) (Dodatek.tex [137]
 Rozdzia\PlPrIeC {\l } 11.
 
 Overfull \hbox (26.34036pt too wide) in paragraph at lines 8--34
  [][] 
  []
 
-) [139
+) [138
 
 ]
 
@@ -1693,9 +1704,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 10069 strings out of 480930
- 156892 string characters out of 2901168
- 695263 words of memory out of 3000000
+ 10068 strings out of 480930
+ 156869 string characters out of 2901168
+ 692263 words of memory out of 3000000
  25342 multiletter control sequences out of 15000+200000
  548194 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1720,9 +1731,9 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (148 pages, 1035991 bytes).
+Output written on ImmunochemiotherapyModel.pdf (147 pages, 1034039 bytes).
 PDF statistics:
- 1850 PDF objects out of 2073 (max. 8388607)
- 372 named destinations out of 1000 (max. 500000)
+ 1844 PDF objects out of 2073 (max. 8388607)
+ 371 named destinations out of 1000 (max. 500000)
  529 words of extra memory for PDF output out of 10000 (max. 10000000)
 

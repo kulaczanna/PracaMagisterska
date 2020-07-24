@@ -50,12 +50,12 @@
 \contentsline {subsection}{\numberline {6.3.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{116}{subsection.6.3.4}%
 \contentsline {section}{\numberline {6.4}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{118}{section.6.4}%
 \contentsline {subsection}{\numberline {6.4.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{118}{subsection.6.4.1}%
-\contentsline {chapter}{\numberline {7.}Rezultaty}{127}{chapter.7}%
-\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{128}{chapter.8}%
-\contentsline {chapter}{\numberline {9.}Podsumowanie}{129}{chapter.9}%
-\contentsline {chapter}{\numberline {10.}Rozw\'oj}{130}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Interferony}{130}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Nowa odmiana limfocyt\'ow typu T}{132}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{134}{section.10.3}%
-\contentsline {chapter}{\numberline {11.}Dodatek}{139}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Tabela skr\'ot\'ow}{139}{section.11.1}%
+\contentsline {chapter}{\numberline {7.}Rezultaty}{126}{chapter.7}%
+\contentsline {chapter}{\numberline {8.}Analiza wynik\'ow}{127}{chapter.8}%
+\contentsline {chapter}{\numberline {9.}Podsumowanie}{128}{chapter.9}%
+\contentsline {chapter}{\numberline {10.}Rozw\'oj}{129}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Interferony}{129}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Nowa odmiana limfocyt\'ow typu T}{131}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{133}{section.10.3}%
+\contentsline {chapter}{\numberline {11.}Dodatek}{138}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Tabela skr\'ot\'ow}{138}{section.11.1}%

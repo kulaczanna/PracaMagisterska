@@ -86,18 +86,18 @@ K_C = 6e-1;
 % podanie cytostatyku
     if(metoda_leczenia == 3 || metoda_leczenia == 4 || metoda_leczenia == 7)
         
-%         V_M = podaj_cytostatyk(t, liczba_dni_w_cyklu, dni_dawkowania);
+        V_M = podaj_cytostatyk(t, liczba_dni_w_cyklu, dni_dawkowania);
         
     end
     
 % podanie TIL
     if(metoda_leczenia == 5 || metoda_leczenia == 6 || metoda_leczenia == 7)
       
-        V_L = podaj_TIL(t, 0, 1);
+        V_L = podaj_TIL(t, 7, 8);
 
 % podanie IL-2
        
-        V_I = podaj_IL2(t, 1, 0.3, 0.2);
+        V_I = podaj_IL2(t, 8, 0.3, 0.2);
 
     end
 
