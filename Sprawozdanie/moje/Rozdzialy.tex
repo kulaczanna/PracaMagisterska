@@ -690,7 +690,7 @@ Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez1}) oraz~wartoœci parametrów
 \caption{Warunki pocz¹tkowe modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{warunki_poczatkowe_bez1}
 	\centering
 	\begin{tabular}{|c|c|c|} \hline \hline
-		Wartoœæ [liczba komórek] & Rodzaj komórek & Promieñ nowotworu [mm]\\ \hline
+		Wartoœæ [liczba komórek] & Rodzaj komórek & Promieñ nowotworu [mm]\\ \hline \hline
 		$T(0) = 1 \cdot 10^{6}$ & Komórki nowotworowe & 0,62 \\ \hline
 		$N(0) = 1 \cdot 10^{5}$ & Komórki NK \\ \cline{1-2}
 		$L(0) = 1 \cdot 10^{2}$ & Limfocyty $T_{CD8+}$ \\ \cline{1-2}
@@ -704,7 +704,7 @@ Dla~wiêkszej czytelnoœci, wielkoœæ nowotworu okreœlono równie¿ poprzez d³ugoœæ j
 \caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu_bez1}
 	\centering
 	\begin{tabular}{|c|c||c|p{0.15\linewidth}|} \hline \hline
-		Nazwa & Wartoœæ & Nazwa & Wartoœæ \\ \hline
+		Nazwa & Wartoœæ & Nazwa & Wartoœæ \\ \hline \hline
 		a & $4,31 \cdot 10^{-1}$ & k & $3,66 \cdot 10^{7}$ \\ \hline
 		b & $1,02 \cdot 10^{-9}$ & m & $2,04 \cdot 10^{-1}$ \\ \hline
 		c & $6,41 \cdot 10^{-11}$ & q & $1,42 \cdot 10^{-6}$ \\ \hline
@@ -2384,69 +2384,87 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano wielk
 \label{czasy_wdrozenia_roznych_terapii}
 \end{table} 
 
-%\newpage
-%\section{Porównanie stanu uk³adów immunologicznych u ró¿nych pacjentów}
-%\subsection{Scenariusz I -- symulacja wykonana dla modelu guza leczonego jeszcze nie wiem jak :)}
-%\begin{table}[h!]
-%\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu}
-%	\centering
-%	\begin{tabular}{|c|c|c|p{0.65\linewidth}|} \hline \hline
-%		Nazwa & \multicolumn{3}{|c|}{Wartoœæ} \\ \cline{2-4}
-%		 & Pacjent 1 & Pacjent 2 & Pacjent 3 \\ \hline
-%		a & $4,31 \cdot 10^{-1}$ & $4,31 \cdot 10^{-1}$ & \\ \hline
-%		b & $1,02 \cdot 10^{-9}$ & $1,02 \cdot 10^{-9}$ & \\ \hline
-%		c & $6,41 \cdot 10^{-11}$ & $6,41 \cdot 10^{-11}$ & \\ \hline
-%		d & $2,34$ & $1,88$ & \\ \hline
-%		e & $2,08 \cdot 10^{-7}$ & $2,08 \cdot 10^{-7}$ & \\ \hline
-%		l & $2,09$ & $1,81$ & \\ \hline
-%		f & $4,12 \cdot 10^{-2}$ & $4,12 \cdot 10^{-2}$ & \\ \hline
-%		g & $1,25 \cdot 10^{-2}$ & $1,25 \cdot 10^{-2}$ & \\ \hline
-%		h & $2,02 \cdot 10^{7}$ & $2,02 \cdot 10^{7}$ & \\ \hline
-%		j & $2,49 \cdot 10^{-2}$ & $2,49 \cdot 10^{-2}$ & \\ \hline
-%		k & $3,66 \cdot 10^{7}$ & $5,66 \cdot 10^{7}$ & \\ \hline
-%		m & $2,04 \cdot 10^{-1}$ & $9,12$ & \\ \hline
-%		q & $1,42 \cdot 10^{-6}$ & $1,59 \cdot 10^{-6}$ & \\ \hline
-%		p & $3,42 \cdot 10^{-6}$ & $3,59 \cdot 10^{-6}$ & \\ \hline
-%		s & $8,39 \cdot 10^{-2}$ & $5,12 \cdot 10^{-1}$ & \\ \hline
-%		$r_{1}$ & $1,1 \cdot 10^{-7}$ & $1,1 \cdot 10^{-7}$ & \\ \hline
-%		$r_{2}$ & $6,5 \cdot 10^{-11}$ & $6,5 \cdot 10^{-11}$ & \\ \hline
-%		u & $3 \cdot 10^{-10}$ & $3 \cdot 10^{-10}$ & \\ \hline
-%		$\alpha$ & $7,5 \cdot 10^{8}$ & $5 \cdot 10^{8}$ & \\ \hline
-%		$\beta$ & $1,2 \cdot 10^{-2}$ & $8 \cdot 10^{-3}$ & \\ \hline
-%		\end{tabular}
-%\end{table}
-%
-%\noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~pocz¹tkowej wielkoœci nowotworu (liczby komórek nowotworowych).
-%
-%\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez1}.
-%
-%\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia ukazano w~tabeli \ref{parametry_modelu_bez1}.
-%
-%\noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
-%
-%\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê pocz¹tkowej liczby komórek nowotworowych $T(0)$ zebrano w tabeli \ref{zmiany_poczatkowej_wartosci_T}.
-%
-%\newpage
-%W tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono jak zmieniano pocz¹tkow¹ liczbê komórek nowotworu $T(0)$, liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
-%
-%\begin{table}[h!]
-%\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Pocz¹tkowa liczba komórek nowotworowych $T(0)$, liczba komórek nowotworowych w ostatnim dniu symulacji w chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}\label{zmiany_poczatkowej_wartosci_T}
-%	\centering
-%\begin{tabular}{|c|c|c|c|} \hline \hline
-%		$T(0)$ & $T(120)$ & Objêtoœæ & Promieñ \\
-%		$[$liczba komórek$]$ & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
-%		$1 \cdot 10^{6}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-14}$ & $2,5 \cdot 10^{-5}$ \\ \hline
-%		$2 \cdot 10^{6}$ & $8,15 \cdot 10^{-8}$ & $8,15 \cdot 10^{-14}$ & $2,7 \cdot 10^{-5}$ \\ \hline
-%		$5 \cdot 10^{6}$ & $2,69 \cdot 10^{-8}$ & $2,69 \cdot 10^{-14}$ & $1,9 \cdot 10^{-5}$ \\ \hline
-%		$1 \cdot 10^{7}$ & $3,44 \cdot 10^{-8}$ & $3,44 \cdot 10^{-14}$ & $2 \cdot 10^{-5}$ \\ \hline
-%		$1,5 \cdot 10^{7}$ & $4,41 \cdot 10^{-8}$ & $4,41 \cdot 10^{-14}$ & $2,2 \cdot 10^{-5}$ \\ \hline
-%		$1,7 \cdot 10^{7}$ & $2,96 \cdot 10^{-8}$ & $2,96 \cdot 10^{-14}$ & $1,9 \cdot 10^{-5}$ \\ \hline
-%		$1,75 \cdot 10^{7}$ & $3,67 \cdot 10^{-8}$ & $3,67 \cdot 10^{-14}$ & $2,1 \cdot 10^{-5}$ \\ \hline
-%		$1,8 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		$2 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		$5 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-%		\end{tabular}
-%\end{table} 
+\newpage
+\section{Porównanie stanu uk³adów immunologicznych u ró¿nych pacjentów}
+\subsection{Scenariusz I -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}
+
+\noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~pocz¹tkowej wielkoœci nowotworu (liczby komórek nowotworowych).
+
+\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ dobrano jak~w~tabeli \ref{warunki_poczatkowe_bez1}. Warunki pocz¹tkowe dla chemioterapii, tj. czas dozowania leku, liczbê dni cyklu, schemat podawania leku, liczbê powtórzeñ cyklu, dawkê cytostatyka oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_chemioterapii_light}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii_dopasowane_do_chemio_light}.
+
+\begin{table}[h!]
+\caption{Chemioterapia -- warunki pocz¹tkowe}\label{warunki_pocz¹tkowe_chemioterapii_light}
+	\centering
+\begin{tabular}{|c|c|c|c|c|c|} \hline \hline
+		Czas & Liczba dni & Schemat & Liczba & Dawka & Dzieñ rozpoczêcia \\
+		dozowania & cyklu & cyklu & powtórzeñ cyklu & pocz¹tkowa & leczenia \\ \hline
+		1 & 8 & [1 7] & 1 & 0,5 & 1 \\ \hline
+		\end{tabular}
+\end{table} 
+
+\begin{table}[h!]
+	\centering
+\begin{tabular}{|c|c|c|c|c|} \hline \hline
+        \multicolumn{5}{|c|}{\textbf{Lek: IL-2}} \\ \hline \hline
+		Czas & Czas & Liczba & Dawka  & Dzieñ  \\
+		dozowania & przerwy & powtórzeñ & pocz¹tkowa & rozpoczêcia \\
+		$[dni]$ & $[dni]$ & cyklu & & leczenia \\ \hline
+		0,3 & 0,2 & 6 & $2 \cdot 10^{7}$ & 9 \\ \hline \hline
+		\multicolumn{5}{|c|}{\textbf{Lek: TIL}} \\ \hline \hline
+		Czas & Czas & Liczba & Dawka  & Dzieñ  \\
+		dozowania & przerwy & powtórzeñ & pocz¹tkowa & rozpoczêcia \\
+		$[dni]$ & $[dni]$ & cyklu & & leczenia \\ \hline
+		1 & $\infty$ & 1 & $1 \cdot 10^{9}$ & 8\\ \hline
+		\end{tabular}
+		\caption{Immunoterapia -- warunki pocz¹tkowe}\label{warunki_pocz¹tkowe_immunoterapii}
+\end{table}
+
+\begin{table}[h!]
+\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu}
+	\centering
+	\begin{tabular}{|c|c||c|c||c|c||c|c|} \hline \hline
+	\multicolumn{4}{|c||}{Pacjent 1} & \multicolumn{4}{|c|}{Pacjent 2} \\ \hline \hline
+		Nazwa & Wartoœæ & Nazwa & Wartoœæ & Nazwa & Wartoœæ & Nazwa & Wartoœæ \\ \hline
+		a & $4,31 \cdot 10^{-1}$ & k & $3,66 \cdot 10^{7}$ & a & $4,31 \cdot 10^{-1}$ & k & $5,66 \cdot 10^{7}$ \\ \hline
+		b & $1,02 \cdot 10^{-9}$ & m & $2,04 \cdot 10^{-1}$ & b & $1,02 \cdot 10^{-9}$ & m & $9,12$ \\ \hline
+		c & $6,41 \cdot 10^{-11}$ & q & $1,42 \cdot 10^{-6}$ & c & $6,41 \cdot 10^{-11}$ & q & $1,59 \cdot 10^{-6}$ \\ \hline
+		d & $2,34$ & p & $3,42 \cdot 10^{-6}$ & d & $1,88$ & p & $3,59 \cdot 10^{-6}$ \\ \hline
+		e & $2,08 \cdot 10^{-7}$ & s & $8,39 \cdot 10^{-2}$ & e & $2,08 \cdot 10^{-7}$ & s & $5,12 \cdot 10^{-1}$ \\ \hline
+		l & $2,09$ & $r_{1}$ & $1,1 \cdot 10^{-7}$ & l & $1,81$ & $r_{1}$ & $1,1 \cdot 10^{-7}$ \\ \hline
+		f & $4,12 \cdot 10^{-2}$ & $r_{2}$ & $6,5 \cdot 10^{-11}$ & f & $4,12 \cdot 10^{-2}$ & $r_{2}$ & $6,5 \cdot 10^{-11}$ \\ \hline
+		g & $1,25 \cdot 10^{-2}$ & u & $3 \cdot 10^{-10}$ & g & $1,25 \cdot 10^{-2}$ & u & $3 \cdot 10^{-10}$ \\ \hline
+		h & $2,02 \cdot 10^{7}$ & $\alpha$ & $7,5 \cdot 10^{8}$ & h & $2,02 \cdot 10^{7}$ & $\alpha$ & $5 \cdot 10^{8}$ \\ \hline
+		j & $2,49 \cdot 10^{-2}$ & $\beta$ & $1,2 \cdot 10^{-2}$ & j & $2,49 \cdot 10^{-2}$ & $\beta$ & $8 \cdot 10^{-3}$ \\ \hline
+		\end{tabular}
+\end{table}
+
+\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu nieuwzglêdniaj¹cego leczenia ukazano w~tabeli \ref{parametry_modelu_bez1}.
+
+\noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
+
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê pocz¹tkowej liczby komórek nowotworowych $T(0)$ zebrano w tabeli \ref{zmiany_poczatkowej_wartosci_T}.
+
+\newpage
+W tabeli \ref{zmiany_poczatkowej_wartosci_T} przedstawiono jak zmieniano pocz¹tkow¹ liczbê komórek nowotworu $T(0)$, liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
+
+\begin{table}[h!]
+\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Pocz¹tkowa liczba komórek nowotworowych $T(0)$, liczba komórek nowotworowych w ostatnim dniu symulacji w chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}\label{zmiany_poczatkowej_wartosci_T}
+	\centering
+\begin{tabular}{|c|c|c|c|} \hline \hline
+		$T(0)$ & $T(120)$ & Objêtoœæ & Promieñ \\
+		$[$liczba komórek$]$ & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		$1 \cdot 10^{6}$ & $6,76 \cdot 10^{-8}$ & $6,76 \cdot 10^{-14}$ & $2,5 \cdot 10^{-5}$ \\ \hline
+		$2 \cdot 10^{6}$ & $8,15 \cdot 10^{-8}$ & $8,15 \cdot 10^{-14}$ & $2,7 \cdot 10^{-5}$ \\ \hline
+		$5 \cdot 10^{6}$ & $2,69 \cdot 10^{-8}$ & $2,69 \cdot 10^{-14}$ & $1,9 \cdot 10^{-5}$ \\ \hline
+		$1 \cdot 10^{7}$ & $3,44 \cdot 10^{-8}$ & $3,44 \cdot 10^{-14}$ & $2 \cdot 10^{-5}$ \\ \hline
+		$1,5 \cdot 10^{7}$ & $4,41 \cdot 10^{-8}$ & $4,41 \cdot 10^{-14}$ & $2,2 \cdot 10^{-5}$ \\ \hline
+		$1,7 \cdot 10^{7}$ & $2,96 \cdot 10^{-8}$ & $2,96 \cdot 10^{-14}$ & $1,9 \cdot 10^{-5}$ \\ \hline
+		$1,75 \cdot 10^{7}$ & $3,67 \cdot 10^{-8}$ & $3,67 \cdot 10^{-14}$ & $2,1 \cdot 10^{-5}$ \\ \hline
+		$1,8 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		$2 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		$5 \cdot 10^{7}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		\end{tabular}
+\end{table} 
 
 %\newpage
 %Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
@@ -2577,6 +2595,7 @@ Professor Awen Gallimore, of the University’s division of infection and immunity
 
 Professor Kieran Walshe, Director of Health and Care Research Wales, said: “We fund research that aims to make a real difference to people’s lives. This study is a significant development in the fight against cancer and it has the potential to transform the treatment of thousands of patients.” \cite{43}
 
+\section{Porównanie stanu uk³adów immunologicznych u ró¿nych pacjentów}
 
 \begin{thebibliography}{9}
 \bibitem{1} Mustafa Mamat, Subiyanto i~Agus Kartono, ,,Mathematical Model of Cancer Treatments Using Immunotherapy, Chemotherapy and Biochemotherapy",
