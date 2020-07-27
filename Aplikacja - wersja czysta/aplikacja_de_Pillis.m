@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long
 
-metoda_leczenia = 7;
+metoda_leczenia = 3;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
@@ -13,7 +13,7 @@ metoda_leczenia = 7;
 % 6. immunoterapia - rozwój nowotworu
 % 7. immunoterapia + chemioterapia
 
-pacjent = 10; % 9 lub 10 jak w artykule
+pacjent = 9; % 9 lub 10 jak w artykule
 
 % pocz¹tkowe stê¿enie leków
 M_0 = 0; % stê¿enie cytostatyku M(t)
@@ -42,8 +42,8 @@ switch metoda_leczenia
         N_0 = 1e5;
         L_0 = 1e2;
         C_0 = 3.5e9;
-        liczba_dni_w_cyklu = 8;
-        dni_dawkowania = 1;
+        liczba_dni_w_cyklu = 3.5;
+        dni_dawkowania = 0.5;
        
     case 4  % chemioterapia, dawki co 10 dni, V_M = 5 - rozwój nowotworu
             % rys. 8 w artykule
