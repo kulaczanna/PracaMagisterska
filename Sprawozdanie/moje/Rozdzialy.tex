@@ -139,10 +139,9 @@ Mechanizmy odpornoœci nabytej s¹~aktywowane, gdy~mechanizmy odpornoœci wrodzonej
 %nowe
 
 \begin{table}[!htb]
-\caption{Mechanizmy obronne odpornoœci nieswoistej i~swoistej \cite{7}.}\label{ró¿nice_miêdzy_nab_a_wrodz}
 	\centering
 	\begin{tabular}{|l|l|l|p{0.47\linewidth}|} \cline{1-2} \cline{4-4} 
-		\multicolumn{2}{|c|}{Odpornoœæ} & & Dzia³anie obronne \\ \hline
+		\multicolumn{2}{|c|}{Odpornoœæ} & & Dzia³anie obronne \\ \hline \hline
 		\multirow{2}{1cm}{Nieswoista (wrodzona)} & Humoralna & Lizozym & Bakterioliza bakterii Gram dodatnich, liza bakterii Gram-ujemnych po~usuniêciu warstwy liposacharydowej\\ \cline{3-4}
 		& & Laktoferyna & Pozbawienie bakterii dostêpu do~¿elaza poprzez wi¹zanie go \\ \cline{3-4}
 		& & Transferyna & Pozbawienie bakterii dostêpu do~¿elaza poprzez wi¹zanie go \\ \cline{3-4}
@@ -159,6 +158,7 @@ Mechanizmy odpornoœci nabytej s¹~aktywowane, gdy~mechanizmy odpornoœci wrodzonej
 		\cline{2-3}
 		& Komórkowa & Limfocyty typu T \\ \cline{1-3}
 		\end{tabular}
+		\caption{Mechanizmy obronne odpornoœci nieswoistej i~swoistej \cite{7}.}\label{ró¿nice_miêdzy_nab_a_wrodz}
 \end{table}
 
 % nowe
@@ -594,10 +594,9 @@ Trzecim równaniem modelu \ref{równania_modelu_pillis_bez_leczenia} zosta³o opisa
 Równanie czwarte okreœla tempo zmian liczebnoœci populacji limfocytów kr¹¿¹cych $\dfrac{dC}{dt}$ w~chwili czasowej t, które jest modulowane poprzez ró¿nicê miêdzy sta³¹ liczb¹ $\alpha$ kr¹¿¹cych limfocytów a~stopniem ich degradacji $-\beta C$, gdzie $\beta$ to~sta³a okreœlaj¹ca tempo wyniszczania kr¹¿¹cych limfocytów.
 
 \begin{table}[h!]
-\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{parametry_modelu}
 	\centering
 	\begin{tabular}{|c|c|p{0.65\linewidth}|} \hline \hline
-		Nazwa & Jednostka & Opis \\ \hline
+		Nazwa & Jednostka & Opis \\ \hline \hline
 		a & dzieñ$^{-1}$ & Tempo wzrostu nowotworu \\ \hline
 		b & komórka$^{-1}$ & Odwrotnoœæ pojemnoœci œrodowiska \\ \hline
 		c & dzieñ$^{-1} \cdot$ komórka$ ^{-1}$ & Minimalna liczba komórek nowotworu zabita przez komórki NK \\ \hline
@@ -619,6 +618,7 @@ Równanie czwarte okreœla tempo zmian liczebnoœci populacji limfocytów kr¹¿¹cych 
 		$\alpha$ & komórka $\cdot$ dzieñ$^{-1}$ & Sta³a liczba kr¹¿¹cych limfocytów\\ \hline
 		$\beta$ & dzieñ$^{-1}$ & Tempo wyniszczania kr¹¿¹cych limfocytów\\ \hline
 		\end{tabular}
+		\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{parametry_modelu}
 \end{table}
 
 \newpage
@@ -666,10 +666,9 @@ Wp³yw chemioterapii na~tempo zmian $\dfrac{dT}{dt}$, $\dfrac{dN}{dt}$, $\dfrac{d
 Wp³yw immunoterapii na~tempo zmian $\dfrac{dL}{dt}$ liczebnoœci populacji limfocytów $T_{CD8+}$ zosta³ okreœlony poprzez wyra¿enie $\dfrac{p_{i}LI}{g_{i}+I}$, które przyspiesza tempo tych zmian, gdy¿ oznacza liczbê limfocytów $T_{CD8+}$ stymulowanych poprzez podawan¹ zewnêtrznie IL-2 w~danej chwili czasowej t.
 
 \begin{table}[h!]
-\caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z}
 	\centering
 	\begin{tabular}{|c|c|p{0.65\linewidth}|} \hline \hline
-	    Nazwa & Jednostka & Opis \\ \hline
+	    Nazwa & Jednostka & Opis \\ \hline \hline
 		$\gamma$ & dzieñ$^{-1}$ & Tempo rozpadu leku chemioterapeutycznego \\ \hline
 		$K_{T}$ & dzieñ$^{-1}$ & U³amek komórek nowotworowych zniszczonych poprzez dzia³anie cytostatyka \\ \hline
 		$K_{N}$ & dzieñ$^{-1}$ & U³amek komórek NK zniszczonych poprzez dzia³anie cytostatyka \\ \hline
@@ -679,6 +678,7 @@ Wp³yw immunoterapii na~tempo zmian $\dfrac{dL}{dt}$ liczebnoœci populacji limfoc
 		$g_{I}$ & komórka$^{2}$ & Wartoœæ stê¿enia interleukiny-2 konieczna do~osi¹gniêcia po³owy maksymalnej wartoœci aktywnoœci cytolitycznej limfocytów $T_{CD8+}$ \\ \hline
 		$\mu_{I}$ & dzieñ$^{-1}$ & Tempo rozpadu interleukiny-2 (leku) \\ \hline	
 	\end{tabular}
+	\caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z}
 \end{table}
 
 \chapter{Symulacje - brak leczenia}
@@ -687,7 +687,6 @@ W pierwszej czêœci pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologi
 Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez1}) oraz~wartoœci parametrów (Tab. \ref{parametry_modelu_bez1}) dla~modelu \ref{równania_modelu_pillis_bez_leczenia} dobrano zgodnie z~literatur¹ \cite{19}. Warunki te odpowiadaj¹ zdrowemu uk³adowi immunologicznemu, natomiast wartoœæ pocz¹tkowej liczby komórek nowotworowych $T_{0} = 1 \cdot 10^{6}$ wynika z faktu, ¿e dopiero przy tej wielkoœci mo¿liwe jest kliniczne rozpoznanie guza \cite{19}.
 
 \begin{table}[!htb]
-\caption{Warunki pocz¹tkowe modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{warunki_poczatkowe_bez1}
 	\centering
 	\begin{tabular}{|c|c|c|} \hline \hline
 		Wartoœæ [liczba komórek] & Rodzaj komórek & Promieñ nowotworu [mm]\\ \hline \hline
@@ -696,12 +695,12 @@ Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_bez1}) oraz~wartoœci parametrów
 		$L(0) = 1 \cdot 10^{2}$ & Limfocyty $T_{CD8+}$ \\ \cline{1-2}
 		$C(0) = 6 \cdot 10^{10}$ & Limfocyty kr¹¿¹ce \\ \cline{1-2}
 		\end{tabular}
+		\caption{Warunki pocz¹tkowe modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{warunki_poczatkowe_bez1}
 \end{table}
 
 Dla~wiêkszej czytelnoœci, wielkoœæ nowotworu okreœlono równie¿ poprzez d³ugoœæ jego~promienia, przyjmuj¹c, ¿e~nowotwór ma~kszta³t zbli¿ony do~kuli, a~na~1~cm$^{3}$ przypada $10^{9}$ komórek \cite{23}.
 
 \begin{table}[h!]
-\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu_bez1}
 	\centering
 	\begin{tabular}{|c|c||c|p{0.15\linewidth}|} \hline \hline
 		Nazwa & Wartoœæ & Nazwa & Wartoœæ \\ \hline \hline
@@ -716,6 +715,7 @@ Dla~wiêkszej czytelnoœci, wielkoœæ nowotworu okreœlono równie¿ poprzez d³ugoœæ j
 		h & $2,02 \cdot 10^{7}$ & $\alpha$ & $7,5 \cdot 10^{8}$ \\ \hline
 		j & $2,49 \cdot 10^{-2}$ & $\beta$ & $1,2 \cdot 10^{-2}$ \\ \hline
 		\end{tabular}
+		\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu_bez1}
 \end{table}
 
 \newpage
@@ -881,9 +881,7 @@ W drugiej czêœci pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicz
 \item skojarzonymi metodami chemioterapii i~immunoterapii.
 \end{itemize}
 
-Jako warunki pocz¹tkowe przyjêto takie wartoœci pocz¹tkowej liczby komórek nowotworowych i limfocytów kr¹¿¹cych, dla których uk³ad immunologiczny nie by³ w stanie (jak wynika z symulacji \ref{bez_s1} i \ref{bez_s2}) pokonaæ nowotworu bez zastosowania leczenia, tj. $T(0) = 1,8 \cdot 10^{7}$ i $C(0) = 3,5 \cdot 10^{9}$. Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_z1}) odpowiadaj¹ os³abionemu uk³adowi immunologicznemu. \newline
-
-Wartoœci parametrów (Tab. \ref{parametry_modelu_bez1}) oraz~dodatkowe wartoœci parametrów uwzglêdniaj¹cych proces leczenia (Tab. \ref{parametry_modelu_z1}) dla~modelu \ref{równania_modelu_pillis_z_leczeniem} dobrano zgodnie z~literatur¹ \cite{19}.
+Jako warunki pocz¹tkowe przyjêto takie wartoœci pocz¹tkowej liczby komórek nowotworowych i limfocytów kr¹¿¹cych, dla których uk³ad immunologiczny nie jest w stanie (jak wynika z symulacji \ref{bez_s1} i \ref{bez_s2}) pokonaæ nowotworu bez zastosowania leczenia, tj. $T(0) = 1,8 \cdot 10^{7}$ i $C(0) = 3,5 \cdot 10^{9}$. Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_z1}) odpowiadaj¹ os³abionemu uk³adowi immunologicznemu. \newline
 
 \begin{table}[!htb]
 \caption{Warunki pocz¹tkowe dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{warunki_poczatkowe_z1}
@@ -897,7 +895,7 @@ Wartoœci parametrów (Tab. \ref{parametry_modelu_bez1}) oraz~dodatkowe wartoœci p
 		\end{tabular}
 \end{table}
 
-Ponownie, wielkoœæ nowotworu okreœlono poprzez d³ugoœæ jego~promienia, przyjmuj¹c, ¿e~nowotwór ma~kszta³t zbli¿ony do~kuli, a~na~1~cm$^{3}$ przypada $10^{9}$ komórek \cite{23}.
+Wartoœci parametrów (Tab. \ref{parametry_modelu_bez1}) oraz~wartoœci dodatkowych parametrów uwzglêdniaj¹cych proces leczenia (Tab. \ref{parametry_modelu_z1}) dla~modelu \ref{równania_modelu_pillis_z_leczeniem} dobrano zgodnie z~literatur¹ \cite{19}.
 
 \begin{table}[h!]
 \caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z1}
@@ -908,12 +906,13 @@ Ponownie, wielkoœæ nowotworu okreœlono poprzez d³ugoœæ jego~promienia, przyjmuj¹
 	\end{tabular}
 \end{table}
 
-\section{Leczenie metod¹ chemioterapii -- symulacje wykonane dla modelu leczonego guza}
+\chapter{Leczenie metod¹ chemioterapii -- symulacje wykonane dla modelu leczonego guza}
 W symulacji leczenia metod¹ chemioterapii wziêto pod uwagê takie zmienne, jak:
 \begin{itemize}
-\item liczba dni w cyklu podawania cytostatyka,
-\item dawka podawanego cytostatyku,
-\item liczba podanych dawek cytostatyku,
+\item liczba dni cyklu podawania cytostatyka,
+\item czas dozowania cytostatyka podczas jednego cyklu,
+\item dawka podawanego cytostatyka,
+\item liczba powtórzeñ cyklu dawkowania cytostatyku,
 \item czas rozpoczêcia leczenia.
 \end{itemize} 
 
@@ -930,7 +929,7 @@ Cykl podawania leku okreœla czas ci¹g³ego podawania leku oraz przerwy pomiêdzy k
 \end{table} 
 
 \newpage
-\subsection{Scenariusz I -- zmiana liczby dni cyklu (d³ugoœci przerwy pomiêdzy kolejnymi dawkami leku)}
+\section{Scenariusz I -- zmiana liczby dni cyklu (d³ugoœci przerwy pomiêdzy kolejnymi dawkami leku)}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~liczby dni cyklu podawania cytostatyka.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. czas dozowania leku, liczbê dni cyklu, schemat podawania leku, liczbê powtórzeñ cyklu, dawkê cytostatyka oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}.
@@ -939,13 +938,13 @@ Cykl podawania leku okreœla czas ci¹g³ego podawania leku oraz przerwy pomiêdzy k
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
 
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby dni cyklu podawania cytostatyka zebrano w tabeli \ref{zmiany_liczby_dni_cyklu}.
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby dni cyklu podawania cytostatyka zebrano w tabeli \ref{chemio_zmiany_liczby_dni_cyklu}.
 
 \newpage
-W tabeli \ref{zmiany_liczby_dni_cyklu} przedstawiono jak zmieniano liczbê dni cyklu chemioterapii, schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
+W tabeli \ref{chemio_zmiany_liczby_dni_cyklu} przedstawiono jak zmieniano liczbê dni cyklu chemioterapii, schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
 
 \begin{table}[h!]
-\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Liczba dni cyklu chemioterapii, schemat chemioterapii,  dzieñ regresji nowotworu oraz liczba komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.}\label{zmiany_liczby_dni_cyklu}
+\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Liczba dni cyklu chemioterapii, schemat chemioterapii,  dzieñ regresji nowotworu oraz liczba komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.}\label{chemio_zmiany_liczby_dni_cyklu}
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|} \hline \hline
 		Liczba dni & Schemat & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
@@ -998,7 +997,7 @@ Wnioski:
 \item promieñ i objêtoœæ ...
 \end{itemize}
 
-\subsection{Scenariusz II -- zmiana czasu dozowania pojedynczej dawki oraz liczby dni cyklu}
+\section{Scenariusz II -- zmiana czasu dozowania pojedynczej dawki}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~czasu dozowania pojedynczej dawki oraz liczby dni cyklu podawania cytostatyka.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. czas dozowania leku, liczbê dni cyklu, schemat podawania leku, liczbê powtórzeñ cyklu, dawkê cytostatyka oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}.
@@ -1007,13 +1006,13 @@ Wnioski:
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
 
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby dni cyklu podawania cytostatyka zebrano w tabeli \ref{zmiany_czasu_dozowania_dawki4}.
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby dni cyklu podawania cytostatyka zebrano w tabeli \ref{chemio_zmiany_czasu_dozowania_dawki}.
 
 \newpage
-W tabeli \ref{zmiany_czasu_dozowania_dawki4} przedstawiono jak zmieniano czas dozowania pojedynczej dawki,  schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
+W tabeli \ref{chemio_zmiany_czasu_dozowania_dawki} przedstawiono jak zmieniano czas dozowania pojedynczej dawki,  schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
 
 \begin{table}[h!]
-\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Czas dozowania pojedynczej dawki, schemat chemioterapii,  dzieñ regresji nowotworu oraz liczba komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.}\label{zmiany_czasu_dozowania_dawki4}
+\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Czas dozowania pojedynczej dawki, schemat chemioterapii,  dzieñ regresji nowotworu oraz liczba komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.}\label{chemio_zmiany_czasu_dozowania_dawki}
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|} \hline \hline
         \multicolumn{6}{|c|}{\textbf{Liczba dni cyklu: 4}} \\ \hline \hline
@@ -1046,42 +1045,42 @@ W tabeli \ref{zmiany_czasu_dozowania_dawki4} przedstawiono jak zmieniano czas do
 		\end{tabular}
 \end{table} 
 
-\newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
 
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\subsection{Scenariusz III -- zmiana dawki podawanego cytostatyka}
+\section{Scenariusz III -- zmiana dawki podawanego cytostatyka}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~wielkoœci dawki podawanego cytostatyka.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. czas dozowania leku, liczbê dni cyklu, schemat podawania leku, liczbê powtórzeñ cyklu, dawkê cytostatyka oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}.
@@ -1090,13 +1089,13 @@ Wnioski:
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
 
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby dni cyklu podawania cytostatyka zebrano w tabeli \ref{zmiany_dawki}.
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby dni cyklu podawania cytostatyka zebrano w tabeli \ref{chemio_zmiany_dawki}.
 
 \newpage
-W tabeli \ref{zmiany_dawki} przedstawiono jak zmieniano wielkoœæ dawki dozowanego cytostatyka, schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
+W tabeli \ref{chemio_zmiany_dawki} przedstawiono jak zmieniano wielkoœæ dawki dozowanego cytostatyka, schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
 
 \begin{table}[h!]
-\caption[Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka]{Schemat cyklu chemioterapii, dawka dozowanego cytostatyka, dzieñ regresji nowotworu oraz liczba komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.}\label{zmiany_dawki}
+\caption[Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka]{Schemat cyklu chemioterapii, dawka dozowanego cytostatyka, dzieñ regresji nowotworu oraz liczba komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.}\label{chemio_zmiany_dawki}
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|} \hline \hline
         \multicolumn{6}{|c|}{\textbf{Liczba dni cyklu: 4}} \\ \hline \hline
@@ -1131,42 +1130,42 @@ W tabeli \ref{zmiany_dawki} przedstawiono jak zmieniano wielkoœæ dawki dozowaneg
 		\end{tabular}
 \end{table} 
 
-\newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
 
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\subsection{Scenariusz IV -- zmiana dawki podawanego cytostatyka w kolejnych powtórzeniach cyklu}
+\section{Scenariusz IV -- zmiana dawki podawanego cytostatyka w kolejnych powtórzeniach cyklu}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~stopnia zmniejszania dawki podawanego cytostatyka w kolejnych powtórzeniach cyklu.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. czas dozowania leku, liczbê dni cyklu, schemat podawania leku, liczbê powtórzeñ cyklu, dawkê cytostatyka oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}.
@@ -1175,9 +1174,9 @@ Wnioski:
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
 
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby dni cyklu podawania cytostatyka zebrano w tabeli \ref{zmiany_dawki_w_kolejnych_powtorzeniach}. \newline
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby dni cyklu podawania cytostatyka zebrano w tabeli \ref{chemio_zmiany_dawki_w_kolejnych_powtorzeniach}. \newline
 
-W tabeli \ref{zmiany_dawki_w_kolejnych_powtorzeniach} przedstawiono jak zmieniano wielkoœæ dawki dozowanego cytostatyka dla kolejnych powtórzeñ cyklu, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
+W tabeli \ref{chemio_zmiany_dawki_w_kolejnych_powtorzeniach} przedstawiono jak zmieniano wielkoœæ dawki dozowanego cytostatyka dla kolejnych powtórzeñ cyklu, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
 
 \begin{table}[h!]
 	\centering
@@ -1200,46 +1199,46 @@ W tabeli \ref{zmiany_dawki_w_kolejnych_powtorzeniach} przedstawiono jak zmienian
 		[1 3] & $-0,5$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline  \hline
 		\end{tabular}
 \caption[Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka dla kolejnych powtórzeñ]{Schemat cyklu chemioterapii, zmiana dawki dozowanego cytostatyka dla kolejnych powtórzeñ, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
-\label{zmiany_dawki_w_kolejnych_powtorzeniach}
+\label{chemio_zmiany_dawki_w_kolejnych_powtorzeniach}
 \end{table} 
 
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
+
 \newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
-
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\newpage
-\subsection{Scenariusz V -- zmiana liczby powtórzeñ cyklu}
+\section{Scenariusz V -- zmiana liczby powtórzeñ cyklu}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~liczby powtórzeñ cyklu chemioterapii.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. czas dozowania leku, liczbê dni cyklu, schemat podawania leku, liczbê powtórzeñ cyklu, dawkê cytostatyka oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}.
@@ -1248,10 +1247,10 @@ Wnioski:
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
 
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby dni cyklu podawania cytostatyka zebrano w tabeli \ref{zmiany_liczby_powtorzen}. \newline
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby dni cyklu podawania cytostatyka zebrano w tabeli \ref{chemio_zmiany_liczby_powtorzen}. \newline
 
 \newpage
-W tabeli \ref{zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê powtórzeñ cyklu, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
+W tabeli \ref{chemio_zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê powtórzeñ cyklu, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
 
 \begin{table}[h!]
 	\centering
@@ -1267,20 +1266,20 @@ W tabeli \ref{zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê powtór
 		[1 3] & 4 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline 
 		[1 3] & 3 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
         \multicolumn{6}{|c|}{\textbf{Dawka: 4}} \\ \hline \hline
-		Schemat & Zmiana & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cyklu & dawki & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		Schemat & Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
+		cyklu & powtórzeñ & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		[1 3] & 9 & 34 & $9,18 \cdot 10^{-8}$ & $9,18 \cdot 10^{-14}$ & $2,8 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 8 & 34,67 & $1,19 \cdot 10^{-7}$ & $1,19 \cdot 10^{-13}$ & $3,1 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 7 & 36,04 & $5,37 \cdot 10^{-8}$ & $5,37 \cdot 10^{-14}$ & $2,3 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 6 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline  \hline
 		 \multicolumn{6}{|c|}{\textbf{Dawka: 3,5}} \\ \hline \hline
-		Schemat & Zmiana & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cyklu & dawki & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		Schemat & Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
+		cyklu & powtórzeñ & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		[1 3] & 9 & 49,34 & $8,32 \cdot 10^{-8}$ & $8,32 \cdot 10^{-14}$ & $2,7 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 8 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline  \hline
 		 \multicolumn{6}{|c|}{\textbf{Dawka: 3}} \\ \hline \hline
-		Schemat & Zmiana & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cyklu & dawki & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		Schemat & Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
+		cyklu & powtórzeñ & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		[1 3] & 9 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		[1 3] & 10 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		[1 3] & 12 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
@@ -1289,45 +1288,45 @@ W tabeli \ref{zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê powtór
 		[1 3] & 20 & 84,5 & $6,8 \cdot 10^{-8}$ & $6,8 \cdot 10^{-14}$ & $2,5 \cdot 10^{-5}$  \\ \hline  \hline
 		\end{tabular}
 \caption[Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka dla kolejnych powtórzeñ]{Schemat cyklu chemioterapii, zmiana dawki dozowanego cytostatyka dla kolejnych powtórzeñ, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
-\label{zmiany_liczby_powtorzen}
+\label{chemio_zmiany_liczby_powtorzen}
 \end{table} 
 
-\newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
 
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\subsection{Scenariusz VI -- zmiana dnia rozpoczêcia leczenia}
+\section{Scenariusz VI -- zmiana dnia rozpoczêcia chemioterapii}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~dnia rozpoczêcia leczenia metod¹ chemioterapii.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. czas dozowania leku, liczbê dni cyklu, schemat podawania leku, liczbê powtórzeñ cyklu, dawkê cytostatyka oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}.
@@ -1345,8 +1344,8 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_cehmioterapii} przedstawiono jak zmieniano
 \begin{tabular}{|c|c|c|c|c|c|} \hline \hline
         \multicolumn{6}{|c|}{\textbf{Dawka: 5}} \\ \hline \hline
 		Schemat & Dzieñ & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cyklu & rozpoczêcia & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\
-		& leczenia & & & & \\ \hline
+		cyklu & rozpoczêcia & nowotworu & $[$liczba komórek$]$ & nowotworu & nowotworu \\
+		& chemioterapii & & & [$mm^{3}$] & [$mm$] \\ \hline
 		[1 3] & 1 & 25,84 & $4,64 \cdot 10^{-8}$ & $4,64 \cdot 10^{-14}$ & $2,2 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 2 & 29,54 & $2,29 \cdot 10^{-8}$ & $2,29 \cdot 10^{-14}$ & $1,8 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 5 & 39,84 & $1,79 \cdot 10^{-7}$ & $1,79 \cdot 10^{-13}$ & $3,5 \cdot 10^{-5}$ \\ \hline
@@ -1355,9 +1354,8 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_cehmioterapii} przedstawiono jak zmieniano
 		[1 3] & 13 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
         \multicolumn{6}{|c|}{\textbf{Dawka: 4,5}} \\ \hline \hline
 		Schemat & Dzieñ & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cyklu & rozpoczêcia & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\
-		& leczenia & & & & \\ \hline
-		cyklu & dawki & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		cyklu & rozpoczêcia & nowotworu & $[$liczba komórek$]$ & nowotworu & nowotworu \\
+		& chemioterapii & & & [$mm^{3}$] & [$mm$] \\ \hline
 		[1 3] & 1 & 28,46 & $9,03 \cdot 10^{-8}$ & $9,03 \cdot 10^{-14}$ & $2,8 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 2 & 31,92 & $8,87 \cdot 10^{-8}$ & $8,87 \cdot 10^{-14}$ & $2,8 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 3 & 37,38 & $1,72 \cdot 10^{-7}$ & $1,72 \cdot 10^{-13}$ & $3,5 \cdot 10^{-5}$ \\ \hline
@@ -1370,54 +1368,51 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_cehmioterapii} przedstawiono jak zmieniano
 \label{zmiany_dnia_rozpoczecia_cehmioterapii}
 \end{table} 
 
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
+
 \newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
-
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\newpage
-\section{Leczenie metod¹ immunoterapii -- symulacje wykonane dla modelu leczonego guza}
+\chapter{Leczenie metod¹ immunoterapii -- symulacje wykonane dla~modelu leczonego guza}
 
 W symulacji leczenia metod¹ immunoterapii wziêto pod uwagê takie zmienne, jak:
 \begin{itemize}
-\item wielkoœæ guza (liczba komórek nowotworowych) w dniu rozpoczêcia immunoterapii,
-\item dawka IL-2 podczas równoczesnego wykorzystania TIL w leczeniu,
-\item dawka TIL podczas równoczesnego wykorzystania IL-2 w leczeniu,
-\item dawka IL-2 podczas leczenia wy³¹cznie przy pomocy IL-2,
-\item dawka TIL podczas leczenia wy³¹cznie przy pomocy TIL,
+\item wielkoœæ nowotworu (liczba komórek nowotworowych) w dniu rozpoczêcia immunoterapii,
+\item dawka IL-2,
+\item dawka TIL,
 \item dzieñ rozpoczêcia immunoterapii,
-\item liczba powtórzeñ dawkowania IL-2 podczas równoczesnego wykorzystania TIL w leczeniu,
-\item czas podawania TIL przy równoczesnytm wykorzystaniu IL-2 w leczeniu.
+\item liczba powtórzeñ cyklu dawkowania IL-2.
 \end{itemize}
 
 \begin{table}[h!]
@@ -1437,10 +1432,8 @@ W symulacji leczenia metod¹ immunoterapii wziêto pod uwagê takie zmienne, jak:
 		\caption{Immunoterapia -- warunki pocz¹tkowe}\label{warunki_pocz¹tkowe_immunoterapii}
 \end{table}
 
-
-
 \newpage
-\subsection{Scenariusz I -- zmiana wielkoœci guza w dniu rozpoczêcia leczenia}
+\section{Scenariusz I -- zmiana wielkoœci guza w dniu rozpoczêcia leczenia}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~wielkoœci guza (liczby komórek nowotworowych) w dniu rozpoczêcia leczenia.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
@@ -1449,9 +1442,9 @@ W symulacji leczenia metod¹ immunoterapii wziêto pod uwagê takie zmienne, jak:
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
 
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê pocz¹tkowej liczby komórek nowotworowych zebrano w tabeli \ref{zmiany_wielkosci_guza_immuno}. \newline
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê pocz¹tkowej liczby komórek nowotworowych zebrano w tabeli \ref{immuno_zmiany_wielkosci_guza}. \newline
 
-W tabeli \ref{zmiany_wielkosci_guza_immuno} przedstawiono jak zmieniano dzieñ rozpoczêcia leczenia metoda chemioterapii, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
+W tabeli \ref{immuno_zmiany_wielkosci_guza} przedstawiono jak zmieniano dzieñ rozpoczêcia leczenia metoda chemioterapii, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
 
 \begin{table}[h!]
 	\centering
@@ -1466,48 +1459,48 @@ W tabeli \ref{zmiany_wielkosci_guza_immuno} przedstawiono jak zmieniano dzieñ ro
 		$1,8 \cdot 10^{7}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
 		\end{tabular}
 \caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
-\label{zmiany_wielkosci_guza_immuno}
+\label{immuno_zmiany_wielkosci_guza}
 \end{table} 
 
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
+%
+%uk³ad os³abiony - pokonuje tylko niewielki  guz, zwiekszanie guza jak w artykjule
+
 \newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
-
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-uk³ad os³abiony - pokonuje tylko niewielki  guz, zwiekszanie guza jak w artykjule
-
-\newpage
-\subsection{Scenariusz II -- zmiana dawki IL-2 przy równoczesnym wykorzystaniu TIL podczas leczenia}
+\section{Scenariusz II -- zmiana dawki IL-2 przy równoczesnym wykorzystaniu TIL}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~dawki IL-2 przy równoczesnym wykorzystaniu TIL podczas immunoterapii.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
@@ -1537,43 +1530,43 @@ W tabeli \ref{zmiany_dawki_IL2_przy_TIL} przedstawiono jak zmieniano dzieñ rozpo
 \label{zmiany_dawki_IL2_przy_TIL}
 \end{table} 
 
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
+
 \newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
-
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\newpage
-\subsection{Scenariusz III -- zmiana dawki TIL przy równoczesnym wykorzystaniu IL-2 podczas leczenia}
+\section{Scenariusz III -- zmiana dawki TIL przy równoczesnym wykorzystaniu IL-2}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~dawki TIL przy równoczesnym wykorzystaniu IL-2 podczas immunoterapii.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
@@ -1604,43 +1597,43 @@ W tabeli \ref{zmiany_dawki_TIL_przy_IL2} przedstawiono jak zmieniano dzieñ rozpo
 \label{zmiany_dawki_TIL_przy_IL2}
 \end{table} 
 
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
+
 \newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
-
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\newpage
-\subsection{Scenariusz IV -- zmiana dawki IL-2 bez wykorzystania TIL podczas leczenia}
+\section{Scenariusz IV -- zmiana dawki IL-2 bez wykorzystania TIL}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~dawki IL-2 bez wykorzystania TIL podczas immunoterapii.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
@@ -1649,9 +1642,9 @@ Wnioski:
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
 
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê dawki IL-2 bez wykorzystania TIL zebrano w tabeli \ref{zmiany_dawki_TIL_bez_IL2}. \newline
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê dawki IL-2 bez wykorzystania TIL zebrano w tabeli \ref{zmiany_dawki_IL2_bez_TIL}. \newline
 
-W tabeli \ref{zmiany_dawki_TIL_bez_IL2} przedstawiono jak zmieniano dzieñ rozpoczêcia leczenia metoda chemioterapii, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
+W tabeli \ref{zmiany_dawki_IL2_bez_TIL} przedstawiono jak zmieniano dzieñ rozpoczêcia leczenia metoda chemioterapii, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
 
 \begin{table}[h!]
 	\centering
@@ -1667,46 +1660,46 @@ W tabeli \ref{zmiany_dawki_TIL_bez_IL2} przedstawiono jak zmieniano dzieñ rozpoc
 		$1 \cdot 10^{8}$ & 18,34 & $5,06 \cdot 10^{-85}$ & $5,06 \cdot 10^{-91}$ & $5 \cdot 10^{-31}$ \\ \hline \hline
 		\end{tabular}
 \caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
-\label{zmiany_dawki_TIL_bez_IL2}
+\label{zmiany_dawki_IL2_bez_TIL}
 \end{table} 
 
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
+
 \newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
-
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\newpage
-\subsection{Scenariusz V -- zmiana dawki TIL bez wykorzystania IL-2 podczas leczenia}
+\section{Scenariusz V -- zmiana dawki TIL bez wykorzystania IL-2}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~dawki TIL bez wykorzystania IL-2 podczas immunoterapii.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
@@ -1715,9 +1708,9 @@ Wnioski:
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
 
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê dawki TIL bez wykorzystania IL-2 zebrano w tabeli \ref{zmiany_dawki_IL2_bez_TIL}. \newline
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê dawki TIL bez wykorzystania IL-2 zebrano w tabeli \ref{zmiany_dawki_TIL_bez_IL2}. \newline
 
-W tabeli \ref{zmiany_dawki_IL2_bez_TIL} przedstawiono jak zmieniano dzieñ rozpoczêcia leczenia metoda chemioterapii, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
+W tabeli \ref{zmiany_dawki_TIL_bez_IL2} przedstawiono jak zmieniano dzieñ rozpoczêcia leczenia metoda chemioterapii, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
 
 \begin{table}[h!]
 	\centering
@@ -1734,46 +1727,125 @@ W tabeli \ref{zmiany_dawki_IL2_bez_TIL} przedstawiono jak zmieniano dzieñ rozpoc
 		$1 \cdot 10^{15}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
 		\end{tabular}
 \caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
-\label{zmiany_dawki_IL2_bez_TIL}
+\label{zmiany_dawki_TIL_bez_IL2}
 \end{table} 
 
-\newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\item nic to nie daje :)
+%\end{itemize}
 
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
+\section{Scenariusz VI -- zmiana liczby powtórzeñ cyklu dozowania IL-2 przy równoczesnym wykorzystaniu TIL}
+\noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~liczby powtórzeñ dozowania IL-2 przy równoczesnym wykorzystania TIL (dla warunków pocz¹tkowych) podczas immunoterapii.
 
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
 
-\begin{figure}[!htb]
+\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu uwzglêdniaj¹cego leczenie ukazano w~tabelach \ref{parametry_modelu_bez1} i \ref{parametry_modelu_z1}.
+
+\noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
+
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby powtórzeñ dozowania IL-2 przy równoczesnym wykorzystaniu TIL (dla warunków pocz¹tkowych) zebrano w tabeli \ref{zmiany_liczby_powtorzen_IL2}. \newline
+
+W tabeli \ref{zmiany_liczby_powtorzen_IL2} przedstawiono jak zmieniano dzieñ rozpoczêcia leczenia metoda chemioterapii, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
+
+\begin{table}[h!]
 	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
+\begin{tabular}{|c|c|c|c|c|} \hline \hline
+        \multicolumn{5}{|c|}{Pocz¹tkowa liczba komórek nowotworu: $1,8 \cdot 10^{7}$} \\ \hline \hline
+		Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
+		powtórzeñ & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\
+		dozowania IL-2 & & & & \\ \hline
+		6 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		7 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		8 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		9 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		10 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		11 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		12 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		13 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
+		14 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
+		\multicolumn{5}{|c|}{Pocz¹tkowa liczba komórek nowotworu: $1 \cdot 10^{6}$} \\ \hline \hline
+		Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
+		powtórzeñ & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\
+		dozowania IL-2 & & & & \\ \hline
+		6 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
+		5 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
+		4 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
+		3 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
+		2 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
+		1 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline \hline
+		\end{tabular}
+\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\label{zmiany_liczby_powtorzen_IL2}
+\end{table} 
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
 
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\item nic to nie daje :)
-\end{itemize}
-
-\subsection{Scenariusz VI -- zmiana dnia rozpoczêcia leczenia (dozowania IL-2) przy równoczesnym wykorzystania TIL (dla warunków pocz¹tkowych) podczas leczenia}
+\section{Scenariusz VI -- zmiana dnia rozpoczêcia immunoterapii (dozowania IL-2) przy równoczesnym wykorzystaniu TIL}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~dnia rozpoczêcia leczenia (dozowania IL-2) przy równoczesnym wykorzystaniu TIL (dla warunków pocz¹tkowych) podczas immunoterapii.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
@@ -1806,121 +1878,42 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_immunoterapii_IL2} przedstawiono jak zmien
 \label{zmiany_dnia_rozpoczecia_immunoterapii_IL2}
 \end{table} 
 
-\newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
 
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\subsection{Scenariusz VII -- zmiana liczby powtórzeñ dozowania IL-2 przy równoczesnym wykorzystania TIL (dla warunków pocz¹tkowych) podczas leczenia}
-\noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~liczby powtórzeñ dozowania IL-2 przy równoczesnym wykorzystania TIL (dla warunków pocz¹tkowych) podczas immunoterapii.
-
-\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
-
-\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu uwzglêdniaj¹cego leczenie ukazano w~tabelach \ref{parametry_modelu_bez1} i \ref{parametry_modelu_z1}.
-
-\noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
-
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby powtórzeñ dozowania IL-2 przy równoczesnym wykorzystaniu TIL (dla warunków pocz¹tkowych) zebrano w tabeli \ref{zmiany_liczby_powtorzen_IL2}. \newline
-
-W tabeli \ref{zmiany_liczby_powtorzen_IL2} przedstawiono jak zmieniano dzieñ rozpoczêcia leczenia metoda chemioterapii, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.
-
-\begin{table}[h!]
-	\centering
-\begin{tabular}{|c|c|c|c|c|} \hline \hline
-        \multicolumn{5}{|c|}{Pocz¹tkowa liczba komórek nowotworu: $1,8 \cdot 10^{7}$} \\ \hline \hline
-		Dzieñ & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		rozpoczêcia & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\
-		leczenia & & & & \\ \hline
-		6 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-		7 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-		8 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-		9 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-		10 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-		11 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-		12 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-		13 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-		14 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
-		\multicolumn{5}{|c|}{Pocz¹tkowa liczba komórek nowotworu: $1 \cdot 10^{6}$} \\ \hline \hline
-		Dzieñ & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		rozpoczêcia & nowotworu & $[$liczba komórek$]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\
-		leczenia & & & & \\ \hline
-		6 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
-		5 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
-		4 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
-		3 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
-		2 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
-		1 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline \hline
-		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
-\label{zmiany_liczby_powtorzen_IL2}
-\end{table} 
-
-\newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
-
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\subsection{Scenariusz VIII -- zmiana dnia rozpoczêcia leczenia (dozowania TIL) przy równoczesnym wykorzystaniu IL-2 (dla warunków pocz¹tkowych) podczas leczenia}
+\section{Scenariusz VIII -- zmiana dnia rozpoczêcia immunoterapii (dozowania TIL) przy równoczesnym wykorzystaniu IL-2}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~dnia rozpoczêcia leczenia (dozowania TIL) przy równoczesnym wykorzystaniu IL-2 (dla warunków pocz¹tkowych) podczas immunoterapii.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
@@ -1952,43 +1945,43 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_immunoterapii_TIL} przedstawiono jak zmien
 \label{zmiany_dnia_rozpoczecia_immunoterapii_TIL}
 \end{table} 
 
+%\newpage
+%Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
+%
+%\begin{figure}[h!]
+%\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
+%\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
+%\label{bez_lecz_brak_stlumienia}
+%\end{figure}
+%
+%\newpage
+%\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
+%
+%\begin{figure}[!htb]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
+%\end{figure}
+%
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
+%	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
+%\end{figure}
+%
+%\newpage
+%Wnioski:
+%\begin{itemize}
+%\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
+%\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
+%\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
+%\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
+%\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
+%\item promieñ i objêtoœæ ...
+%\end{itemize}
+
 \newpage
-Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
-
-\begin{figure}[h!]
-\includegraphics[width=0.85\textwidth]{bez_lecz_sym1_progres}
-\caption{Zmiany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$.}
-\label{bez_lecz_brak_stlumienia}
-\end{figure}
-
-\newpage
-\indent Zmiany wielkoœci nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$ przedstawiono na~Rys. \ref{wykres_bez_lecz_t120_t0}. Na~Rys. \ref{wykres_bez_lecz_promien_t0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_t120_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0} 
-\end{figure}
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=1\textwidth]{wykres_bez_lecz_promien_t0}
-	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. D³ugoœæ promienia nowotworu [mm] w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_promien_t0} 
-\end{figure}
-
-\newpage
-Wnioski:
-\begin{itemize}
-\item zdrowy uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 6 \cdot 10^{10}$ jest w~stanie zniszczyæ komórki nowotworowe bez ingerencji dodatkowych czynników (np. leczenia), jeœli pocz¹tkowa liczba komórek nowotworu wynosi $T(0) = 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie);
-\item przy~zbyt~du¿ej pocz¹tkowej liczbie komórek nowotworu ($T(0) = 1,8 \cdot 10^{7}$) uk³ad immunologiczny, mimo dobrego stanu, nie~potrafi samoistnie pozbyæ siê nowotworu;
-\item wzrost liczby komórek nowotworowych powoduje nag³y przyrost limfocytów typu $T_{CD8+}$; z powodu braku mo¿liwoœci zniszczenia nowotworu liczba limfocytów typu $T_{CD8+}$ utrzymuje siê (nie zmniejsza siê) na sta³ym poziomie $L \approx 2,8 \cdot 10^{6}$;
-\item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
-\item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
-\item promieñ i objêtoœæ ...
-\end{itemize}
-
-\newpage
-\section{Po³¹czenie metod chemioterapii i~immunoterapii -- symulacje wykonane dla modelu leczonego guza}
+\chapter{Po³¹czenie metod chemioterapii i~immunoterapii -- symulacje wykonane dla modelu leczonego guza}
 
 W symulacji leczenia skojarzonymi metodami chemioterapii i immunoterapii badano:
 \begin{itemize}
@@ -1997,7 +1990,7 @@ W symulacji leczenia skojarzonymi metodami chemioterapii i immunoterapii badano:
 \item zmiany parametrów immunoterapii konieczne dla uzyskania okreœlonych wartoœci parametrów chemioterapii.
 \end{itemize}
 
-\subsection{Scenariusz I -- zmiana parametrów chemioterapii przy sta³ych wartoœciach parametrów immunoterapii}
+\section{Scenariusz I -- zmiana parametrów chemioterapii przy sta³ych wartoœciach parametrów immunoterapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~parametrów chemioterapii (liczby dni cyklu, dawki cytostatyka, liczby powtórzeñ cyklu, czasu dozowania cytostatyka w ka¿dym z powtórzeñ) przy sta³ych wartoœciach parametrów immunoterapii.
 
@@ -2012,7 +2005,7 @@ W symulacji leczenia skojarzonymi metodami chemioterapii i immunoterapii badano:
 \newpage
 W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano wielkoœæ dawki dozowanego cytostatyka, schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
 
-%\subsubsection{Zmiana liczby dni cyklu}
+\subsection{Zmiana liczby dni cyklu}
 
 \begin{table}[h!]
 	\centering
@@ -2032,7 +2025,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \label{zmiana_cehmio_stale_immuno_dni_cyklu}
 \end{table} 
 
-%\subsubsection{Zmiana dawki cytostatyka}
+\subsection{Zmiana dawki cytostatyka}
 
 \begin{table}[h!]
 	\centering
@@ -2080,7 +2073,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \label{zmiana_cehmio_stale_immuno_dawka}
 \end{table} 
 
-%\subsubsection{Zmiana liczby powtórzeñ cyklu}
+\subsection{Zmiana liczby powtórzeñ cyklu}
 
 \begin{table}[h!]
 	\centering
@@ -2102,7 +2095,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \label{zmiana_cehmio_stale_immuno_liczba_powtorzen_cyklu}
 \end{table} 
 
-%\subsubsection{Zmiana d³ugoœci dozowania cytostatyka}
+\subsection{Zmiana d³ugoœci dozowania cytostatyka}
 
 \begin{table}[h!]
 	\centering
@@ -2117,7 +2110,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \label{zmiana_cehmio_stale_immuno_czas_dozowania}
 \end{table} 
 
-%\subsubsection{Zmiana czasu rozpoczêcia chemioterapii}
+\subsection{Zmiana czasu rozpoczêcia chemioterapii}
 
 \begin{table}[h!]
 	\centering
@@ -2132,8 +2125,6 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
 \label{zmiana_cehmio_stale_immuno_dzien_rozpoczecia}
 \end{table} 
-
-
 
 %\newpage
 %Rys. \ref{bez_lecz_brak_stlumienia} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
@@ -2173,7 +2164,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 %terapia jednoczesna - dzia³¹ a w osobnych nie dzia³a³o, zmniejszsenie dawki w chemio i zwiekszenie liczby dni w cyklu - duuu¿o mniejsza dawka, mniejsze wyniszczenie, i tylko jedna dawka chemio starcza
 
 \newpage
-\subsection{Scenariusz II -- zmiana parametrów immunoterapii przy sta³ych wartoœciach parametrów chemioterapii}
+\section{Scenariusz II -- zmiana parametrów immunoterapii przy sta³ych wartoœciach parametrów chemioterapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~parametrów immunoterapii (dawki IL-2 z równoczesnym wykorzystaniem TIL, dawki IL-2 bez wykorzystania TIL, liczby powtórzeñ cyklu dla IL-2 bez wykorzystania TIL, dnia rozpoczêcia leczenia IL-2 bez wykorzystania TIL) przy sta³ych wartoœciach parametrów immunoterapii.
 
@@ -2188,7 +2179,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \newpage
 W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano wielkoœæ dawki dozowanego cytostatyka, schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
 
-%\subsubsection{Zmiana dawki IL-2 przy równoczesnym wykorzystaniu TIL}
+\subsection{Zmiana dawki IL-2 przy równoczesnym wykorzystaniu TIL}
 
 \begin{table}[h!]
 	\centering
@@ -2207,7 +2198,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \label{zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}
 \end{table} 
 
-%\subsubsection{Zmiana dawki IL-2 bez wykorzystania TIL}
+\subsection{Zmiana dawki IL-2 bez wykorzystania TIL}
 
 \begin{table}[h!]
 	\centering
@@ -2225,7 +2216,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \label{zmiana_immuno_stale_chemio_dawka_IL2_bez_TIL}
 \end{table} 
 
-%\subsubsection{Zmiana liczby powtórzeñ cyklu IL-2 bez wykorzystania TIL}
+\subsection{Zmiana liczby powtórzeñ cyklu IL-2 bez wykorzystania TIL}
 
 \begin{table}[h!]
 	\centering
@@ -2244,7 +2235,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \label{zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}
 \end{table} 
 
-%\subsubsection{Zmiana dnia rozpoczêcia leczenia IL-2 bez wykorzystania TIL}
+\subsection{Zmiana dnia rozpoczêcia leczenia IL-2 bez wykorzystania TIL}
 
 \begin{table}[h!]
 	\centering
@@ -2303,7 +2294,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 %terapia jednoczesna - dzia³¹ a w osobnych nie dzia³a³o, zmniejszsenie dawki w chemio i zwiekszenie liczby dni w cyklu - duuu¿o mniejsza dawka, mniejsze wyniszczenie, i tylko jedna dawka chemio starcza
 
 \newpage
-\subsection{Scenariusz III -- zmiany parametrów immunoterapii konieczne dla uzyskania okreœlonych wartoœci parametrów chemioterapii}
+\section{Scenariusz III -- zmiany parametrów immunoterapii konieczne dla uzyskania okreœlonych wartoœci parametrów chemioterapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od dawki IL-2 z równoczesnym wykorzystaniem TIL i okreœlonymi wartoœciami parametrów chemioterapii.
 
@@ -2355,7 +2346,7 @@ W tabeli \ref{zmiana_immuno_okreslone_chemio} przedstawiono jak zmieniano wielko
 \end{table} 
 
 \newpage
-\subsection{Scenariusz IV -- zmiany czasu wdro¿enia poszczególnych terapii}
+\section{Scenariusz IV -- zmiany czasu wdro¿enia poszczególnych terapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od czasu wdro¿enia poszczególnych terapii.
 
@@ -2385,8 +2376,8 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano wielk
 \end{table} 
 
 \newpage
-\section{Porównanie stanu uk³adów immunologicznych u ró¿nych pacjentów}
-\subsection{Scenariusz I -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}
+\chapter{Symulacje - Porównanie stanu uk³adu immunologicznego u ró¿nych pacjentów}
+\section{Scenariusz I -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~pocz¹tkowej wielkoœci nowotworu (liczby komórek nowotworowych).
 
@@ -2452,8 +2443,8 @@ W tabeli \ref{rozni_pacjenci} przedstawiono jak zmieniano pocz¹tkow¹ liczbê komó
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
 		Pacjent & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		& nowotworu & $[$liczba komórek$]$ & nowotworu  [$mm^{3}$] & nowotworu [$mm$] \\ \hline
-		1 & 13,25 & $9,43 \cdot 10^{-95}$ & $9,43 \cdot 10^{-101}$ & $2,8 \cdot 10^{-34}$ \\ \hline
-		2 & 8,29 & $2,26 \cdot 10^{-101}$ & $2,26 \cdot 10^{-107}$ & $1,8 \cdot 10^{-36}$ \\ \hline
+		1 & 18,25 & $4,32 \cdot 10^{-85}$ & $4,32 \cdot 10^{-91}$ & $4,7 \cdot 10^{-31}$ \\ \hline
+		2 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
 \caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
 \label{rozni_pacjenci}
