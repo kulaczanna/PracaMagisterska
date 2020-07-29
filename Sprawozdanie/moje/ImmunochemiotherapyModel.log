@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  29 JUL 2020 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  29 JUL 2020 14:54
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -1033,7 +1033,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1600--1601
  []
 
 
-Overfull \hbox (28.16708pt too wide) in paragraph at lines 1606--1631
+Overfull \hbox (2.87845pt too wide) in paragraph at lines 1606--1631
  [][] 
  []
 
@@ -1041,12 +1041,12 @@ Overfull \hbox (28.16708pt too wide) in paragraph at lines 1606--1631
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [58]
-Underfull \hbox (badness 10000) in paragraph at lines 1679--1680
+Underfull \hbox (badness 10000) in paragraph at lines 1680--1681
 
  []
 
 [59]
-Overfull \hbox (8.75339pt too wide) in paragraph at lines 1685--1713
+Overfull \hbox (24.74628pt too wide) in paragraph at lines 1686--1714
  [][] 
  []
 
@@ -1061,26 +1061,18 @@ lacje wykonane dla modelu leczonego guza[] 62
  []
 
 [62]
-Overfull \hbox (47.33987pt too wide) in paragraph at lines 1801--1841
+Overfull \hbox (47.33987pt too wide) in paragraph at lines 1802--1842
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 10.0899pt on input line 1843.
+LaTeX Warning: Float too large for page by 10.0899pt on input line 1844.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.87845pt too wide) in paragraph at lines 1849--1863
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (11.69086pt too wide) in paragraph at lines 1871--1878
+Overfull \hbox (2.87845pt too wide) in paragraph at lines 1850--1864
  [][] 
  []
 
@@ -1088,7 +1080,15 @@ Overfull \hbox (11.69086pt too wide) in paragraph at lines 1871--1878
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (8.75339pt too wide) in paragraph at lines 1886--1894
+Overfull \hbox (11.69086pt too wide) in paragraph at lines 1872--1879
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (8.75339pt too wide) in paragraph at lines 1887--1895
  [][] 
  []
 
@@ -1115,7 +1115,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (2.87845pt too wide) in paragraph at lines 1992--2003
+Overfull \hbox (2.87845pt too wide) in paragraph at lines 1993--2004
  [][] 
  []
 
@@ -1123,7 +1123,7 @@ Overfull \hbox (2.87845pt too wide) in paragraph at lines 1992--2003
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (8.75339pt too wide) in paragraph at lines 2011--2024
+Overfull \hbox (8.75339pt too wide) in paragraph at lines 2012--2025
  [][] 
  []
 
@@ -1137,7 +1137,7 @@ lacje wykonane dla modelu leczonego guza[] 65
  []
 
 [65]
-Overfull \hbox (16.43948pt too wide) in paragraph at lines 2074--2080
+Overfull \hbox (16.43948pt too wide) in paragraph at lines 2075--2081
  [][] 
  []
 
@@ -1167,7 +1167,7 @@ lacje wykonane dla modelu leczonego guza[] 68
  []
 
 [68]
-Overfull \hbox (46.54521pt too wide) in paragraph at lines 2135--2143
+Overfull \hbox (46.54521pt too wide) in paragraph at lines 2136--2144
  [][] 
  []
 
@@ -1213,7 +1213,7 @@ lacje wykonane dla modelu leczonego guza[] 74
 [74]
 Rozdzia\PlPrIeC {\l } 10.
 
-Overfull \hbox (16.43948pt too wide) in paragraph at lines 2158--2163
+Overfull \hbox (16.43948pt too wide) in paragraph at lines 2159--2164
  [][] 
  []
 
@@ -1221,7 +1221,7 @@ Overfull \hbox (16.43948pt too wide) in paragraph at lines 2158--2163
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (23.90775pt too wide) in paragraph at lines 2185--2199
+Overfull \hbox (23.90775pt too wide) in paragraph at lines 2186--2200
  [][] 
  []
 
@@ -1249,13 +1249,13 @@ Rozdzia\PlPrIeC {\l } 14.
 ] [82] [83] [84] [85] [86
 
 ] [87] [88]
-Underfull \hbox (badness 10000) in paragraph at lines 2398--2399
+Underfull \hbox (badness 10000) in paragraph at lines 2399--2400
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2399--2400
+Underfull \hbox (badness 10000) in paragraph at lines 2400--2401
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
@@ -1279,16 +1279,10 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
 (ImmunochemiotherapyModel.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
+Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
+d.
+(rerunfilecheck)             Checksum: 67F012929CB6C27DF42BB105861AF58A;5964.
 
-
-Package rerunfilecheck Warning: File `ImmunochemiotherapyModel.out' has changed
-.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ImmunochemiotherapyModel.out':
-(rerunfilecheck)             Before: 7AF3677BE67F3A64F45D61307701F06F;5968
-(rerunfilecheck)             After:  12B9AB686285F8602F6E146B41980FD7;5968.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1322,7 +1316,7 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (96 pages, 891325 bytes).
+Output written on ImmunochemiotherapyModel.pdf (96 pages, 889825 bytes).
 PDF statistics:
  1389 PDF objects out of 1440 (max. 8388607)
  282 named destinations out of 1000 (max. 500000)
