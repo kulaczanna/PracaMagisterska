@@ -23,44 +23,40 @@
 \BOOKMARK [1][-]{section.4.3}{Model uwzgledniajacy proces leczenia}{chapter.4}% 23
 \BOOKMARK [2][-]{subsection.4.3.1}{R\363wnania i opis modelu}{section.4.3}% 24
 \BOOKMARK [0][-]{chapter.5}{Symulacje - brak leczenia}{}% 25
-\BOOKMARK [1][-]{section.5.1}{Odpowiedz uk\233adu immunologicznego na rozwijajacy sie w organizmie nowotw\363r \205 brak leczenia}{chapter.5}% 26
-\BOOKMARK [2][-]{subsection.5.1.1}{Scenariusz I \205 symulacja wykonana dla modelu nieleczonego guza}{section.5.1}% 27
-\BOOKMARK [2][-]{subsection.5.1.2}{Scenariusz II \205 symulacja wykonana dla modelu nieleczonego guza}{section.5.1}% 28
-\BOOKMARK [0][-]{chapter.6}{Symulacje - leczenie}{}% 29
-\BOOKMARK [0][-]{chapter.7}{Leczenie metoda chemioterapii \205 symulacje wykonane dla modelu leczonego guza}{}% 30
-\BOOKMARK [1][-]{section.7.1}{Scenariusz I \205 zmiana d\233ugosci cyklu}{chapter.7}% 31
-\BOOKMARK [1][-]{section.7.2}{Scenariusz II \205 zmiana dawki dozowanego cytostatyka}{chapter.7}% 32
-\BOOKMARK [1][-]{section.7.3}{Scenariusz III \205 zmiana dawki dozowanego cytostatyka w kolejnych powt\363rzeniach cyklu}{chapter.7}% 33
-\BOOKMARK [1][-]{section.7.4}{Scenariusz IV \205 zmiana liczby powt\363rzen cyklu}{chapter.7}% 34
-\BOOKMARK [1][-]{section.7.5}{Scenariusz V \205 zmiana dnia rozpoczecia chemioterapii \(dozowania cytostatyka\)}{chapter.7}% 35
-\BOOKMARK [0][-]{chapter.8}{Leczenie metoda immunoterapii \205 symulacje wykonane dla modelu leczonego guza}{}% 36
-\BOOKMARK [1][-]{section.8.1}{Scenariusz I \205 zmiana wielkosci guza w dniu rozpoczecia leczenia}{chapter.8}% 37
-\BOOKMARK [1][-]{section.8.2}{Scenariusz II \205 zmiana dawki IL-2}{chapter.8}% 38
-\BOOKMARK [1][-]{section.8.3}{Scenariusz III \205 zmiana dawki TIL}{chapter.8}% 39
-\BOOKMARK [1][-]{section.8.4}{Scenariusz IV \205 zmiana liczby powt\363rzen cyklu IL-2 przy leczeniu z wykorzystaniem TIL}{chapter.8}% 40
-\BOOKMARK [1][-]{section.8.5}{Scenariusz V \205 zmiana dnia rozpoczecia immunoterapii \(dozowania IL-2 lub TIL\)}{chapter.8}% 41
-\BOOKMARK [0][-]{chapter.9}{Po\233aczenie metod chemioterapii i immunoterapii \205 symulacje wykonane dla modelu leczonego guza}{}% 42
-\BOOKMARK [1][-]{section.9.1}{Scenariusz I \205 zmiana parametr\363w chemioterapii przy sta\233ych wartosciach parametr\363w immunoterapii}{chapter.9}% 43
-\BOOKMARK [2][-]{subsection.9.1.1}{Zmiana liczby dni cyklu}{section.9.1}% 44
-\BOOKMARK [2][-]{subsection.9.1.2}{Zmiana dawki cytostatyka}{section.9.1}% 45
-\BOOKMARK [2][-]{subsection.9.1.3}{Zmiana liczby powt\363rzen cyklu}{section.9.1}% 46
-\BOOKMARK [2][-]{subsection.9.1.4}{Zmiana d\233ugosci dozowania cytostatyka}{section.9.1}% 47
-\BOOKMARK [2][-]{subsection.9.1.5}{Zmiana czasu rozpoczecia chemioterapii}{section.9.1}% 48
-\BOOKMARK [1][-]{section.9.2}{Scenariusz II \205 zmiana parametr\363w immunoterapii przy sta\233ych wartosciach parametr\363w chemioterapii}{chapter.9}% 49
-\BOOKMARK [2][-]{subsection.9.2.1}{Zmiana dawki IL-2 przy r\363wnoczesnym wykorzystaniu TIL}{section.9.2}% 50
-\BOOKMARK [2][-]{subsection.9.2.2}{Zmiana dawki IL-2 bez wykorzystania TIL}{section.9.2}% 51
-\BOOKMARK [2][-]{subsection.9.2.3}{Zmiana liczby powt\363rzen cyklu IL-2 bez wykorzystania TIL}{section.9.2}% 52
-\BOOKMARK [2][-]{subsection.9.2.4}{Zmiana dnia rozpoczecia leczenia IL-2 bez wykorzystania TIL}{section.9.2}% 53
-\BOOKMARK [1][-]{section.9.3}{Scenariusz III \205 zmiany parametr\363w immunoterapii konieczne dla uzyskania okreslonych wartosci parametr\363w chemioterapii}{chapter.9}% 54
-\BOOKMARK [1][-]{section.9.4}{Scenariusz IV \205 zmiany czasu wdrozenia poszczeg\363lnych terapii}{chapter.9}% 55
-\BOOKMARK [0][-]{chapter.10}{Symulacje - por\363wnanie stanu uk\233adu immunologicznego u r\363znych pacjent\363w}{}% 56
-\BOOKMARK [1][-]{section.10.1}{Scenariusz I \205 symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{chapter.10}% 57
-\BOOKMARK [0][-]{chapter.11}{Rezultaty}{}% 58
-\BOOKMARK [0][-]{chapter.12}{Analiza wynik\363w}{}% 59
-\BOOKMARK [0][-]{chapter.13}{Podsumowanie}{}% 60
-\BOOKMARK [0][-]{chapter.14}{Rozw\363j}{}% 61
-\BOOKMARK [1][-]{section.14.1}{Interferony}{chapter.14}% 62
-\BOOKMARK [1][-]{section.14.2}{Nowa odmiana limfocyt\363w typu T}{chapter.14}% 63
-\BOOKMARK [1][-]{section.14.3}{Por\363wnanie stanu uk\233ad\363w immunologicznych u r\363znych pacjent\363w}{chapter.14}% 64
-\BOOKMARK [0][-]{chapter.15}{Dodatek}{}% 65
-\BOOKMARK [1][-]{section.15.1}{Tabela skr\363t\363w}{chapter.15}% 66
+\BOOKMARK [1][-]{section.5.1}{Scenariusz I \205 symulacja wykonana dla modelu nieleczonego guza}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.2}{Scenariusz II \205 symulacja wykonana dla modelu nieleczonego guza}{chapter.5}% 27
+\BOOKMARK [0][-]{chapter.6}{Symulacje - leczenie}{}% 28
+\BOOKMARK [0][-]{chapter.7}{Leczenie metoda chemioterapii \205 symulacje wykonane dla modelu leczonego guza}{}% 29
+\BOOKMARK [1][-]{section.7.1}{Scenariusz I \205 zmiana d\233ugosci cyklu}{chapter.7}% 30
+\BOOKMARK [1][-]{section.7.2}{Scenariusz II \205 zmiana dawki dozowanego cytostatyka}{chapter.7}% 31
+\BOOKMARK [1][-]{section.7.3}{Scenariusz III \205 zmiana dawki dozowanego cytostatyka w kolejnych powt\363rzeniach cyklu}{chapter.7}% 32
+\BOOKMARK [1][-]{section.7.4}{Scenariusz IV \205 zmiana liczby powt\363rzen cyklu}{chapter.7}% 33
+\BOOKMARK [1][-]{section.7.5}{Scenariusz V \205 zmiana dnia rozpoczecia chemioterapii \(dozowania cytostatyka\)}{chapter.7}% 34
+\BOOKMARK [0][-]{chapter.8}{Leczenie metoda immunoterapii \205 symulacje wykonane dla modelu leczonego guza}{}% 35
+\BOOKMARK [1][-]{section.8.1}{Scenariusz I \205 zmiana wielkosci guza w dniu rozpoczecia leczenia}{chapter.8}% 36
+\BOOKMARK [1][-]{section.8.2}{Scenariusz II \205 zmiana dawki IL-2}{chapter.8}% 37
+\BOOKMARK [1][-]{section.8.3}{Scenariusz III \205 zmiana dawki TIL}{chapter.8}% 38
+\BOOKMARK [1][-]{section.8.4}{Scenariusz IV \205 zmiana liczby powt\363rzen cyklu IL-2 przy leczeniu z wykorzystaniem TIL}{chapter.8}% 39
+\BOOKMARK [1][-]{section.8.5}{Scenariusz V \205 zmiana dnia rozpoczecia immunoterapii \(dozowania IL-2 lub TIL\)}{chapter.8}% 40
+\BOOKMARK [0][-]{chapter.9}{Leczenie skojarzonymi metodami chemioterapii i immunoterapii}{}% 41
+\BOOKMARK [1][-]{section.9.1}{Scenariusz I \205 zmiana parametr\363w chemioterapii przy sta\233ych wartosciach parametr\363w immunoterapii}{chapter.9}% 42
+\BOOKMARK [2][-]{subsection.9.1.1}{Zmiana d\233ugosci cyklu}{section.9.1}% 43
+\BOOKMARK [2][-]{subsection.9.1.2}{Zmiana dawki dozowanego cytostatyka}{section.9.1}% 44
+\BOOKMARK [2][-]{subsection.9.1.3}{Zmiana liczby powt\363rzen cyklu}{section.9.1}% 45
+\BOOKMARK [2][-]{subsection.9.1.4}{Zmiana dnia rozpoczecia chemioterapii}{section.9.1}% 46
+\BOOKMARK [1][-]{section.9.2}{Scenariusz II \205 zmiana parametr\363w immunoterapii przy sta\233ych wartosciach parametr\363w chemioterapii}{chapter.9}% 47
+\BOOKMARK [2][-]{subsection.9.2.1}{Zmiana dawki IL-2}{section.9.2}% 48
+\BOOKMARK [2][-]{subsection.9.2.2}{Zmiana liczby powt\363rzen cyklu IL-2 przy leczeniu bez wykorzystania TIL}{section.9.2}% 49
+\BOOKMARK [2][-]{subsection.9.2.3}{Zmiana dnia rozpoczecia immunoterapii \(dozowania IL-2\) przy leczeniu bez wykorzystania TIL}{section.9.2}% 50
+\BOOKMARK [1][-]{section.9.3}{Scenariusz III \205 zmiany parametr\363w immunoterapii konieczne dla uzyskania okreslonych wartosci parametr\363w chemioterapii}{chapter.9}% 51
+\BOOKMARK [1][-]{section.9.4}{Scenariusz IV \205 por\363wnanie czasu wdrozenia poszczeg\363lnych terapii}{chapter.9}% 52
+\BOOKMARK [1][-]{section.9.5}{Scenariusz V \205 por\363wnanie stanu uk\233adu immunologicznego u r\363znych pacjent\363w}{chapter.9}% 53
+\BOOKMARK [0][-]{chapter.10}{Rezultaty}{}% 54
+\BOOKMARK [0][-]{chapter.11}{Analiza wynik\363w}{}% 55
+\BOOKMARK [0][-]{chapter.12}{Podsumowanie}{}% 56
+\BOOKMARK [0][-]{chapter.13}{Rozw\363j}{}% 57
+\BOOKMARK [1][-]{section.13.1}{Interferony}{chapter.13}% 58
+\BOOKMARK [1][-]{section.13.2}{Nowa odmiana limfocyt\363w typu T}{chapter.13}% 59
+\BOOKMARK [1][-]{section.13.3}{Por\363wnanie stanu uk\233ad\363w immunologicznych u r\363znych pacjent\363w}{chapter.13}% 60
+\BOOKMARK [0][-]{chapter.14}{Dodatek}{}% 61
+\BOOKMARK [1][-]{section.14.1}{Tabela skr\363t\363w}{chapter.14}% 62
