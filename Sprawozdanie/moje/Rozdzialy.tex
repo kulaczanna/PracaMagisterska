@@ -718,7 +718,7 @@ Dla~wiêkszej czytelnoœci, wielkoœæ nowotworu okreœlono równie¿ poprzez d³ugoœæ j
 		h & $2,02 \cdot 10^{7}$ & $\alpha$ & $7,5 \cdot 10^{8}$ \\ \hline
 		j & $2,49 \cdot 10^{-2}$ & $\beta$ & $1,2 \cdot 10^{-2}$ \\ \hline
 		\end{tabular}
-		\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu_bez1}
+		\caption{Wartoœci parametrów modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia.}\label{parametry_modelu_bez1}
 \end{table}
 
 \newpage
@@ -745,13 +745,12 @@ Zmiany w czasie liczby komórek ka¿dej z~czterech badanych populacji, tj. komórek
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
 
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê pocz¹tkowej liczby komórek nowotworowych $T(0)$ zebrano w tabeli \ref{zmiany_poczatkowej_wartosci_T_brak_leczenia}.
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê pocz¹tkowej liczby komórek nowotworowych $T(0)$ zebrano w tabeli \ref{zmiany_poczatkowej_wartosci_T_brak_leczenia}. \newline
+
+W tabeli \ref{zmiany_poczatkowej_wartosci_T_brak_leczenia} przedstawiono jak zmieniano pocz¹tkow¹ liczbê komórek nowotworu $T(0)$, liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
 
 \begin{table}[h!]
-\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Pocz¹tkowa liczba komórek nowotworowych $T(0)$, liczba komórek nowotworowych w ostatnim dniu symulacji w chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}
-
 \small
-\label{zmiany_poczatkowej_wartosci_T_brak_leczenia}
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|} \hline
 		$T(0)$ & Pocz¹tkowy promieñ & $T(120)$ & Objêtoœæ & Promieñ \\
@@ -767,11 +766,12 @@ Zmiany w czasie liczby komórek ka¿dej z~czterech badanych populacji, tj. komórek
 		$2 \cdot 10^{7}$ & 1,69 & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$5 \cdot 10^{7}$ & 2,29 & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
+		\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Pocz¹tkowa liczba komórek nowotworowych $T(0)$, liczba komórek nowotworowych w ostatnim dniu symulacji w chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}
+
+\label{zmiany_poczatkowej_wartosci_T_brak_leczenia}
 \end{table} 
 
 \normalsize
-
-W tabeli \ref{zmiany_poczatkowej_wartosci_T_brak_leczenia} przedstawiono jak zmieniano pocz¹tkow¹ liczbê komórek nowotworu $T(0)$, liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. \newline
 
 Rys. \ref{bez_lecz_brak_stlumienia_zmiana_T} obrazuje przypadek, w~którym uk³ad immunologiczny nie~jest w~stanie pokonaæ nowotworu -- liczba jego komórek stabilizuje siê po~24 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$).
 
@@ -821,8 +821,9 @@ Wnioski:
 
 \noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$ zebrano w tabeli \ref{zmiany_poczatkowej_wartosci_C}. \newline
 
+W~tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono jak zmieniano pocz¹tkow¹ liczbê limfocytów kr¹¿¹cych $C(0)$, liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
+
 \begin{table}[!htb]
-\caption{Pocz¹tkowa liczba limfocytów kr¹¿¹cych $C(0)$, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}\label{zmiany_poczatkowej_wartosci_C}
 	\centering
 \begin{tabular}{|c|c|c|c|} \hline
 		$C(0)$ & $T(120)$ & Objêtoœæ & Promieñ \\
@@ -838,9 +839,8 @@ Wnioski:
 		$6 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$3 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
+		\caption{Pocz¹tkowa liczba limfocytów kr¹¿¹cych $C(0)$, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}\label{zmiany_poczatkowej_wartosci_C}
 \end{table}
-
-W~tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono jak zmieniano pocz¹tkow¹ liczbê limfocytów kr¹¿¹cych $C(0)$, liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
 
 Na~Rys. \ref{zmiany_liczby_kom_4_populacjiC} liczba komórek nowotworowych stabilizuje siê po~28 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$). Uk³ad immunologiczny ze wzglêdu na~zmniejszon¹ liczbê kr¹¿¹cych limfocytów jest zbyt s³aby, by zniszczyæ komórki nowotworu.
 
@@ -906,7 +906,7 @@ Wartoœci parametrów (Tab. \ref{parametry_modelu_bez1}) oraz~wartoœci dodatkowych
 		Nazwa & $\gamma$ & $K_{T}$ & $K_{N}$ & $K_{L}$ & $K_{C}$ & $p_{I}$ & $g_{I}$ & $\mu_{I}$ \\ \hline
 		Wartoœæ & $9 \cdot 10^{-1}$ & $9 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $9 \cdot 10^{3}$ & $2 \cdot 10^{7}$ & $1 \cdot 10^{1}$ \\ \hline	
 	\end{tabular}
-	\caption{Dodatkowe parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z1}
+	\caption{Wartoœci dodatkowych parametrów modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z1}
 \end{table}
 
 \chapter{Leczenie metod¹ chemioterapii -- symulacje wykonane dla modelu leczonego guza}
@@ -929,7 +929,7 @@ Cykl podawania leku okreœla czas ci¹g³ego podawania leku oraz przerwy pomiêdzy k
 		&  & & cytostatyka & cyklu & chemioterapii \\ \hline 
 		4 & 1 & [1 3] & 5 & 9 & 1 \\ \hline
 		\end{tabular}
-		\caption{Chemioterapia -- warunki pocz¹tkowe}\label{warunki pocz¹tkowe_chemioterapii}
+		\caption{Warunki pocz¹tkowe modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia za pomoc¹ chemioterapii.}\label{warunki pocz¹tkowe_chemioterapii}
 \end{table} 
 
 \newpage
@@ -1224,7 +1224,7 @@ W symulacji leczenia metod¹ immunoterapii wziêto pod uwagê takie zmienne, jak:
 		& & & leku & cyklu & immunoterapii \\ \hline
 		0 & 1 & [1 0] & $1 \cdot 10^{9}$ & 1 & 8\\ \hline
 		\end{tabular}
-		\caption{Immunoterapia -- warunki pocz¹tkowe}\label{warunki_pocz¹tkowe_immunoterapii}
+		\caption{Warunki pocz¹tkowe modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia za pomoc¹ immunoterapii.}\label{warunki_pocz¹tkowe_immunoterapii}
 \end{table}
 
 \newpage
@@ -1677,7 +1677,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 		8 & 1 & [1 7] & 1 & 1 & 1 \\ \hline
 		8 & 1 & [1 7] & 0,5 & 1 & 1 \\ \hline
 		\end{tabular}
-		\caption{Chemioterapia -- warunki pocz¹tkowe}\label{okreslone_warunki_pocz¹tkowe_chemioterapii}
+		\caption{Warunki pocz¹tkowe chemioterapii dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii.}\label{okreslone_warunki_pocz¹tkowe_chemioterapii}
 \end{table} 
 
 \noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu uwzglêdniaj¹cego leczenie ukazano w~tabelach \ref{parametry_modelu_bez1} i \ref{parametry_modelu_z1}.
@@ -1756,7 +1756,7 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano wielk
 		dozowania & cyklu & cyklu & powtórzeñ cyklu & pocz¹tkowa & leczenia \\ \hline
 		1 & 8 & [1 7] & 1 & 0,5 & 1 \\ \hline
 		\end{tabular}
-		\caption{Chemioterapia -- warunki pocz¹tkowe}\label{warunki_pocz¹tkowe_chemioterapii_light}
+		\caption{Warunki pocz¹tkowe chemioterapii dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii - porównanie uk³adu immunologicznego u ró¿nych pacjentów.}\label{warunki_pocz¹tkowe_chemioterapii_light}
 \end{table} 
 
 \begin{table}[h!]
@@ -1773,7 +1773,7 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano wielk
 		$[dni]$ & $[dni]$ & cyklu & & leczenia \\ \hline
 		1 & $\infty$ & 1 & $1 \cdot 10^{9}$ & 8\\ \hline
 		\end{tabular}
-		\caption{Immunoterapia -- warunki pocz¹tkowe}\label{warunki_pocz¹tkowe_immunoterapii_dopasowane_do_chemio_light}
+		\caption{Warunki pocz¹tkowe immunoterapii dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii - porównanie uk³adu immunologicznego u ró¿nych pacjentów.}\label{warunki_pocz¹tkowe_immunoterapii_dopasowane_do_chemio_light}
 \end{table}
 
 \newpage

@@ -7,21 +7,21 @@
 \contentsline {table}{\numberline {4.2}{\ignorespaces Dodatkowe parametry modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z\nobreakspace {}uwzgl\k ednieniem procesu leczenia.\relax }}{27}{table.caption.7}%
 \addvspace {10pt}
 \contentsline {table}{\numberline {5.1}{\ignorespaces Warunki pocz\k atkowe modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or bez uwzgl\k ednienia procesu leczenia.\relax }}{28}{table.caption.8}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces Parametry modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or bez uwzgl\k ednienia procesu leczenia - warto\'sci.\relax }}{28}{table.caption.9}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Warto\'sci parametr\'ow modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or bez uwzgl\k ednienia procesu leczenia.\relax }}{28}{table.caption.9}%
 \contentsline {table}{\numberline {5.3}{\ignorespaces Wyniki symulacji - brak leczenia, scenariusz I}}{30}{table.caption.11}%
 \contentsline {table}{\numberline {5.4}{\ignorespaces Pocz\k atkowa liczba limfocyt\'ow kr\k a\.z\k acych $C(0)$, liczba kom\'orek nowotworowych w\nobreakspace {}ostatnim dniu symulacji w\nobreakspace {}chwili $T_{k}$ = 120 dni $T(120)$ oraz\nobreakspace {}szacowana obj\k eto\'s\'c i\nobreakspace {}d\IeC {\l }ugo\'s\'c promienia nowotworu w\nobreakspace {}ostatnim dniu symulacji w\nobreakspace {}chwili $T_{k}$ = 120 dni.\relax }}{35}{table.caption.15}%
 \addvspace {10pt}
 \contentsline {table}{\numberline {6.1}{\ignorespaces Warunki pocz\k atkowe dla modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia.\relax }}{39}{table.caption.19}%
-\contentsline {table}{\numberline {6.2}{\ignorespaces Dodatkowe parametry modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z\nobreakspace {}uwzgl\k ednieniem procesu leczenia.\relax }}{39}{table.caption.20}%
+\contentsline {table}{\numberline {6.2}{\ignorespaces Warto\'sci dodatkowych parametr\'ow modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z\nobreakspace {}uwzgl\k ednieniem procesu leczenia.\relax }}{39}{table.caption.20}%
 \addvspace {10pt}
-\contentsline {table}{\numberline {7.1}{\ignorespaces Chemioterapia -- warunki pocz\k atkowe\relax }}{40}{table.caption.21}%
+\contentsline {table}{\numberline {7.1}{\ignorespaces Warunki pocz\k atkowe modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia za pomoc\k a chemioterapii.\relax }}{40}{table.caption.21}%
 \contentsline {table}{\numberline {7.2}{\ignorespaces Wyniki symulacji - brak leczenia, scenariusz I}}{42}{table.caption.22}%
 \contentsline {table}{\numberline {7.3}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka}}{47}{table.caption.26}%
 \contentsline {table}{\numberline {7.4}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka dla kolejnych powt\'orze\'n}}{48}{table.caption.27}%
 \contentsline {table}{\numberline {7.5}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka dla kolejnych powt\'orze\'n}}{50}{table.caption.28}%
 \contentsline {table}{\numberline {7.6}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dnia rozpocz\k ecia chemioterapii}}{52}{table.caption.29}%
 \addvspace {10pt}
-\contentsline {table}{\numberline {8.1}{\ignorespaces Immunoterapia -- warunki pocz\k atkowe\relax }}{53}{table.caption.30}%
+\contentsline {table}{\numberline {8.1}{\ignorespaces Warunki pocz\k atkowe modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia za pomoc\k a immunoterapii.\relax }}{53}{table.caption.30}%
 \contentsline {table}{\numberline {8.2}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dnia rozpocz\k ecia chemioterapii}}{54}{table.caption.31}%
 \contentsline {table}{\numberline {8.3}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dnia rozpocz\k ecia chemioterapii}}{56}{table.caption.32}%
 \contentsline {table}{\numberline {8.4}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dnia rozpocz\k ecia chemioterapii}}{57}{table.caption.33}%
@@ -35,11 +35,11 @@
 \contentsline {table}{\numberline {9.5}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dnia rozpocz\k ecia chemioterapii}}{67}{table.caption.40}%
 \contentsline {table}{\numberline {9.6}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dnia rozpocz\k ecia chemioterapii}}{68}{table.caption.41}%
 \contentsline {table}{\numberline {9.7}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dnia rozpocz\k ecia chemioterapii}}{68}{table.caption.42}%
-\contentsline {table}{\numberline {9.8}{\ignorespaces Chemioterapia -- warunki pocz\k atkowe\relax }}{69}{table.caption.43}%
+\contentsline {table}{\numberline {9.8}{\ignorespaces Warunki pocz\k atkowe chemioterapii dla modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii.\relax }}{69}{table.caption.43}%
 \contentsline {table}{\numberline {9.9}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dnia rozpocz\k ecia chemioterapii}}{70}{table.caption.44}%
 \contentsline {table}{\numberline {9.10}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dnia rozpocz\k ecia chemioterapii}}{71}{table.caption.45}%
-\contentsline {table}{\numberline {9.11}{\ignorespaces Chemioterapia -- warunki pocz\k atkowe\relax }}{72}{table.caption.46}%
-\contentsline {table}{\numberline {9.12}{\ignorespaces Immunoterapia -- warunki pocz\k atkowe\relax }}{72}{table.caption.47}%
+\contentsline {table}{\numberline {9.11}{\ignorespaces Warunki pocz\k atkowe chemioterapii dla modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii - por\'ownanie uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow.\relax }}{72}{table.caption.46}%
+\contentsline {table}{\numberline {9.12}{\ignorespaces Warunki pocz\k atkowe immunoterapii dla modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii - por\'ownanie uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow.\relax }}{72}{table.caption.47}%
 \contentsline {table}{\numberline {9.13}{\ignorespaces Parametry modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or bez uwzgl\k ednienia procesu leczenia - warto\'sci.\relax }}{73}{table.caption.48}%
 \contentsline {table}{\numberline {9.14}{\ignorespaces Wyniki symulacji - chemioterapia, zmiana dnia rozpocz\k ecia chemioterapii}}{73}{table.caption.49}%
 \addvspace {10pt}
