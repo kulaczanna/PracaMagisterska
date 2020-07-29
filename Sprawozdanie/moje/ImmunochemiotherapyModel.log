@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  29 JUL 2020 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  29 JUL 2020 18:58
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -839,7 +839,7 @@ Package pdftex.def Info: ./rysunki/bez_lecz_sym1_regresja.jpg  used on input li
 ne 728.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [29 <./rysunki/bez_lecz_sym1_regresja.jpg>]
-Overfull \hbox (39.66052pt too wide) in paragraph at lines 756--770
+Overfull \hbox (45.7125pt too wide) in paragraph at lines 756--770
  [][] 
  []
 
@@ -922,7 +922,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 946--947
  []
 
 
-Overfull \hbox (60.40172pt too wide) in paragraph at lines 952--973
+Overfull \hbox (63.49971pt too wide) in paragraph at lines 952--973
  [][] 
  []
 
@@ -959,7 +959,7 @@ t line 996.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [43] [44] [45] [46]
-Overfull \hbox (64.22795pt too wide) in paragraph at lines 1028--1059
+Overfull \hbox (67.32594pt too wide) in paragraph at lines 1028--1059
  [][] 
  []
 
@@ -975,7 +975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1072--1073
  []
 
 
-Overfull \hbox (43.92677pt too wide) in paragraph at lines 1078--1096
+Overfull \hbox (47.02477pt too wide) in paragraph at lines 1078--1096
  [][] 
  []
 
@@ -990,7 +990,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
  []
 
 
-Overfull \hbox (10.96214pt too wide) in paragraph at lines 1174--1197
+Overfull \hbox (14.06013pt too wide) in paragraph at lines 1174--1197
  [][] 
  []
 
@@ -1007,7 +1007,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1240--1241
  []
 
 
-Overfull \hbox (33.2323pt too wide) in paragraph at lines 1246--1256
+Overfull \hbox (39.42828pt too wide) in paragraph at lines 1246--1256
  [][] 
  []
 
@@ -1030,7 +1030,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1358--1359
  []
 
 
-Overfull \hbox (2.87845pt too wide) in paragraph at lines 1364--1389
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1364--1389
  [][] 
  []
 
@@ -1043,7 +1043,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1403--1404
  []
 
 [59]
-Overfull \hbox (24.74628pt too wide) in paragraph at lines 1409--1437
+Overfull \hbox (27.84427pt too wide) in paragraph at lines 1409--1437
  [][] 
  []
 
@@ -1052,37 +1052,37 @@ Rozdzia\PlPrIeC {\l } 9.
 [61
 
 ] [62]
-Overfull \hbox (60.40172pt too wide) in paragraph at lines 1471--1482
+Overfull \hbox (63.49971pt too wide) in paragraph at lines 1471--1482
  [][] 
  []
 
 [63]
-Overfull \hbox (8.81866pt too wide) in paragraph at lines 1491--1531
+Overfull \hbox (11.91666pt too wide) in paragraph at lines 1491--1531
  [][] 
  []
 
 [64]
-Overfull \hbox (2.87845pt too wide) in paragraph at lines 1540--1554
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1540--1554
  [][] 
  []
 
 
-Overfull \hbox (8.75339pt too wide) in paragraph at lines 1562--1570
+Overfull \hbox (11.85138pt too wide) in paragraph at lines 1562--1570
  [][] 
  []
 
 [65] [66] [67]
-Overfull \hbox (2.87845pt too wide) in paragraph at lines 1625--1636
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1625--1636
  [][] 
  []
 
 
-Overfull \hbox (8.75339pt too wide) in paragraph at lines 1644--1657
+Overfull \hbox (11.85138pt too wide) in paragraph at lines 1644--1657
  [][] 
  []
 
 [68] [69] [70]
-Overfull \hbox (46.54521pt too wide) in paragraph at lines 1734--1742
+Overfull \hbox (49.6432pt too wide) in paragraph at lines 1734--1742
  [][] 
  []
 
@@ -1178,7 +1178,7 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (92 pages, 877563 bytes).
+Output written on ImmunochemiotherapyModel.pdf (92 pages, 880275 bytes).
 PDF statistics:
  1346 PDF objects out of 1440 (max. 8388607)
  272 named destinations out of 1000 (max. 500000)
