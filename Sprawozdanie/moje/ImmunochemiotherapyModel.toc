@@ -28,16 +28,16 @@
 \contentsline {subsection}{\numberline {5.1.2}Scenariusz II -- symulacja wykonana dla modelu nieleczonego guza}{35}{subsection.5.1.2}%
 \contentsline {chapter}{\numberline {6.}Symulacje - leczenie}{39}{chapter.6}%
 \contentsline {chapter}{\numberline {7.}Leczenie metod\k a chemioterapii -- symulacje wykonane dla modelu leczonego guza}{40}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Scenariusz I -- zmiana liczby dni cyklu}{41}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Scenariusz II -- zmiana dawki podawanego cytostatyka}{46}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Scenariusz III -- zmiana dawki podawanego cytostatyka w kolejnych powt\'orzeniach cyklu}{48}{section.7.3}%
+\contentsline {section}{\numberline {7.1}Scenariusz I -- zmiana d\IeC {\l }ugo\'sci cyklu}{41}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Scenariusz II -- zmiana dawki dozowanego cytostatyka}{46}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Scenariusz III -- zmiana dawki dozowanego cytostatyka w kolejnych powt\'orzeniach cyklu}{48}{section.7.3}%
 \contentsline {section}{\numberline {7.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu}{49}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Scenariusz V -- zmiana dnia rozpocz\k ecia chemioterapii}{51}{section.7.5}%
+\contentsline {section}{\numberline {7.5}Scenariusz V -- zmiana dnia rozpocz\k ecia chemioterapii (dozowania cytostatyka)}{51}{section.7.5}%
 \contentsline {chapter}{\numberline {8.}Leczenie metod\k a immunoterapii -- symulacje wykonane dla\nobreakspace {}modelu leczonego guza}{53}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Scenariusz I -- zmiana wielko\'sci guza w dniu rozpocz\k ecia leczenia}{54}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Scenariusz II -- zmiana dawki IL-2}{55}{section.8.2}%
 \contentsline {section}{\numberline {8.3}Scenariusz III -- zmiana dawki TIL}{56}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu dozowania IL-2 przy r\'ownoczesnym wykorzystaniu TIL}{58}{section.8.4}%
+\contentsline {section}{\numberline {8.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu dla IL-2 przy leczeniu z wykorzystaniem TIL}{58}{section.8.4}%
 \contentsline {section}{\numberline {8.5}Scenariusz V -- zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2 lub TIL)}{58}{section.8.5}%
 \contentsline {chapter}{\numberline {9.}Po\IeC {\l }\k aczenie metod chemioterapii i\nobreakspace {}immunoterapii -- symulacje wykonane dla modelu leczonego guza}{61}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Scenariusz I -- zmiana parametr\'ow chemioterapii przy sta\IeC {\l }ych warto\'sciach parametr\'ow immunoterapii}{61}{section.9.1}%
@@ -53,7 +53,7 @@
 \contentsline {subsection}{\numberline {9.2.4}Zmiana dnia rozpocz\k ecia leczenia IL-2 bez wykorzystania TIL}{65}{subsection.9.2.4}%
 \contentsline {section}{\numberline {9.3}Scenariusz III -- zmiany parametr\'ow immunoterapii konieczne dla uzyskania okre\'slonych warto\'sci parametr\'ow chemioterapii}{66}{section.9.3}%
 \contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{68}{section.9.4}%
-\contentsline {chapter}{\numberline {10.}Symulacje - Por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{75}{chapter.10}%
+\contentsline {chapter}{\numberline {10.}Symulacje - por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{75}{chapter.10}%
 \contentsline {section}{\numberline {10.1}Scenariusz I -- symulacja wykonana dla modelu guza leczonego skojarzonymi metodami chemioterapii i immunoterapii}{75}{section.10.1}%
 \contentsline {chapter}{\numberline {11.}Rezultaty}{78}{chapter.11}%
 \contentsline {chapter}{\numberline {12.}Analiza wynik\'ow}{79}{chapter.12}%

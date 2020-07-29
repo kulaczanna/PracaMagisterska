@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  27 JUL 2020 23:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  29 JUL 2020 14:45
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -722,7 +722,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
-<./rysunki/Limf_TT2.jpg, id=646, 522.45187pt x 1002.74625pt>
+<./rysunki/Limf_TT2.jpg, id=647, 522.45187pt x 1002.74625pt>
 File: ./rysunki/Limf_TT2.jpg Graphic file (type jpg)
 <use ./rysunki/Limf_TT2.jpg>
 Package pdftex.def Info: ./rysunki/Limf_TT2.jpg  used on input line 254.
@@ -835,7 +835,7 @@ Rozdzia\PlPrIeC {\l } 5.
 [28
 
 ]
-<./rysunki/bez_lecz_sym1_regresja.jpg, id=854, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_regresja.jpg, id=855, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_regresja.jpg  used on input li
@@ -852,7 +852,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 771--772
  []
 
 [30]
-<./rysunki/bez_lecz_sym1_progres.jpg, id=868, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym1_progres.jpg, id=869, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
@@ -864,13 +864,13 @@ Overfull \hbox (3.9089pt too wide) in paragraph at lines 782--783
 o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
  []
 
-<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=876, 630.10406pt x 382.42876pt>
+<./rysunki/wykres_bez_lecz_t120_t0.jpg, id=877, 630.10406pt x 382.42876pt>
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
 ine 786.
 (pdftex.def)             Requested size: 441.01773pt x 267.66911pt.
-<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=877, 629.35126pt x 384.6872pt>
+<./rysunki/wykres_bez_lecz_promien_t0.jpg, id=878, 629.35126pt x 384.6872pt>
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
@@ -886,21 +886,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 819--820
  []
 
 [35]
-<./rysunki/bez_lecz_sym2_progres.jpg, id=899, 562.1pt x 421.575pt>
+<./rysunki/bez_lecz_sym2_progres.jpg, id=900, 562.1pt x 421.575pt>
 File: ./rysunki/bez_lecz_sym2_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_progres.jpg  used on input lin
 e 846.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [36 <./rysunki/bez_lecz_sym2_progres.jpg>]
-<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=905, 632.3625pt x 379.4175pt>
+<./rysunki/wykres_bez_lecz_t120_c0.jpg, id=906, 632.3625pt x 379.4175pt>
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
 ine 856.
 (pdftex.def)             Requested size: 441.01773pt x 264.6178pt.
  [37 <./rysunki/wykres_bez_lecz_t120_c0.jpg>]
-<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=912, 626.34pt x 381.67593pt>
+<./rysunki/wykres_bez_lecz_promien_c0.jpg, id=913, 626.34pt x 381.67593pt>
 File: ./rysunki/wykres_bez_lecz_promien_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_c0.jpg  used on inpu
@@ -1279,10 +1279,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
 (ImmunochemiotherapyModel.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
-Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
-d.
-(rerunfilecheck)             Checksum: A201CC3FA7FFB07A34013BD310C44B94;5951.
 
+
+Package rerunfilecheck Warning: File `ImmunochemiotherapyModel.out' has changed
+.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ImmunochemiotherapyModel.out':
+(rerunfilecheck)             Before: 7AF3677BE67F3A64F45D61307701F06F;5968
+(rerunfilecheck)             After:  12B9AB686285F8602F6E146B41980FD7;5968.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1316,9 +1322,9 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (96 pages, 891088 bytes).
+Output written on ImmunochemiotherapyModel.pdf (96 pages, 891325 bytes).
 PDF statistics:
- 1388 PDF objects out of 1440 (max. 8388607)
+ 1389 PDF objects out of 1440 (max. 8388607)
  282 named destinations out of 1000 (max. 500000)
  569 words of extra memory for PDF output out of 10000 (max. 10000000)
 
