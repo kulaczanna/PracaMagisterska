@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  30 JUL 2020 10:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  30 JUL 2020 15:22
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -974,12 +974,6 @@ Overfull \hbox (24.2894pt too wide) in paragraph at lines 1028--1062
  []
 
 [47]
-Overfull \hbox (0.61449pt too wide) in paragraph at lines 1067--1068
-\OT4/cmr/m/n/12 oraz ko-mó-rek ukªa-du od-por-no-±cio-we-go) w ostat-nim dniu s
-y-mu-la-cji w za-le»-no-±ci od stop-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1075--1076
 
  []
@@ -997,26 +991,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1114--1115
 
  []
 
-[49]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[50] [51]
-Underfull \hbox (badness 10000) in paragraph at lines 1172--1173
+[49] [50]
+Underfull \hbox (badness 10000) in paragraph at lines 1171--1172
 
  []
 
-
+[51]
 Overfull \hbox (14.06013pt too wide) in paragraph at lines 1178--1201
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[52] [53]
+[52]
 Rozdzia\PlPrIeC {\l } 8.
-[54
+[53
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1244--1245
@@ -1028,7 +1015,7 @@ Overfull \hbox (39.42828pt too wide) in paragraph at lines 1250--1260
  [][] 
  []
 
-[55]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 1276--1277
 
  []
@@ -1036,12 +1023,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1276--1277
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[56] [57]
+[55] [56]
 Underfull \hbox (badness 10000) in paragraph at lines 1318--1319
 
  []
 
-[58]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 1362--1363
 
  []
@@ -1054,31 +1041,31 @@ Overfull \hbox (5.97644pt too wide) in paragraph at lines 1368--1393
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[59]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 1407--1408
 
  []
 
-[60]
+[59]
 Overfull \hbox (27.84427pt too wide) in paragraph at lines 1413--1441
  [][] 
  []
 
-[61]
+[60]
 Rozdzia\PlPrIeC {\l } 9.
-[62
+[61
 
-] [63]
+] [62]
 Overfull \hbox (63.49971pt too wide) in paragraph at lines 1475--1486
  [][] 
  []
 
-[64]
+[63]
 Overfull \hbox (32.1986pt too wide) in paragraph at lines 1495--1539
  [][] 
  []
 
-[65]
+[64]
 Overfull \hbox (5.97644pt too wide) in paragraph at lines 1548--1562
  [][] 
  []
@@ -1088,7 +1075,7 @@ Overfull \hbox (21.96933pt too wide) in paragraph at lines 1570--1578
  [][] 
  []
 
-[66] [67] [68]
+[65] [66] [67]
 Overfull \hbox (5.97644pt too wide) in paragraph at lines 1633--1644
  [][] 
  []
@@ -1098,45 +1085,45 @@ Overfull \hbox (27.84427pt too wide) in paragraph at lines 1652--1665
  [][] 
  []
 
-[69]
+[68]
 Overfull \hbox (16.60518pt too wide) in paragraph at lines 1681--1688
  [][] 
  []
 
-[70] [71]
+[69] [70]
 Overfull \hbox (49.6432pt too wide) in paragraph at lines 1742--1751
  [][] 
  []
 
-[72]
+[71]
 Overfull \hbox (16.60518pt too wide) in paragraph at lines 1763--1769
  [][] 
  []
 
-[73]
+[72]
 Underfull \hbox (badness 10000) in paragraph at lines 1830--1831
 
  []
 
-[74]
+[73]
 Rozdzia\PlPrIeC {\l } 10.
-[75
+[74
 
 ]
 Rozdzia\PlPrIeC {\l } 11.
-[76
+[75
 
 ]
 Rozdzia\PlPrIeC {\l } 12.
-[77
+[76
 
 ]
 Rozdzia\PlPrIeC {\l } 13.
-[78
+[77
 
-] [79] [80] [81] [82] [83
+] [78] [79] [80] [81] [82
 
-] [84] [85]
+] [83] [84]
 Underfull \hbox (badness 10000) in paragraph at lines 1987--1988
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
@@ -1148,14 +1135,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1988--1989
 e-universal-
  []
 
-) (Dodatek.tex [86]
+) (Dodatek.tex [85]
 Rozdzia\PlPrIeC {\l } 14.
 
 Overfull \hbox (26.34036pt too wide) in paragraph at lines 8--34
  [][] 
  []
 
-) [87
+) [86
 
 ]
 
@@ -1167,18 +1154,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
 (ImmunochemiotherapyModel.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
-Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
-d.
-(rerunfilecheck)             Checksum: 6B84E2ABD799E49E5328635D78A611C5;5463.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `ImmunochemiotherapyModel.out' has changed
+.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `ImmunochemiotherapyModel.out':
+(rerunfilecheck)             Before: 6B84E2ABD799E49E5328635D78A611C5;5463
+(rerunfilecheck)             After:  0127710C9018EE0184701425ABDC92C3;5442.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 9967 strings out of 480930
- 155419 string characters out of 2901168
+ 9966 strings out of 480930
+ 155412 string characters out of 2901168
  616263 words of memory out of 3000000
  25338 multiletter control sequences out of 15000+200000
  548194 words of font info for 69 fonts, out of 3000000 for 9000
@@ -1204,9 +1194,9 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (94 pages, 897474 bytes).
+Output written on ImmunochemiotherapyModel.pdf (93 pages, 897226 bytes).
 PDF statistics:
- 1412 PDF objects out of 1440 (max. 8388607)
- 274 named destinations out of 1000 (max. 500000)
+ 1408 PDF objects out of 1440 (max. 8388607)
+ 273 named destinations out of 1000 (max. 500000)
  537 words of extra memory for PDF output out of 10000 (max. 10000000)
 
