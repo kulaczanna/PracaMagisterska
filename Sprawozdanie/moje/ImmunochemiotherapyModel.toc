@@ -36,8 +36,8 @@
 \contentsline {section}{\numberline {8.1}Scenariusz I -- zmiana pocz\k atkowej wielko\'sci guza}{54}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Scenariusz II -- zmiana dawki IL-2}{55}{section.8.2}%
 \contentsline {section}{\numberline {8.3}Scenariusz III -- zmiana dawki TIL}{56}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia z wykorzystaniem TIL}{58}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Scenariusz V -- zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2 lub TIL)}{59}{section.8.5}%
+\contentsline {section}{\numberline {8.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu IL-2}{58}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Scenariusz V -- zmiana dnia rozpocz\k ecia immunoterapii}{59}{section.8.5}%
 \contentsline {chapter}{\numberline {9.}Leczenie skojarzonymi metodami chemioterapii i\nobreakspace {}immunoterapii}{61}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Scenariusz I -- zmiana parametr\'ow chemioterapii przy sta\IeC {\l }ych warto\'sciach parametr\'ow immunoterapii}{62}{section.9.1}%
 \contentsline {subsection}{\numberline {9.1.1}Zmiana d\IeC {\l }ugo\'sci cyklu chemioterapii}{63}{subsection.9.1.1}%
