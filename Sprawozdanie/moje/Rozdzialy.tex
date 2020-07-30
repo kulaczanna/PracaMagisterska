@@ -766,7 +766,7 @@ W tabeli \ref{zmiany_poczatkowej_wartosci_T_brak_leczenia} przedstawiono jak zmi
 		$2 \cdot 10^{7}$ & 1,69 & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$5 \cdot 10^{7}$ & 2,29 & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-		\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Pocz¹tkowa liczba komórek nowotworowych $T(0)$, liczba komórek nowotworowych w ostatnim dniu symulacji w chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}
+		\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Pocz¹tkowa liczba komórek nowotworowych $T(0)$, pocz¹tkowa szacowana d³ugoœæ promienia nowotworu, liczba komórek nowotworowych w ostatnim dniu symulacji w chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu po~symulacji w ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}
 
 \label{zmiany_poczatkowej_wartosci_T_brak_leczenia}
 \end{table} 
@@ -839,7 +839,7 @@ W~tabeli \ref{zmiany_poczatkowej_wartosci_C} przedstawiono jak zmieniano pocz¹tk
 		$6 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$3 \cdot 10^{8}$ & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-		\caption{Pocz¹tkowa liczba limfocytów kr¹¿¹cych $C(0)$, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}\label{zmiany_poczatkowej_wartosci_C}
+		\caption[Wyniki symulacji - brak leczenia, scenariusz II]{Pocz¹tkowa liczba limfocytów kr¹¿¹cych $C(0)$, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}\label{zmiany_poczatkowej_wartosci_C}
 \end{table}
 
 Na~Rys. \ref{zmiany_liczby_kom_4_populacjiC} liczba komórek nowotworowych stabilizuje siê po~28 dniach oko³o wartoœci $9,8 \cdot 10^{8}$ (odpowiada to~objêtoœci 980 $mm^{3}$ i~d³ugoœci promienia 6,16 $mm$). Uk³ad immunologiczny ze wzglêdu na~zmniejszon¹ liczbê kr¹¿¹cych limfocytów jest zbyt s³aby, by zniszczyæ komórki nowotworu.
@@ -912,11 +912,11 @@ Wartoœci parametrów (Tab. \ref{parametry_modelu_bez1}) oraz~wartoœci dodatkowych
 \chapter{Leczenie metod¹ chemioterapii -- symulacje wykonane dla modelu leczonego guza}
 W symulacji leczenia metod¹ chemioterapii wziêto pod uwagê takie zmienne, jak:
 \begin{itemize}
-\item liczba dni cyklu podawania cytostatyka,
+\item d³ugoœæ cyklu dozowania cytostatyka,
 \item czas dozowania cytostatyka podczas jednego cyklu,
-\item dawka podawanego cytostatyka,
-\item liczba powtórzeñ cyklu podawania cytostatyka,
-\item czas rozpoczêcia leczenia.
+\item dawka dozowanego cytostatyka $V_M$,
+\item liczba powtórzeñ cyklu dozowania cytostatyka,
+\item dzieñ rozpoczêcia leczenia.
 \end{itemize} 
 
 Cykl podawania leku okreœla czas ci¹g³ego podawania leku oraz przerwy pomiêdzy kolejnymi dawkami konieczne do regeneracji organizmu. Przyk³adowy schemat cyklu mo¿na okreœliæ poprzez: [1 5], co oznacza, podawanie leku przez 1 dzieñ (24 godziny) oraz 5 dni (120 godzin) przerwy. Nastêpnie cykl mo¿e byæ powtórzony, co oznacza³oby kolejny 1 dzieñ podawania leku, 5 dni przerwy. Podczas symulacji pomiêdzy kolejnymi powtórzeniami cyklu nie uwzglêdniono ¿adnych przerw.
@@ -926,7 +926,7 @@ Cykl podawania leku okreœla czas ci¹g³ego podawania leku oraz przerwy pomiêdzy k
 \begin{tabular}{|c|c|c|c|c|c|} \hline
 		D³ugoœæ & Czas dozowania & Schemat & Dawka & Liczba & Dzieñ \\
 		cyklu $[dni]$ & cytostatyka $[dni]$ & cyklu & dozowanego & powtórzeñ & rozpoczêcia \\
-		&  & & cytostatyka & cyklu & chemioterapii \\ \hline 
+		&  & &  cytostatyka $V_M$ & cyklu & chemioterapii \\ \hline 
 		4 & 1 & [1 3] & 5 & 9 & 1 \\ \hline
 		\end{tabular}
 		\caption{Warunki pocz¹tkowe modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia za pomoc¹ chemioterapii.}\label{warunki pocz¹tkowe_chemioterapii}
@@ -970,7 +970,7 @@ W tabeli \ref{chemio_zmiany_liczby_dni_cyklu} przedstawiono jak zmieniano liczbê
 		3,75 & [0,75 3] & 34,34 & $8,94 \cdot 10^{-8}$ & $8,94 \cdot 10^{-14}$ & $2,8 \cdot 10^{-5}$ \\ \hline
 		3,5 & [0,5 3] & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-		\caption[Wyniki symulacji - brak leczenia, scenariusz I]{Liczba dni cyklu chemioterapii, schemat chemioterapii,  dzieñ regresji nowotworu oraz liczba komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.}\label{chemio_zmiany_liczby_dni_cyklu}
+		\caption[Wyniki symulacji - chemioterapia, scenariusz I, zmiana d³ugoœci cyklu]{D³ugoœæ oraz schemat cyklu chemioterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla zmieniaj¹cej siê d³ugoœci przerwy pomiêdzy poszczególnymi dawkami chemioterapii (przy sta³ym czasie dozowania pojedynczej dawki równym 1 dzieñ) oraz zmieniaj¹cego siê czasu dozowania pojedynczej dawki (przy sta³ej d³ugoœci przerwy pomiêdzy dawkami równej 3 dni).}\label{chemio_zmiany_liczby_dni_cyklu}
 \end{table} 
 
 \newpage
@@ -1026,9 +1026,10 @@ W tabeli \ref{chemio_zmiany_dawki} przedstawiono jak zmieniano wielkoœæ dawki do
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|} \hline \hline
-        \multicolumn{6}{|c|}{\textbf{Liczba dni cyklu: 4}} \\ \hline \hline
+        \multicolumn{6}{|c|}{\textbf{D³ugoœæ cyklu: 4 dni}} \\ \hline \hline
 		Schemat & Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cyklu & cytostatyka & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+	    cyklu & dozowanego & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu\\ 
+	    & cytostatyka $V_M$ & & & [$mm^{3}$] & [$mm$] \\ \hline
 		[1 3] & 3 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		[1 3] & 3,5 & 49,34 & $8,32 \cdot 10^{-8}$ & $8,32 \cdot 10^{-14}$ & $2,7 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 4 & 34 & $9,18 \cdot 10^{-8}$ & $9,18 \cdot 10^{-14}$ & $2,8 \cdot 10^{-5}$ \\ \hline
@@ -1039,9 +1040,10 @@ W tabeli \ref{chemio_zmiany_dawki} przedstawiono jak zmieniano wielkoœæ dawki do
 		[1 3] & 15 & 16,38 & $\sim 0$ & $\sim 0$ & $\sim 0$ \\ \hline
 		[1 3] & 20 & 15,63 & $\sim 0$ & $\sim 0$ & $\sim 0$ \\ \hline
 		[1 3] & 30 & 15,7 & $\sim 0$ & $\sim 0$ & $\sim 0$ \\ \hline \hline
-        \multicolumn{6}{|c|}{\textbf{Liczba dni cyklu: 8}} \\ \hline \hline
+        \multicolumn{6}{|c|}{\textbf{D³ugoœæ cyklu: 8 dni}} \\ \hline \hline
         Schemat & Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cyklu & cytostatyka & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline	
+	    cyklu & dozowanego & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu\\ 
+	    & cytostatyka $V_M$ & & & [$mm^{3}$] & [$mm$] \\ \hline
 		[1 7] & 5 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline 
 %		[1 7] & 5,5 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 %		[1 7] & 6 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
@@ -1050,13 +1052,14 @@ W tabeli \ref{chemio_zmiany_dawki} przedstawiono jak zmieniano wielkoœæ dawki do
 		[1 7] & 10 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline 
 		[1 7] & 12 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		[1 7] & 13 & 70,79 & $2 \cdot 10^{-7}$ & $2 \cdot 10^{-13}$ & $3,6 \cdot 10^{-5}$ \\ \hline \hline
-        \multicolumn{6}{|c|}{\textbf{Liczba dni cyklu: 12}} \\ \hline \hline
+        \multicolumn{6}{|c|}{\textbf{D³ugoœæ cyklu: 12 dni}} \\ \hline \hline
         Schemat & Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-	    cyklu & cytostatyka & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+	    cyklu & dozowanego & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu\\ 
+	    & cytostatyka $V_M$ & & & [$mm^{3}$] & [$mm$] \\ \hline
 		[1 11] & 52 & brak & $7,69 \cdot 10^{8}$ & $769$ & $5,69$ \\ \hline
 		[1 11] & 53 & 98,25 & $1,79 \cdot 10^{-13}$ & $1,79 \cdot 10^{-19}$ & $3,5 \cdot 10^{-7}$ \\ \hline
 		\end{tabular}
-		\caption[Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka]{Schemat cyklu chemioterapii, dawka dozowanego cytostatyka, dzieñ regresji nowotworu oraz liczba komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.}\label{chemio_zmiany_dawki}
+		\caption[Wyniki symulacji - chemioterapia, scenariusz II, zmiana dawki $V_M$ dozowanego cytostatyka]{Schemat cyklu chemioterapii, dawka dozowanego cytostatyka, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla d³ugoœci cyklu równej 4, 8 oraz 12 dni.}\label{chemio_zmiany_dawki}
 \end{table} 
 
 \newpage
@@ -1077,8 +1080,9 @@ W tabeli \ref{chemio_zmiany_dawki_w_kolejnych_powtorzeniach} przedstawiono jak z
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|} \hline
 %        \multicolumn{6}{|c|}{\textbf{Liczba powtórzeñ cyklu: 9}} \\ \hline \hline
-		Schemat & Zmiana & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cyklu & dawki & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		Schemat & Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
+		cyklu & dozowanego & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu \\ 
+		& cytostatyka $V_M$ & & & [$mm^{3}$] & [$mm$] \\ \hline
 		[1 3] & $-0,1$ & 26,84 & $1,53 \cdot 10^{-7}$ & $1,53 \cdot 10^{-13}$ & $3,3 \cdot 10^{-5}$ \\ \hline
 		[1 3] & $-0,2$ & 27,96 & $3,13 \cdot 10^{-8}$ & $3,13 \cdot 10^{-14}$ & $2 \cdot 10^{-5}$ \\ \hline
 		[1 3] & $-0,3$ & 29,34 & $4,25 \cdot 10^{-8}$ & $4,25 \cdot 10^{-14}$ & $2,2 \cdot 10^{-5}$ \\ \hline
@@ -1093,7 +1097,7 @@ W tabeli \ref{chemio_zmiany_dawki_w_kolejnych_powtorzeniach} przedstawiono jak z
 %		[1 3] & $-0,4$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 %		[1 3] & $-0,5$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline  \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka dla kolejnych powtórzeñ]{Schemat cyklu chemioterapii, zmiana dawki dozowanego cytostatyka dla kolejnych powtórzeñ, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - chemioterapia, scenariusz III, zmiana dawki $V_M$ dozowanego cytostatyka w kolejnych powtórzeniach cyklu]{Schemat cyklu chemioterapii, ró¿nica pomiêdzy kolejnymi dawkami (dawka $V_M$ zmniejszana z ka¿dym kolejnym powtórzeniem cyklu) dozowanego cytostatyka, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}
 \label{chemio_zmiany_dawki_w_kolejnych_powtorzeniach}
 \end{table} 
 
@@ -1115,7 +1119,7 @@ W tabeli \ref{chemio_zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|} \hline \hline
-        \multicolumn{6}{|c|}{\textbf{Dawka: 5}} \\ \hline \hline
+        \multicolumn{6}{|c|}{\textbf{$V_M = 5$}} \\ \hline \hline
 		Schemat & Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		cyklu & powtórzeñ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu \\ 
 		& cyklu & & & [$mm^{3}$] & [$mm$]\\ \hline
@@ -1126,7 +1130,7 @@ W tabeli \ref{chemio_zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê
 		[1 3] & 5 & 27,92 & $2,31 \cdot 10^{-8}$ & $2,31 \cdot 10^{-14}$ & $1,8 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 4 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
 %		[1 3] & 3 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
-        \multicolumn{6}{|c|}{\textbf{Dawka: 4}} \\ \hline \hline
+        \multicolumn{6}{|c|}{\textbf{$V_M = 4$}} \\ \hline \hline
 		Schemat & Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		cyklu & powtórzeñ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu \\ 
 		& cyklu & & & [$mm^{3}$] & [$mm$]\\ \hline
@@ -1134,13 +1138,13 @@ W tabeli \ref{chemio_zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê
 		[1 3] & 8 & 34,67 & $1,19 \cdot 10^{-7}$ & $1,19 \cdot 10^{-13}$ & $3,1 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 7 & 36,04 & $5,37 \cdot 10^{-8}$ & $5,37 \cdot 10^{-14}$ & $2,3 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 6 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline  \hline
-		 \multicolumn{6}{|c|}{\textbf{Dawka: 3,5}} \\ \hline \hline
+		 \multicolumn{6}{|c|}{\textbf{$V_M = 3,5$}} \\ \hline \hline
 		Schemat & Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		cyklu & powtórzeñ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu \\ 
 		& cyklu & & & [$mm^{3}$] & [$mm$]\\ \hline
 		[1 3] & 9 & 49,34 & $8,32 \cdot 10^{-8}$ & $8,32 \cdot 10^{-14}$ & $2,7 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 8 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline  \hline
-		 \multicolumn{6}{|c|}{\textbf{Dawka: 3}} \\ \hline \hline
+		 \multicolumn{6}{|c|}{\textbf{$V_M = 3$}} \\ \hline \hline
 		Schemat & Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		cyklu & powtórzeñ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu \\ 
 		& cyklu & & & [$mm^{3}$] & [$mm$]\\ \hline
@@ -1151,7 +1155,7 @@ W tabeli \ref{chemio_zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê
 		[1 3] & 19 & 86,92 & $1,37 \cdot 10^{-7}$ & $1,37 \cdot 10^{-13}$ & $3,2 \cdot 10^{-5}$  \\ \hline
 		[1 3] & 20 & 84,5 & $6,8 \cdot 10^{-8}$ & $6,8 \cdot 10^{-14}$ & $2,5 \cdot 10^{-5}$  \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka dla kolejnych powtórzeñ]{Schemat cyklu chemioterapii, zmiana dawki dozowanego cytostatyka dla kolejnych powtórzeñ, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - chemioterapia, scenariusz IV, zmiana liczby powtórzeñ cyklu chemioterapii]{Schemat oraz liczba powtórzeñ cyklu chemioterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla dawek dozowanego cytostatyka równych 5, 4, 3,5 oraz 3.}
 \label{chemio_zmiany_liczby_powtorzen}
 \end{table} 
 
@@ -1172,7 +1176,7 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_cehmioterapii} przedstawiono jak zmieniano
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|} \hline \hline
-        \multicolumn{6}{|c|}{\textbf{Dawka: 5}} \\ \hline \hline
+        \multicolumn{6}{|c|}{\textbf{$V_M = 5$}} \\ \hline \hline
 		Schemat & Dzieñ & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		cyklu & rozpoczêcia & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu \\
 		& chemioterapii & & & [$mm^{3}$] & [$mm$] \\ \hline
@@ -1182,7 +1186,7 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_cehmioterapii} przedstawiono jak zmieniano
 		[1 3] & 11 & 59,25 & $2,61 \cdot 10^{-7}$ & $2,61 \cdot 10^{-13}$ & $4 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 12 & 60 & $3,93 \cdot 10^{-8}$ & $3,93 \cdot 10^{-14}$ & $2,1 \cdot 10^{-5}$ \\ \hline
 		[1 3] & 13 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
-        \multicolumn{6}{|c|}{\textbf{Dawka: 4,5}} \\ \hline \hline
+        \multicolumn{6}{|c|}{\textbf{$V_M = 4,5$}} \\ \hline \hline
 		Schemat & Dzieñ & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		cyklu & rozpoczêcia & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu \\
 		& chemioterapii & & & [$mm^{3}$] & [$mm$] \\ \hline 
@@ -1194,7 +1198,7 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_cehmioterapii} przedstawiono jak zmieniano
 		[1 3] & 6 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		[1 3] & 7 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - chemioterapia, scenariusz V, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu oraz dzieñ rozpoczêcia chemioterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla dawek dozowanego cytostatyka równych 5 oraz 4,5.}
 \label{zmiany_dnia_rozpoczecia_cehmioterapii}
 \end{table} 
 
@@ -1216,19 +1220,19 @@ W symulacji leczenia metod¹ immunoterapii wziêto pod uwagê takie zmienne, jak:
         \multicolumn{6}{|c|}{\textbf{Lek: IL-2}} \\ \hline \hline
 		D³ugoœæ & Czas dozowania & Schemat & Dawka & Liczba & Dzieñ  \\
 		cyklu $[dni]$ & leku $[dni]$ & cyklu & dozowanego & powtórzeñ & rozpoczêcia \\
-		& & & leku & cyklu & immunoterapii \\ \hline
+		& & & leku $V_I$ & cyklu & immunoterapii \\ \hline
 		0,5 & 0,3 & [0,3 0,2] & $5 \cdot 10^{6}$ & 6 & 9 \\ \hline \hline
 		\multicolumn{6}{|c|}{\textbf{Lek: TIL}} \\ \hline \hline
 		D³ugoœæ & Czas dozowania & Schemat & Dawka & Liczba & Dzieñ  \\
 		cyklu $[dni]$ & leku $[dni]$ & cyklu & dozowanego & powtórzeñ & rozpoczêcia \\
-		& & & leku & cyklu & immunoterapii \\ \hline
-		0 & 1 & [1 0] & $1 \cdot 10^{9}$ & 1 & 8\\ \hline
+		& & & leku $V_L$ & cyklu & immunoterapii \\ \hline
+		1 & 1 & [1 0] & $1 \cdot 10^{9}$ & 1 & 8\\ \hline
 		\end{tabular}
 		\caption{Warunki pocz¹tkowe modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia za pomoc¹ immunoterapii.}\label{warunki_pocz¹tkowe_immunoterapii}
 \end{table}
 
 \newpage
-\section{Scenariusz I -- zmiana wielkoœci guza w dniu rozpoczêcia leczenia}
+\section{Scenariusz I -- zmiana wielkoœci guza w dniu rozpoczêcia immunoterapii}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~wielkoœci guza (liczby komórek nowotworowych) w dniu rozpoczêcia leczenia.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
@@ -1253,7 +1257,7 @@ W tabeli \ref{immuno_zmiany_wielkosci_guza} przedstawiono jak zmieniano dzieñ ro
 		$1 \cdot 10^{7}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$1,8 \cdot 10^{7}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - immunoterapia, scenariusz I, zmiana wielkoœci guza w dniu rozpoczêcia immunoterapii]{Pocz¹tkowa liczba komórek nowotworowych $T(0)$, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni.}
 \label{immuno_zmiany_wielkosci_guza}
 \end{table} 
 
@@ -1278,7 +1282,7 @@ W tabeli \ref{zmiany_dawki_IL2_przy_TIL} przedstawiono jak zmieniano dzieñ rozpo
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
         \multicolumn{5}{|c|}{Leczenie z wykorzystaniem TIL} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		IL-2 & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		IL-2 $V_I$ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		$5 \cdot 10^{6}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$1 \cdot 10^{7}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$2 \cdot 10^{7}$ & 18,54 & $7,69 \cdot 10^{-85}$ & $7,69 \cdot 10^{-91}$ & $5,7 \cdot 10^{-31}$ \\ \hline
@@ -1288,7 +1292,7 @@ W tabeli \ref{zmiany_dawki_IL2_przy_TIL} przedstawiono jak zmieniano dzieñ rozpo
 		$1 \cdot 10^{8}$ & 18,34 & $5,05 \cdot 10^{-85}$ & $5,05 \cdot 10^{-91}$ & $4,9 \cdot 10^{-31}$ \\ \hline \hline
 		\multicolumn{5}{|c|}{Leczenie bez wykorzystania TIL} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		IL-2 & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		IL-2 $V_I$ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		$5 \cdot 10^{6}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$1 \cdot 10^{7}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$2 \cdot 10^{7}$ & 18,54 & $7,34 \cdot 10^{-85}$ & $7,34 \cdot 10^{-91}$ & $5,6 \cdot 10^{-31}$ \\ \hline
@@ -1297,7 +1301,7 @@ W tabeli \ref{zmiany_dawki_IL2_przy_TIL} przedstawiono jak zmieniano dzieñ rozpo
 		$6 \cdot 10^{7}$ & 18,34 & $5,22 \cdot 10^{-85}$ & $5,22 \cdot 10^{-91}$ & $5 \cdot 10^{-31}$ \\ \hline
 		$1 \cdot 10^{8}$ & 18,34 & $5,06 \cdot 10^{-85}$ & $5,06 \cdot 10^{-91}$ & $5 \cdot 10^{-31}$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - immunoterapia, scenariusz II, zmiana dawki $V_I$ IL-2]{Dawka IL-2 $V_I$, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla leczenia z oraz bez wykorzystania TIL.}
 \label{zmiany_dawki_IL2_przy_TIL}
 \end{table} 
 
@@ -1320,7 +1324,7 @@ W tabeli \ref{zmiany_dawki_TIL_przy_IL2} przedstawiono jak zmieniano dzieñ rozpo
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
         \multicolumn{5}{|c|}{Leczenie z wykorzystaniem IL-2} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		TIL & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		TIL $V_L$ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		$1 \cdot 10^{9}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 %		$5 \cdot 10^{9}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$1 \cdot 10^{10}$ &  brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
@@ -1331,7 +1335,7 @@ W tabeli \ref{zmiany_dawki_TIL_przy_IL2} przedstawiono jak zmieniano dzieñ rozpo
 		$1 \cdot 10^{15}$ & 17,17 & $5,38 \cdot 10^{-86}$ & $5,38 \cdot 10^{-92}$ & $2,3 \cdot 10^{-31}$ \\ \hline \hline
 		\multicolumn{5}{|c|}{Leczenie bez wykorzystania IL-2} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		TIL & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		TIL $V_L$ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		$1 \cdot 10^{9}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 %		$5 \cdot 10^{9}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$1 \cdot 10^{10}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
@@ -1341,12 +1345,12 @@ W tabeli \ref{zmiany_dawki_TIL_przy_IL2} przedstawiono jak zmieniano dzieñ rozpo
 		$1 \cdot 10^{11}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$1 \cdot 10^{15}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - immunoterapia, scenariusz III, zmiana dawki $V_L$ TIL]{Dawka TIL $V_L$, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla leczenia z oraz bez wykorzystania IL-2.}
 \label{zmiany_dawki_TIL_przy_IL2}
 \end{table} 
 
 \newpage
-\section{Scenariusz IV -- zmiana liczby powtórzeñ cyklu IL-2 przy leczeniu z wykorzystaniem TIL}
+\section{Scenariusz IV -- zmiana liczby powtórzeñ cyklu IL-2 dla leczenia z wykorzystaniem TIL}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~liczby powtórzeñ dozowania IL-2 przy równoczesnym wykorzystania TIL (dla warunków pocz¹tkowych) podczas immunoterapii.
 
 \noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
@@ -1362,7 +1366,7 @@ W tabeli \ref{zmiany_liczby_powtorzen_IL2} przedstawiono jak zmieniano dzieñ roz
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
-        \multicolumn{5}{|c|}{Pocz¹tkowa liczba komórek nowotworu: $1,8 \cdot 10^{7}$} \\ \hline \hline
+        \multicolumn{5}{|c|}{Pocz¹tkowa liczba komórek nowotworu $T(0) = 1,8 \cdot 10^{7}$} \\ \hline \hline
 		Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		powtórzeñ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\
 		cyklu IL-2 & & & & \\ \hline
@@ -1375,7 +1379,7 @@ W tabeli \ref{zmiany_liczby_powtorzen_IL2} przedstawiono jak zmieniano dzieñ roz
 %		12 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 %		13 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		14 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
-		\multicolumn{5}{|c|}{Pocz¹tkowa liczba komórek nowotworu: $1 \cdot 10^{6}$} \\ \hline \hline
+		\multicolumn{5}{|c|}{Pocz¹tkowa liczba komórek nowotworu $T(0) =1 \cdot 10^{6}$} \\ \hline \hline
 		Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		powtórzeñ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu $[mm]$ \\
 		cyklu IL-2 & & & & \\ \hline
@@ -1386,7 +1390,7 @@ W tabeli \ref{zmiany_liczby_powtorzen_IL2} przedstawiono jak zmieniano dzieñ roz
 %		2 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
 		1 & 15,13 & $1,07 \cdot 10^{-87}$ & $1,07 \cdot 10^{-93}$ & $6,4 \cdot 10^{-32}$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - immunoterapia, scenariusz IV, zmiana liczby powtórzeñ cyklu IL-2 dla leczenia z wykorzystaniem TIL]{Liczba powtórzeñ cyklu IL-2, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla pocz¹tkowej liczby komórek nowotworowych równej $T(0) = 1,8 \cdot 10^{7}$ oraz $T(0) = 1 \cdot 10^{6}$.}
 \label{zmiany_liczby_powtorzen_IL2}
 \end{table} 
 
@@ -1434,7 +1438,7 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_immunoterapii_IL2} przedstawiono jak zmien
 		2 & 10,08 & $5,54 \cdot 10^{-8}$ & $5,54 \cdot 10^{-14}$ & $2,4 \cdot 10^{-5}$ \\ \hline
 		1 & 8,88 & $3,64 \cdot 10^{-7}$ & $3,64 \cdot 10^{-13}$ & $4,4 \cdot 10^{-5}$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - immunoterapia, scenariusz V, zmiana dnia rozpoczêcia immunoterapii (dozowania IL-2 lub TIL)]{Dzieñ rozpoczêcia immunoterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla IL-2 (przy dozowaniu TIL zgodnie z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_immunoterapii})) oraz dla TIL (przy dozowaniu IL-2 zgodnie z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_immunoterapii}).}
 \label{zmiany_dnia_rozpoczecia_immunoterapii_IL2}
 \end{table} 
 
@@ -1464,7 +1468,7 @@ W symulacji leczenia skojarzonymi metodami chemioterapii i immunoterapii badano:
 \newpage
 W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano wielkoœæ dawki dozowanego cytostatyka, schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
 
-\subsection{Zmiana d³ugoœci cyklu}
+\subsection{Zmiana d³ugoœci cyklu chemioterapii}
 
 \begin{table}[h!]
 	\centering
@@ -1479,7 +1483,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 		100 & [1 99] & 16,08 & $6,47 \cdot 10^{-88}$ & $6,47 \cdot 10^{-94}$ & $5,4 \cdot 10^{-32}$ \\ \hline
 		200 & [1 199] & 16,08 & $6,71 \cdot 10^{-87}$ & $6,71 \cdot 10^{-93}$ & $1,2 \cdot 10^{-31}$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana d³ugoœci cyklu]{D³ugoœæ oraz schemat cyklu chemioterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla immunoterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_immunoterapii}).}
 \label{zmiana_cehmio_stale_immuno_dni_cyklu}
 \end{table} 
 
@@ -1489,9 +1493,10 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
-        \multicolumn{5}{|c|}{\textbf{Liczba dni cyklu: 4}} \\ \hline \hline
+        \multicolumn{5}{|c|}{\textbf{D³ugoœæ cyklu: 4 dni}} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cytostatyka & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		dozowanego & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ 
+		cytostatyka $V_M$& & & & \\ \hline
 		5 & 13,25 & $9,43 \cdot 10^{-95}$ & $9,43 \cdot 10^{-101}$ & $2,8 \cdot 10^{-34}$ \\ \hline
 		4 & 13,5 & $5,23 \cdot 10^{-94}$ & $5,23 \cdot 10^{-100}$ & $5 \cdot 10^{-34}$ \\ \hline
 		3 & 13,92 & $1,25 \cdot 10^{-92}$ & $1,25 \cdot 10^{-98}$ & $1,4 \cdot 10^{-33}$ \\ \hline
@@ -1499,9 +1504,10 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 		1 & 16,5 & $3,08 \cdot 10^{-88}$ & $3,08 \cdot 10^{-94}$ & $4,2 \cdot 10^{-32}$ \\ \hline
 		0,75 & 17,75 & $1,13 \cdot 10^{-86}$ & $1,13 \cdot 10^{-92}$ & $1,4 \cdot 10^{-31}$ \\ \hline
 		0,5 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline \hline
-        \multicolumn{5}{|c|}{\textbf{Liczba dni cyklu: 8}} \\ \hline \hline
+        \multicolumn{5}{|c|}{\textbf{D³ugoœæ cyklu: 8 dni}} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cytostatyka & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		dozowanego & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ 
+		cytostatyka $V_M$& & & & \\ \hline
 		5 & 14,79 & $5,57 \cdot 10^{-95}$ & $5,57 \cdot 10^{-101}$ & $2,4 \cdot 10^{-34}$ \\ \hline
 		4 & 15,08 & $5,05 \cdot 10^{-94}$ & $5,05 \cdot 10^{-100}$ & $4,9 \cdot 10^{-34}$ \\ \hline
 		3 & 15,67 & $9,99 \cdot 10^{-93}$ & $9,99 \cdot 10^{-99}$ & $1,3 \cdot 10^{-33}$ \\ \hline
@@ -1509,18 +1515,20 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 		1,75 & 17,34 & $3,14 \cdot 10^{-89}$ & $3,14 \cdot 10^{-95}$ & $2 \cdot 10^{-32}$ \\ \hline
 		1,5 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		1 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline  \hline
-%		 \multicolumn{5}{|c|}{\textbf{Liczba dni cyklu: 12}} \\ \hline \hline
+%		 \multicolumn{5}{|c|}{\textbf{D³ugoœæ cyklu: 12 dni}} \\ \hline \hline
 %		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-%%		cytostatyka & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+%		dozowanego & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ 
+%		cytostatyka $V_M$& & & & \\ \hline
 %		5 & 15,04 & $7,94 \cdot 10^{-95}$ & $7,94 \cdot 10^{-101}$ & $2,7 \cdot 10^{-34}$ \\ \hline
 %		4 & 15,25 & $2,11 \cdot 10^{-94}$ & $2,11 \cdot 10^{-100}$ & $3,7 \cdot 10^{-34}$ \\ \hline
 %		3 & 15,75 & $6,26 \cdot 10^{-93}$ & $6,26 \cdot 10^{-99}$ & $1,1 \cdot 10^{-33}$ \\ \hline
 %		2 & 17,13 & $4,21 \cdot 10^{-90}$ & $4,21 \cdot 10^{-96}$ & $1 \cdot 10^{-32}$ \\ \hline
 %		1,75 & 18,75 & $1,44 \cdot 10^{-88}$ & $1,44 \cdot 10^{-94}$ & $3,3 \cdot 10^{-32}$ \\ \hline
 %		1,5 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline  \hline
-		 \multicolumn{5}{|c|}{\textbf{Liczba dni cyklu: 200}} \\ \hline \hline
+		 \multicolumn{5}{|c|}{\textbf{D³ugoœæ cyklu: 200 dni}} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		cytostatyka & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		dozowanego & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ 
+		cytostatyka $V_M$& & & & \\ \hline
 		5 & 16,08 & $6,71 \cdot 10^{-87}$ & $6,71 \cdot 10^{-93}$ & $1,2 \cdot 10^{-31}$ \\ \hline
 		4 & 16,25 & $9,35 \cdot 10^{-87}$ & $9,35 \cdot 10^{-93}$ & $1,3 \cdot 10^{-31}$ \\ \hline
 		3 & 16,63 & $1,94 \cdot 10^{-86}$ & $1,94 \cdot 10^{-92}$ & $1,7 \cdot 10^{-31}$ \\ \hline
@@ -1528,17 +1536,17 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 		1,75 & 19,42 & $3,92 \cdot 10^{-84}$ & $3,92 \cdot 10^{-90}$ & $9,8 \cdot 10^{-31}$ \\ \hline
 		1,5 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dawki podawanego cytostatyka dla kolejnych powtórzeñ]{Schemat cyklu chemioterapii, zmiana dawki dozowanego cytostatyka dla kolejnych powtórzeñ, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana dawki $V_M$ dozowanego cytostatyka]{Dawka dozowanego cytostatyka $V_M$, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla immunoterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_immunoterapii}) dla d³ugoœci cyklu równej 4, 8 oraz 200 dni.}
 \label{zmiana_cehmio_stale_immuno_dawka}
 \end{table} 
 
 \newpage
-\subsection{Zmiana liczby powtórzeñ cyklu}
+\subsection{Zmiana liczby powtórzeñ cyklu chemioterapii}
 
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
-        \multicolumn{5}{|c|}{Liczba dni cyklu: 8, dawka: 1,75} \\ \hline \hline
+        \multicolumn{5}{|c|}{D³ugoœæ cyklu: 8 dni, $V_M = 1,75$} \\ \hline \hline
 		Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		powtórzeñ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		9 & 17,34 & $3,14 \cdot 10^{-89}$ & $3,14 \cdot 10^{-95}$ & $2 \cdot 10^{-32}$ \\ \hline
@@ -1551,7 +1559,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 		2 & 17,67 & $1,41 \cdot 10^{-85}$ & $1,41 \cdot 10^{-91}$ & $3,2 \cdot 10^{-31}$ \\ \hline
 		1 & 19,42 & $3,92 \cdot 10^{-84}$ & $3,92 \cdot 10^{-90}$ & $9,8 \cdot 10^{-31}$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana liczby powtórzeñ cyklu chemioterapii]{Liczba powtórzeñ cyklu chemioterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla immunoterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_immunoterapii}) dla d³ugoœci cyklu równej 8 dni oraz dawki cytostatyka $V_M = 1,75$.}
 \label{zmiana_cehmio_stale_immuno_liczba_powtorzen_cyklu}
 \end{table} 
 
@@ -1560,14 +1568,14 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
-\multicolumn{5}{|c|}{Liczba dni cyklu: 8, dawka: 1,75, liczba powtórzeñ: 1, d³ugoœæ dozowania: 1 dzieñ} \\ \hline \hline
+\multicolumn{5}{|c|}{D³ugoœæ cyklu: 8 dni, $V_M = 1,75$, liczba powtórzeñ cyklu: 1} \\ \hline \hline
 		Dzieñ & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		rozpoczêcia & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\
-		leczenia & & & & \\ \hline
+		chemioterapii & & & & \\ \hline
 		1 & 19,42 & $3,92 \cdot 10^{-84}$ & $3,92 \cdot 10^{-84}$ & $9,8 \cdot 10^{-31}$ \\ \hline
 		2 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana dnia rozpoczêcia chemioterapii]{Dzieñ rozpoczêcia chemioterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla immunoterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_immunoterapii}) dla d³ugoœci cyklu równej 8 dni, dawki cytostatyka $V_M = 1,75$ oraz liczby powtórzeñ cyklu chemioterapii równej 1.}
 \label{zmiana_cehmio_stale_immuno_dzien_rozpoczecia}
 \end{table} 
 
@@ -1596,7 +1604,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
  \multicolumn{5}{|c|}{Leczenie z wykorzystaniem TIL} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		IL-2 & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		IL-2 $V_I$ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		$5 \cdot 10^{6}$ & 14,79 & $5,57 \cdot 10^{-95}$ & $5,57 \cdot 10^{-101}$ & $1,4 \cdot 10^{-34}$ \\ \hline
 %		$4 \cdot 10^{6}$ & 14,79 & $7,57 \cdot 10^{-95}$ & $7,57 \cdot 10^{-101}$ & $2,6 \cdot 10^{-34}$ \\ \hline
 %		$3 \cdot 10^{6}$ & 14,79 & $9,76 \cdot 10^{-95}$ & $9,76 \cdot 10^{-101}$ & $2,9 \cdot 10^{-34}$ \\ \hline
@@ -1606,24 +1614,24 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 		$0$ & 14,79 & $6,7 \cdot 10^{-35}$ & $6,7 \cdot 10^{-41}$ & $2,5 \cdot 10^{-14}$ \\ \hline \hline
 		 \multicolumn{5}{|c|}{Leczenie bez wykorzystania TIL} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\ \hline
-		IL-2 & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		IL-2 $V_I$ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		$5 \cdot 10^{6}$ & 16,08 & $3,69 \cdot 10^{-94}$ & $3,69 \cdot 10^{-100}$ & $4,5 \cdot 10^{-34}$ \\ \hline
 		$4 \cdot 10^{6}$ & 16,08 & $5,93 \cdot 10^{-94}$ & $5,93 \cdot 10^{-100}$ & $5,2 \cdot 10^{-34}$ \\ \hline
 		$3 \cdot 10^{6}$ & 16,13 & $6,64 \cdot 10^{-94}$ & $6,64 \cdot 10^{-100}$ & $5,4 \cdot 10^{-34}$ \\ \hline
 		$2 \cdot 10^{6}$ & 16,42 & $8,32 \cdot 10^{-94}$ & $8,32 \cdot 10^{-100}$ & $5,8 \cdot 10^{-34}$ \\ \hline
 		$1 \cdot 10^{6}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana dawki $V_I$ IL-2]{Dawka IL-2 $V_I$, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla chemioterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki pocz¹tkowe_chemioterapii}) dla leczenia z oraz bez wykorzystania TIL.}
 \label{zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}
 \end{table} 
 
 \newpage
-\subsection{Zmiana liczby powtórzeñ cyklu IL-2 przy leczeniu bez wykorzystania TIL}
+\subsection{Zmiana liczby powtórzeñ cyklu IL-2 dla leczenia bez wykorzystania TIL}
 
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
-        \multicolumn{5}{|c|}{Leczenie bez wykorzystania TIL, $V_M = 2 \cdot 10^{6}$} \\ \hline \hline
+        \multicolumn{5}{|c|}{Leczenie bez wykorzystania TIL, $V_I = 2 \cdot 10^{6}$} \\ \hline \hline
 		Liczba & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		powtórzeñ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\
 		cyklu IL-2 & & & & \\ \hline
@@ -1633,19 +1641,19 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 		2 & 16,42 & $1,4 \cdot 10^{-93}$ & $1,4 \cdot 10^{-100}$ & $3,2 \cdot 10^{-34}$ \\ \hline
 		1 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana liczby powtórzeñ cyklu IL-2 dla leczenia bez wykorzystania TIL]{Liczba powtórzeñ cyklu IL-2, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla chemioterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki pocz¹tkowe_chemioterapii}) dla leczenia bez wykorzystania TIL oraz dla dawki IL-2 $V_I = 2 \cdot 10^{6}$.}
 \label{zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}
 \end{table} 
 
-\subsection{Zmiana dnia rozpoczêcia immunoterapii (dozowania IL-2) przy leczeniu bez wykorzystania TIL}
+\subsection{Zmiana dnia rozpoczêcia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}
 
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
-        \multicolumn{5}{|c|}{Leczenie bez wykorzystania TIL, $V_M = 2 \cdot 10^{6}$, liczba powtórzeñ cyklu: 2} \\ \hline \hline
+        \multicolumn{5}{|c|}{Leczenie bez wykorzystania TIL, $V_I = 2 \cdot 10^{6}$, liczba powtórzeñ cyklu: 2} \\ \hline \hline
 		Dzieñ & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
 		rozpoczêcia & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\
-		leczenia & & & &  \\ \hline
+		immunoterapii & & & &  \\ \hline
 		9 & 16,42 & $1,4 \cdot 10^{-93}$ & $3,14 \cdot 10^{-95}$ & $2 \cdot 10^{-32}$ \\ \hline
 		10 & 17,04 & $3,9 \cdot 10^{-93}$ & $1,1 \cdot 10^{-94}$ & $3 \cdot 10^{-32}$ \\ \hline
 		11 & 17,88 & $4,77 \cdot 10^{-92}$ & $3,59 \cdot 10^{-94}$ & $4,4 \cdot 10^{-32}$ \\ \hline
@@ -1654,7 +1662,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 		14 & 21,08 & $1,19 \cdot 10^{-88}$ & $1,06 \cdot 10^{-92}$ & $1,4 \cdot 10^{-31}$ \\ \hline
 		15 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana dnia rozpoczêcia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL]{Dzieñ rozpoczêcia immunoterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla chemioterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki pocz¹tkowe_chemioterapii}) dla leczenia bez wykorzystania TIL, dawki IL-2 $V_I = 2 \cdot 10^{6}$ oraz liczby powtórzeñ cyklu IL-2 równej 2.}
 \label{zmiana_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}
 \end{table} 
 
@@ -1662,7 +1670,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 %terapia jednoczesna - dzia³¹ a w osobnych nie dzia³a³o, zmniejszsenie dawki w chemio i zwiekszenie liczby dni w cyklu - duuu¿o mniejsza dawka, mniejsze wyniszczenie, i tylko jedna dawka chemio starcza
 
 \newpage
-\section{Scenariusz III -- zmiany parametrów immunoterapii konieczne dla uzyskania okreœlonych wartoœci parametrów chemioterapii}
+\section{Scenariusz III -- zmiany dawki IL-2 konieczne dla uzyskania okreœlonych wartoœci parametrów chemioterapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od dawki IL-2 z równoczesnym wykorzystaniem TIL i okreœlonymi wartoœciami parametrów chemioterapii.
 
@@ -1673,7 +1681,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \begin{tabular}{|c|c|c|c|c|c|} \hline
 		D³ugoœæ & Czas dozowania& Schemat & Dawka & Liczba & Dzieñ  \\
 		cyklu $[dni]$ & cytostatyka $[dni]$ & cyklu & dozowanego & powtórzeñ & rozpoczêcia  \\
-		 &  & & cytostatyka & cyklu & chemioterapii\\ \hline
+		 &  & & cytostatyka $V_M$ & cyklu & chemioterapii\\ \hline
 		8 & 1 & [1 7] & 1 & 1 & 1 \\ \hline
 		8 & 1 & [1 7] & 0,5 & 1 & 1 \\ \hline
 		\end{tabular}
@@ -1692,16 +1700,16 @@ W tabeli \ref{zmiana_immuno_okreslone_chemio} przedstawiono jak zmieniano wielko
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
-        \multicolumn{5}{|c|}{Dawka pocz¹tkowa: 1} \\ \hline \hline
+        \multicolumn{5}{|c|}{$V_M = 1$} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		IL-2 & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		IL-2 $V_I$ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		$5 \cdot 10^{6}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$6 \cdot 10^{6}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$7 \cdot 10^{6}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$8 \cdot 10^{6}$ & 18,96 & $1,72 \cdot 10^{-84}$ & $1,72 \cdot 10^{-90}$ & $7,4 \cdot 10^{-31}$ \\ \hline \hline
-		\multicolumn{5}{|c|}{Dawka pocz¹tkowa: 0,5} \\ \hline \hline
+		\multicolumn{5}{|c|}{$V_M = 0,5$} \\ \hline \hline
 		Dawka & Dzieñ regresji & $T(120)$ & Objêtoœæ & Promieñ \\
-		IL-2 & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
+		IL-2 $V_I$ & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu [$mm^{3}$] & nowotworu [$mm$] \\ \hline
 		$5 \cdot 10^{6}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 %		$6 \cdot 10^{6}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 %		$7 \cdot 10^{6}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
@@ -1710,12 +1718,12 @@ W tabeli \ref{zmiana_immuno_okreslone_chemio} przedstawiono jak zmieniano wielko
 		$1 \cdot 10^{7}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		$2 \cdot 10^{7}$ & 18,25 & $4,32 \cdot 10^{-85}$ & $4,32 \cdot 10^{-91}$ & $4,7 \cdot 10^{-31}$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz III, zmiany dawki $V_I$ IL-2 konieczne do uzyskania okreœlonych warunków chemioterapii (\ref{okreslone_warunki_pocz¹tkowe_chemioterapii})]{Dawka IL-2 $V_I$, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla chemioterapii zgodnej z warunkami pocz¹tkowymi (\ref{okreslone_warunki_pocz¹tkowe_chemioterapii}) oraz leczenia z wykorzystaniem TIL.}
 \label{zmiana_immuno_okreslone_chemio}
 \end{table} 
 
 \newpage
-\section{Scenariusz IV -- porównanie czasu wdro¿enia poszczególnych terapii}
+\section{Scenariusz IV -- zmiany czasu wdro¿enia poszczególnych terapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od czasu wdro¿enia poszczególnych terapii.
 
@@ -1736,10 +1744,11 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano wielk
 		rozpoczêcia & rozpoczêcia & nowotworu & $[liczba$ $kom$ó$rek]$ & nowotworu & nowotworu \\
 		chemioterapii & immunoterapii & & & [$mm^{3}$] & [$mm$] \\ \hline
 		1 & 8 & 13,25 & $9,43 \cdot 10^{-95}$ & $9,43 \cdot 10^{-101}$ & $2,8 \cdot 10^{-34}$ \\ \hline
+		1 & brak & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		8 & 1 & 8,29 & $2,26 \cdot 10^{-101}$ & $2,26 \cdot 10^{-107}$ & $1,8 \cdot 10^{-36}$ \\ \hline
 		brak & 1 & 8,8 & $6,24 \cdot 10^{-93}$ & $6,24 \cdot 10^{-99}$ & $1,1 \cdot 10^{-33}$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz IV, zmiany czasu wdro¿enia poszczególnych terapii]{Dzieñ rozpoczêcia chemioterapii oraz immunoterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla warunków pocz¹tkowych (Tab. \ref{warunki pocz¹tkowe_chemioterapii} oraz \ref{warunki_pocz¹tkowe_immunoterapii}).}
 \label{czasy_wdrozenia_roznych_terapii}
 \end{table} 
 
@@ -1752,26 +1761,27 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano wielk
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|} \hline
-		Czas & Liczba dni & Schemat & Liczba & Dawka & Dzieñ rozpoczêcia \\
-		dozowania & cyklu & cyklu & powtórzeñ cyklu & pocz¹tkowa & leczenia \\ \hline
-		1 & 8 & [1 7] & 1 & 0,5 & 1 \\ \hline
+		D³ugoœæ & Czas dozowania & Schemat & Dawka & Liczba & Dzieñ \\
+		cyklu $[dni]$ & cytostatyka $[dni]$ & cyklu & dozowanego & powtórzeñ & rozpoczêcia \\ 
+		 & & & cytostatyka $V_M$ & cyklu & chemioterapii \\ \hline
+		8 & 1 & [1 7] & 0,5 & 1 & 1 \\ \hline
 		\end{tabular}
 		\caption{Warunki pocz¹tkowe chemioterapii dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii - porównanie uk³adu immunologicznego u ró¿nych pacjentów.}\label{warunki_pocz¹tkowe_chemioterapii_light}
 \end{table} 
 
 \begin{table}[h!]
 	\centering
-\begin{tabular}{|c|c|c|c|c|} \hline \hline
-        \multicolumn{5}{|c|}{\textbf{Lek: IL-2}} \\ \hline \hline
-		Czas & Czas & Liczba & Dawka  & Dzieñ  \\
-		dozowania & przerwy & powtórzeñ & pocz¹tkowa & rozpoczêcia \\
-		$[dni]$ & $[dni]$ & cyklu & & leczenia \\ \hline
-		0,3 & 0,2 & 6 & $2 \cdot 10^{7}$ & 9 \\ \hline \hline
-		\multicolumn{5}{|c|}{\textbf{Lek: TIL}} \\ \hline \hline
-		Czas & Czas & Liczba & Dawka  & Dzieñ  \\
-		dozowania & przerwy & powtórzeñ & pocz¹tkowa & rozpoczêcia \\
-		$[dni]$ & $[dni]$ & cyklu & & leczenia \\ \hline
-		1 & $\infty$ & 1 & $1 \cdot 10^{9}$ & 8\\ \hline
+\begin{tabular}{|c|c|c|c|c|c|} \hline \hline
+        \multicolumn{6}{|c|}{\textbf{Lek: IL-2}} \\ \hline \hline
+		D³ugoœæ & Czas dozowania & Schemat & Dawka & Liczba & Dzieñ  \\
+		cyklu $[dni]$ & leku $[dni]$ & cyklu & dozowanego & powtórzeñ & rozpoczêcia \\
+		& & & leku $V_I$ & cyklu & immunoterapii \\ \hline
+		0,5 & 0,3 & [0,3 0,2] & $2 \cdot 10^{7}$ & 6 & 9 \\ \hline \hline
+		\multicolumn{6}{|c|}{\textbf{Lek: TIL}} \\ \hline \hline
+		D³ugoœæ & Czas dozowania & Schemat & Dawka & Liczba & Dzieñ  \\
+		cyklu $[dni]$ & leku $[dni]$ & cyklu & dozowanego & powtórzeñ & rozpoczêcia \\
+		& & & leku $V_L$ & cyklu & immunoterapii \\ \hline
+		1 & 1 & [1 0] & $1 \cdot 10^{9}$ & 1 & 8\\ \hline
 		\end{tabular}
 		\caption{Warunki pocz¹tkowe immunoterapii dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii - porównanie uk³adu immunologicznego u ró¿nych pacjentów.}\label{warunki_pocz¹tkowe_immunoterapii_dopasowane_do_chemio_light}
 \end{table}
@@ -1793,7 +1803,7 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano wielk
 		$\alpha$ & $5 \cdot 10^{8}$ \\ \hline
 		$\beta$ & $8 \cdot 10^{-3}$ \\ \hline
 		\end{tabular}
-		\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu_2_pacjentow}
+		\caption{Wartoœci parametrów (zmiennych zale¿nie od badanego pacjenta) modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia dla pacjenta 2.}\label{parametry_modelu_2_pacjentow}
 \end{table}
 
 %\begin{table}[h!]
@@ -1829,7 +1839,7 @@ W tabeli \ref{rozni_pacjenci} przedstawiono jak zmieniano pocz¹tkow¹ liczbê komó
 		1 & 18,25 & $4,32 \cdot 10^{-85}$ & $4,32 \cdot 10^{-91}$ & $4,7 \cdot 10^{-31}$ \\ \hline
 		2 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - chemioterapia, zmiana dnia rozpoczêcia chemioterapii]{Schemat cyklu chemioterapii, zmiana dnia rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczba komórek nowotworu, a tak¿e~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz V, porównanie stanu uk³adu immunologicznego u ró¿nych pacjentów]{Pacjent, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla warunków pocz¹tkowych (Tab.  \ref{warunki_pocz¹tkowe_chemioterapii_light} i \ref{warunki_pocz¹tkowe_immunoterapii_dopasowane_do_chemio_light}).}
 \label{rozni_pacjenci}
 \end{table} 
 

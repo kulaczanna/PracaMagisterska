@@ -33,23 +33,23 @@
 \BOOKMARK [1][-]{section.7.4}{Scenariusz IV \205 zmiana liczby powt\363rzen cyklu}{chapter.7}% 33
 \BOOKMARK [1][-]{section.7.5}{Scenariusz V \205 zmiana dnia rozpoczecia chemioterapii \(dozowania cytostatyka\)}{chapter.7}% 34
 \BOOKMARK [0][-]{chapter.8}{Leczenie metoda immunoterapii \205 symulacje wykonane dla modelu leczonego guza}{}% 35
-\BOOKMARK [1][-]{section.8.1}{Scenariusz I \205 zmiana wielkosci guza w dniu rozpoczecia leczenia}{chapter.8}% 36
+\BOOKMARK [1][-]{section.8.1}{Scenariusz I \205 zmiana wielkosci guza w dniu rozpoczecia immunoterapii}{chapter.8}% 36
 \BOOKMARK [1][-]{section.8.2}{Scenariusz II \205 zmiana dawki IL-2}{chapter.8}% 37
 \BOOKMARK [1][-]{section.8.3}{Scenariusz III \205 zmiana dawki TIL}{chapter.8}% 38
-\BOOKMARK [1][-]{section.8.4}{Scenariusz IV \205 zmiana liczby powt\363rzen cyklu IL-2 przy leczeniu z wykorzystaniem TIL}{chapter.8}% 39
+\BOOKMARK [1][-]{section.8.4}{Scenariusz IV \205 zmiana liczby powt\363rzen cyklu IL-2 dla leczenia z wykorzystaniem TIL}{chapter.8}% 39
 \BOOKMARK [1][-]{section.8.5}{Scenariusz V \205 zmiana dnia rozpoczecia immunoterapii \(dozowania IL-2 lub TIL\)}{chapter.8}% 40
 \BOOKMARK [0][-]{chapter.9}{Leczenie skojarzonymi metodami chemioterapii i immunoterapii}{}% 41
 \BOOKMARK [1][-]{section.9.1}{Scenariusz I \205 zmiana parametr\363w chemioterapii przy sta\233ych wartosciach parametr\363w immunoterapii}{chapter.9}% 42
-\BOOKMARK [2][-]{subsection.9.1.1}{Zmiana d\233ugosci cyklu}{section.9.1}% 43
+\BOOKMARK [2][-]{subsection.9.1.1}{Zmiana d\233ugosci cyklu chemioterapii}{section.9.1}% 43
 \BOOKMARK [2][-]{subsection.9.1.2}{Zmiana dawki dozowanego cytostatyka}{section.9.1}% 44
-\BOOKMARK [2][-]{subsection.9.1.3}{Zmiana liczby powt\363rzen cyklu}{section.9.1}% 45
+\BOOKMARK [2][-]{subsection.9.1.3}{Zmiana liczby powt\363rzen cyklu chemioterapii}{section.9.1}% 45
 \BOOKMARK [2][-]{subsection.9.1.4}{Zmiana dnia rozpoczecia chemioterapii}{section.9.1}% 46
 \BOOKMARK [1][-]{section.9.2}{Scenariusz II \205 zmiana parametr\363w immunoterapii przy sta\233ych wartosciach parametr\363w chemioterapii}{chapter.9}% 47
 \BOOKMARK [2][-]{subsection.9.2.1}{Zmiana dawki IL-2}{section.9.2}% 48
-\BOOKMARK [2][-]{subsection.9.2.2}{Zmiana liczby powt\363rzen cyklu IL-2 przy leczeniu bez wykorzystania TIL}{section.9.2}% 49
-\BOOKMARK [2][-]{subsection.9.2.3}{Zmiana dnia rozpoczecia immunoterapii \(dozowania IL-2\) przy leczeniu bez wykorzystania TIL}{section.9.2}% 50
-\BOOKMARK [1][-]{section.9.3}{Scenariusz III \205 zmiany parametr\363w immunoterapii konieczne dla uzyskania okreslonych wartosci parametr\363w chemioterapii}{chapter.9}% 51
-\BOOKMARK [1][-]{section.9.4}{Scenariusz IV \205 por\363wnanie czasu wdrozenia poszczeg\363lnych terapii}{chapter.9}% 52
+\BOOKMARK [2][-]{subsection.9.2.2}{Zmiana liczby powt\363rzen cyklu IL-2 dla leczenia bez wykorzystania TIL}{section.9.2}% 49
+\BOOKMARK [2][-]{subsection.9.2.3}{Zmiana dnia rozpoczecia immunoterapii \(dozowania IL-2\) dla leczenia bez wykorzystania TIL}{section.9.2}% 50
+\BOOKMARK [1][-]{section.9.3}{Scenariusz III \205 zmiany dawki IL-2 konieczne dla uzyskania okreslonych wartosci parametr\363w chemioterapii}{chapter.9}% 51
+\BOOKMARK [1][-]{section.9.4}{Scenariusz IV \205 zmiany czasu wdrozenia poszczeg\363lnych terapii}{chapter.9}% 52
 \BOOKMARK [1][-]{section.9.5}{Scenariusz V \205 por\363wnanie stanu uk\233adu immunologicznego u r\363znych pacjent\363w}{chapter.9}% 53
 \BOOKMARK [0][-]{chapter.10}{Rezultaty}{}% 54
 \BOOKMARK [0][-]{chapter.11}{Analiza wynik\363w}{}% 55
