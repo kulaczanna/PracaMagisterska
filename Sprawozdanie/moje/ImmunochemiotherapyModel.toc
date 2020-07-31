@@ -39,12 +39,12 @@
 \contentsline {section}{\numberline {8.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu IL-2}{58}{section.8.4}%
 \contentsline {section}{\numberline {8.5}Scenariusz V -- zmiana dnia rozpocz\k ecia immunoterapii}{59}{section.8.5}%
 \contentsline {chapter}{\numberline {9.}Leczenie skojarzonymi metodami chemioterapii i\nobreakspace {}immunoterapii}{61}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Scenariusz I -- zmiana parametr\'ow chemioterapii przy sta\IeC {\l }ych warto\'sciach parametr\'ow immunoterapii}{62}{section.9.1}%
+\contentsline {section}{\numberline {9.1}Scenariusz I -- zmiana cech chemioterapii}{62}{section.9.1}%
 \contentsline {subsection}{\numberline {9.1.1}Zmiana d\IeC {\l }ugo\'sci cyklu chemioterapii}{63}{subsection.9.1.1}%
 \contentsline {subsection}{\numberline {9.1.2}Zmiana dawki dozowanego cytostatyka}{64}{subsection.9.1.2}%
 \contentsline {subsection}{\numberline {9.1.3}Zmiana liczby powt\'orze\'n cyklu chemioterapii}{65}{subsection.9.1.3}%
 \contentsline {subsection}{\numberline {9.1.4}Zmiana dnia rozpocz\k ecia chemioterapii}{65}{subsection.9.1.4}%
-\contentsline {section}{\numberline {9.2}Scenariusz II -- zmiana parametr\'ow immunoterapii przy sta\IeC {\l }ych warto\'sciach parametr\'ow chemioterapii}{66}{section.9.2}%
+\contentsline {section}{\numberline {9.2}Scenariusz II -- zmiana cech immunoterapii}{66}{section.9.2}%
 \contentsline {subsection}{\numberline {9.2.1}Zmiana dawki IL-2}{67}{subsection.9.2.1}%
 \contentsline {subsection}{\numberline {9.2.2}Zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia bez wykorzystania TIL}{68}{subsection.9.2.2}%
 \contentsline {subsection}{\numberline {9.2.3}Zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}{68}{subsection.9.2.3}%

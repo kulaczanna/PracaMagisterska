@@ -1454,20 +1454,20 @@ W symulacji leczenia skojarzonymi metodami chemioterapii i immunoterapii badano:
 \end{itemize}
 
 \newpage
-\section{Scenariusz I -- zmiana parametrów chemioterapii przy sta³ych wartoœciach parametrów immunoterapii}
+\section{Scenariusz I -- zmiana cech chemioterapii}
 
-\noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~parametrów chemioterapii (liczby dni cyklu, dawki cytostatyka, liczby powtórzeñ cyklu, czasu dozowania cytostatyka w ka¿dym z powtórzeñ) przy sta³ych wartoœciach parametrów immunoterapii.
+\noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~d³ugoœci cyklu, dawki dozowanego cytostatyka, liczby powtórzeñ cyklu oraz dnia rozpoczêcia chemioterapii.
 
-\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. czas dozowania leku, liczbê dni cyklu, schemat podawania leku, liczbê powtórzeñ cyklu, dawkê cytostatyka oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}. Warunki pocz¹tkowe dla immunoterapii, tj. czas dozowania IL-2 i TIL, czas przerw pomiêdzy kolejnymi dawkami, liczbê powtórzeñ dozowania, dawkê pocz¹tkow¹ leków oraz dzieñ rozpoczêcia leczenia przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
+\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. d³ugoœæ cyklu, czas dozowania cytostatyka, schemat cyklu, dawkê dozowanego cytostatyka, liczbê powtórzeñ cyklu oraz dzieñ rozpoczêcia chemioterapii przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}. Warunki pocz¹tkowe dla immunoterapii, tj. d³ugoœæ cyklu, czas dozowania, schemat cyklu, dawkê dozowanego leku, liczbê powtórzeñ cyklu oraz dzieñ rozpoczêcia immunoterapii dla IL-2 i TIL, przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
 
 \noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu uwzglêdniaj¹cego leczenie ukazano w~tabelach \ref{parametry_modelu_bez1} i \ref{parametry_modelu_z1}.
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
 
-\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cych siê parametrów chemioterapii przy sta³ej wartoœci parametrów immunoterapii zebrano w tabelach \ref{zmiana_cehmio_stale_immuno_dni_cyklu}, \ref{zmiana_cehmio_stale_immuno_dawka}, \ref{zmiana_cehmio_stale_immuno_liczba_powtorzen_cyklu}, \ref{zmiana_cehmio_stale_immuno_dzien_rozpoczecia}.
+\noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cych siê cech chemioterapii zebrano w tabelach \ref{zmiana_cehmio_stale_immuno_dni_cyklu}, \ref{zmiana_cehmio_stale_immuno_dawka}, \ref{zmiana_cehmio_stale_immuno_liczba_powtorzen_cyklu}, \ref{zmiana_cehmio_stale_immuno_dzien_rozpoczecia}.
 
 \newpage
-W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano wielkoœæ dawki dozowanego cytostatyka, schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
+W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano d³ugoœæ cyklu chemioterapii (przerwê pomiêdzy dozowaniem poszczególnych dawek), schemat chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
 
 \subsection{Zmiana d³ugoœci cyklu chemioterapii}
 
@@ -1487,6 +1487,8 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana d³ugoœci cyklu]{D³ugoœæ oraz schemat cyklu chemioterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla immunoterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_immunoterapii}).}
 \label{zmiana_cehmio_stale_immuno_dni_cyklu}
 \end{table} 
+
+W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano dawkê dozowanego cytostatyka, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. Analizê przeprowadzono dla d³ugoœci cyklu równej: 4, 8 oraz 200 dni.
 
 \newpage
 \subsection{Zmiana dawki dozowanego cytostatyka}
@@ -1583,7 +1585,7 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 %terapia jednoczesna - dzia³¹ a w osobnych nie dzia³a³o, zmniejszsenie dawki w chemio i zwiekszenie liczby dni w cyklu - duuu¿o mniejsza dawka, mniejsze wyniszczenie, i tylko jedna dawka chemio starcza
 
 \newpage
-\section{Scenariusz II -- zmiana parametrów immunoterapii przy sta³ych wartoœciach parametrów chemioterapii}
+\section{Scenariusz II -- zmiana cech immunoterapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~parametrów immunoterapii (dawki IL-2 z równoczesnym wykorzystaniem TIL, dawki IL-2 bez wykorzystania TIL, liczby powtórzeñ cyklu dla IL-2 bez wykorzystania TIL, dnia rozpoczêcia leczenia IL-2 bez wykorzystania TIL) przy sta³ych wartoœciach parametrów immunoterapii.
 
