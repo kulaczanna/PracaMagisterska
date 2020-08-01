@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  1 AUG 2020 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  1 AUG 2020 21:46
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -973,151 +973,151 @@ Overfull \hbox (14.06013pt too wide) in paragraph at lines 1174--1197
  [][] 
  []
 
-[53]
+[53] [54]
 Rozdzia\PlPrIeC {\l } 8.
-[54
+[55
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1240--1241
+Underfull \hbox (badness 10000) in paragraph at lines 1247--1248
 
  []
 
 
-Overfull \hbox (39.42828pt too wide) in paragraph at lines 1246--1256
+Overfull \hbox (39.42828pt too wide) in paragraph at lines 1253--1263
  [][] 
  []
 
-[55]
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1273
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 1279--1280
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[56] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 1314--1315
+[57] [58]
+Underfull \hbox (badness 10000) in paragraph at lines 1321--1322
 
  []
-
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
-
- []
-
-
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1365--1390
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 1404--1405
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1367
 
  []
 
-[60]
-Overfull \hbox (27.84427pt too wide) in paragraph at lines 1410--1438
+
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1372--1397
  [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 1411--1412
+
  []
 
 [61]
-Rozdzia\PlPrIeC {\l } 9.
-[62
-
-] [63]
-Overfull \hbox (63.49971pt too wide) in paragraph at lines 1472--1483
+Overfull \hbox (27.84427pt too wide) in paragraph at lines 1417--1445
  [][] 
  []
 
-[64]
-Overfull \hbox (32.1986pt too wide) in paragraph at lines 1494--1538
+[62]
+Rozdzia\PlPrIeC {\l } 9.
+[63
+
+] [64]
+Overfull \hbox (63.49971pt too wide) in paragraph at lines 1479--1490
  [][] 
  []
 
 [65]
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1548--1562
+Overfull \hbox (32.1986pt too wide) in paragraph at lines 1501--1545
  [][] 
  []
 
 [66]
-Overfull \hbox (21.96933pt too wide) in paragraph at lines 1573--1581
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1555--1569
  [][] 
  []
 
-[67] [68] [69]
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1638--1649
+[67]
+Overfull \hbox (21.96933pt too wide) in paragraph at lines 1580--1588
  [][] 
  []
 
-[70]
-Overfull \hbox (27.84427pt too wide) in paragraph at lines 1660--1673
+[68] [69] [70]
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1645--1656
  [][] 
  []
 
 [71]
-Overfull \hbox (16.60518pt too wide) in paragraph at lines 1689--1696
+Overfull \hbox (27.84427pt too wide) in paragraph at lines 1667--1680
  [][] 
  []
 
-[72] [73] [74]
-Overfull \hbox (49.6432pt too wide) in paragraph at lines 1751--1760
+[72]
+Overfull \hbox (16.60518pt too wide) in paragraph at lines 1696--1703
  [][] 
  []
 
-[75]
-Overfull \hbox (16.60518pt too wide) in paragraph at lines 1773--1779
+[73] [74] [75]
+Overfull \hbox (49.6432pt too wide) in paragraph at lines 1758--1767
+ [][] 
+ []
+
+[76]
+Overfull \hbox (16.60518pt too wide) in paragraph at lines 1780--1786
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[76]
-Underfull \hbox (badness 10000) in paragraph at lines 1841--1842
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 1848--1849
 
  []
 
-[77] [78]
+[78] [79]
 Rozdzia\PlPrIeC {\l } 10.
-[79
-
-]
-Rozdzia\PlPrIeC {\l } 11.
 [80
 
 ]
-Rozdzia\PlPrIeC {\l } 12.
+Rozdzia\PlPrIeC {\l } 11.
 [81
 
 ]
-Rozdzia\PlPrIeC {\l } 13.
+Rozdzia\PlPrIeC {\l } 12.
 [82
 
-] [83] [84] [85] [86] [87
+]
+Rozdzia\PlPrIeC {\l } 13.
+[83
 
-] [88] [89]
-Underfull \hbox (badness 10000) in paragraph at lines 1998--1999
+] [84] [85] [86] [87] [88
+
+] [89] [90]
+Underfull \hbox (badness 10000) in paragraph at lines 2005--2006
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1999--2000
+Underfull \hbox (badness 10000) in paragraph at lines 2006--2007
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
 
-) (Dodatek.tex [90]
+) (Dodatek.tex [91]
 Rozdzia\PlPrIeC {\l } 14.
 
 Overfull \hbox (26.34036pt too wide) in paragraph at lines 8--34
  [][] 
  []
 
-) [91
+) [92
 
 ]
 
@@ -1132,15 +1132,11 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
 Package rerunfilecheck Info: File `ImmunochemiotherapyModel.out' has not change
 d.
 (rerunfilecheck)             Checksum: C00E41965D49D19FA2C725633C50EBA4;5251.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 9965 strings out of 480930
- 155317 string characters out of 2901168
+ 9966 strings out of 480930
+ 155324 string characters out of 2901168
  617263 words of memory out of 3000000
  25335 multiletter control sequences out of 15000+200000
  548194 words of font info for 69 fonts, out of 3000000 for 9000
@@ -1166,9 +1162,9 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (98 pages, 904258 bytes).
+Output written on ImmunochemiotherapyModel.pdf (99 pages, 905686 bytes).
 PDF statistics:
- 1415 PDF objects out of 1440 (max. 8388607)
- 275 named destinations out of 1000 (max. 500000)
+ 1419 PDF objects out of 1440 (max. 8388607)
+ 276 named destinations out of 1000 (max. 500000)
  537 words of extra memory for PDF output out of 10000 (max. 10000000)
 
