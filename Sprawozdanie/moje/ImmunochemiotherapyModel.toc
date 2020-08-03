@@ -41,22 +41,19 @@
 \contentsline {chapter}{\numberline {9.}Leczenie skojarzonymi metodami chemioterapii i\nobreakspace {}immunoterapii}{68}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Scenariusz I -- zmiana cech chemioterapii}{69}{section.9.1}%
 \contentsline {subsection}{\numberline {9.1.1}Zmiana d\IeC {\l }ugo\'sci cyklu chemioterapii}{70}{subsection.9.1.1}%
-\contentsline {subsection}{\numberline {9.1.2}Zmiana dawki dozowanego cytostatyka}{71}{subsection.9.1.2}%
-\contentsline {subsection}{\numberline {9.1.3}Zmiana liczby powt\'orze\'n cyklu chemioterapii}{72}{subsection.9.1.3}%
-\contentsline {subsection}{\numberline {9.1.4}Zmiana dnia rozpocz\k ecia chemioterapii}{73}{subsection.9.1.4}%
-\contentsline {section}{\numberline {9.2}Scenariusz II -- zmiana cech immunoterapii}{74}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Zmiana dawki IL-2}{75}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia bez wykorzystania TIL}{76}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}{77}{subsection.9.2.3}%
-\contentsline {section}{\numberline {9.3}Scenariusz III -- zmiany dawki IL-2 konieczne dla uzyskania okre\'slonych warto\'sci parametr\'ow chemioterapii}{78}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{80}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Scenariusz V -- por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{82}{section.9.5}%
-\contentsline {chapter}{\numberline {10.}Rezultaty}{85}{chapter.10}%
-\contentsline {chapter}{\numberline {11.}Analiza wynik\'ow}{86}{chapter.11}%
-\contentsline {chapter}{\numberline {12.}Podsumowanie}{87}{chapter.12}%
-\contentsline {chapter}{\numberline {13.}Rozw\'oj}{88}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Interferony}{88}{section.13.1}%
-\contentsline {section}{\numberline {13.2}Nowa odmiana limfocyt\'ow typu T}{90}{section.13.2}%
-\contentsline {section}{\numberline {13.3}Por\'ownanie stanu uk\IeC {\l }ad\'ow immunologicznych u r\'o\.znych pacjent\'ow}{92}{section.13.3}%
-\contentsline {chapter}{\numberline {14.}Dodatek}{97}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Tabela skr\'ot\'ow}{97}{section.14.1}%
+\contentsline {subsection}{\numberline {9.1.2}Zmiana dawki dozowanego cytostatyka}{72}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Zmiana liczby powt\'orze\'n cyklu chemioterapii}{73}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.4}Zmiana dnia rozpocz\k ecia chemioterapii}{74}{subsection.9.1.4}%
+\contentsline {section}{\numberline {9.2}Scenariusz II -- zmiana cech immunoterapii}{75}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Zmiana dawki IL-2}{76}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia bez wykorzystania TIL}{77}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}{78}{subsection.9.2.3}%
+\contentsline {section}{\numberline {9.3}Scenariusz III -- zmiany dawki IL-2 konieczne dla uzyskania okre\'slonych warto\'sci parametr\'ow chemioterapii}{79}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{81}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Scenariusz V -- por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{83}{section.9.5}%
+\contentsline {chapter}{\numberline {10.}Rezultaty}{86}{chapter.10}%
+\contentsline {chapter}{\numberline {11.}Analiza wynik\'ow}{87}{chapter.11}%
+\contentsline {chapter}{\numberline {12.}Podsumowanie}{88}{chapter.12}%
+\contentsline {chapter}{\numberline {13.}Rozw\'oj}{89}{chapter.13}%
+\contentsline {chapter}{\numberline {14.}Dodatek}{94}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Tabela skr\'ot\'ow}{94}{section.14.1}%
