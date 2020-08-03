@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  1 AUG 2020 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  3 AUG 2020 11:29
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -878,7 +878,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [32 <./rysunki/wykres_bez_lecz_t120_t0.jpg>] [33 <./rysunki/wykres_bez_lecz_pro
 mien_t0.jpg>] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 823--824
+Underfull \hbox (badness 10000) in paragraph at lines 822--823
 
  []
 
@@ -887,26 +887,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 823--824
 File: ./rysunki/bez_lecz_sym2_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_progres.jpg  used on input lin
-e 850.
+e 849.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [36 <./rysunki/bez_lecz_sym2_progres.jpg>]
 <./rysunki/wykres_bez_lecz_t120_c0.jpg, id=899, 632.3625pt x 379.4175pt>
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
-ine 860.
+ine 859.
 (pdftex.def)             Requested size: 441.01773pt x 264.6178pt.
  [37 <./rysunki/wykres_bez_lecz_t120_c0.jpg>]
 <./rysunki/wykres_bez_lecz_promien_c0.jpg, id=905, 626.34pt x 381.67593pt>
 File: ./rysunki/wykres_bez_lecz_promien_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_c0.jpg  used on inpu
-t line 869.
+t line 868.
 (pdftex.def)             Requested size: 441.01773pt x 268.75543pt.
  [38 <./rysunki/wykres_bez_lecz_promien_c0.jpg>]
 Rozdzia\PlPrIeC {\l } 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 888--889
+Underfull \hbox (badness 10000) in paragraph at lines 887--888
 
  []
 
@@ -915,19 +915,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 888--889
 ]
 Rozdzia\PlPrIeC {\l } 7.
 
-Overfull \hbox (16.60518pt too wide) in paragraph at lines 927--933
+Overfull \hbox (16.60518pt too wide) in paragraph at lines 926--932
  [][] 
  []
 
 [40
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 947--948
+Underfull \hbox (badness 10000) in paragraph at lines 946--947
 
  []
 
 
-Overfull \hbox (63.49971pt too wide) in paragraph at lines 953--974
+Overfull \hbox (63.49971pt too wide) in paragraph at lines 952--973
  [][] 
  []
 
@@ -935,28 +935,28 @@ Overfull \hbox (63.49971pt too wide) in paragraph at lines 953--974
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [41] [42] [43] [44]
-Overfull \hbox (24.2894pt too wide) in paragraph at lines 1004--1038
+Overfull \hbox (24.2894pt too wide) in paragraph at lines 1003--1037
  [][] 
  []
 
 [45] [46] [47]
-Overfull \hbox (24.2894pt too wide) in paragraph at lines 1065--1084
+Overfull \hbox (24.2894pt too wide) in paragraph at lines 1064--1083
  [][] 
  []
 
 
-Overfull \hbox (4.10681pt too wide) in paragraph at lines 1090--1091
+Overfull \hbox (4.10681pt too wide) in paragraph at lines 1089--1090
 []\OT4/cmr/m/n/12 chemioterapia jest sku-tecz-na (wy-st¦-pu-je re-gre-sja no-wo
 -two-ru) w przy-pad-ku zmniej-
  []
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 1103--1104
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1105
 
  []
 
@@ -964,12 +964,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [49] [50] [51]
-Underfull \hbox (badness 10000) in paragraph at lines 1167--1168
+Underfull \hbox (badness 10000) in paragraph at lines 1166--1167
 
  []
 
 [52]
-Overfull \hbox (14.06013pt too wide) in paragraph at lines 1174--1197
+Overfull \hbox (14.06013pt too wide) in paragraph at lines 1173--1196
  [][] 
  []
 
@@ -978,146 +978,152 @@ Rozdzia\PlPrIeC {\l } 8.
 [55
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1247--1248
+Underfull \hbox (badness 10000) in paragraph at lines 1246--1247
 
  []
 
 
-Overfull \hbox (39.42828pt too wide) in paragraph at lines 1253--1263
+Overfull \hbox (39.42828pt too wide) in paragraph at lines 1252--1262
  [][] 
  []
 
-[56]
-Underfull \hbox (badness 10000) in paragraph at lines 1279--1280
+[56] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1284
 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[57] [58]
-Underfull \hbox (badness 10000) in paragraph at lines 1321--1322
-
- []
-
-[59]
-Underfull \hbox (badness 10000) in paragraph at lines 1366--1367
+[58] [59] [60]
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1335
 
  []
 
 
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1372--1397
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[61] [62]
+Underfull \hbox (badness 10000) in paragraph at lines 1388--1389
+
+ []
+
+
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1394--1419
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60]
-Underfull \hbox (badness 10000) in paragraph at lines 1411--1412
+[63] [64]
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1441
 
  []
 
-[61]
-Overfull \hbox (27.84427pt too wide) in paragraph at lines 1417--1445
+
+Overfull \hbox (27.84427pt too wide) in paragraph at lines 1446--1474
  [][] 
  []
 
-[62]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[65] [66] [67]
 Rozdzia\PlPrIeC {\l } 9.
-[63
+[68
 
-] [64]
-Overfull \hbox (63.49971pt too wide) in paragraph at lines 1479--1490
+] [69]
+Overfull \hbox (63.49971pt too wide) in paragraph at lines 1517--1528
  [][] 
  []
 
-[65]
-Overfull \hbox (32.1986pt too wide) in paragraph at lines 1501--1545
- [][] 
- []
-
-[66]
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1555--1569
- [][] 
- []
-
-[67]
-Overfull \hbox (21.96933pt too wide) in paragraph at lines 1580--1588
- [][] 
- []
-
-[68] [69] [70]
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1645--1656
+[70]
+Overfull \hbox (32.1986pt too wide) in paragraph at lines 1539--1583
  [][] 
  []
 
 [71]
-Overfull \hbox (27.84427pt too wide) in paragraph at lines 1667--1680
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1593--1607
  [][] 
  []
 
 [72]
-Overfull \hbox (16.60518pt too wide) in paragraph at lines 1696--1703
+Overfull \hbox (21.96933pt too wide) in paragraph at lines 1618--1626
  [][] 
  []
 
 [73] [74] [75]
-Overfull \hbox (49.6432pt too wide) in paragraph at lines 1758--1767
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1683--1694
  [][] 
  []
 
 [76]
-Overfull \hbox (16.60518pt too wide) in paragraph at lines 1780--1786
+Overfull \hbox (27.84427pt too wide) in paragraph at lines 1705--1718
+ [][] 
+ []
+
+[77]
+Overfull \hbox (16.60518pt too wide) in paragraph at lines 1734--1741
+ [][] 
+ []
+
+[78] [79] [80]
+Overfull \hbox (49.6432pt too wide) in paragraph at lines 1796--1805
+ [][] 
+ []
+
+[81]
+Overfull \hbox (16.60518pt too wide) in paragraph at lines 1818--1824
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[77]
-Underfull \hbox (badness 10000) in paragraph at lines 1848--1849
+[82]
+Underfull \hbox (badness 10000) in paragraph at lines 1886--1887
 
  []
 
-[78] [79]
+[83] [84]
 Rozdzia\PlPrIeC {\l } 10.
-[80
+[85
 
 ]
 Rozdzia\PlPrIeC {\l } 11.
-[81
+[86
 
 ]
 Rozdzia\PlPrIeC {\l } 12.
-[82
+[87
 
 ]
 Rozdzia\PlPrIeC {\l } 13.
-[83
+[88
 
-] [84] [85] [86] [87] [88
+] [89] [90] [91] [92] [93
 
-] [89] [90]
-Underfull \hbox (badness 10000) in paragraph at lines 2005--2006
+] [94] [95]
+Underfull \hbox (badness 10000) in paragraph at lines 2043--2044
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2006--2007
+Underfull \hbox (badness 10000) in paragraph at lines 2044--2045
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
 
-) (Dodatek.tex [91]
+) (Dodatek.tex [96]
 Rozdzia\PlPrIeC {\l } 14.
 
 Overfull \hbox (26.34036pt too wide) in paragraph at lines 8--34
  [][] 
  []
 
-) [92
+) [97
 
 ]
 
@@ -1135,8 +1141,8 @@ d.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 9966 strings out of 480930
- 155324 string characters out of 2901168
+ 9971 strings out of 480930
+ 155359 string characters out of 2901168
  617263 words of memory out of 3000000
  25335 multiletter control sequences out of 15000+200000
  548194 words of font info for 69 fonts, out of 3000000 for 9000
@@ -1162,9 +1168,9 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (99 pages, 905686 bytes).
+Output written on ImmunochemiotherapyModel.pdf (104 pages, 916895 bytes).
 PDF statistics:
- 1419 PDF objects out of 1440 (max. 8388607)
- 276 named destinations out of 1000 (max. 500000)
+ 1448 PDF objects out of 1728 (max. 8388607)
+ 281 named destinations out of 1000 (max. 500000)
  537 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -93,7 +93,7 @@ K_C = 6e-1;
 % podanie TIL
     if(metoda_leczenia == 5 || metoda_leczenia == 6 || metoda_leczenia == 7)
       
-        V_L = podaj_TIL(t, 7, 8);
+        V_L = podaj_TIL(t, 2, 3);
 
 % podanie IL-2
        

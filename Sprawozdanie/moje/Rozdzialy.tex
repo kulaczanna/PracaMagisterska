@@ -3,7 +3,7 @@
 % \indent akapit
 \section{Streszczenie}
 W~pracy przedstawiono model opisuj¹cy odpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór. Model ten oparty jest na~modelu de Pillis \cite{19}. Obejmuje on rozwój komórek nowotworowych w~organizmie oraz~odpowiedŸ uk³adu immunologicznego -- w~tym, tak~zwanych ,,naturalnych zabójców'', czyli komórek NK (ang. Natural Killer cells), limfocytów $T_{CD8+}$ oraz~limfocytów kr¹¿¹cych.
-Nastêpnie model zosta³ poddany modyfikacji polegaj¹cej na~uwzglêdnieniu procesu leczenia nowotworu skojarzonymi metodami chemioterapii (z u¿yciem leku cytostatycznego) i~immunoterapii z~u¿yciem pewnej grupy cytokin\footnote{Cytokiny -- bia³ka o~niskiej masie cz¹steczkowej bior¹ce udzia³ w~przekazywaniu informacji pomiêdzy komórkami; odgrywaj¹ istotn¹ rolê w~odpowiedzi zapalnej, apoptozie, wzroœcie i~ró¿nicowaniu komórek \cite{16}.}, tj. interleukin-2 (IL-2).
+Nastêpnie model zosta³ poddany modyfikacji polegaj¹cej na~uwzglêdnieniu procesu leczenia nowotworu skojarzonymi metodami chemioterapii (z u¿yciem leku cytostatycznego) i~immunoterapii z~u¿yciem pewnej grupy cytokin\footnote{Cytokiny -- bia³ka o~niskiej masie cz¹steczkowej bior¹ce udzia³ w~przekazywaniu informacji pomiêdzy komórkami; odgrywaj¹ istotn¹ rolê w~odpowiedzi zapalnej, apoptozie, wzroœcie i~ró¿nicowaniu komórek \cite{16}.}, tj. interleukin-2 (IL-2) oraz limfocytów naciekaj¹cych nowotwór TIL (ang. Tumor Infiltrating Lymphocytes).
 
 %w~tym limfocytów naciekaj¹cych nowotwór TIL (ang. Tumor Infiltrating Lymphocytes)
 
@@ -806,7 +806,6 @@ Wnioski:
 \item na skutek interakcji, tj. próby zniszczenia komórek nowotworu przez komórki NK, liczba komórek NK maleje i utrzymuje siê na bardzo niskim poziomie $N \approx 3,78$;
 \item liczba limfocytów kr¹¿¹cych, mimo zmian w czasie pozosta³ych populacji, utrzymuje siê na sta³ym poziomie $C \approx 6 \cdot 10^{10}$;
 \item mo¿liwy wzrost guza np. w przypadku póŸnego jego wykrycia, na³o¿enie si.ê innej choroby w tym samym czasie, przez co uk³ad immunologiczny nie by³ ca³kowicie sprawny;
-\item promieñ i objêtoœæ ...
 \end{itemize}
 
 \newpage
@@ -1214,7 +1213,7 @@ W symulacji leczenia metod¹ immunoterapii wziêto pod uwagê takie zmienne, jak:
 \item dawka $V_I$ IL-2,
 \item dawka $V_L$ TIL,
 \item liczba powtórzeñ cyklu dawkowania IL-2,
-\item dzieñ rozpoczêcia immunoterapii.
+\item dzieñ rozpoczêcia immunoterapii (dozowania IL-2 lub TIL).
 \end{itemize}
 
 \begin{table}[h!]
@@ -1264,6 +1263,11 @@ W tabeli \ref{immuno_zmiany_wielkosci_guza} przedstawiono jak zmieniano pocz¹tko
 \label{immuno_zmiany_wielkosci_guza}
 \end{table} 
 
+Wnioski:
+\begin{itemize}
+\item os³abiony uk³ad immunologiczny, okreœlony poprzez liczbê komórek wystêpuj¹cych naturalnie w~organizmie: komórek NK $N(0) = 10^{5}$, limfocytów $T_{CD8+}$ $L(0) = 10^{2}$ oraz limfocytów kr¹¿¹cych $C(0) = 3,5 \cdot 10^{9}$ wspomagany leczeniem metod¹ immunoterapii jest w~stanie zniszczyæ komórki nowotworowe, jeœli pocz¹tkowa liczba komórek guza wynosi $T(0) = 1 \cdot 10^{6}$ (rozmiar, przy którym guz jest wykrywalny klinicznie), co nie by³o mo¿liwe w przypadku braku leczenia;
+\item leczenie metod¹ immunoterapii, zgodne z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) nie jest skuteczne (nie nastêpuje regresja nowotworu) dla pocz¹tkowej liczby komórek nowotworowych $T(0) = 1,8 \cdot 10^{7}$.
+\end{itemize}
 %uk³ad os³abiony - pokonuje tylko niewielki  guz, zwiekszanie guza jak w artykule
 
 \newpage
@@ -1307,6 +1311,15 @@ W tabeli \ref{zmiany_dawki_IL2_przy_TIL} przedstawiono jak zmieniano dawkê IL-2,
 \caption[Wyniki symulacji - immunoterapia, scenariusz II, zmiana dawki $V_I$ IL-2]{Dawka IL-2 $V_I$, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla leczenia z wykorzystaniem TIL oraz bez wykorzystania TIL.}
 \label{zmiany_dawki_IL2_przy_TIL}
 \end{table} 
+
+\newpage
+Wnioski:
+\begin{itemize}
+\item zmiana dawki IL-2 ma wp³yw na skutecznoœæ immunoterapii (wyst¹pienie regresji nowotworu lub jej brak); zarówno w przypadku wykorzystania w leczeniu IL-2 wraz z TIL, jak i wy³¹cznie IL-2 dawk¹ konieczn¹ do zniszczenia nowotworu (regresji) jest $V_I = 2 \cdot 10^{7}$
+\item zwiêkszanie dawki IL-2 (dla dawki $V_I > 2 \cdot 10^{7}$ - wartoœci wiêkszych od koniecznej do uzyskania regresji guza) nie ma znacz¹cego wp³ywu na moment wyst¹pienia regresji; w ka¿dym przypadku jest to 19 dzieñ symulacji, jedyn¹ niewielk¹ zmian¹ jest dok³adny moment wyst¹pienia symulacji w 19 dniu dla poszczególnych przypadków (dla dawki $V_I > 6 \cdot 10^{7}$ moment ten jest taki sam dla ka¿dego przypadku) oraz liczba komórek nowotworowych w ostatnim dniu symulacji w chwili $T_{k} = 120$ dni $T(120)$;
+\item leczenie z wykorzystaniem IL-2 oraz TIL nie ró¿ni siê znacz¹co od leczenia z wykorzystaniem wy³¹cznie IL-2; wykorzystanie TIL w leczeniu nie ma wp³ywu na dzieñ ani dok³adny moment regresji nowotworu, jedyn¹ zmian¹ w stosunku do leczenia wy³¹cznie przy u¿yciu IL-2 s¹ bardzo ma³e zmiany (zmniejszenie) liczby komórek nowotworowych w ostatnim dniu symulacji w chwili $T_{k} = 120$ dni $T(120)$;
+\item leczenie z wykorzystaniem wy³¹cznie IL-2 jest w stanie doprowadziæ do regresji nowotworu; wykorzystanie TIL w immunoterapii nie jest konieczne.
+\end{itemize}
 
 \newpage
 \section{Scenariusz III -- zmiana dawki TIL}
@@ -1354,6 +1367,15 @@ W tabeli \ref{zmiany_dawki_TIL_przy_IL2} przedstawiono jak zmieniano dawkê TIL, 
 \end{table} 
 
 \newpage
+\newpage
+Wnioski:
+\begin{itemize}
+\item zmiana dawki TIL ma wp³yw na skutecznoœæ immunoterapii (wyst¹pienie regresji nowotworu lub jej brak) w przypadku wykorzystania w leczeniu zarówno TIL oraz IL-2; dawk¹ konieczn¹ do zniszczenia (regresji) nowotworu jest $V_L = 2 \cdot 10^{10}$;
+\item zwiêkszanie dawki TIL (dla dawki $V_L > 2 \cdot 10^{10}$ - wartoœci wiêkszych od koniecznej do uzyskania regresji guza) nie ma znacz¹cego wp³ywu na moment wyst¹pienia regresji; w ka¿dym przypadku jest to 18 dzieñ symulacji, jedyn¹ niewielk¹ zmian¹ jest dok³adny moment wyst¹pienia symulacji w 18 dniu dla poszczególnych przypadków (dla dawki $V_L > 1 \cdot 10^{11}$ moment ten jest taki sam dla ka¿dego przypadku) oraz liczba komórek nowotworowych w ostatnim dniu symulacji w chwili $T_{k} = 120$ dni $T(120)$;
+\item leczenie z wykorzystaniem TIL oraz IL-2 ró¿ni siê znacz¹co od leczenia z wykorzystaniem wy³¹cznie TIL; leczenie z wykorzystaniem wy³¹cznie TIL nie jest w stanie doprowadziæ do regresji nowotworu; wykorzystanie IL-2 w immunoterapii jest konieczne.
+\end{itemize}
+
+\newpage
 \section{Scenariusz IV -- zmiana liczby powtórzeñ cyklu IL-2}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~wielkoœci liczby powtórzeñ cyklu IL-2.
 
@@ -1399,6 +1421,13 @@ W tabeli \ref{zmiany_liczby_powtorzen_IL2} przedstawiono jak zmieniano liczbê po
 \end{table} 
 
 \newpage
+Wnioski:
+\begin{itemize}
+\item liczba powtórzeñ cyklu IL-2 nie ma wp³ywu na skutecznoœæ leczenia (wyst¹pienie regresji nowotworu) niezale¿nie od liczby powtórzeñ cyklu (analizowano: 6, 10 oraz 14 powtórzeñ) nie wystêpuje regresja guza dla pocz¹tkowej liczby komórek nowotworowych $T(0) = 1,8 \cdot 10^{7}$; 
+\item dla ma³ej pocz¹tkowej liczby komórek nowotworowych $T(0) = 1 \cdot 10^{6}$ zmiana liczby powtórzeñ cyklu IL-2 nie wp³ywa na skutecznoœæ leczenia (w ka¿dym przypadku nastêpuje regresja nowotworu) ani na moment wyst¹pienia regresji (w ka¿dym przypadku dniem regresji jest 16 dzieñ symulacji).
+\end{itemize}
+
+\newpage
 \section{Scenariusz V -- zmiana dnia rozpoczêcia immunoterapii}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~dnia rozpoczêcia immunoterapii (dozowania IL-2 lub TIL).
 
@@ -1438,13 +1467,22 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_immunoterapii_IL2} przedstawiono jak zmien
 %		6 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 %		5 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		4 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
-		3 & 12,29 & $3,34 \cdot 10^{-8}$ & $3,34 \cdot 10^{-14}$ & $2 \cdot 10^{-5}$ \\ \hline
-		2 & 10,08 & $5,54 \cdot 10^{-8}$ & $5,54 \cdot 10^{-14}$ & $2,4 \cdot 10^{-5}$ \\ \hline
-		1 & 8,88 & $3,64 \cdot 10^{-7}$ & $3,64 \cdot 10^{-13}$ & $4,4 \cdot 10^{-5}$ \\ \hline
+		3 & 12,29 & $4,95 \cdot 10^{-90}$ & $4,95 \cdot 10^{-96}$ & $1,1 \cdot 10^{-32}$ \\ \hline
+		2 & 10,04 & $6,55 \cdot 10^{-92}$ & $6,55 \cdot 10^{-98}$ & $2,5 \cdot 10^{-33}$ \\ \hline
+		1 & 8,8 & $6,26 \cdot 10^{-93}$ & $6,26 \cdot 10^{-99}$ & $1,1 \cdot 10^{-33}$ \\ \hline
 		\end{tabular}
 \caption[Wyniki symulacji - immunoterapia, scenariusz V, zmiana dnia rozpoczêcia immunoterapii (dozowania IL-2 lub TIL)]{Dzieñ rozpoczêcia immunoterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla IL-2 (przy dozowaniu TIL zgodnie z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_immunoterapii})) oraz dla TIL (przy dozowaniu IL-2 zgodnie z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_immunoterapii})).}
 \label{zmiany_dnia_rozpoczecia_immunoterapii_IL2}
 \end{table} 
+
+\newpage
+Wnioski:
+\begin{itemize}
+\item dzieñ rozpoczêcia immunoterapii (dozowania IL-2) przy dozowaniu TIL zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) ma wp³yw na skutecznoœæ leczenia (wyst¹pienie regresji nowotworu lub jej brak); przy rozpoczêciu dozowania IL-2 w 5 dniu symulacji (4 dni wczeœniej ni¿ dla warunków pocz¹tkowych (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}), gdzie nie nastêpuje regresja) w 14 dniu symulacji wystêpuje regresja nowotworu;
+\item dzieñ rozpoczêcia immunoterapii (dozowania IL-2) przy dozowaniu TIL zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) ma wp³yw na czas wyst¹pienia regresji; od dnia rozpoczêcia dozowania IL-2 do dnia regresji mija 9 dni (z wyj¹tkiem rozpoczêcia dozowania IL-2 w pierwszym dniu - wtedy regresja nastêpuje po 8 kolejnych dniach symulacji);
+\item dzieñ rozpoczêcia immunoterapii (dozowania TIL) przy dozowaniu IL-2 zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) ma wp³yw na skutecznoœæ leczenia (wyst¹pienie regresji nowotworu lub jej brak); przy rozpoczêciu dozowania TIL w 3 dniu symulacji (6 dni wczeœniej ni¿ dla warunków pocz¹tkowych (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}), gdzie nie nastêpuje regresja) w 13 dniu symulacji wystêpuje regresja nowotworu;
+\item dzieñ rozpoczêcia immunoterapii (dozowania TIL) przy dozowaniu IL-2 zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) ma wp³yw na czas wyst¹pienia regresji; rozpoczêcie dozowania TIL o 1 dzieñ wczeœniej skutkuje skróceniem czasu koniecznego do wyst¹pienia regresji o 1 dzieñ, tj. dla rozpoczêcia leczenia w dzieñ: 3, 2 oraz 1 czas do regresji wynosi, odpowiednio: 10, 9 oraz 8 dni.
+\end{itemize}
 
 \newpage
 \chapter{Leczenie skojarzonymi metodami chemioterapii i~immunoterapii}
