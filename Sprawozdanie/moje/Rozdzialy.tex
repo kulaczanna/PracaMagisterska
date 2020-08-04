@@ -1592,7 +1592,15 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dawka} przedstawiono jak zmieniano dawk
 \label{zmiana_cehmio_stale_immuno_dawka}
 \end{table} 
 
-W tabeli \ref{zmiana_cehmio_stale_immuno_liczba_powtorzen_cyklu} przedstawiono jak zmieniano dawkê liczbê powtórzeñ cyklu chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. Analizê przeprowadzono dla d³ugoœci cyklu równej 8 dni oraz dawki cytostatyka $V_M = 1,75$.
+\newpage
+Wnioski:
+\begin{itemize}
+\item skutecznoœæ leczenia skojarzonego zale¿y od wielkoœci dawki dozowanego w chemioterapii cytostatyka; dla krótkiego cyklu (4 dni) dawk¹ wystarczaj¹c¹ do osi¹gniêcia zamierzonego efektu (regresji nowotworu) w 18 dniu symulacji jest $V_M = 0,75$ (w przypadku leczenia wy³¹cznie metod¹ chemioterapii ta dawka to $V_M = 3,5$, czyli ponad cztery razy wiêcej, podczas gdy dzieñ regresji to 50 dzieñ symulacji), natomiast dla d³u¿szych cykli (8 oraz 200 dni) jest to dawka $V_M = 1,75$ (wartoœæ t¹ wykorzystano w dalszych symulacjach), podczas gdy w leczeniu wy³¹cznie metod¹ chemioterapii dla cyklu o d³ugoœci 8 dni regresja nie wystêpuje lub wystêpuje dla bardzo du¿ej wartoœci dawki ($V_M = 13$); leczenie skojarzone umo¿liwia osi¹gniêcie regresji nowotworu, które jest nieosi¹galne w leczeniu wy³¹cznie metod¹ chemioterapii (dla takich samych warunków pocz¹tkowych);
+\item dawka mo¿e zostaæ kilkakrotnie zmniejszona w porównaniu do leczenia wy³¹cznie metoda chemioterapii, co pozwala na mniejsze zniszczenie zdrowych tkanek pacjenta (bêd¹ce skutkiem u¿ycia cytostatyka).
+\end{itemize}
+
+\newpage
+W tabeli \ref{zmiana_cehmio_stale_immuno_liczba_powtorzen_cyklu} przedstawiono jak zmieniano dawkê liczbê powtórzeñ cyklu chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. Analizê przeprowadzono dla d³ugoœci cyklu równej 8 dni (wybrano tak¹ d³ugoœæ cyklu ze wzglêdu na porównanie pozytywnego efektu (wyst¹pienia regresji) leczenia skojarzonego dla tej wartoœci z brakiem wyst¹pienia tego efektu w leczeniu wy³¹cznie metod¹ chemioterapii dla tej d³ugoœci cyklu) oraz dawki cytostatyka $V_M = 1,75$.
 
 \subsection{Zmiana liczby powtórzeñ cyklu chemioterapii}
 
@@ -1616,9 +1624,15 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_liczba_powtorzen_cyklu} przedstawiono j
 \label{zmiana_cehmio_stale_immuno_liczba_powtorzen_cyklu}
 \end{table} 
 
-W tabeli \ref{zmiana_cehmio_stale_immuno_dzien_rozpoczecia} przedstawiono jak zmieniano dzieñ rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. Analizê przeprowadzono dla d³ugoœci cyklu równej 8 dni, dawki cytostatyka $V_M = 1,75$ oraz liczby powtórzeñ cyklu równej 1.
+Wnioski:
+\begin{itemize}
+\item liczba powtórzeñ cyklu nie ma wp³ywu na skutecznoœæ leczenia (wyst¹pienie regresji nowotworu) w leczeniu skojarzonym; zarówno dla 9 powtórzeñ (podobnie jak we wczeœniejszych symulacjach dla leczenia wy³¹cznie metod¹ chemioterapii oraz wy³¹cznie metod¹ immunoterapii), jak i dla pojedynczego dozowania cytostatyka (brak regresji we wczeœniejszych symulacjach) nastêpuje regresja nowotworu;
+\item liczba powtórzeñ cyklu nie wp³ywa lub wp³ywa nieznacznie na czas wyst¹pienia regresji, dla 3 do 9 powtórzeñ jest to dok³adnie ten sam moment (dzieñ 18), dla 2 powtórzeñ ten sam dzieñ, jednak nieznacznie póŸniej, natomiast dla 1 powtórzenia cyklu dniem regresji jest 20 dzieñ symulacji.
+\end{itemize}
 
 \newpage
+W tabeli \ref{zmiana_cehmio_stale_immuno_dzien_rozpoczecia} przedstawiono jak zmieniano dzieñ rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. Analizê przeprowadzono dla d³ugoœci cyklu równej 8 dni, dawki cytostatyka $V_M = 1,75$ oraz liczby powtórzeñ cyklu równej 1.
+
 \subsection{Zmiana dnia rozpoczêcia chemioterapii}
 
 \begin{table}[h!]
@@ -1635,6 +1649,10 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dzien_rozpoczecia} przedstawiono jak zm
 \label{zmiana_cehmio_stale_immuno_dzien_rozpoczecia}
 \end{table} 
 
+Wnioski:
+\begin{itemize}
+\item leczenie skojarzone dla warunków pocz¹tkowych immunoterapii (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) daje pozytywny skutek (wystêpuje regresja nowotworu) dla rozwa¿anych warunków chemioterapii (d³ugoœæ cyklu = 8 dni, dawka cytostatyka $V_M = 1,75$, liczba powtórzeñ cyklu: 1) tylko w przypadku, gdy pierwszy dzieñ symulacji jest równoczeœnie pierwszym dniem leczenia (rozpoczêcie dozowania cytostatyka nastêpuje w pierwszym dniu symulacji); chemioterapia dla rozwa¿anych warunków jest wiêc w maksymalnym stopniu ograniczona (przy warunkach pocz¹tkowych immunoterapii) tak, aby otrzymaæ oczekiwany efekt przy jednoczesnych jak najmniejszych skutkach ubocznych chemioterapii (które mog¹ byœ spowodowane dawk¹ zbyt du¿¹ dawk¹ cytostatyka czy d³ugim czasem leczenia metod¹ chemioterapii).
+\end{itemize}
 %terapia jednoczesna - dzia³¹ a w osobnych nie dzia³a³o, zmniejszsenie dawki w chemio i zwiekszenie liczby dni w cyklu - duuu¿o mniejsza dawka, mniejsze wyniszczenie, i tylko jedna dawka chemio starcza
 
 \newpage

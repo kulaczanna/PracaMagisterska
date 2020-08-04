@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  3 AUG 2020 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  4 AUG 2020 11:38
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -1043,87 +1043,87 @@ Overfull \hbox (32.1986pt too wide) in paragraph at lines 1547--1591
  [][] 
  []
 
-[72]
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1601--1615
+[72] [73]
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1609--1623
  [][] 
  []
 
-[73]
-Overfull \hbox (21.96933pt too wide) in paragraph at lines 1626--1634
+[74]
+Overfull \hbox (21.96933pt too wide) in paragraph at lines 1640--1648
  [][] 
  []
 
-[74] [75] [76]
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1691--1702
- [][] 
- []
-
-[77]
-Overfull \hbox (27.84427pt too wide) in paragraph at lines 1713--1726
+[75] [76] [77]
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1709--1720
  [][] 
  []
 
 [78]
-Overfull \hbox (16.60518pt too wide) in paragraph at lines 1742--1749
+Overfull \hbox (27.84427pt too wide) in paragraph at lines 1731--1744
  [][] 
  []
 
-[79] [80] [81]
-Overfull \hbox (49.6432pt too wide) in paragraph at lines 1804--1813
+[79]
+Overfull \hbox (16.60518pt too wide) in paragraph at lines 1760--1767
  [][] 
  []
 
-[82]
-Overfull \hbox (16.60518pt too wide) in paragraph at lines 1826--1832
+[80] [81] [82]
+Overfull \hbox (49.6432pt too wide) in paragraph at lines 1822--1831
+ [][] 
+ []
+
+[83]
+Overfull \hbox (16.60518pt too wide) in paragraph at lines 1844--1850
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[83]
-Underfull \hbox (badness 10000) in paragraph at lines 1894--1895
+[84]
+Underfull \hbox (badness 10000) in paragraph at lines 1912--1913
 
  []
 
-[84] [85]
+[85] [86]
 Rozdzia\PlPrIeC {\l } 10.
-[86
-
-]
-Rozdzia\PlPrIeC {\l } 11.
 [87
 
 ]
-Rozdzia\PlPrIeC {\l } 12.
+Rozdzia\PlPrIeC {\l } 11.
 [88
 
 ]
-Rozdzia\PlPrIeC {\l } 13.
+Rozdzia\PlPrIeC {\l } 12.
 [89
 
-] [90
+]
+Rozdzia\PlPrIeC {\l } 13.
+[90
 
-] [91] [92]
-Underfull \hbox (badness 10000) in paragraph at lines 2051--2052
+] [91
+
+] [92] [93]
+Underfull \hbox (badness 10000) in paragraph at lines 2069--2070
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2052--2053
+Underfull \hbox (badness 10000) in paragraph at lines 2070--2071
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
 
-) (Dodatek.tex [93]
+) (Dodatek.tex [94]
 Rozdzia\PlPrIeC {\l } 14.
 
 Overfull \hbox (26.34036pt too wide) in paragraph at lines 8--34
  [][] 
  []
 
-) [94
+) [95
 
 ]
 
@@ -1141,8 +1141,8 @@ d.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 9962 strings out of 480930
- 155260 string characters out of 2901168
+ 9963 strings out of 480930
+ 155267 string characters out of 2901168
  617263 words of memory out of 3000000
  25332 multiletter control sequences out of 15000+200000
  548194 words of font info for 69 fonts, out of 3000000 for 9000
@@ -1168,9 +1168,9 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (101 pages, 896034 bytes).
+Output written on ImmunochemiotherapyModel.pdf (102 pages, 899973 bytes).
 PDF statistics:
- 1402 PDF objects out of 1440 (max. 8388607)
- 275 named destinations out of 1000 (max. 500000)
+ 1407 PDF objects out of 1440 (max. 8388607)
+ 276 named destinations out of 1000 (max. 500000)
  513 words of extra memory for PDF output out of 10000 (max. 10000000)
 
