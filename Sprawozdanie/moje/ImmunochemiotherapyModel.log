@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  4 AUG 2020 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  5 AUG 2020 09:39
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -1034,47 +1034,55 @@ Rozdzia\PlPrIeC {\l } 9.
 [68
 
 ] [69]
-Overfull \hbox (63.49971pt too wide) in paragraph at lines 1517--1528
+Overfull \hbox (63.49971pt too wide) in paragraph at lines 1518--1529
  [][] 
  []
 
-[70] [71]
-Overfull \hbox (32.1986pt too wide) in paragraph at lines 1547--1591
+[70]
+Overfull \hbox (32.1986pt too wide) in paragraph at lines 1548--1592
  [][] 
  []
 
-[72] [73]
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1609--1623
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[71] [72] [73]
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1611--1625
  [][] 
  []
 
 [74]
-Overfull \hbox (21.96933pt too wide) in paragraph at lines 1640--1648
+Overfull \hbox (21.96933pt too wide) in paragraph at lines 1644--1652
  [][] 
  []
 
 [75] [76] [77]
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1709--1720
+Underfull \hbox (badness 10000) in paragraph at lines 1716--1718
+
+ []
+
+
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1721--1732
  [][] 
  []
 
 [78]
-Overfull \hbox (27.84427pt too wide) in paragraph at lines 1731--1744
+Overfull \hbox (27.84427pt too wide) in paragraph at lines 1749--1762
  [][] 
  []
 
 [79]
-Overfull \hbox (16.60518pt too wide) in paragraph at lines 1760--1767
+Overfull \hbox (16.60518pt too wide) in paragraph at lines 1781--1788
  [][] 
  []
 
 [80] [81] [82]
-Overfull \hbox (49.6432pt too wide) in paragraph at lines 1822--1831
+Overfull \hbox (49.6432pt too wide) in paragraph at lines 1843--1852
  [][] 
  []
 
 [83]
-Overfull \hbox (16.60518pt too wide) in paragraph at lines 1844--1850
+Overfull \hbox (16.60518pt too wide) in paragraph at lines 1865--1871
  [][] 
  []
 
@@ -1082,7 +1090,7 @@ Overfull \hbox (16.60518pt too wide) in paragraph at lines 1844--1850
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [84]
-Underfull \hbox (badness 10000) in paragraph at lines 1912--1913
+Underfull \hbox (badness 10000) in paragraph at lines 1933--1934
 
  []
 
@@ -1105,13 +1113,13 @@ Rozdzia\PlPrIeC {\l } 13.
 ] [91
 
 ] [92] [93]
-Underfull \hbox (badness 10000) in paragraph at lines 2069--2070
+Underfull \hbox (badness 10000) in paragraph at lines 2090--2091
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2070--2071
+Underfull \hbox (badness 10000) in paragraph at lines 2091--2092
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
@@ -1141,10 +1149,10 @@ d.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 9963 strings out of 480930
- 155267 string characters out of 2901168
+ 9964 strings out of 480930
+ 155291 string characters out of 2901168
  617263 words of memory out of 3000000
- 25332 multiletter control sequences out of 15000+200000
+ 25333 multiletter control sequences out of 15000+200000
  548194 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,13n,50p,2228b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1168,9 +1176,9 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (102 pages, 899973 bytes).
+Output written on ImmunochemiotherapyModel.pdf (102 pages, 902824 bytes).
 PDF statistics:
- 1407 PDF objects out of 1440 (max. 8388607)
+ 1411 PDF objects out of 1440 (max. 8388607)
  276 named destinations out of 1000 (max. 500000)
  513 words of extra memory for PDF output out of 10000 (max. 10000000)
 

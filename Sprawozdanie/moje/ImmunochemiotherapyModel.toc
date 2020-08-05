@@ -41,7 +41,7 @@
 \contentsline {chapter}{\numberline {9.}Leczenie skojarzonymi metodami chemioterapii i\nobreakspace {}immunoterapii}{68}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Scenariusz I -- zmiana cech chemioterapii}{69}{section.9.1}%
 \contentsline {subsection}{\numberline {9.1.1}Zmiana d\IeC {\l }ugo\'sci cyklu chemioterapii}{70}{subsection.9.1.1}%
-\contentsline {subsection}{\numberline {9.1.2}Zmiana dawki dozowanego cytostatyka}{72}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.2}Zmiana dawki dozowanego cytostatyka}{71}{subsection.9.1.2}%
 \contentsline {subsection}{\numberline {9.1.3}Zmiana liczby powt\'orze\'n cyklu chemioterapii}{74}{subsection.9.1.3}%
 \contentsline {subsection}{\numberline {9.1.4}Zmiana dnia rozpocz\k ecia chemioterapii}{75}{subsection.9.1.4}%
 \contentsline {section}{\numberline {9.2}Scenariusz II -- zmiana cech immunoterapii}{76}{section.9.2}%
