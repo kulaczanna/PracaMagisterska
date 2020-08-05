@@ -847,7 +847,7 @@ Na~Rys. \ref{zmiany_liczby_kom_4_populacjiC} liczba komórek nowotworowych stabil
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{bez_lecz_sym2_progres}
-\caption{Zmiany liczby komórek badanych populacji dla wartosci poczatkowej liczby limfocytów krazacych C(0) = $3, 5 \cdot 10^{9}$. Stabilizacja liczby komórek nowotworowych po czasie $T_{s} \approx 28$ dni (672 godziny) oko³o wartosci $9, 8 \cdot 10^{8}$.}
+\caption{Zmiany liczby komórek badanych populacji dla wartoœci pocz¹tkowej liczby limfocytów kr¹¿¹cych C(0) = $3, 5 \cdot 10^{9}$. Stabilizacja liczby komórek nowotworowych po czasie $T_{s} \approx 28$ dni (672 godziny) oko³o wartoœci $9, 8 \cdot 10^{8}$.}
 \label{zmiany_liczby_kom_4_populacjiC}
 \end{figure}
 
@@ -945,6 +945,7 @@ Cykl podawania leku okreœla czas ci¹g³ego podawania leku oraz przerwy pomiêdzy k
 
 \noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê d³ugoœci cyklu zebrano w tabeli \ref{chemio_zmiany_liczby_dni_cyklu}. \newline
 
+\newpage
 W tabeli \ref{chemio_zmiany_liczby_dni_cyklu} przedstawiono jak zmieniano d³ugoœæ cyklu (d³ugoœæ przerw pomiêdzy dawkami przy sta³ym czasie dozowania cytostatyka oraz czas dozowania cytostatyka przy sta³ej d³ugoœci przerw pomiêdzy dawkami) chemioterapii, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni.
 
 \begin{table}[h!]
@@ -971,7 +972,41 @@ W tabeli \ref{chemio_zmiany_liczby_dni_cyklu} przedstawiono jak zmieniano d³ugoœ
 		3,5 & [0,5 3] & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
 		\caption[Wyniki symulacji - chemioterapia, scenariusz I, zmiana d³ugoœci cyklu]{D³ugoœæ oraz schemat cyklu chemioterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla zmieniaj¹cej siê d³ugoœci przerwy pomiêdzy poszczególnymi dawkami chemioterapii (przy sta³ym czasie dozowania pojedynczej dawki równym 1 dzieñ) oraz zmieniaj¹cego siê czasu dozowania pojedynczej dawki (przy sta³ej d³ugoœci przerwy pomiêdzy dawkami równej 3 dni).}\label{chemio_zmiany_liczby_dni_cyklu}
-\end{table} 
+\end{table}
+ 
+\newpage
+Na~Rys. \ref{stezenie_chemio_zmiany_liczby_dni_cyklu} 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_liczby_dni_cyklu}
+\caption{4 dni regresja}
+\label{wykres_chemio_zmiany_liczby_dni_cyklu}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_liczby_dni_cyklu}
+\caption{8 dni brak regresji}
+\label{stezenie_chemio_zmiany_liczby_dni_cyklu}
+\end{figure}
+
+\newpage
+Na~Rys. \ref{stezenie_chemio_zmiany_liczby_dni_cyklu8} 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_liczby_dni_cyklu8}
+\caption{}
+\label{wykres_chemio_zmiany_liczby_dni_cyklu8}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_liczby_dni_cyklu8}
+\caption{}
+\label{stezenie_chemio_zmiany_liczby_dni_cyklu8}
+\end{figure}
 
 \newpage
 Wnioski:
@@ -1037,6 +1072,24 @@ W tabeli \ref{chemio_zmiany_dawki} przedstawiono jak zmieniano wielkoœæ dawki do
 		\caption[Wyniki symulacji - chemioterapia, scenariusz II, zmiana dawki $V_M$ dozowanego cytostatyka]{Schemat cyklu chemioterapii, dawka dozowanego cytostatyka, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla d³ugoœci cyklu równej 4, 8 oraz 12 dni.}\label{chemio_zmiany_dawki}
 \end{table} 
 
+\newpage
+Na~Rys. \ref{wykres_chemio_zmiany_dawki} 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_dawki}
+\caption{$V_M = 3$ brak regresji, vm = 5 na rys w 1 scenariuszu regresja}
+\label{wykres_chemio_zmiany_dawki}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_dawki}
+\caption{}
+\label{stezenie_chemio_zmiany_dawki}
+\end{figure}
+
+\newpage
 Wnioski:
 \begin{itemize}
 \item skutecznoœæ chemioterapii (regresja nowotworu lub jej brak) oraz czas potrzebny do regresji nowotworu bêd¹cej skutkiem chemioterapii zale¿y od dawki dozowanego podczas leczenia cytostatyka; regresja nowotworu nie wystêpuje dla dawki $V_M = 3$, natomiast dla dawki $V_M = 3,5$ wystêpuje w 50 dniu od rozpoczêcia symulacji (leczenia);
@@ -1084,6 +1137,42 @@ W tabeli \ref{chemio_zmiany_dawki_w_kolejnych_powtorzeniach} przedstawiono jak z
 \label{chemio_zmiany_dawki_w_kolejnych_powtorzeniach}
 \end{table} 
 
+%\newpage
+Na~Rys. \ref{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4} 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
+\caption{-0,4 regresja}
+\label{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
+\caption{}
+\label{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
+\end{figure}
+
+
+%\newpage
+Na~Rys. \ref{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5} 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}
+\caption{-0,5 brak regresji}
+\label{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}
+\caption{}
+\label{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}
+\end{figure}
+
+\newpage
 Wnioski:
 \begin{itemize}
 \item chemioterapia jest skuteczna (wystêpuje regresja nowotworu) w przypadku zmniejszania wielkoœci dawki z ka¿dym kolejnym cyklem; leczenie metod¹ chemioterapii przy sta³ej dawce cytostatyka $V_M = 4$ (dzieñ regresji: 34, Tab. \ref{chemio_zmiany_dawki}) ma czas potrzebny do wyst¹pienia regresji nowotworu porównywalny do leczenia ze zmniejszaniem dawki $V_M$ o 0,4 w kolejnych cyklach rozpoczynaj¹c od $V_M = 5$ (dzieñ regresji: 34); w pierwszym przypadku regresja zostaje osi¹gniêta poprzez dziewiêciokrotne u¿ycie takiej samej dawki $V_M = 4$, podczas gdy w drugim przypadku wykorzystane s¹ 3 wiêksze oraz 6 mniejszych dawek, co pozwala osi¹gn¹æ ten sam efekt przy mniejszej iloœci cytostatyka przyjmowanej przez pacjenta, tj. mniejszym zniszczeniu zdrowych tkanek.
