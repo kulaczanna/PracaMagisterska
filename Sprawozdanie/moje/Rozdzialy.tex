@@ -1822,6 +1822,11 @@ W tabeli \ref{zmiana_immuno_okreslone_chemio} przedstawiono jak zmieniano wielko
 \label{zmiana_immuno_okreslone_chemio}
 \end{table} 
 
+Wnioski:
+\begin{itemize}
+\item w leczeniu skojarzonym wykorzystuj¹cym chemioterapiê zgodnie z warunkami pocz¹tkowymi (\ref{okreslone_warunki_pocz¹tkowe_chemioterapii}) oraz immunoterapiê w oparciu o IL-2 oraz TIL (\ref{warunki_pocz¹tkowe_immunoterapii}) mo¿liwe jest uzyskanie regresji nowotworu dla dawki dozowanego cytostatyka $V_M = 1$ oraz $V_M = 0,5$ poprzez nieznaczne zwiêkszenie dawki IL-2 (dla dawki $V_M = 1$ oraz $V_M = 0,5$ dawka IL-2 wynosi odpowiednio $V_I = 8 \cdot 10^{6}$ oraz $V_I = 2 \cdot 10^{7}$, podczas gdy dawka pocz¹tkowa IL-2 jest równa $V_I = 5 \cdot 10^{6}$); te dawki cytostatyka s¹ kilka razy mniejsze ni¿ dawki wykorzystane we wczeœniejszych symulacjach (dawka pocz¹tkowa $V_M = 5$) oraz znacznie mniejsze ni¿ dawka konieczna do wyst¹pienia regresji w leczeniu metod¹ wy³¹cznie chemioterapii dla cyklu o d³ugoœci 8 dni ($V_M = 13$); leczenie skojarzone umo¿liwia wiêc zminimalizowanie skutków ubocznych dzia³ania cytostatyka poprzez wzmocnienie organizmu wiêksz¹ iloœci¹ IL-2.
+\end{itemize}
+
 \newpage
 \section{Scenariusz IV -- zmiany czasu wdro¿enia poszczególnych terapii}
 
@@ -1852,6 +1857,11 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano dzieñ
 \caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz IV, zmiany czasu wdro¿enia poszczególnych terapii]{Dzieñ rozpoczêcia chemioterapii (dozowania cytostatyka) oraz immunoterapii (dozowania TIL oraz bezpoœrednio po tym dozowania IL-2), dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla warunków pocz¹tkowych (Tab. \ref{warunki pocz¹tkowe_chemioterapii} oraz \ref{warunki_pocz¹tkowe_immunoterapii}).}
 \label{czasy_wdrozenia_roznych_terapii}
 \end{table} 
+
+Wnioski:
+\begin{itemize}
+\item w leczeniu skojarzonym metod¹ chemioterapii i immunoterapii czas potrzebny do uzyskania regresji nowotworu zale¿y od czasu wdro¿enia poszczególnych terapii; w przypadku rozpoczêcia chemioterapii w 1 dniu, a immunoterapii w 8 dniu symulacji, regresja nastêpuje w dniu 14, natomiast dla odwrotnej kolejnoœci regresja nastêpuje oko³o 1,5 razy szybciej, tj. w dniu 9 symulacji;
+\end{itemize}
 
 \newpage
 \section{Scenariusz V -- porównanie stanu uk³adu immunologicznego u ró¿nych pacjentów}
@@ -1890,7 +1900,7 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano dzieñ
 
 
 \newpage
-\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu uwzglêdniaj¹cego leczenie ukazano w~tabelach \ref{parametry_modelu_z1} oraz \ref{parametry_modelu_2_pacjentow}.
+\noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu bez uwzglêdnienia oraz z uwzglêdnieniem procesu leczenia ukazano w~tabelach \ref{parametry_modelu_2_pacjentow} oraz \ref{parametry_modelu_z1}.
 
 %\begin{table}[h!]
 %	\centering
@@ -1925,7 +1935,7 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano dzieñ
 		h & $2,02 \cdot 10^{7}$ & $\alpha$ & $5 \cdot 10^{8}$ \\ \hline
 		j & $2,49 \cdot 10^{-2}$ & $\beta$ & $8 \cdot 10^{-3}$ \\ \hline
 		\end{tabular}
-		\caption{Parametry modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia - wartoœci.}\label{parametry_modelu_2_pacjentow}
+		\caption{Wartoœci parametrów modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór bez uwzglêdnienia procesu leczenia dla pacjenta 2.}\label{parametry_modelu_2_pacjentow}
 \end{table}
 
 \noindent \newline \textbf{Czas symulacji:} \newline Czas symulacji wynosi³ $T_{k}$ = 120 dni. 
@@ -1945,6 +1955,11 @@ W tabeli \ref{rozni_pacjenci} przedstawiono dzieñ regresji nowotworu, liczbê kom
 \caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz V, porównanie stanu uk³adu immunologicznego u ró¿nych pacjentów]{Pacjenci 1 oraz 2, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla warunków pocz¹tkowych (Tab.  \ref{warunki_pocz¹tkowe_chemioterapii_light} i \ref{warunki_pocz¹tkowe_immunoterapii_dopasowane_do_chemio_light}).}
 \label{rozni_pacjenci}
 \end{table} 
+
+Wnioski:
+\begin{itemize}
+\item skutecznoœæ leczenia skojarzonego metod¹ chemioterapii (\ref{warunki_pocz¹tkowe_chemioterapii_light}) i immunoterapii (\ref{warunki_pocz¹tkowe_immunoterapii_dopasowane_do_chemio_light}) zale¿y od cech osobnicznych uk³adu immunologicznego pacjenta takich, jak: tempo dezaktywacji limfocytów $T_{CD8+}$ oraz komórek NK przez komórki nowotworu, cytotoksycznoœæ limfocytów $T_{CD8+}$ czy liczba kr¹¿¹cych limfocytów i tempo ich wymierania;
+\item istnieje mo¿liwoœæ dopasowania symulacji (modelu) do indywidualnego pacjenta (jego cech osobnicznych) w celu okreœlenia optymalnego dla niego leczenia skojarzonego. \end{itemize}
 
 \chapter{Rezultaty}
 \chapter{Analiza wyników}

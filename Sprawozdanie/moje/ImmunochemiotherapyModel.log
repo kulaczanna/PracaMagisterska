@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  5 AUG 2020 09:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  5 AUG 2020 11:36
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -1077,12 +1077,12 @@ Overfull \hbox (16.60518pt too wide) in paragraph at lines 1781--1788
  []
 
 [80] [81] [82]
-Overfull \hbox (49.6432pt too wide) in paragraph at lines 1843--1852
+Overfull \hbox (49.6432pt too wide) in paragraph at lines 1848--1857
  [][] 
  []
 
 [83]
-Overfull \hbox (16.60518pt too wide) in paragraph at lines 1865--1871
+Overfull \hbox (16.60518pt too wide) in paragraph at lines 1875--1881
  [][] 
  []
 
@@ -1090,7 +1090,7 @@ Overfull \hbox (16.60518pt too wide) in paragraph at lines 1865--1871
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [84]
-Underfull \hbox (badness 10000) in paragraph at lines 1933--1934
+Underfull \hbox (badness 10000) in paragraph at lines 1943--1944
 
  []
 
@@ -1113,13 +1113,13 @@ Rozdzia\PlPrIeC {\l } 13.
 ] [91
 
 ] [92] [93]
-Underfull \hbox (badness 10000) in paragraph at lines 2090--2091
+Underfull \hbox (badness 10000) in paragraph at lines 2105--2106
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2091--2092
+Underfull \hbox (badness 10000) in paragraph at lines 2106--2107
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
@@ -1176,9 +1176,9 @@ AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl10.pfb><C:/Users/pc
 c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (102 pages, 902824 bytes).
+Output written on ImmunochemiotherapyModel.pdf (102 pages, 905855 bytes).
 PDF statistics:
- 1411 PDF objects out of 1440 (max. 8388607)
+ 1415 PDF objects out of 1440 (max. 8388607)
  276 named destinations out of 1000 (max. 500000)
  513 words of extra memory for PDF output out of 10000 (max. 10000000)
 
