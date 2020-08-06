@@ -39,21 +39,21 @@
 \contentsline {section}{\numberline {8.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu IL-2}{75}{section.8.4}%
 \contentsline {section}{\numberline {8.5}Scenariusz V -- zmiana dnia rozpocz\k ecia immunoterapii}{79}{section.8.5}%
 \contentsline {chapter}{\numberline {9.}Leczenie skojarzonymi metodami chemioterapii i\nobreakspace {}immunoterapii}{83}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Scenariusz I -- zmiana cech chemioterapii}{84}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}Zmiana d\IeC {\l }ugo\'sci cyklu chemioterapii}{85}{subsection.9.1.1}%
-\contentsline {subsection}{\numberline {9.1.2}Zmiana dawki dozowanego cytostatyka}{86}{subsection.9.1.2}%
-\contentsline {subsection}{\numberline {9.1.3}Zmiana liczby powt\'orze\'n cyklu chemioterapii}{89}{subsection.9.1.3}%
-\contentsline {subsection}{\numberline {9.1.4}Zmiana dnia rozpocz\k ecia chemioterapii}{90}{subsection.9.1.4}%
-\contentsline {section}{\numberline {9.2}Scenariusz II -- zmiana cech immunoterapii}{91}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Zmiana dawki IL-2}{92}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia bez wykorzystania TIL}{93}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}{94}{subsection.9.2.3}%
-\contentsline {section}{\numberline {9.3}Scenariusz III -- zmiany dawki IL-2 konieczne dla uzyskania okre\'slonych warto\'sci parametr\'ow chemioterapii}{95}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{97}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Scenariusz V -- por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{99}{section.9.5}%
-\contentsline {chapter}{\numberline {10.}Rezultaty}{102}{chapter.10}%
-\contentsline {chapter}{\numberline {11.}Analiza wynik\'ow}{103}{chapter.11}%
-\contentsline {chapter}{\numberline {12.}Podsumowanie}{104}{chapter.12}%
-\contentsline {chapter}{\numberline {13.}Rozw\'oj}{105}{chapter.13}%
-\contentsline {chapter}{\numberline {14.}Dodatek}{110}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Tabela skr\'ot\'ow}{110}{section.14.1}%
+\contentsline {section}{\numberline {9.1}Scenariusz I -- zmiana cech chemioterapii}{85}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Zmiana d\IeC {\l }ugo\'sci cyklu chemioterapii}{86}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Zmiana dawki dozowanego cytostatyka}{89}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Zmiana liczby powt\'orze\'n cyklu chemioterapii}{93}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.4}Zmiana dnia rozpocz\k ecia chemioterapii}{96}{subsection.9.1.4}%
+\contentsline {section}{\numberline {9.2}Scenariusz II -- zmiana cech immunoterapii}{99}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Zmiana dawki IL-2}{100}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia bez wykorzystania TIL}{101}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}{102}{subsection.9.2.3}%
+\contentsline {section}{\numberline {9.3}Scenariusz III -- zmiany dawki IL-2 konieczne dla uzyskania okre\'slonych warto\'sci parametr\'ow chemioterapii}{103}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{105}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Scenariusz V -- por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{107}{section.9.5}%
+\contentsline {chapter}{\numberline {10.}Rezultaty}{110}{chapter.10}%
+\contentsline {chapter}{\numberline {11.}Analiza wynik\'ow}{111}{chapter.11}%
+\contentsline {chapter}{\numberline {12.}Podsumowanie}{112}{chapter.12}%
+\contentsline {chapter}{\numberline {13.}Rozw\'oj}{113}{chapter.13}%
+\contentsline {chapter}{\numberline {14.}Dodatek}{118}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Tabela skr\'ot\'ow}{118}{section.14.1}%

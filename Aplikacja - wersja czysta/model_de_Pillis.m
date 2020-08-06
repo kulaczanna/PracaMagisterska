@@ -97,7 +97,7 @@ K_C = 6e-1;
 
 % podanie IL-2
        
-        V_I = podaj_IL2(t, 4, 0.3, 0.2);
+        V_I = podaj_IL2(t, 8, 0.3, 0.2);
 
     end
 
