@@ -23,28 +23,28 @@
 \addvspace {10pt}
 \contentsline {table}{\numberline {8.1}{\ignorespaces Warunki pocz\k atkowe modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia za pomoc\k a immunoterapii.\relax }}{62}{table.caption.41}%
 \contentsline {table}{\numberline {8.2}{\ignorespaces Wyniki symulacji - immunoterapia, scenariusz I, zmiana wielko\'sci guza w dniu rozpocz\k ecia immunoterapii}}{63}{table.caption.42}%
-\contentsline {table}{\numberline {8.3}{\ignorespaces Wyniki symulacji - immunoterapia, scenariusz II, zmiana dawki $V_I$ IL-2}}{66}{table.caption.43}%
-\contentsline {table}{\numberline {8.4}{\ignorespaces Wyniki symulacji - immunoterapia, scenariusz III, zmiana dawki $V_L$ TIL}}{69}{table.caption.44}%
-\contentsline {table}{\numberline {8.5}{\ignorespaces Wyniki symulacji - immunoterapia, scenariusz IV, zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia z wykorzystaniem TIL}}{71}{table.caption.45}%
-\contentsline {table}{\numberline {8.6}{\ignorespaces Wyniki symulacji - immunoterapia, scenariusz V, zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2 lub TIL)}}{73}{table.caption.46}%
+\contentsline {table}{\numberline {8.3}{\ignorespaces Wyniki symulacji - immunoterapia, scenariusz II, zmiana dawki $V_I$ IL-2}}{68}{table.caption.47}%
+\contentsline {table}{\numberline {8.4}{\ignorespaces Wyniki symulacji - immunoterapia, scenariusz III, zmiana dawki $V_L$ TIL}}{72}{table.caption.50}%
+\contentsline {table}{\numberline {8.5}{\ignorespaces Wyniki symulacji - immunoterapia, scenariusz IV, zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia z wykorzystaniem TIL}}{76}{table.caption.53}%
+\contentsline {table}{\numberline {8.6}{\ignorespaces Wyniki symulacji - immunoterapia, scenariusz V, zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2 lub TIL)}}{80}{table.caption.56}%
 \addvspace {10pt}
-\contentsline {table}{\numberline {9.1}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana d\IeC {\l }ugo\'sci cyklu}}{77}{table.caption.47}%
-\contentsline {table}{\numberline {9.2}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana dawki $V_M$ dozowanego cytostatyka}}{79}{table.caption.48}%
-\contentsline {table}{\numberline {9.3}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana liczby powt\'orze\'n cyklu chemioterapii}}{81}{table.caption.49}%
-\contentsline {table}{\numberline {9.4}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana dnia rozpocz\k ecia chemioterapii}}{82}{table.caption.50}%
-\contentsline {table}{\numberline {9.5}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana dawki $V_I$ IL-2}}{84}{table.caption.51}%
-\contentsline {table}{\numberline {9.6}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia bez wykorzystania TIL}}{85}{table.caption.52}%
-\contentsline {table}{\numberline {9.7}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}}{86}{table.caption.53}%
-\contentsline {table}{\numberline {9.8}{\ignorespaces Warunki pocz\k atkowe chemioterapii dla modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii.\relax }}{87}{table.caption.54}%
-\contentsline {table}{\numberline {9.9}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz III, zmiany dawki $V_I$ IL-2 konieczne do uzyskania okre\'slonych warunk\'ow chemioterapii (\ref {okreslone_warunki_pocz\k atkowe_chemioterapii})}}{88}{table.caption.55}%
-\contentsline {table}{\numberline {9.10}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz IV, zmiany czasu wdro\.zenia poszczeg\'olnych terapii}}{90}{table.caption.56}%
-\contentsline {table}{\numberline {9.11}{\ignorespaces Warunki pocz\k atkowe chemioterapii dla modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii - por\'ownanie uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow.\relax }}{91}{table.caption.57}%
-\contentsline {table}{\numberline {9.12}{\ignorespaces Warunki pocz\k atkowe immunoterapii dla modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii - por\'ownanie uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow.\relax }}{92}{table.caption.58}%
-\contentsline {table}{\numberline {9.13}{\ignorespaces Warto\'sci parametr\'ow modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or bez uwzgl\k ednienia procesu leczenia dla pacjenta 2.\relax }}{92}{table.caption.59}%
-\contentsline {table}{\numberline {9.14}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz V, por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}}{93}{table.caption.60}%
-\addvspace {10pt}
-\addvspace {10pt}
+\contentsline {table}{\numberline {9.1}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana d\IeC {\l }ugo\'sci cyklu}}{85}{table.caption.59}%
+\contentsline {table}{\numberline {9.2}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana dawki $V_M$ dozowanego cytostatyka}}{87}{table.caption.60}%
+\contentsline {table}{\numberline {9.3}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana liczby powt\'orze\'n cyklu chemioterapii}}{89}{table.caption.61}%
+\contentsline {table}{\numberline {9.4}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz I, zmiana dnia rozpocz\k ecia chemioterapii}}{90}{table.caption.62}%
+\contentsline {table}{\numberline {9.5}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana dawki $V_I$ IL-2}}{92}{table.caption.63}%
+\contentsline {table}{\numberline {9.6}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia bez wykorzystania TIL}}{93}{table.caption.64}%
+\contentsline {table}{\numberline {9.7}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}}{94}{table.caption.65}%
+\contentsline {table}{\numberline {9.8}{\ignorespaces Warunki pocz\k atkowe chemioterapii dla modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii.\relax }}{95}{table.caption.66}%
+\contentsline {table}{\numberline {9.9}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz III, zmiany dawki $V_I$ IL-2 konieczne do uzyskania okre\'slonych warunk\'ow chemioterapii (\ref {okreslone_warunki_pocz\k atkowe_chemioterapii})}}{96}{table.caption.67}%
+\contentsline {table}{\numberline {9.10}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz IV, zmiany czasu wdro\.zenia poszczeg\'olnych terapii}}{98}{table.caption.68}%
+\contentsline {table}{\numberline {9.11}{\ignorespaces Warunki pocz\k atkowe chemioterapii dla modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii - por\'ownanie uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow.\relax }}{99}{table.caption.69}%
+\contentsline {table}{\numberline {9.12}{\ignorespaces Warunki pocz\k atkowe immunoterapii dla modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or z uwzgl\k ednieniem procesu leczenia skojarzonymi metodami chemioterapii i immunoterapii - por\'ownanie uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow.\relax }}{100}{table.caption.70}%
+\contentsline {table}{\numberline {9.13}{\ignorespaces Warto\'sci parametr\'ow modelu odpowiedzi immunologicznej na\nobreakspace {}rozwijaj\k acy si\k e nowotw\'or bez uwzgl\k ednienia procesu leczenia dla pacjenta 2.\relax }}{100}{table.caption.71}%
+\contentsline {table}{\numberline {9.14}{\ignorespaces Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz V, por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}}{101}{table.caption.72}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {table}{\numberline {14.1}{\ignorespaces Skr\'oty wykorzystane w pracy\relax }}{102}{table.caption.62}%
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {14.1}{\ignorespaces Skr\'oty wykorzystane w pracy\relax }}{110}{table.caption.74}%

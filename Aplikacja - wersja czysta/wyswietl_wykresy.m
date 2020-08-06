@@ -26,6 +26,7 @@ hold on
 subplot(3, 1, 2)
 plot(t, y(:, 6), 'g');
 legend('IL-2')
+title('Stê¿enie IL-2')
 ylabel('Stê¿enie')
 xlabel('Czas [dni]')
 % hold on
