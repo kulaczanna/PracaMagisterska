@@ -1976,7 +1976,18 @@ Wnioski:
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~wielkoœci dawki IL-2, liczby powtórzeñ cyklu IL-2 oraz dnia rozpoczêcia immunoterapii (dozowania IL-2).
 
-\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. d³ugoœæ cyklu, czas dozowania cytostatyka, schemat cyklu, dawkê dozowanego cytostatyka, liczbê powtórzeñ cyklu oraz dzieñ rozpoczêcia chemioterapii przedstawiono w tabeli \ref{warunki pocz¹tkowe_chemioterapii}. Warunki pocz¹tkowe dla immunoterapii, tj. d³ugoœæ cyklu, czas dozowania, schemat cyklu, dawkê dozowanego leku, liczbê powtórzeñ cyklu oraz dzieñ rozpoczêcia immunoterapii dla IL-2 i TIL przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
+\noindent \newline \textbf{Warunki pocz¹tkowe:} \newline Wielkoœæ (tj. liczbê komórek) nowotworu $T(0)$, liczbê komórek NK $N(0)$, liczbê limfocytów $T_{CD8+}$ oraz~liczbê limfocytów kr¹¿¹cych $C(0)$ ukazano~w~tabeli \ref{warunki_poczatkowe_z1}. Warunki pocz¹tkowe dla chemioterapii, tj. d³ugoœæ cyklu, czas dozowania cytostatyka, schemat cyklu, dawkê dozowanego cytostatyka, liczbê powtórzeñ cyklu oraz dzieñ rozpoczêcia chemioterapii przedstawiono w tabeli \ref{warunki_pocz¹tkowe_chemioterapii_w_skojarzonym_ze_zmiana_immuno}. Warunki pocz¹tkowe dla immunoterapii, tj. d³ugoœæ cyklu, czas dozowania, schemat cyklu, dawkê dozowanego leku, liczbê powtórzeñ cyklu oraz dzieñ rozpoczêcia immunoterapii dla IL-2 i TIL przedstawiono w tabeli \ref{warunki_pocz¹tkowe_immunoterapii}.
+
+\begin{table}[h!]
+	\centering
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+		D³ugoœæ & Czas dozowania & Schemat & Dawka & Liczba & Dzieñ \\
+		cyklu $[dni]$ & cytostatyka $[dni]$ & cyklu & dozowanego & powtórzeñ & rozpoczêcia \\
+		&  & &  cytostatyka $V_M$ & cyklu & chemioterapii \\ \hline 
+		8 & 1 & [1 7] & 5 & 9 & 1 \\ \hline
+		\end{tabular}
+		\caption{Warunki pocz¹tkowe modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia za pomoc¹ chemioterapii.}\label{warunki_pocz¹tkowe_chemioterapii_w_skojarzonym_ze_zmiana_immuno}
+\end{table} 
 
 \noindent \newline \textbf{Przyjête parametry:} \newline Parametry dla~modelu uwzglêdniaj¹cego leczenie ukazano w~tabelach \ref{parametry_modelu_bez1} i \ref{parametry_modelu_z1}.
 
@@ -2012,7 +2023,7 @@ W tabeli \ref{zmiana_immuno_stale_chemio_dawka_IL2_z_TIL} przedstawiono jak zmie
 		$2 \cdot 10^{6}$ & 16,42 & $8,32 \cdot 10^{-94}$ & $8,32 \cdot 10^{-100}$ & $5,8 \cdot 10^{-34}$ \\ \hline
 		$1 \cdot 10^{6}$ & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana dawki $V_I$ IL-2]{Dawka IL-2 $V_I$, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla chemioterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki pocz¹tkowe_chemioterapii}) i leczenia z wykorzystaniem TIL oraz bez wykorzystania TIL.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana dawki $V_I$ IL-2]{Dawka IL-2 $V_I$, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla chemioterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_chemioterapii_w_skojarzonym_ze_zmiana_immuno}) i leczenia z wykorzystaniem TIL oraz bez wykorzystania TIL.}
 \label{zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}
 \end{table} 
 
@@ -2054,7 +2065,7 @@ Na~Rys. \ref{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL1e6}
 Wnioski:
 \begin{itemize}
 \item w leczeniu z wykorzystaniem TIL wielkoœæ dawki IL-2 nie wp³ywa na skutecznoœæ (wyst¹pienie regresji nowotworu) terapii skojarzonej; niezale¿nie od wielkoœci dawki IL-2 regresja nastêpuje w 15 dniu symulacji;
-\item mo¿liwe jest osi¹gniêcie regresji nowotworu bez udzia³u IL-2 w leczeniu, jeœli zastosowano TIL oraz chemioterapiê zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}, \ref{warunki pocz¹tkowe_chemioterapii});
+\item mo¿liwe jest osi¹gniêcie regresji nowotworu bez udzia³u IL-2 w leczeniu, jeœli zastosowano TIL oraz chemioterapiê zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}, \ref{warunki_pocz¹tkowe_chemioterapii_w_skojarzonym_ze_zmiana_immuno});
 \item w leczeniu bez wykorzystania TIL skutecznoœæ (wyst¹pienie regresji nowotworu) terapii skojarzonej zale¿y od wielkoœci dawki IL-2 (regresja dla dawki $V_I = 2 \cdot 10^{6}$, brak regresji dla dawki $V_I = 1 \cdot 10^{6}$), natomiast moment wyst¹pienia regresji zmienia siê nieznacznie zale¿nie od wybranej dawki.
 \end{itemize}
 \newpage
@@ -2076,7 +2087,7 @@ W tabeli \ref{zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL} przedstawiono 
 		2 & 16,42 & $1,4 \cdot 10^{-93}$ & $1,4 \cdot 10^{-100}$ & $3,2 \cdot 10^{-34}$ \\ \hline
 		1 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana liczby powtórzeñ cyklu IL-2 dla leczenia bez wykorzystania TIL]{Liczba powtórzeñ cyklu IL-2, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla chemioterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki pocz¹tkowe_chemioterapii}) dla leczenia bez wykorzystania TIL oraz dawki IL-2 $V_I = 2 \cdot 10^{6}$.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana liczby powtórzeñ cyklu IL-2 dla leczenia bez wykorzystania TIL]{Liczba powtórzeñ cyklu IL-2, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla chemioterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_chemioterapii_w_skojarzonym_ze_zmiana_immuno}) dla leczenia bez wykorzystania TIL oraz dawki IL-2 $V_I = 2 \cdot 10^{6}$.}
 \label{zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}
 \end{table} 
 
@@ -2124,7 +2135,7 @@ W tabeli \ref{zmiana_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL} przedsta
 		14 & 21,08 & $1,19 \cdot 10^{-88}$ & $1,06 \cdot 10^{-92}$ & $1,4 \cdot 10^{-31}$ \\ \hline
 		15 & brak & $9,8 \cdot 10^{8}$ & $980$ & $6,16$ \\ \hline
 		\end{tabular}
-\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana dnia rozpoczêcia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL]{Dzieñ rozpoczêcia immunoterapii (dozowania IL-2), dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla chemioterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki pocz¹tkowe_chemioterapii}) dla leczenia bez wykorzystania TIL, dawki IL-2 $V_I = 2 \cdot 10^{6}$ oraz liczby powtórzeñ cyklu IL-2 równej 2.}
+\caption[Wyniki symulacji - leczenie skojarzonymi metodami chemioterapii i immunoterapii, scenariusz II, zmiana dnia rozpoczêcia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL]{Dzieñ rozpoczêcia immunoterapii (dozowania IL-2), dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla chemioterapii zgodnej z warunkami pocz¹tkowymi (\ref{warunki_pocz¹tkowe_chemioterapii_w_skojarzonym_ze_zmiana_immuno}) dla leczenia bez wykorzystania TIL, dawki IL-2 $V_I = 2 \cdot 10^{6}$ oraz liczby powtórzeñ cyklu IL-2 równej 2.}
 \label{zmiana_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}
 \end{table} 
 
@@ -2204,6 +2215,41 @@ W tabeli \ref{zmiana_immuno_okreslone_chemio} przedstawiono jak zmieniano wielko
 \label{zmiana_immuno_okreslone_chemio}
 \end{table} 
 
+\newpage
+Na~Rys. \ref{wykres_zmiana_immuno_okreslone_chemio} 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{wykres_zmiana_immuno_okreslone_chemio}
+\caption{vi = 8e6 vm = 1}
+\label{wykres_zmiana_immuno_okreslone_chemio}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{stezenie_zmiana_immuno_okreslone_chemio}
+\caption{}
+\label{stezenie_zmiana_immuno_okreslone_chemio}
+\end{figure}
+
+\newpage
+Na~Rys. \ref{wykres_zmiana_immuno_okreslone_chemiopol} 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{wykres_zmiana_immuno_okreslone_chemiopol}
+\caption{vi = 2e7 vm = 0 5}
+\label{wykres_zmiana_immuno_okreslone_chemiopol}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{stezenie_zmiana_immuno_okreslone_chemiopol}
+\caption{}
+\label{stezenie_zmiana_immuno_okreslone_chemiopol}
+\end{figure}
+
+\newpage
 Wnioski:
 \begin{itemize}
 \item w leczeniu skojarzonym wykorzystuj¹cym chemioterapiê zgodnie z warunkami pocz¹tkowymi (\ref{okreslone_warunki_pocz¹tkowe_chemioterapii}) oraz immunoterapiê w oparciu o IL-2 oraz TIL (\ref{warunki_pocz¹tkowe_immunoterapii}) mo¿liwe jest uzyskanie regresji nowotworu dla dawki dozowanego cytostatyka $V_M = 1$ oraz $V_M = 0,5$ poprzez nieznaczne zwiêkszenie dawki IL-2 (dla dawki $V_M = 1$ oraz $V_M = 0,5$ dawka IL-2 wynosi odpowiednio $V_I = 8 \cdot 10^{6}$ oraz $V_I = 2 \cdot 10^{7}$, podczas gdy dawka pocz¹tkowa IL-2 jest równa $V_I = 5 \cdot 10^{6}$); te dawki cytostatyka s¹ kilka razy mniejsze ni¿ dawki wykorzystane we wczeœniejszych symulacjach (dawka pocz¹tkowa $V_M = 5$) oraz znacznie mniejsze ni¿ dawka konieczna do wyst¹pienia regresji w leczeniu metod¹ wy³¹cznie chemioterapii dla cyklu o d³ugoœci 8 dni ($V_M = 13$); leczenie skojarzone umo¿liwia wiêc zminimalizowanie skutków ubocznych dzia³ania cytostatyka poprzez wzmocnienie organizmu wiêksz¹ iloœci¹ IL-2.
@@ -2240,6 +2286,41 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano dzieñ
 \label{czasy_wdrozenia_roznych_terapii}
 \end{table} 
 
+\newpage
+Na~Rys. \ref{wykres_czasy_wdrozenia_roznych_terapii} 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{wykres_czasy_wdrozenia_roznych_terapii}
+\caption{ch 1, imm 8}
+\label{wykres_czasy_wdrozenia_roznych_terapii}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{stezenie_czasy_wdrozenia_roznych_terapii}
+\caption{}
+\label{stezenie_czasy_wdrozenia_roznych_terapii}
+\end{figure}
+
+\newpage
+Na~Rys. \ref{wykres_czasy_wdrozenia_roznych_terapii2} 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{wykres_czasy_wdrozenia_roznych_terapii2}
+\caption{ch 8, imm 1}
+\label{wykres_czasy_wdrozenia_roznych_terapii2}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{stezenie_czasy_wdrozenia_roznych_terapii2}
+\caption{}
+\label{stezenie_czasy_wdrozenia_roznych_terapii2}
+\end{figure}
+
+\newpage
 Wnioski:
 \begin{itemize}
 \item w leczeniu skojarzonym metod¹ chemioterapii i immunoterapii czas potrzebny do uzyskania regresji nowotworu zale¿y od czasu wdro¿enia poszczególnych terapii; w przypadku rozpoczêcia chemioterapii w 1 dniu, a immunoterapii w 8 dniu symulacji, regresja nastêpuje w dniu 14, natomiast dla odwrotnej kolejnoœci regresja nastêpuje oko³o 1,5 razy szybciej, tj. w dniu 9 symulacji;
