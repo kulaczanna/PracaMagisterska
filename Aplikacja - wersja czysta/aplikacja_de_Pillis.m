@@ -13,7 +13,7 @@ metoda_leczenia = 7;
 % 6. immunoterapia - rozwój nowotworu
 % 7. immunoterapia + chemioterapia
 
-pacjent = 9; % 9 lub 10 jak w artykule
+pacjent = 10; % 9 lub 10 jak w artykule
 
 % pocz¹tkowe stê¿enie leków
 M_0 = 0; % stê¿enie cytostatyku M(t)
@@ -85,7 +85,7 @@ switch metoda_leczenia
 %         N_0 = 1e3;
 %         L_0 = 1e1;
 %         C_0 = 6e8;
-        liczba_dni_w_cyklu = 4;
+        liczba_dni_w_cyklu = 8;
         dni_dawkowania = 1;
 end
 

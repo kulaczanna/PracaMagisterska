@@ -51,9 +51,9 @@
 \contentsline {section}{\numberline {9.3}Scenariusz III -- zmiany dawki IL-2 konieczne dla uzyskania okre\'slonych warto\'sci parametr\'ow chemioterapii}{110}{section.9.3}%
 \contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{115}{section.9.4}%
 \contentsline {section}{\numberline {9.5}Scenariusz V -- por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{120}{section.9.5}%
-\contentsline {chapter}{\numberline {10.}Rezultaty}{123}{chapter.10}%
-\contentsline {chapter}{\numberline {11.}Analiza wynik\'ow}{124}{chapter.11}%
-\contentsline {chapter}{\numberline {12.}Podsumowanie}{125}{chapter.12}%
-\contentsline {chapter}{\numberline {13.}Rozw\'oj}{126}{chapter.13}%
-\contentsline {chapter}{\numberline {14.}Dodatek}{131}{chapter.14}%
-\contentsline {section}{\numberline {14.1}Tabela skr\'ot\'ow}{131}{section.14.1}%
+\contentsline {chapter}{\numberline {10.}Rezultaty}{125}{chapter.10}%
+\contentsline {chapter}{\numberline {11.}Analiza wynik\'ow}{126}{chapter.11}%
+\contentsline {chapter}{\numberline {12.}Podsumowanie}{127}{chapter.12}%
+\contentsline {chapter}{\numberline {13.}Rozw\'oj}{128}{chapter.13}%
+\contentsline {chapter}{\numberline {14.}Dodatek}{133}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Tabela skr\'ot\'ow}{133}{section.14.1}%

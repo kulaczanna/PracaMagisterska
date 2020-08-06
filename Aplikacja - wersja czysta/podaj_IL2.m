@@ -26,7 +26,7 @@ function V_I = podaj_IL2(t, t1, dose, pause)
 %         || t >= (t1 + (23 * dose) + (23 * pause)) && t <= (t1 + (24 * dose) + (23 * pause)))
 
         
-        V_I = 5e6;
+        V_I = 2e7;
         
     else
         
