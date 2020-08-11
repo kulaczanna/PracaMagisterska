@@ -54,34 +54,45 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {d ropzp il2 = 5}}}{77}{subfigure.5.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{77}{subfigure.5.2}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {9.1}{\ignorespaces 8 dni, \relax }}{80}{figure.caption.41}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces \relax }}{80}{figure.caption.42}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces 200 dni, \relax }}{83}{figure.caption.44}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces \relax }}{83}{figure.caption.45}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces dawka 1,75, \relax }}{87}{figure.caption.47}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces \relax }}{87}{figure.caption.48}%
-\contentsline {figure}{\numberline {9.7}{\ignorespaces 8 dni vm 1 75 l powt = 1 \relax }}{90}{figure.caption.50}%
-\contentsline {figure}{\numberline {9.8}{\ignorespaces \relax }}{90}{figure.caption.51}%
-\contentsline {figure}{\numberline {9.9}{\ignorespaces 8 dni vm 1 75 l powt = 1 d rozpo = 2 \relax }}{93}{figure.caption.53}%
-\contentsline {figure}{\numberline {9.10}{\ignorespaces \relax }}{93}{figure.caption.54}%
-\contentsline {figure}{\numberline {9.11}{\ignorespaces 8 dni bez til vi = 5e6\relax }}{97}{figure.caption.57}%
-\contentsline {figure}{\numberline {9.12}{\ignorespaces \relax }}{97}{figure.caption.58}%
-\contentsline {figure}{\numberline {9.13}{\ignorespaces 8 dni bez til vi = 2e6\relax }}{98}{figure.caption.59}%
-\contentsline {figure}{\numberline {9.14}{\ignorespaces \relax }}{98}{figure.caption.60}%
-\contentsline {figure}{\numberline {9.15}{\ignorespaces 8 dni bez til vi = 2e6 l powt = 2\relax }}{101}{figure.caption.62}%
-\contentsline {figure}{\numberline {9.16}{\ignorespaces \relax }}{101}{figure.caption.63}%
-\contentsline {figure}{\numberline {9.17}{\ignorespaces 8 dni bez til vi = 2e6 l powt = 2 d rozap = 15\relax }}{104}{figure.caption.65}%
-\contentsline {figure}{\numberline {9.18}{\ignorespaces \relax }}{104}{figure.caption.66}%
-\contentsline {figure}{\numberline {9.19}{\ignorespaces vi = 8e6 vm = 1\relax }}{108}{figure.caption.69}%
-\contentsline {figure}{\numberline {9.20}{\ignorespaces \relax }}{108}{figure.caption.70}%
-\contentsline {figure}{\numberline {9.21}{\ignorespaces vi = 2e7 vm = 0 5\relax }}{109}{figure.caption.71}%
-\contentsline {figure}{\numberline {9.22}{\ignorespaces \relax }}{109}{figure.caption.72}%
-\contentsline {figure}{\numberline {9.23}{\ignorespaces ch 1, imm 8\relax }}{113}{figure.caption.74}%
-\contentsline {figure}{\numberline {9.24}{\ignorespaces \relax }}{113}{figure.caption.75}%
-\contentsline {figure}{\numberline {9.25}{\ignorespaces ch 8, imm 1\relax }}{114}{figure.caption.76}%
-\contentsline {figure}{\numberline {9.26}{\ignorespaces \relax }}{114}{figure.caption.77}%
-\contentsline {figure}{\numberline {9.27}{\ignorespaces pacjent 2, pacjent 1 jest gdzies wyzej - chemio light i il2 = 2e7\relax }}{119}{figure.caption.82}%
-\contentsline {figure}{\numberline {9.28}{\ignorespaces \relax }}{119}{figure.caption.83}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{79}{figure.caption.41}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {8 dni,}}}{79}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{79}{subfigure.1.2}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{81}{figure.caption.43}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {200 dni}}}{81}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{81}{subfigure.2.2}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{85}{figure.caption.45}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {dawka 1,75,}}}{85}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{85}{subfigure.3.2}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{87}{figure.caption.47}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {8 dni vm 1 75 l powt = 1 }}}{87}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{87}{subfigure.4.2}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{88}{figure.caption.49}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {8 dni vm 1 75 l powt = 1 d rozpo = 2}}}{88}{subfigure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{88}{subfigure.5.2}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{92}{figure.caption.52}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {8 dni bez til vi = 5e6}}}{92}{subfigure.6.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{92}{subfigure.6.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {8 dni bez til vi = 2e6}}}{92}{subfigure.6.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{92}{subfigure.6.4}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{95}{figure.caption.54}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {8 dni bez til vi = 2e6 l powt = 2}}}{95}{subfigure.7.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{95}{subfigure.7.2}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{97}{figure.caption.56}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {8 dni bez til vi = 2e6 l powt = 2 d rozap = 15}}}{97}{subfigure.8.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{97}{subfigure.8.2}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{100}{figure.caption.59}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {vi = 8e6 vm = 1}}}{100}{subfigure.9.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{100}{subfigure.9.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {vi = 2e7 vm = 0 5}}}{100}{subfigure.9.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{100}{subfigure.9.4}%
+\contentsline {figure}{\numberline {9.10}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{104}{figure.caption.61}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ch 1, imm 8}}}{104}{subfigure.10.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{104}{subfigure.10.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ch 8, imm 1}}}{104}{subfigure.10.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{104}{subfigure.10.4}%
+\contentsline {figure}{\numberline {9.11}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{108}{figure.caption.66}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {pacjent 2, pacjent 1 jest gdzies wyzej - chemio light i il2 = 2e7}}}{108}{subfigure.11.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{108}{subfigure.11.2}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

@@ -1677,21 +1677,16 @@ W symulacji leczenia skojarzonymi metodami chemioterapii i immunoterapii badano:
 \item zmiany parametrów immunoterapii konieczne dla uzyskania okreœlonych wartoœci parametrów chemioterapii.
 \end{itemize}
 
-\newpage
-Na~Rys. \ref{wykres_skojarzone} 
+Na~Rys. \ref{wykresy_skojarzone} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_skojarzone}
-\caption{8 dni, }
-\label{wykres_skojarzone}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_skojarzone}
-\caption{}
-\label{stezenie_skojarzone}
+\subfloat[8 dni,]{\label{wykres_skojarzone}
+\includegraphics[width=0.5\textwidth]{wykres_skojarzone}}
+\subfloat[]{\label{stezenie_skojarzone}
+\includegraphics[width=0.5\textwidth]{stezenie_skojarzone}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_skojarzone}
 \end{figure}
 
 \newpage
@@ -1730,21 +1725,16 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dni_cyklu} przedstawiono jak zmieniano 
 \label{zmiana_cehmio_stale_immuno_dni_cyklu}
 \end{table} 
 
-\newpage
-Na~Rys. \ref{wykres_skojarzone200} 
+Na~Rys. \ref{wykresy_skojarzone200}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_skojarzone200}
-\caption{200 dni, }
-\label{wykres_skojarzone200}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_skojarzone200}
-\caption{}
-\label{stezenie_skojarzone200}
+\subfloat[200 dni]{\label{wykres_skojarzone200}
+\includegraphics[width=0.5\textwidth]{wykres_skojarzone200}}
+\subfloat[]{\label{stezenie_skojarzone200}
+\includegraphics[width=0.5\textwidth]{stezenie_skojarzone200}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_skojarzone200}
 \end{figure}
 
 \newpage
@@ -1813,23 +1803,18 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dawka} przedstawiono jak zmieniano dawk
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_skojarzone_dawka1_75} 
+Na~Rys. \ref{wykresy_skojarzone_dawka1_75} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_skojarzone_dawka1_75}
-\caption{dawka 1,75, }
-\label{wykres_skojarzone_dawka1_75}
+\subfloat[dawka 1,75,]{\label{wykres_skojarzone_dawka1_75}
+\includegraphics[width=0.5\textwidth]{wykres_skojarzone_dawka1_75}}
+\subfloat[]{\label{stezenie_skojarzone_dawka1_75}
+\includegraphics[width=0.5\textwidth]{stezenie_skojarzone_dawka1_75}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_skojarzone_dawka1_75}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_skojarzone_dawka1_75}
-\caption{}
-\label{stezenie_skojarzone_dawka1_75}
-\end{figure}
-
-\newpage
 Wnioski:
 \begin{itemize}
 \item skutecznoœæ leczenia skojarzonego zale¿y od wielkoœci dawki dozowanego w chemioterapii cytostatyka; dla krótkiego cyklu (4 dni) dawk¹ wystarczaj¹c¹ do osi¹gniêcia zamierzonego efektu (regresji nowotworu) w 18 dniu symulacji jest $V_M = 0,75$ (w przypadku leczenia wy³¹cznie metod¹ chemioterapii ta dawka to $V_M = 3,5$, czyli ponad cztery razy wiêcej, podczas gdy dzieñ regresji to 50 dzieñ symulacji), natomiast dla d³u¿szych cykli (8 oraz 200 dni) jest to dawka $V_M = 1,75$ (wartoœæ t¹ wykorzystano w dalszych symulacjach), podczas gdy w leczeniu wy³¹cznie metod¹ chemioterapii dla cyklu o d³ugoœci 8 dni regresja nie wystêpuje lub wystêpuje dla bardzo du¿ej wartoœci dawki ($V_M = 13$); leczenie skojarzone umo¿liwia osi¹gniêcie regresji nowotworu, które jest nieosi¹galne w leczeniu wy³¹cznie metod¹ chemioterapii (dla takich samych warunków pocz¹tkowych);
@@ -1863,20 +1848,16 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_liczba_powtorzen_cyklu} przedstawiono j
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_skojarzone_l_powt1} 
+Na~Rys. \ref{wykresy_skojarzone_l_powt1} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_skojarzone_l_powt1}
-\caption{8 dni vm 1 75 l powt = 1 }
-\label{wykres_skojarzone_l_powt1}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_skojarzone_l_powt1}
-\caption{}
-\label{stezenie_skojarzone_l_powt1}
+\subfloat[8 dni vm 1 75 l powt = 1 ]{\label{wykres_skojarzone_l_powt1}
+\includegraphics[width=0.5\textwidth]{wykres_skojarzone_l_powt1}}
+\subfloat[]{\label{stezenie_skojarzone_l_powt1}
+\includegraphics[width=0.5\textwidth]{stezenie_skojarzone_l_powt1}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_skojarzone_l_powt1}
 \end{figure}
 
 Wnioski:
@@ -1890,7 +1871,6 @@ Wnioski:
 \subsection{Zmiana dnia rozpoczêcia chemioterapii}
 
 W tabeli \ref{zmiana_cehmio_stale_immuno_dzien_rozpoczecia} przedstawiono jak zmieniano dzieñ rozpoczêcia chemioterapii, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. Analizê przeprowadzono dla d³ugoœci cyklu równej 8 dni, dawki cytostatyka $V_M = 1,75$ oraz liczby powtórzeñ cyklu równej 1.
-
 
 \begin{table}[h!]
 	\centering
@@ -1906,21 +1886,16 @@ W tabeli \ref{zmiana_cehmio_stale_immuno_dzien_rozpoczecia} przedstawiono jak zm
 \label{zmiana_cehmio_stale_immuno_dzien_rozpoczecia}
 \end{table} 
 
-\newpage
-Na~Rys. \ref{wykres_skojarzone_l_powt1_drozp2} 
+Na~Rys. \ref{wykresy_skojarzone_l_powt1_drozp2} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_skojarzone_l_powt1_drozp2}
-\caption{8 dni vm 1 75 l powt = 1 d rozpo = 2 }
-\label{wykres_skojarzone_l_powt1_drozp2}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_skojarzone_l_powt1_drozp2}
-\caption{}
-\label{stezenie_skojarzone_l_powt1_drozp2}
+\subfloat[8 dni vm 1 75 l powt = 1 d rozpo = 2]{\label{wykres_skojarzone_l_powt1_drozp2}
+\includegraphics[width=0.5\textwidth]{wykres_skojarzone_l_powt1_drozp2}}
+\subfloat[]{\label{stezenie_skojarzone_l_powt1_drozp2}
+\includegraphics[width=0.5\textwidth]{stezenie_skojarzone_l_powt1_drozp2}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_skojarzone_l_powt1_drozp2}
 \end{figure}
 
 \newpage
@@ -1986,37 +1961,21 @@ W tabeli \ref{zmiana_immuno_stale_chemio_dawka_IL2_z_TIL} przedstawiono jak zmie
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL} 
+Na~Rys. \ref{wykresy_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}
-\caption{8 dni bez til vi = 5e6}
-\label{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}
-\caption{}
-\label{stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}
-\end{figure}
-
-\newpage
-Na~Rys. \ref{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL1e6} 
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6}
-\caption{8 dni bez til vi = 2e6}
-\label{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6}
-\caption{}
-\label{stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6}
+\subfloat[8 dni bez til vi = 5e6]{\label{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}
+\includegraphics[width=0.5\textwidth]{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}}
+\subfloat[]{\label{stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}
+\includegraphics[width=0.5\textwidth]{stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}}
+\quad
+\subfloat[8 dni bez til vi = 2e6]{\label{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6}
+\includegraphics[width=0.5\textwidth]{wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6}}
+\subfloat[]{\label{stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6}
+\includegraphics[width=0.5\textwidth]{stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL}
 \end{figure}
 
 \newpage
@@ -2050,23 +2009,18 @@ W tabeli \ref{zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL} przedstawiono 
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL} 
+Na~Rys. \ref{wykresy_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}
-\caption{8 dni bez til vi = 2e6 l powt = 2}
-\label{wykres_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}
+\subfloat[8 dni bez til vi = 2e6 l powt = 2]{\label{wykres_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}
+\includegraphics[width=0.5\textwidth]{wykres_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}}
+\subfloat[]{\label{stezenie_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}
+\includegraphics[width=0.5\textwidth]{stezenie_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}
-\caption{}
-\label{stezenie_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL}
-\end{figure}
-
-\newpage
 Wnioski:
 \begin{itemize}
 \item skutecznoœæ leczenia skojarzonego z wykorzystaniem chemioterapii i IL-2 oraz bez wykorzystania TIL jest zale¿na od liczby powtórzeñ cyklu IL-2; konieczne s¹ co najmniej 2 powtórzenia cyklu do uzyskania regresji nowotworu;
@@ -2098,26 +2052,22 @@ W tabeli \ref{zmiana_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL} przedsta
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL} 
+Na~Rys. \ref{wykresy_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}
-\caption{8 dni bez til vi = 2e6 l powt = 2 d rozap = 15}
-\label{wykres_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}
-\caption{}
-\label{stezenie_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}
+\subfloat[8 dni bez til vi = 2e6 l powt = 2 d rozap = 15]{\label{wykres_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}
+\includegraphics[width=0.5\textwidth]{wykres_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}}
+\subfloat[]{\label{stezenie_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}
+\includegraphics[width=0.5\textwidth]{stezenie_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL}
 \end{figure}
 
 Wnioski:
 \begin{itemize}
 \item skutecznoœæ leczenia skojarzonego zale¿y od dnia rozpoczêcia immunoterapii (dozowania IL-2); aby dosz³o do regresji nowotworu, mo¿e siê ona rozpocz¹æ najpóŸniej w 14 dniu symulacji (dzieñ regresji: 22);
-\item dzieñ regresji w leczeniu skojarzonym zale¿y od dnia rozpoczêcia immunoterapii (dozowania IL-2);
+\item dzieñ regresji w leczeniu skojarzonym zale¿y od dnia rozpoczêcia immunoterapii (dozowania IL-2).
 \end{itemize}
 
 \newpage
@@ -2174,40 +2124,23 @@ W tabeli \ref{zmiana_immuno_okreslone_chemio} przedstawiono jak zmieniano wielko
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_zmiana_immuno_okreslone_chemio} 
+Na~Rys. \ref{wykresy_zmiana_immuno_okreslone_chemio} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_zmiana_immuno_okreslone_chemio}
-\caption{vi = 8e6 vm = 1}
-\label{wykres_zmiana_immuno_okreslone_chemio}
+\subfloat[vi = 8e6 vm = 1]{\label{wykres_zmiana_immuno_okreslone_chemio}
+\includegraphics[width=0.5\textwidth]{wykres_zmiana_immuno_okreslone_chemio}}
+\subfloat[]{\label{stezenie_zmiana_immuno_okreslone_chemio}
+\includegraphics[width=0.5\textwidth]{stezenie_zmiana_immuno_okreslone_chemio}}
+\quad
+\subfloat[vi = 2e7 vm = 0 5]{\label{wykres_zmiana_immuno_okreslone_chemiopol}
+\includegraphics[width=0.5\textwidth]{wykres_zmiana_immuno_okreslone_chemiopol}}
+\subfloat[]{\label{stezenie_zmiana_immuno_okreslone_chemiopol}
+\includegraphics[width=0.5\textwidth]{stezenie_zmiana_immuno_okreslone_chemiopol}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_zmiana_immuno_okreslone_chemio}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_zmiana_immuno_okreslone_chemio}
-\caption{}
-\label{stezenie_zmiana_immuno_okreslone_chemio}
-\end{figure}
-
-\newpage
-Na~Rys. \ref{wykres_zmiana_immuno_okreslone_chemiopol} 
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{wykres_zmiana_immuno_okreslone_chemiopol}
-\caption{vi = 2e7 vm = 0 5}
-\label{wykres_zmiana_immuno_okreslone_chemiopol}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_zmiana_immuno_okreslone_chemiopol}
-\caption{}
-\label{stezenie_zmiana_immuno_okreslone_chemiopol}
-\end{figure}
-
-\newpage
 Wnioski:
 \begin{itemize}
 \item w leczeniu skojarzonym wykorzystuj¹cym chemioterapiê zgodnie z warunkami pocz¹tkowymi (\ref{okreslone_warunki_pocz¹tkowe_chemioterapii}) oraz immunoterapiê w oparciu o IL-2 oraz TIL (\ref{warunki_pocz¹tkowe_immunoterapii}) mo¿liwe jest uzyskanie regresji nowotworu dla dawki dozowanego cytostatyka $V_M = 1$ oraz $V_M = 0,5$ poprzez nieznaczne zwiêkszenie dawki IL-2 (dla dawki $V_M = 1$ oraz $V_M = 0,5$ dawka IL-2 wynosi odpowiednio $V_I = 8 \cdot 10^{6}$ oraz $V_I = 2 \cdot 10^{7}$, podczas gdy dawka pocz¹tkowa IL-2 jest równa $V_I = 5 \cdot 10^{6}$); te dawki cytostatyka s¹ kilka razy mniejsze ni¿ dawki wykorzystane we wczeœniejszych symulacjach (dawka pocz¹tkowa $V_M = 5$) oraz znacznie mniejsze ni¿ dawka konieczna do wyst¹pienia regresji w leczeniu metod¹ wy³¹cznie chemioterapii dla cyklu o d³ugoœci 8 dni ($V_M = 13$); leczenie skojarzone umo¿liwia wiêc zminimalizowanie skutków ubocznych dzia³ania cytostatyka poprzez wzmocnienie organizmu wiêksz¹ iloœci¹ IL-2.
@@ -2245,43 +2178,26 @@ W tabeli \ref{czasy_wdrozenia_roznych_terapii} przedstawiono jak zmieniano dzieñ
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_czasy_wdrozenia_roznych_terapii} 
+Na~Rys. \ref{wykresy_czasy_wdrozenia_roznych_terapii} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_czasy_wdrozenia_roznych_terapii}
-\caption{ch 1, imm 8}
-\label{wykres_czasy_wdrozenia_roznych_terapii}
+\subfloat[ch 1, imm 8]{\label{wykres_czasy_wdrozenia_roznych_terapii}
+\includegraphics[width=0.5\textwidth]{wykres_czasy_wdrozenia_roznych_terapii}}
+\subfloat[]{\label{stezenie_czasy_wdrozenia_roznych_terapii}
+\includegraphics[width=0.5\textwidth]{stezenie_czasy_wdrozenia_roznych_terapii}}
+\quad
+\subfloat[ch 8, imm 1]{\label{wykres_czasy_wdrozenia_roznych_terapii2}
+\includegraphics[width=0.5\textwidth]{wykres_czasy_wdrozenia_roznych_terapii2}}
+\subfloat[]{\label{stezenie_czasy_wdrozenia_roznych_terapii2}
+\includegraphics[width=0.5\textwidth]{stezenie_czasy_wdrozenia_roznych_terapii2}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_czasy_wdrozenia_roznych_terapii}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_czasy_wdrozenia_roznych_terapii}
-\caption{}
-\label{stezenie_czasy_wdrozenia_roznych_terapii}
-\end{figure}
-
-\newpage
-Na~Rys. \ref{wykres_czasy_wdrozenia_roznych_terapii2} 
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{wykres_czasy_wdrozenia_roznych_terapii2}
-\caption{ch 8, imm 1}
-\label{wykres_czasy_wdrozenia_roznych_terapii2}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_czasy_wdrozenia_roznych_terapii2}
-\caption{}
-\label{stezenie_czasy_wdrozenia_roznych_terapii2}
-\end{figure}
-
-\newpage
 Wnioski:
 \begin{itemize}
-\item w leczeniu skojarzonym metod¹ chemioterapii i immunoterapii czas potrzebny do uzyskania regresji nowotworu zale¿y od czasu wdro¿enia poszczególnych terapii; w przypadku rozpoczêcia chemioterapii w 1 dniu, a immunoterapii w 8 dniu symulacji, regresja nastêpuje w dniu 14, natomiast dla odwrotnej kolejnoœci regresja nastêpuje oko³o 1,5 razy szybciej, tj. w dniu 9 symulacji;
+\item w leczeniu skojarzonym metod¹ chemioterapii i immunoterapii czas potrzebny do uzyskania regresji nowotworu zale¿y od czasu wdro¿enia poszczególnych terapii; w przypadku rozpoczêcia chemioterapii w 1 dniu, a immunoterapii w 8 dniu symulacji, regresja nastêpuje w dniu 14, natomiast dla odwrotnej kolejnoœci regresja nastêpuje oko³o 1,5 razy szybciej, tj. w dniu 9 symulacji.
 \end{itemize}
 
 \newpage
@@ -2378,30 +2294,24 @@ W tabeli \ref{rozni_pacjenci} przedstawiono dzieñ regresji nowotworu, liczbê kom
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_p2} 
+Na~Rys. \ref{wykresy_p2} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_p2}
-\caption{pacjent 2, pacjent 1 jest gdzies wyzej - chemio light i il2 = 2e7}
-\label{wykres_p2}
+\subfloat[pacjent 2, pacjent 1 jest gdzies wyzej - chemio light i il2 = 2e7]{\label{wykres_p2}
+\includegraphics[width=0.5\textwidth]{wykres_p2}}
+\subfloat[]{\label{stezenie_p2}
+\includegraphics[width=0.5\textwidth]{stezenie_p2}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_p2}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_p2}
-\caption{}
-\label{stezenie_p2}
-\end{figure}
-
-\newpage
 Wnioski:
 \begin{itemize}
 \item skutecznoœæ leczenia skojarzonego metod¹ chemioterapii (\ref{warunki_pocz¹tkowe_chemioterapii_light}) i immunoterapii (\ref{warunki_pocz¹tkowe_immunoterapii_dopasowane_do_chemio_light}) zale¿y od cech osobnicznych uk³adu immunologicznego pacjenta takich, jak: tempo dezaktywacji limfocytów $T_{CD8+}$ oraz komórek NK przez komórki nowotworu, cytotoksycznoœæ limfocytów $T_{CD8+}$ czy liczba kr¹¿¹cych limfocytów i tempo ich wymierania;
 \item istnieje mo¿liwoœæ dopasowania symulacji (modelu) do indywidualnego pacjenta (jego cech osobnicznych) w celu okreœlenia optymalnego dla niego leczenia skojarzonego. \end{itemize}
 
 \chapter{Analiza wyników}
-
 \chapter{Podsumowanie}
 \chapter{Rozwój}
 
