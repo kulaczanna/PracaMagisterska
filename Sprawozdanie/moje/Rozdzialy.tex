@@ -1372,37 +1372,21 @@ W tabeli \ref{immuno_zmiany_wielkosci_guza} przedstawiono jak zmieniano pocz¹tko
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_immuno_zmiany_wielkosci_guza1e6} 
+Na~Rys. \ref{wykresy_immuno_zmiany_wielkosci_guza} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_immuno_zmiany_wielkosci_guza1e6}
-\caption{1e6 regresja}
-\label{wykres_immuno_zmiany_wielkosci_guza1e6}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_immuno_zmiany_wielkosci_guza1e6}
-\caption{}
-\label{stezenie_immuno_zmiany_wielkosci_guza1e6}
-\end{figure}
-
-\newpage
-Na~Rys. \ref{wykres_immuno_zmiany_wielkosci_guza18e7} 
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{wykres_immuno_zmiany_wielkosci_guza18e7}
-\caption{18e7 brak regresji}
-\label{wykres_immuno_zmiany_wielkosci_guza18e7}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_immuno_zmiany_wielkosci_guza18e7}
-\caption{}
-\label{stezenie_immuno_zmiany_wielkosci_guza18e7}
+\subfloat[1e6 regresja]{\label{wykres_immuno_zmiany_wielkosci_guza1e6}
+\includegraphics[width=0.5\textwidth]{wykres_immuno_zmiany_wielkosci_guza1e6}}
+\subfloat[18e7 brak regresji]{\label{wykres_immuno_zmiany_wielkosci_guza18e7}
+\includegraphics[width=0.5\textwidth]{wykres_immuno_zmiany_wielkosci_guza18e7}}
+\quad
+\subfloat[]{\label{stezenie_immuno_zmiany_wielkosci_guza1e6}
+\includegraphics[width=0.5\textwidth]{stezenie_immuno_zmiany_wielkosci_guza1e6}}
+\subfloat[]{\label{stezenie_immuno_zmiany_wielkosci_guza18e7}
+\includegraphics[width=0.5\textwidth]{stezenie_immuno_zmiany_wielkosci_guza18e7}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_immuno_zmiany_wielkosci_guza}
 \end{figure}
 
 Wnioski:
@@ -1426,6 +1410,7 @@ Wnioski:
 
 W tabeli \ref{zmiany_dawki_IL2_przy_TIL} przedstawiono jak zmieniano dawkê IL-2, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. Analizê przeprowadzono dla leczenia z wykorzystaniem TIL oraz bez wykorzystania TIL.
 
+\newpage
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
@@ -1455,23 +1440,19 @@ W tabeli \ref{zmiany_dawki_IL2_przy_TIL} przedstawiono jak zmieniano dawkê IL-2,
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_zmiany_dawki_IL2_przy_TIL} 
+Na~Rys. \ref{wykresy_zmiany_dawki_IL2_przy_TIL} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_zmiany_dawki_IL2_przy_TIL}
-\caption{z TIL vI = 2e7}
-\label{wykres_zmiany_dawki_IL2_przy_TIL}
+\subfloat[z TIL vI = 2e7]{\label{wykres_zmiany_dawki_IL2_przy_TIL}
+\includegraphics[width=0.5\textwidth]{wykres_zmiany_dawki_IL2_przy_TIL}}
+\quad
+\subfloat[]{\label{stezenie_zmiany_dawki_IL2_przy_TIL}
+\includegraphics[width=0.5\textwidth]{stezenie_zmiany_dawki_IL2_przy_TIL}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_zmiany_dawki_IL2_przy_TIL}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_zmiany_dawki_IL2_przy_TIL}
-\caption{}
-\label{stezenie_zmiany_dawki_IL2_przy_TIL}
-\end{figure}
-
-\newpage
 Wnioski:
 \begin{itemize}
 \item zmiana dawki IL-2 ma wp³yw na skutecznoœæ immunoterapii (wyst¹pienie regresji nowotworu lub jej brak); zarówno w przypadku wykorzystania w leczeniu IL-2 wraz z TIL, jak i wy³¹cznie IL-2 dawk¹ konieczn¹ do zniszczenia nowotworu (regresji) jest $V_I = 2 \cdot 10^{7}$;
@@ -1494,7 +1475,7 @@ Wnioski:
 
 W tabeli \ref{zmiany_dawki_TIL_przy_IL2} przedstawiono jak zmieniano dawkê TIL, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. Analizê przeprowadzono dla leczenia z wykorzystaniem IL-2 oraz bez wykorzystania IL-2.
 
-
+\newpage
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|} \hline \hline
@@ -1526,20 +1507,17 @@ W tabeli \ref{zmiany_dawki_TIL_przy_IL2} przedstawiono jak zmieniano dawkê TIL, 
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_zmiany_dawki_TIL_przy_IL2} 
+Na~Rys. \ref{wykresy_zmiany_dawki_TIL_przy_IL2} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_zmiany_dawki_TIL_przy_IL2}
-\caption{z IL2 vL = 2e10}
-\label{wykres_zmiany_dawki_TIL_przy_IL2}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_zmiany_dawki_TIL_przy_IL2}
-\caption{}
-\label{stezenie_zmiany_dawki_TIL_przy_IL2}
+\subfloat[z IL2 vL = 2e10]{\label{wykres_zmiany_dawki_TIL_przy_IL2}
+\includegraphics[width=0.5\textwidth]{wykres_zmiany_dawki_TIL_przy_IL2}}
+\quad
+\subfloat[]{\label{stezenie_zmiany_dawki_TIL_przy_IL2}
+\includegraphics[width=0.5\textwidth]{stezenie_zmiany_dawki_TIL_przy_IL2}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_zmiany_dawki_TIL_przy_IL2}
 \end{figure}
 
 \newpage
@@ -1597,20 +1575,17 @@ W tabeli \ref{zmiany_liczby_powtorzen_IL2} przedstawiono jak zmieniano liczbê po
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_zmiany_liczby_powtorzen_IL2} 
+Na~Rys. \ref{wykresy_zmiany_liczby_powtorzen_IL2} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_zmiany_liczby_powtorzen_IL2}
-\caption{liczba powt = 14}
-\label{wykres_zmiany_liczby_powtorzen_IL2}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_zmiany_liczby_powtorzen_IL2}
-\caption{}
-\label{stezenie_zmiany_liczby_powtorzen_IL2}
+\subfloat[liczba powt = 14]{\label{wykres_zmiany_liczby_powtorzen_IL2}
+\includegraphics[width=0.5\textwidth]{wykres_zmiany_liczby_powtorzen_IL2}}
+\quad
+\subfloat[]{\label{stezenie_zmiany_liczby_powtorzen_IL2}
+\includegraphics[width=0.5\textwidth]{stezenie_zmiany_liczby_powtorzen_IL2}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_zmiany_liczby_powtorzen_IL2}
 \end{figure}
 
 \newpage
@@ -1670,20 +1645,17 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_immunoterapii_IL2} przedstawiono jak zmien
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_zmiany_dnia_rozpoczecia_immunoterapii_IL2} 
+Na~Rys. \ref{wykresy_zmiany_dnia_rozpoczecia_immunoterapii_IL2} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_zmiany_dnia_rozpoczecia_immunoterapii_IL2}
-\caption{d ropzp il2 = 5}
-\label{wykres_zmiany_dnia_rozpoczecia_immunoterapii_IL2}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_zmiany_dnia_rozpoczecia_immunoterapii_IL2}
-\caption{}
-\label{stezenie_zmiany_dnia_rozpoczecia_immunoterapii_IL2}
+\subfloat[d ropzp il2 = 5]{\label{wykres_zmiany_dnia_rozpoczecia_immunoterapii_IL2}
+\includegraphics[width=0.5\textwidth]{wykres_zmiany_dnia_rozpoczecia_immunoterapii_IL2}}
+\quad
+\subfloat[]{\label{stezenie_zmiany_dnia_rozpoczecia_immunoterapii_IL2}
+\includegraphics[width=0.5\textwidth]{stezenie_zmiany_dnia_rozpoczecia_immunoterapii_IL2}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_zmiany_dnia_rozpoczecia_immunoterapii_IL2}
 \end{figure}
 
 \newpage
