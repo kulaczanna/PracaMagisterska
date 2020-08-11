@@ -15,63 +15,68 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wyniki otrzymane w\nobreakspace {}ostatnim dniu symulacji $T_{k}$ = 120 dni. D\IeC {\l }ugo\'s\'c promienia nowotworu na\nobreakspace {}koniec symulacji w\nobreakspace {}zale\.zno\'sci od\nobreakspace {}pocz\k atkowej liczby kr\k a\.z\k acych limfocyt\'ow $C(0)$.}}}{36}{subfigure.5.2}%
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces 4 dni regresja\relax }}{42}{figure.caption.21}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces 8 dni brak regresji\relax }}{42}{figure.caption.22}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces \relax }}{43}{figure.caption.23}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces \relax }}{43}{figure.caption.24}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces $V_M = 3$ brak regresji, vm = 5 na rys w 1 scenariuszu regresja\relax }}{47}{figure.caption.26}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces \relax }}{47}{figure.caption.27}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces \relax }}{48}{figure.caption.28}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces -0,4 regresja\relax }}{50}{figure.caption.30}%
-\contentsline {figure}{\numberline {7.9}{\ignorespaces \relax }}{51}{figure.caption.31}%
-\contentsline {figure}{\numberline {7.10}{\ignorespaces -0,5 brak regresji\relax }}{51}{figure.caption.32}%
-\contentsline {figure}{\numberline {7.11}{\ignorespaces \relax }}{52}{figure.caption.33}%
-\contentsline {figure}{\numberline {7.12}{\ignorespaces 4 powt\'orzenia brak regresji\relax }}{55}{figure.caption.35}%
-\contentsline {figure}{\numberline {7.13}{\ignorespaces \relax }}{55}{figure.caption.36}%
-\contentsline {figure}{\numberline {7.14}{\ignorespaces dz rozp = 13 brak regresji\relax }}{59}{figure.caption.38}%
-\contentsline {figure}{\numberline {7.15}{\ignorespaces \relax }}{59}{figure.caption.39}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{42}{figure.caption.21}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {4 dni regresja}}}{42}{subfigure.1.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {8 dni brak regresji}}}{42}{subfigure.1.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{42}{subfigure.1.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{42}{subfigure.1.4}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{46}{figure.caption.23}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$V_M = 3$ brak regresji, vm = 5 na rys w 1 scenariuszu regresja}}}{46}{subfigure.2.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{46}{subfigure.2.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{46}{subfigure.2.3}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{50}{figure.caption.25}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {-0,4 regresja}}}{50}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {-0,5 brak regresji}}}{50}{subfigure.3.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{50}{subfigure.3.3}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{50}{subfigure.3.4}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{54}{figure.caption.27}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {4 powt\'orzenia brak regresji}}}{54}{subfigure.4.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{54}{subfigure.4.2}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces miany w czasie liczby kom\'orek badanych populacji dla\nobreakspace {}warto\'sci pocz\k atkowej liczby kom\'orek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby kom\'orek nowotworowych po\nobreakspace {}czasie $T_{s}$\nobreakspace {}$\approx $ 24 dni (576 godzin) oko\IeC {\l }o warto\'sci $9,8 \cdot 10^{8}$....\relax }}{58}{figure.caption.29}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {dz rozp = 13 brak regresji}}}{58}{subfigure.5.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{58}{subfigure.5.2}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {8.1}{\ignorespaces 1e6 regresja\relax }}{63}{figure.caption.42}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces \relax }}{63}{figure.caption.43}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces 18e7 brak regresji\relax }}{64}{figure.caption.44}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces \relax }}{64}{figure.caption.45}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces z TIL vI = 2e7\relax }}{68}{figure.caption.47}%
-\contentsline {figure}{\numberline {8.6}{\ignorespaces \relax }}{68}{figure.caption.48}%
-\contentsline {figure}{\numberline {8.7}{\ignorespaces z IL2 vL = 2e10\relax }}{72}{figure.caption.50}%
-\contentsline {figure}{\numberline {8.8}{\ignorespaces \relax }}{72}{figure.caption.51}%
-\contentsline {figure}{\numberline {8.9}{\ignorespaces liczba powt = 14\relax }}{76}{figure.caption.53}%
-\contentsline {figure}{\numberline {8.10}{\ignorespaces \relax }}{76}{figure.caption.54}%
-\contentsline {figure}{\numberline {8.11}{\ignorespaces d ropzp il2 = 5\relax }}{80}{figure.caption.56}%
-\contentsline {figure}{\numberline {8.12}{\ignorespaces \relax }}{80}{figure.caption.57}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces 1e6 regresja\relax }}{62}{figure.caption.32}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces \relax }}{62}{figure.caption.33}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces 18e7 brak regresji\relax }}{63}{figure.caption.34}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces \relax }}{63}{figure.caption.35}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces z TIL vI = 2e7\relax }}{67}{figure.caption.37}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces \relax }}{67}{figure.caption.38}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces z IL2 vL = 2e10\relax }}{71}{figure.caption.40}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces \relax }}{71}{figure.caption.41}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces liczba powt = 14\relax }}{75}{figure.caption.43}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces \relax }}{75}{figure.caption.44}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces d ropzp il2 = 5\relax }}{79}{figure.caption.46}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces \relax }}{79}{figure.caption.47}%
 \addvspace {10pt}
-\contentsline {figure}{\numberline {9.1}{\ignorespaces 8 dni, \relax }}{83}{figure.caption.58}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces \relax }}{83}{figure.caption.59}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces 200 dni, \relax }}{86}{figure.caption.61}%
-\contentsline {figure}{\numberline {9.4}{\ignorespaces \relax }}{86}{figure.caption.62}%
-\contentsline {figure}{\numberline {9.5}{\ignorespaces dawka 1,75, \relax }}{90}{figure.caption.64}%
-\contentsline {figure}{\numberline {9.6}{\ignorespaces \relax }}{90}{figure.caption.65}%
-\contentsline {figure}{\numberline {9.7}{\ignorespaces 8 dni vm 1 75 l powt = 1 \relax }}{93}{figure.caption.67}%
-\contentsline {figure}{\numberline {9.8}{\ignorespaces \relax }}{93}{figure.caption.68}%
-\contentsline {figure}{\numberline {9.9}{\ignorespaces 8 dni vm 1 75 l powt = 1 d rozpo = 2 \relax }}{96}{figure.caption.70}%
-\contentsline {figure}{\numberline {9.10}{\ignorespaces \relax }}{96}{figure.caption.71}%
-\contentsline {figure}{\numberline {9.11}{\ignorespaces 8 dni bez til vi = 5e6\relax }}{100}{figure.caption.74}%
-\contentsline {figure}{\numberline {9.12}{\ignorespaces \relax }}{100}{figure.caption.75}%
-\contentsline {figure}{\numberline {9.13}{\ignorespaces 8 dni bez til vi = 2e6\relax }}{101}{figure.caption.76}%
-\contentsline {figure}{\numberline {9.14}{\ignorespaces \relax }}{101}{figure.caption.77}%
-\contentsline {figure}{\numberline {9.15}{\ignorespaces 8 dni bez til vi = 2e6 l powt = 2\relax }}{104}{figure.caption.79}%
-\contentsline {figure}{\numberline {9.16}{\ignorespaces \relax }}{104}{figure.caption.80}%
-\contentsline {figure}{\numberline {9.17}{\ignorespaces 8 dni bez til vi = 2e6 l powt = 2 d rozap = 15\relax }}{107}{figure.caption.82}%
-\contentsline {figure}{\numberline {9.18}{\ignorespaces \relax }}{107}{figure.caption.83}%
-\contentsline {figure}{\numberline {9.19}{\ignorespaces vi = 8e6 vm = 1\relax }}{111}{figure.caption.86}%
-\contentsline {figure}{\numberline {9.20}{\ignorespaces \relax }}{111}{figure.caption.87}%
-\contentsline {figure}{\numberline {9.21}{\ignorespaces vi = 2e7 vm = 0 5\relax }}{112}{figure.caption.88}%
-\contentsline {figure}{\numberline {9.22}{\ignorespaces \relax }}{112}{figure.caption.89}%
-\contentsline {figure}{\numberline {9.23}{\ignorespaces ch 1, imm 8\relax }}{116}{figure.caption.91}%
-\contentsline {figure}{\numberline {9.24}{\ignorespaces \relax }}{116}{figure.caption.92}%
-\contentsline {figure}{\numberline {9.25}{\ignorespaces ch 8, imm 1\relax }}{117}{figure.caption.93}%
-\contentsline {figure}{\numberline {9.26}{\ignorespaces \relax }}{117}{figure.caption.94}%
-\contentsline {figure}{\numberline {9.27}{\ignorespaces pacjent 2, pacjent 1 jest gdzies wyzej - chemio light i il2 = 2e7\relax }}{122}{figure.caption.99}%
-\contentsline {figure}{\numberline {9.28}{\ignorespaces \relax }}{122}{figure.caption.100}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces 8 dni, \relax }}{82}{figure.caption.48}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces \relax }}{82}{figure.caption.49}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces 200 dni, \relax }}{85}{figure.caption.51}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces \relax }}{85}{figure.caption.52}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces dawka 1,75, \relax }}{89}{figure.caption.54}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces \relax }}{89}{figure.caption.55}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces 8 dni vm 1 75 l powt = 1 \relax }}{92}{figure.caption.57}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces \relax }}{92}{figure.caption.58}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces 8 dni vm 1 75 l powt = 1 d rozpo = 2 \relax }}{95}{figure.caption.60}%
+\contentsline {figure}{\numberline {9.10}{\ignorespaces \relax }}{95}{figure.caption.61}%
+\contentsline {figure}{\numberline {9.11}{\ignorespaces 8 dni bez til vi = 5e6\relax }}{99}{figure.caption.64}%
+\contentsline {figure}{\numberline {9.12}{\ignorespaces \relax }}{99}{figure.caption.65}%
+\contentsline {figure}{\numberline {9.13}{\ignorespaces 8 dni bez til vi = 2e6\relax }}{100}{figure.caption.66}%
+\contentsline {figure}{\numberline {9.14}{\ignorespaces \relax }}{100}{figure.caption.67}%
+\contentsline {figure}{\numberline {9.15}{\ignorespaces 8 dni bez til vi = 2e6 l powt = 2\relax }}{103}{figure.caption.69}%
+\contentsline {figure}{\numberline {9.16}{\ignorespaces \relax }}{103}{figure.caption.70}%
+\contentsline {figure}{\numberline {9.17}{\ignorespaces 8 dni bez til vi = 2e6 l powt = 2 d rozap = 15\relax }}{106}{figure.caption.72}%
+\contentsline {figure}{\numberline {9.18}{\ignorespaces \relax }}{106}{figure.caption.73}%
+\contentsline {figure}{\numberline {9.19}{\ignorespaces vi = 8e6 vm = 1\relax }}{110}{figure.caption.76}%
+\contentsline {figure}{\numberline {9.20}{\ignorespaces \relax }}{110}{figure.caption.77}%
+\contentsline {figure}{\numberline {9.21}{\ignorespaces vi = 2e7 vm = 0 5\relax }}{111}{figure.caption.78}%
+\contentsline {figure}{\numberline {9.22}{\ignorespaces \relax }}{111}{figure.caption.79}%
+\contentsline {figure}{\numberline {9.23}{\ignorespaces ch 1, imm 8\relax }}{115}{figure.caption.81}%
+\contentsline {figure}{\numberline {9.24}{\ignorespaces \relax }}{115}{figure.caption.82}%
+\contentsline {figure}{\numberline {9.25}{\ignorespaces ch 8, imm 1\relax }}{116}{figure.caption.83}%
+\contentsline {figure}{\numberline {9.26}{\ignorespaces \relax }}{116}{figure.caption.84}%
+\contentsline {figure}{\numberline {9.27}{\ignorespaces pacjent 2, pacjent 1 jest gdzies wyzej - chemio light i il2 = 2e7\relax }}{121}{figure.caption.89}%
+\contentsline {figure}{\numberline {9.28}{\ignorespaces \relax }}{121}{figure.caption.90}%
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

@@ -792,7 +792,7 @@ Rys. \ref{bez_lecz_brak_stlumienia_zmiana_T} obrazuje przypadek, w~którym uk³ad 
 %	\caption{Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.}\label{wykres_bez_lecz_t120_t0_zmiana_T} 
 %\end{figure}
 
-\begin{figure}
+\begin{figure}[h!]
 \centering
 \subfloat[Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych w~ostatnim dniu symulacji $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby komórek nowotworowych $T(0)$.]{\label{wykres_bez_lecz_t120_t0_zmiana_T}
 \includegraphics[width=0.85\textwidth]{wykres_bez_lecz_t120_t0}}
@@ -873,7 +873,7 @@ Zmiany w czasie wielkoœci nowotworu otrzymane na~koniec w ostatnim dniu symulacj
 
 Na~Rys. \ref{wykres_bez_lecz_promien_c0} pokazano zmiany d³ugoœci promienia nowotworu otrzymane na~koniec symulacji trwaj¹cej $T_{k}$ = 120 dni w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$.
 
-\begin{figure}
+\begin{figure}[h!]
 \centering
 \subfloat[Wyniki otrzymane w~ostatnim dniu symulacji $T_{k}$ = 120 dni. Liczba komórek nowotworowych na~koniec symulacji $T(120)$ w~zale¿noœci od~pocz¹tkowej liczby kr¹¿¹cych limfocytów $C(0)$.]{\label{wykres_bez_lecz_t120_c0}
 \includegraphics[width=0.85\textwidth]{wykres_bez_lecz_t120_c0}}
@@ -995,39 +995,23 @@ W tabeli \ref{chemio_zmiany_liczby_dni_cyklu} przedstawiono jak zmieniano d³ugoœ
 		\end{tabular}
 		\caption[Wyniki symulacji - chemioterapia, scenariusz I, zmiana d³ugoœci cyklu]{D³ugoœæ oraz schemat cyklu chemioterapii, dzieñ regresji nowotworu, liczba komórek nowotworowych w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni $T(120)$ oraz~szacowana objêtoœæ i~d³ugoœæ promienia nowotworu w~ostatnim dniu symulacji w~chwili $T_{k}$ = 120 dni dla zmieniaj¹cej siê d³ugoœci przerwy pomiêdzy poszczególnymi dawkami chemioterapii (przy sta³ym czasie dozowania pojedynczej dawki równym 1 dzieñ) oraz zmieniaj¹cego siê czasu dozowania pojedynczej dawki (przy sta³ej d³ugoœci przerwy pomiêdzy dawkami równej 3 dni).}\label{chemio_zmiany_liczby_dni_cyklu}
 \end{table}
- 
-\newpage
-Na~Rys. \ref{stezenie_chemio_zmiany_liczby_dni_cyklu} 
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_liczby_dni_cyklu}
-\caption{4 dni regresja}
-\label{wykres_chemio_zmiany_liczby_dni_cyklu}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_liczby_dni_cyklu}
-\caption{8 dni brak regresji}
-\label{stezenie_chemio_zmiany_liczby_dni_cyklu}
-\end{figure}
 
 \newpage
-Na~Rys. \ref{stezenie_chemio_zmiany_liczby_dni_cyklu8} 
+Na~Rys. \ref{wykresy_chemio_zmiany_liczby_dni_cyklu} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_liczby_dni_cyklu8}
-\caption{}
-\label{wykres_chemio_zmiany_liczby_dni_cyklu8}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_liczby_dni_cyklu8}
-\caption{}
-\label{stezenie_chemio_zmiany_liczby_dni_cyklu8}
+\subfloat[4 dni regresja]{\label{wykres_chemio_zmiany_liczby_dni_cyklu}
+\includegraphics[width=0.5\textwidth]{wykres_chemio_zmiany_liczby_dni_cyklu}}
+\subfloat[8 dni brak regresji]{\label{wykres_chemio_zmiany_liczby_dni_cyklu8}
+\includegraphics[width=0.5\textwidth]{wykres_chemio_zmiany_liczby_dni_cyklu8}}
+\quad
+\subfloat[]{\label{stezenie_chemio_zmiany_liczby_dni_cyklu}
+\includegraphics[width=0.5\textwidth]{stezenie_chemio_zmiany_liczby_dni_cyklu}}
+\subfloat[]{\label{stezenie_chemio_zmiany_liczby_dni_cyklu8}
+\includegraphics[width=0.5\textwidth]{stezenie_chemio_zmiany_liczby_dni_cyklu8}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_chemio_zmiany_liczby_dni_cyklu}
 \end{figure}
 
 \newpage
@@ -1095,27 +1079,21 @@ W tabeli \ref{chemio_zmiany_dawki} przedstawiono jak zmieniano wielkoœæ dawki do
 \end{table} 
 
 \newpage
-Na~Rys. \ref{wykres_chemio_zmiany_dawki} 
+Na~Rys. \ref{wykresy_chemio_zmiany_dawki} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_dawki}
-\caption{$V_M = 3$ brak regresji, vm = 5 na rys w 1 scenariuszu regresja}
-\label{wykres_chemio_zmiany_dawki}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_dawki}
-\caption{}
-\label{stezenie_chemio_zmiany_dawki}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{dzien_regr_w_zaleznosci_od_dawki}
-\caption{}
-\label{dzien_regr_w_zaleznosci_od_dawki}
+\subfloat[$V_M = 3$ brak regresji, vm = 5 na rys w 1 scenariuszu regresja]{\label{wykres_chemio_zmiany_dawki}
+\includegraphics[width=0.5\textwidth]{wykres_chemio_zmiany_dawki}}
+\subfloat[]{\label{dzien_regr_w_zaleznosci_od_dawki}
+\includegraphics[width=0.5\textwidth]{dzien_regr_w_zaleznosci_od_dawki}}
+\quad
+\subfloat[]{\label{stezenie_chemio_zmiany_dawki}
+\includegraphics[width=0.5\textwidth]{stezenie_chemio_zmiany_dawki}}
+\subfloat{\label{pustka}
+\includegraphics[width=0.5\textwidth]{pustkja}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_chemio_zmiany_dawki}
 \end{figure}
 
 \newpage
@@ -1166,38 +1144,22 @@ W tabeli \ref{chemio_zmiany_dawki_w_kolejnych_powtorzeniach} przedstawiono jak z
 \label{chemio_zmiany_dawki_w_kolejnych_powtorzeniach}
 \end{table} 
 
-%\newpage
-Na~Rys. \ref{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4} 
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
-\caption{-0,4 regresja}
-\label{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
-\caption{}
-\label{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
-\end{figure}
-
 \newpage
-Na~Rys. \ref{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5} 
+Na~Rys. \ref{wykresy_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}
-\caption{-0,5 brak regresji}
-\label{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}
-\caption{}
-\label{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}
+\subfloat[-0,4 regresja]{\label{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
+\includegraphics[width=0.5\textwidth]{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}}
+\subfloat[-0,5 brak regresji]{\label{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}
+\includegraphics[width=0.5\textwidth]{wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}}
+\quad
+\subfloat[]{\label{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
+\includegraphics[width=0.5\textwidth]{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}}
+\subfloat[]{\label{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}
+\includegraphics[width=0.5\textwidth]{stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4}
 \end{figure}
 
 \newpage
@@ -1218,8 +1180,9 @@ Wnioski:
 
 \noindent \newline \textbf{Wyniki symulacji:} \newline Wyniki przeprowadzonych symulacji dla zmieniaj¹cej siê liczby powtórzeñ cyklu chemioterapii zebrano w tabeli \ref{chemio_zmiany_liczby_powtorzen}. \newline
 
-W tabeli \ref{chemio_zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê powtórzeñ cyklu, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. Analizê przeprowadzono dla dawki dozowanego cytostatyka $V_M$ równej 5, 4, 3,5 oraz 3. \newline
+W tabeli \ref{chemio_zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê powtórzeñ cyklu, schemat cyklu, dzieñ regresji nowotworu oraz liczbê komórek nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni $T(120)$, a tak¿e~szacowan¹ objêtoœæ i~d³ugoœæ promienia nowotworu w ostatnim dniu symulacji, tj. w~chwili $T_{k}$ = 120 dni. Analizê przeprowadzono dla dawki dozowanego cytostatyka $V_M$ równej 5, 4, 3,5 oraz 3.
 
+\newpage
 \begin{table}[h!]
 	\centering
 \begin{tabular}{|c|c|c|c|c|c|} \hline \hline
@@ -1264,20 +1227,17 @@ W tabeli \ref{chemio_zmiany_liczby_powtorzen} przedstawiono jak zmieniano liczbê
 \end{table} 
 
 \newpage
-Na~Rys. \ref{stezenie_chemio_zmiany_liczby_powtorzen4} 
+Na~Rys. \ref{wykresy_chemio_zmiany_liczby_powtorzen4} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_chemio_zmiany_liczby_powtorzen4}
-\caption{4 powtórzenia brak regresji}
-\label{wykres_chemio_zmiany_liczby_powtorzen4}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_chemio_zmiany_liczby_powtorzen4}
-\caption{}
-\label{stezenie_chemio_zmiany_liczby_powtorzen4}
+\subfloat[4 powtórzenia brak regresji]{\label{wykres_chemio_zmiany_liczby_powtorzen4}
+\includegraphics[width=0.5\textwidth]{wykres_chemio_zmiany_liczby_powtorzen4}}
+\quad
+\subfloat[]{\label{stezenie_chemio_zmiany_liczby_powtorzen4}
+\includegraphics[width=0.5\textwidth]{stezenie_chemio_zmiany_liczby_powtorzen4}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_chemio_zmiany_liczby_powtorzen4}
 \end{figure}
 
 \newpage
@@ -1332,20 +1292,17 @@ W tabeli \ref{zmiany_dnia_rozpoczecia_cehmioterapii} przedstawiono jak zmieniano
 \end{table} 
 
 \newpage
-Na~Rys. \ref{stezenie_zmiany_dnia_rozpoczecia_cehmioterapii13} 
+Na~Rys. \ref{wykresy_zmiany_dnia_rozpoczecia_cehmioterapii13} 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.85\textwidth]{wykres_zmiany_dnia_rozpoczecia_cehmioterapii13}
-\caption{dz rozp = 13 brak regresji}
-\label{wykres_zmiany_dnia_rozpoczecia_cehmioterapii13}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{stezenie_zmiany_dnia_rozpoczecia_cehmioterapii13}
-\caption{}
-\label{stezenie_zmiany_dnia_rozpoczecia_cehmioterapii13}
+\subfloat[dz rozp = 13 brak regresji]{\label{wykres_zmiany_dnia_rozpoczecia_cehmioterapii13}
+\includegraphics[width=0.5\textwidth]{wykres_zmiany_dnia_rozpoczecia_cehmioterapii13}}
+\quad
+\subfloat[]{\label{stezenie_zmiany_dnia_rozpoczecia_cehmioterapii13}
+\includegraphics[width=0.5\textwidth]{stezenie_zmiany_dnia_rozpoczecia_cehmioterapii13}}
+\caption{miany w czasie liczby komórek badanych populacji dla~wartoœci pocz¹tkowej liczby komórek nowotworowych $T(0) = 1.8 \cdot 10^{7}$. Stabilizacja liczby komórek nowotworowych po~czasie $T_{s}$~$\approx$ 24 dni (576 godzin) oko³o wartoœci $9,8 \cdot 10^{8}$....}
+\label{wykresy_zmiany_dnia_rozpoczecia_cehmioterapii13}
 \end{figure}
 
 \newpage
