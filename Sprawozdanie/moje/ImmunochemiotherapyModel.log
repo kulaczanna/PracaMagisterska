@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  12 AUG 2020 02:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  12 AUG 2020 04:34
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -1342,8 +1342,11 @@ File: ./rysunki/stezenie_skojarzone_l_powt1_drozp2.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./rysunki/stezenie_skojarzone_l_powt1_drozp2.jpg  used
  on input line 1909.
 (pdftex.def)             Requested size: 198.45662pt x 104.15941pt.
-[88 <./rysunki/wykres_skojarzone_l_powt1_drozp2.jpg> <./rysunki/stezenie_skojar
-zone_l_powt1_drozp2.jpg>] [89]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[88] [89 <./rysunki/wykres_skojarzone_l_powt1_drozp2.jpg> <./rysunki/stezenie_s
+kojarzone_l_powt1_drozp2.jpg>]
 Overfull \hbox (16.60518pt too wide) in paragraph at lines 1929--1935
  [][] 
  []
@@ -1535,18 +1538,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2301--2302
 File: ./rysunki/wykres_p2.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_p2.jpg>
 Package pdftex.def Info: ./rysunki/wykres_p2.jpg  used on input line 2323.
-(pdftex.def)             Requested size: 220.50887pt x 165.37848pt.
-<./rysunki/stezenie_p2.jpg, id=1581, 380.17032pt x 208.52907pt>
+(pdftex.def)             Requested size: 198.45662pt x 148.84pt.
+<./rysunki/stezenie_p2.jpg, id=1589, 380.17032pt x 208.52907pt>
 File: ./rysunki/stezenie_p2.jpg Graphic file (type jpg)
 <use ./rysunki/stezenie_p2.jpg>
-Package pdftex.def Info: ./rysunki/stezenie_p2.jpg  used on input line 2325.
-(pdftex.def)             Requested size: 220.50887pt x 120.95648pt.
-
-Overfull \hbox (7.83325pt too wide) in paragraph at lines 2323--2326
- [][][][] 
- []
-
-[108 <./rysunki/wykres_p2.jpg> <./rysunki/stezenie_p2.jpg>]
+Package pdftex.def Info: ./rysunki/stezenie_p2.jpg  used on input line 2326.
+(pdftex.def)             Requested size: 198.45662pt x 108.85892pt.
+ [108 <./rysunki/wykres_p2.jpg> <./rysunki/stezenie_p2.jpg>]
 Rozdzia\PlPrIeC {\l } 10.
 [109
 
@@ -1561,13 +1559,13 @@ Rozdzia\PlPrIeC {\l } 12.
 ] [112
 
 ] [113] [114]
-Underfull \hbox (badness 10000) in paragraph at lines 2475--2476
+Underfull \hbox (badness 10000) in paragraph at lines 2476--2477
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2476--2477
+Underfull \hbox (badness 10000) in paragraph at lines 2477--2478
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
@@ -1622,9 +1620,9 @@ c/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsl12.pfb><C:/Users/
 pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users
 /pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users
 /pc/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb>
-Output written on ImmunochemiotherapyModel.pdf (124 pages, 2373558 bytes).
+Output written on ImmunochemiotherapyModel.pdf (124 pages, 2376881 bytes).
 PDF statistics:
- 1774 PDF objects out of 2073 (max. 8388607)
+ 1782 PDF objects out of 2073 (max. 8388607)
  377 named destinations out of 1000 (max. 500000)
  785 words of extra memory for PDF output out of 10000 (max. 10000000)
 
