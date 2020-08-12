@@ -2,7 +2,7 @@ clc; clear all
 close all
 format long
 
-metoda_leczenia = 7;
+metoda_leczenia = 5;
 
 % Metody leczenia:
 % 1. brak leczenia - regresja nowotworu
@@ -13,7 +13,7 @@ metoda_leczenia = 7;
 % 6. immunoterapia - rozwój nowotworu
 % 7. immunoterapia + chemioterapia
 
-pacjent = 10; % 9 lub 10 jak w artykule
+pacjent = 9; % 9 lub 10 jak w artykule
 
 % pocz¹tkowe stê¿enie leków
 M_0 = 0; % stê¿enie cytostatyku M(t)
@@ -55,7 +55,7 @@ switch metoda_leczenia
         
     case 5  % immunoterapia regresja
             % rys. 9 w artykule
-        T_0 = 1.8e7; % zmiana wartoœci z 2e7!!!
+        T_0 = 1e6; % zmiana wartoœci z 2e7!!!
         N_0 = 1e5;
         L_0 = 1e2;
         C_0 = 3.5e9;
