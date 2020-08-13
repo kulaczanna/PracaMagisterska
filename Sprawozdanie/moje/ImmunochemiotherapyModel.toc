@@ -51,5 +51,9 @@
 \contentsline {section}{\numberline {9.3}Scenariusz III -- zmiany dawki IL-2 konieczne dla uzyskania okre\'slonych warto\'sci parametr\'ow chemioterapii}{97}{section.9.3}%
 \contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{101}{section.9.4}%
 \contentsline {section}{\numberline {9.5}Scenariusz V -- por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{105}{section.9.5}%
-\contentsline {chapter}{\numberline {10.}Dodatek}{113}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Tabela skr\'ot\'ow}{113}{section.10.1}%
+\contentsline {chapter}{\numberline {10.}Podsumowanie}{109}{chapter.10}%
+\contentsline {chapter}{\numberline {11.}Perspektywy rozwoju}{110}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Interferony}{110}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Nowa odmiana limfocyt\'ow typu T}{111}{section.11.2}%
+\contentsline {chapter}{\numberline {12.}Dodatek}{116}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Tabela skr\'ot\'ow}{116}{section.12.1}%
