@@ -589,7 +589,7 @@ Wp³yw immunoterapii na~tempo zmian $\dfrac{dL}{dt}$ liczebnoœci populacji limfoc
 	\end{tabular}
 \end{table}
 
-\chapter{Symulacje - brak leczenia}
+\chapter{Symulacje - wprowadzenie} \label{sym_wprowadzenie}
 
 %- odpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór
 
@@ -640,12 +640,53 @@ Zmiany w czasie liczby komórek ka¿dej z~czterech badanych populacji, tj. komórek
 \label{bez_lecz_stlumienie}
 \end{figure}
 
-%\section{OdpowiedŸ uk³adu immunologicznego na~rozwijaj¹cy siê w~organizmie nowotwór -- brak leczenia}
 %\setlength{\parindent}{0pt}
 %\noindent % brak akapitu
 
 \newpage
-\section{Scenariusz I -- symulacja wykonana dla modelu nieleczonego guza} \label{bez_s1}
+W drugiej czêœci pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem leczenia:
+\begin{itemize}
+\item wy³¹cznie metod¹ chemioterapii,
+\item wy³¹cznie metod¹ immunoterapii,
+\item skojarzonymi metodami chemioterapii i~immunoterapii.
+\end{itemize}
+
+Jako warunki pocz¹tkowe przyjêto takie wartoœci pocz¹tkowej liczby komórek nowotworowych i limfocytów kr¹¿¹cych, dla których uk³ad immunologiczny nie jest w stanie (jak wynika z symulacji \ref{bez_s1} i \ref{bez_s2}) pokonaæ nowotworu bez zastosowania leczenia, tj. $T(0) = 1,8 \cdot 10^{7}$ i $C(0) = 3,5 \cdot 10^{9}$. Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_z1}) odpowiadaj¹ os³abionemu uk³adowi immunologicznemu. \newline
+
+\begin{table}[!htb]
+	\centering
+	\caption{Warunki pocz¹tkowe dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{warunki_poczatkowe_z1}
+	\begin{tabular}{|c|c|c|} \hline
+		Wartoœæ $[liczba$ $kom$ó$rek]$ & Rodzaj komórek & Promieñ nowotworu [$mm$]\\ \hline
+		$T(0) = 1,8 \cdot 10^{7}$ & Komórki nowotworowe & 1,63 \\ \hline
+		$N(0) = 1 \cdot 10^{5}$ & Komórki NK \\ \cline{1-2}
+		$L(0) = 1 \cdot 10^{2}$ & Limfocyty $T_{CD8+}$ \\ \cline{1-2}
+		$C(0) = 3,5 \cdot 10^{9}$ & Limfocyty kr¹¿¹ce \\ \cline{1-2}
+		\end{tabular}
+\end{table}
+
+Wartoœci parametrów (Tab. \ref{parametry_modelu_bez1}) oraz~wartoœci dodatkowych parametrów uwzglêdniaj¹cych proces leczenia (Tab. \ref{parametry_modelu_z1}) dla~modelu \ref{równania_modelu_pillis_z_leczeniem} dobrano zgodnie z~literatur¹ \cite{19}.
+
+\begin{table}[h!]
+	\centering
+	\caption{Wartoœci dodatkowych parametrów modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z1}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
+		Nazwa & $\gamma$ & $K_{T}$ & $K_{N}$ & $K_{L}$ & $K_{C}$ & $p_{I}$ & $g_{I}$ & $\mu_{I}$ \\ \hline
+		Wartoœæ & $9 \cdot 10^{-1}$ & $9 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $9 \cdot 10^{3}$ & $2 \cdot 10^{7}$ & $1 \cdot 10^{1}$ \\ \hline	
+	\end{tabular}
+\end{table}
+
+Rys. \ref{diagram_analiz} prezentuje analizy, jakie wykonano oraz opisano w niniejszej pracy, zarówno dla braku leczenia, jak i leczenia metodami chemioterapii, immunoterapii oraz skojarzonymi metodami chemioterapii i immunoterapii.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.55\textwidth]{diagram_analiz}
+	\caption{Schemat analiz przeprowadzonych w niniejszej pracy, zarówno dla braku leczenia, jak i leczenia poszczególnymi metodami.}\label{diagram_analiz} 
+\end{figure}
+
+\chapter{Symulacje - brak leczenia}
+
+\section{Scenariusz I -- zmiana pocz¹tkowej liczby komórek nowotworowych} \label{bez_s1}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~pocz¹tkowej wielkoœci nowotworu (liczby komórek nowotworowych).
 
@@ -726,7 +767,7 @@ Wnioski:
 \end{itemize}
 
 \newpage
-\section{Scenariusz II -- symulacja wykonana dla modelu nieleczonego guza} \label{bez_s2}
+\section{Scenariusz II -- zmiana pocz¹tkowej liczby limfocytów kr¹¿¹cych} \label{bez_s2}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~pocz¹tkowej liczby limfocytów kr¹¿¹cych $C(0)$.
 
@@ -788,40 +829,8 @@ Wnioski:
 \item w symulacji \ref{bez_s1} liczba kr¹¿¹cych limfocytów pozostawa³a na sta³ym poziomie, mo¿na wiêc wnioskowaæ, ¿e zmiany w liczbie komórek nowotworowych i limfocytach typu $T_{CD8}$ oraz w liczbie limfocytów kr¹¿¹cych s¹ od siebie niezale¿ne, jednak w symulacji \ref{bez_s2} widaæ, ¿e stosunkowo niewielka zmiana liczby limfocytów kr¹¿¹cych znacz¹co wp³ywa na wynik symulacji;
 \end{itemize} 
 
-\chapter{Symulacje - leczenie}
-W drugiej czêœci pracy przeprowadzono modelowanie odpowiedzi uk³adu immunologicznego na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem leczenia:
-\begin{itemize}
-\item wy³¹cznie metod¹ chemioterapii,
-\item wy³¹cznie metod¹ immunoterapii,
-\item skojarzonymi metodami chemioterapii i~immunoterapii.
-\end{itemize}
+\chapter{Leczenie metod¹ chemioterapii -- symulacje wykonane dla modelu leczonego guza} \label{sym_ch}
 
-Jako warunki pocz¹tkowe przyjêto takie wartoœci pocz¹tkowej liczby komórek nowotworowych i limfocytów kr¹¿¹cych, dla których uk³ad immunologiczny nie jest w stanie (jak wynika z symulacji \ref{bez_s1} i \ref{bez_s2}) pokonaæ nowotworu bez zastosowania leczenia, tj. $T(0) = 1,8 \cdot 10^{7}$ i $C(0) = 3,5 \cdot 10^{9}$. Warunki pocz¹tkowe (Tab. \ref{warunki_poczatkowe_z1}) odpowiadaj¹ os³abionemu uk³adowi immunologicznemu. \newline
-
-\begin{table}[!htb]
-	\centering
-	\caption{Warunki pocz¹tkowe dla modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z uwzglêdnieniem procesu leczenia.}\label{warunki_poczatkowe_z1}
-	\begin{tabular}{|c|c|c|} \hline
-		Wartoœæ $[liczba$ $kom$ó$rek]$ & Rodzaj komórek & Promieñ nowotworu [$mm$]\\ \hline
-		$T(0) = 1,8 \cdot 10^{7}$ & Komórki nowotworowe & 1,63 \\ \hline
-		$N(0) = 1 \cdot 10^{5}$ & Komórki NK \\ \cline{1-2}
-		$L(0) = 1 \cdot 10^{2}$ & Limfocyty $T_{CD8+}$ \\ \cline{1-2}
-		$C(0) = 3,5 \cdot 10^{9}$ & Limfocyty kr¹¿¹ce \\ \cline{1-2}
-		\end{tabular}
-\end{table}
-
-Wartoœci parametrów (Tab. \ref{parametry_modelu_bez1}) oraz~wartoœci dodatkowych parametrów uwzglêdniaj¹cych proces leczenia (Tab. \ref{parametry_modelu_z1}) dla~modelu \ref{równania_modelu_pillis_z_leczeniem} dobrano zgodnie z~literatur¹ \cite{19}.
-
-\begin{table}[h!]
-	\centering
-	\caption{Wartoœci dodatkowych parametrów modelu odpowiedzi immunologicznej na~rozwijaj¹cy siê nowotwór z~uwzglêdnieniem procesu leczenia.}\label{parametry_modelu_z1}
-	\begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline
-		Nazwa & $\gamma$ & $K_{T}$ & $K_{N}$ & $K_{L}$ & $K_{C}$ & $p_{I}$ & $g_{I}$ & $\mu_{I}$ \\ \hline
-		Wartoœæ & $9 \cdot 10^{-1}$ & $9 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $6 \cdot 10^{-1}$ & $9 \cdot 10^{3}$ & $2 \cdot 10^{7}$ & $1 \cdot 10^{1}$ \\ \hline	
-	\end{tabular}
-\end{table}
-
-\chapter{Leczenie metod¹ chemioterapii -- symulacje wykonane dla modelu leczonego guza}
 W symulacji leczenia metod¹ chemioterapii wziêto pod uwagê takie zmienne, jak:
 \begin{itemize}
 \item d³ugoœæ cyklu dozowania cytostatyka,
@@ -1207,7 +1216,7 @@ Wnioski:
 \end{itemize}
 
 \newpage
-\chapter{Leczenie metod¹ immunoterapii -- symulacje wykonane dla~modelu leczonego guza}
+\chapter{Leczenie metod¹ immunoterapii -- symulacje wykonane dla~modelu leczonego guza} \label{sym_i}
 
 W symulacji leczenia metod¹ immunoterapii wziêto pod uwagê takie zmienne, jak:
 \begin{itemize}
@@ -1563,7 +1572,7 @@ Wnioski:
 \end{itemize}
 
 \newpage
-\chapter{Leczenie skojarzonymi metodami chemioterapii i~immunoterapii}
+\chapter{Leczenie skojarzonymi metodami chemioterapii i~immunoterapii} \label{sym_ch_i}
 
 W symulacji leczenia skojarzonymi metodami chemioterapii i immunoterapii badano:
 \begin{itemize}
@@ -1587,7 +1596,7 @@ Rys. \ref{wykresy_skojarzone} przedstawia zmiany w czasie liczby komórek badanyc
 \end{figure}
 
 \newpage
-\section{Scenariusz I -- zmiana cech chemioterapii}
+\section{Scenariusz I -- zmiana warunków pocz¹tkowych chemioterapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~d³ugoœci cyklu, wielkoœci dawki dozowanego cytostatyka, liczby powtórzeñ cyklu oraz dnia rozpoczêcia chemioterapii.
 
@@ -1806,7 +1815,7 @@ Wnioski:
 \end{itemize}
 
 \newpage
-\section{Scenariusz II -- zmiana cech immunoterapii}
+\section{Scenariusz II -- zmiana warunków pocz¹tkowych immunoterapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~wielkoœci dawki IL-2, liczby powtórzeñ cyklu IL-2 oraz dnia rozpoczêcia immunoterapii (dozowania IL-2).
 
@@ -1974,7 +1983,7 @@ Wnioski:
 \end{itemize}
 
 \newpage
-\section{Scenariusz III -- zmiany dawki IL-2 konieczne dla uzyskania okreœlonych wartoœci parametrów chemioterapii}
+\section{Scenariusz III -- zmiana dawki IL-2 koniecznej dla uzyskania pozytywnego efektu leczenia dla okreœlonych warunków pocz¹tkowych chemioterapii}
 
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od wielkoœci dawki IL-2 z równoczesnym wykorzystaniem TIL i okreœlonymi wartoœciami parametrów chemioterapii.
 
