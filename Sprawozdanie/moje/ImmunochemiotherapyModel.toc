@@ -30,30 +30,30 @@
 \contentsline {section}{\numberline {7.1}Scenariusz I -- zmiana d\IeC {\l }ugo\'sci cyklu}{40}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Scenariusz II -- zmiana dawki dozowanego cytostatyka}{44}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Scenariusz III -- zmiana dawki dozowanego cytostatyka w kolejnych powt\'orzeniach cyklu}{48}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu}{51}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Scenariusz V -- zmiana dnia rozpocz\k ecia chemioterapii (dozowania cytostatyka)}{55}{section.7.5}%
-\contentsline {chapter}{\numberline {8.}Leczenie metod\k a immunoterapii -- symulacje wykonane dla\nobreakspace {}modelu leczonego guza}{58}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Scenariusz I -- zmiana pocz\k atkowej wielko\'sci guza}{59}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Scenariusz II -- zmiana dawki IL-2}{62}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Scenariusz III -- zmiana dawki TIL}{66}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu IL-2}{70}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Scenariusz V -- zmiana dnia rozpocz\k ecia immunoterapii}{73}{section.8.5}%
-\contentsline {chapter}{\numberline {9.}Leczenie skojarzonymi metodami chemioterapii i\nobreakspace {}immunoterapii}{77}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Scenariusz I -- zmiana warunk\'ow pocz\k atkowych chemioterapii}{79}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}Zmiana d\IeC {\l }ugo\'sci cyklu chemioterapii}{80}{subsection.9.1.1}%
-\contentsline {subsection}{\numberline {9.1.2}Zmiana dawki dozowanego cytostatyka}{82}{subsection.9.1.2}%
-\contentsline {subsection}{\numberline {9.1.3}Zmiana liczby powt\'orze\'n cyklu chemioterapii}{86}{subsection.9.1.3}%
-\contentsline {subsection}{\numberline {9.1.4}Zmiana dnia rozpocz\k ecia chemioterapii}{88}{subsection.9.1.4}%
-\contentsline {section}{\numberline {9.2}Scenariusz II -- zmiana warunk\'ow pocz\k atkowych immunoterapii}{90}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Zmiana dawki IL-2}{91}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia bez wykorzystania TIL}{94}{subsection.9.2.2}%
-\contentsline {subsection}{\numberline {9.2.3}Zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}{96}{subsection.9.2.3}%
-\contentsline {section}{\numberline {9.3}Scenariusz III -- zmiana dawki IL-2 koniecznej dla uzyskania pozytywnego efektu leczenia dla okre\'slonych warunk\'ow pocz\k atkowych chemioterapii}{98}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{102}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Scenariusz V -- por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{106}{section.9.5}%
-\contentsline {chapter}{\numberline {10.}Podsumowanie}{110}{chapter.10}%
-\contentsline {chapter}{\numberline {11.}Perspektywy rozwoju}{111}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Interferony}{111}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Nowa odmiana limfocyt\'ow typu T}{112}{section.11.2}%
-\contentsline {chapter}{\numberline {12.}Dodatek}{117}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Tabela skr\'ot\'ow}{117}{section.12.1}%
+\contentsline {section}{\numberline {7.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu}{52}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Scenariusz V -- zmiana dnia rozpocz\k ecia chemioterapii (dozowania cytostatyka)}{56}{section.7.5}%
+\contentsline {chapter}{\numberline {8.}Leczenie metod\k a immunoterapii -- symulacje wykonane dla\nobreakspace {}modelu leczonego guza}{59}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Scenariusz I -- zmiana pocz\k atkowej wielko\'sci guza}{60}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Scenariusz II -- zmiana dawki IL-2}{63}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Scenariusz III -- zmiana dawki TIL}{67}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Scenariusz IV -- zmiana liczby powt\'orze\'n cyklu IL-2}{71}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Scenariusz V -- zmiana dnia rozpocz\k ecia immunoterapii}{74}{section.8.5}%
+\contentsline {chapter}{\numberline {9.}Leczenie skojarzonymi metodami chemioterapii i\nobreakspace {}immunoterapii}{78}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Scenariusz I -- zmiana warunk\'ow pocz\k atkowych chemioterapii}{80}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Zmiana d\IeC {\l }ugo\'sci cyklu chemioterapii}{81}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Zmiana dawki dozowanego cytostatyka}{83}{subsection.9.1.2}%
+\contentsline {subsection}{\numberline {9.1.3}Zmiana liczby powt\'orze\'n cyklu chemioterapii}{87}{subsection.9.1.3}%
+\contentsline {subsection}{\numberline {9.1.4}Zmiana dnia rozpocz\k ecia chemioterapii}{89}{subsection.9.1.4}%
+\contentsline {section}{\numberline {9.2}Scenariusz II -- zmiana warunk\'ow pocz\k atkowych immunoterapii}{91}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Zmiana dawki IL-2}{92}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia bez wykorzystania TIL}{95}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}{97}{subsection.9.2.3}%
+\contentsline {section}{\numberline {9.3}Scenariusz III -- zmiana dawki IL-2 koniecznej dla uzyskania pozytywnego efektu leczenia dla okre\'slonych warunk\'ow pocz\k atkowych chemioterapii}{99}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{103}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Scenariusz V -- por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{107}{section.9.5}%
+\contentsline {chapter}{\numberline {10.}Podsumowanie}{111}{chapter.10}%
+\contentsline {chapter}{\numberline {11.}Perspektywy rozwoju}{112}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Interferony}{112}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Nowa odmiana limfocyt\'ow typu T}{113}{section.11.2}%
+\contentsline {chapter}{\numberline {12.}Dodatek}{118}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Tabela skr\'ot\'ow}{118}{section.12.1}%
