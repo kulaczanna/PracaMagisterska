@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.8.11)  20 AUG 2020 01:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400) (preloaded format=pdflatex 2020.8.11)  20 AUG 2020 01:49
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -892,12 +892,6 @@ Overfull \hbox (45.7125pt too wide) in paragraph at lines 667--681
  [][] 
  []
 
-
-Overfull \hbox (3.9089pt too wide) in paragraph at lines 684--685
-\OT4/cmr/m/n/12 w za-le»-no-±ci od po-cz¡t-ko-wej licz-by ko-mó-rek no-wo-two-r
-o-wych $\OML/plm/m/it/12 T\OT4/cmr/m/n/12 (0)$ przed-sta-wio-no na Rys.
- []
-
 [29]
 <./rysunki/wykres_bez_lecz_t120_t0.jpg, id=932, 604.50844pt x 354.57469pt>
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
@@ -1721,7 +1715,7 @@ l/plsy10.pfb><C:/Users/samsung/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/pl/plsy6.pfb><C:/Users/samsung/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
 e1/public/pl/plsy8.pfb><C:/Users/samsung/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/pl/plti12.pfb>
-Output written on ImmunochemiotherapyModel.pdf (123 pages, 2467116 bytes).
+Output written on ImmunochemiotherapyModel.pdf (123 pages, 2467229 bytes).
 PDF statistics:
  1867 PDF objects out of 2073 (max. 8388607)
  376 named destinations out of 1000 (max. 500000)
