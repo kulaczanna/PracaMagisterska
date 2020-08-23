@@ -1,8 +1,5 @@
 W za³¹czniku odsy³am zgrubn¹ korektê pracy od strony 28.
 
-1) na pewno tabele nie mog¹ wychodziæ poza marginesy, 
-mo¿e Pani jednostki napisaæ w nowej linii, b¹dŸ wstawiæ tabelê poziomo. 
-
 2) Jeœli chodzi o wykresy s³upkowe to analizuje Pani pewne zale¿noœci 
 np. Tab. 9.3 liczba powtórzeñ na jednej osi a któraœ z wartoœci T(0), 
 objêtoœæ lub promieñ na drugiej wtedy jednym spojrzeniem mo¿na ogarn¹æ
@@ -13,16 +10,36 @@ i przedstawiæ pewne tendencje, które wynikaj¹ z przeprowadzonych analiz.
 3) Dodaæ jednostki do dawek leków!!!!!!!!!! xD !!!!!!!!!!!!!!!!!!!!!!!!!!!! xDXDXDXDxd
 Proszê pamiêtaæ o jednostkach na wykresach przy stê¿eniu leków brakuje jednostki!!!, 
 
-4) Ka¿dy scenariusz (wnioski) mo¿na podsumowaæ 2,3 zdaniami koñcz¹cymi badany problem.
-
-5) W posumowaniu mo¿na odnieœæ siê do literatury porównuj¹c swoje wyniki
-z tymi otrzymanymi w literaturze, jeœli takie wartoœci referencyjne jesteœmy w stanie wskazaæ. 
+5) W podsumowaniu mo¿na odnieœæ siê do literatury porównuj¹c swoje wyniki
+z tymi otrzymanymi w literaturze, jeœli takie wartoœci referencyjne jesteœmy w stanie wskazaæ. Wskazaæ równie¿ w pracy, co jest Pani propozycj¹, czyli jaki jest element nowoœci w tej pracy
 
 6) proszê jeszcze raz przeczytaæ podpisy pod rysunkami!!! 
 
-7) Proszê napisaæ jeszcze podsumowanie
-
 8) przejrzeæ kilka razy ca³oœæ pod k¹tem spójnoœci i przejrzystoœci
 
-10)  Wskazaæ równie¿ w pracy, co jest Pani propozycj¹, czyli jaki jest element nowoœci w tej pracy
+11) sprawdziæ bibliografiê
 
+15) rozwój
+-----
+
+. wstep - pozosta³e poprawki
+4. poprawki do symulacji - z maila od 28 strony korekta symulacje
+5. wniosek/odniesienie do wykresu z promieniem
+
+----
+PREZENTACJA
+1. Co praca wnios³a nowego?
+2. Czy widzê kierunki rozwoju? (IFN-alfa)
+3. Plan, cele, 15 minut, o systemie immunologicznym, model + krótkie wyjaœnienie
+4. Wyniki
+5. Wnioski
+6. Rozwój
+7. Co siê uda³o, a co nie. Co zajê³o wiêcej czasu ni¿ myœla³am.
+
+I. prezentacja
+II. pytania dot. pracy
+III. pytania dot. studiów
+
+1) literatura proponuje to... a ja to.. w scenariuszu
+2) napisaæ cos o p_I
+3) porównanie pacjentów, mo¿liwa personalizacja 

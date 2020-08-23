@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  23 AUG 2020 22:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.4.25)  23 AUG 2020 23:11
 entering extended mode
 **./ImmunochemiotherapyModel.tex
 (ImmunochemiotherapyModel.tex
@@ -687,6 +687,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--76
  []
 
 
+Underfull \hbox (badness 4193) in paragraph at lines 76--76
+\OT4/cmr/m/n/12 PGE1 i PGE2, któ-re ha-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 77--77
 []\OT4/cmr/m/n/12 Cytotoksyczno±¢ za-le»-na
  []
@@ -786,6 +791,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--237
  []
 
 [15]
+Overfull \hbox (13.6365pt too wide) in paragraph at lines 251--253
+[]\OT4/cmr/m/n/12 Podczas im-mu-no-te-ra-pii do-cho-dzi do in-ge-ren-cji w ukªa
+d od-por-no-±cio-wy, któ-ra ma na ce-
+ []
+
+
 Overfull \hbox (2.63808pt too wide) in paragraph at lines 256--257
 []\OT4/cmr/m/n/12 wykrywanie przez ukªad od-por-no-±cio-wy ko-mó-rek no-wo-two-
 ro-wych ja-ko ob-ce dla or-
@@ -808,7 +819,7 @@ Overfull \hbox (4.5596pt too wide) in paragraph at lines 289--290
  []
 
 [18]
-Overfull \hbox (5.1512pt too wide) in paragraph at lines 401--402
+Overfull \hbox (5.1512pt too wide) in paragraph at lines 307--308
 \OT4/cmr/m/n/12 sze-nie ma-sy gu-za u cho-rych z miej-sco-wo za-awan-so-wa-nym 
 no-wo-two-rem i umo»-
  []
@@ -818,24 +829,29 @@ Rozdzia\PlPrIeC {\l } 4.
 [20
 
 ] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
 
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10.95> on input line 472.
+(Font)              <10.95> on input line 378.
 [22]
-Underfull \hbox (badness 1852) in paragraph at lines 515--515
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
+[]\OT4/cmr/m/n/12 Minimalna licz-ba ko-mó-rek no-wo-two-ru za-bi-ta
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 421--421
 []\OT4/cmr/m/n/12 Maksymalna licz-ba ko-mó-rek NK wy-twa-rza-nych
  []
 
 
-Underfull \hbox (badness 2393) in paragraph at lines 522--522
+Underfull \hbox (badness 2393) in paragraph at lines 428--428
 []\OT4/cmr/m/n/12 Warto±¢ $[][]$ ko-niecz-na do osi¡-gni¦-cia po-ªo-wy
  []
 
@@ -851,12 +867,12 @@ Overfull \vbox (4.31384pt too high) has occurred while \output is active []
 
 
 [24]
-Overfull \hbox (32.06871pt too wide) detected at line 551
+Overfull \hbox (32.06871pt too wide) detected at line 457
 []
  []
 
 [25]
-Underfull \hbox (badness 1635) in paragraph at lines 584--584
+Underfull \hbox (badness 1635) in paragraph at lines 490--490
 []\OT4/cmr/m/n/12 Uªamek lim-fo-cy-tów kr¡-»¡-cych znisz-czo-nych po-przez
  []
 
@@ -869,20 +885,20 @@ Rozdzia\PlPrIeC {\l } 5.
 File: ./rysunki/bez_lecz_sym1_regresja.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_regresja.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_regresja.jpg  used on input li
-ne 637.
+ne 543.
 (pdftex.def)             Requested size: 374.86775pt x 281.14793pt.
  [28 <./rysunki/bez_lecz_sym1_regresja.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 653--654
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
  []
 
 <./rysunki/diagram_analiz.png, id=932, 586.44093pt x 1613.27719pt>
 File: ./rysunki/diagram_analiz.png Graphic file (type png)
 <use ./rysunki/diagram_analiz.png>
-Package pdftex.def Info: ./rysunki/diagram_analiz.png  used on input line 682.
+Package pdftex.def Info: ./rysunki/diagram_analiz.png  used on input line 588.
 (pdftex.def)             Requested size: 242.5611pt x 667.25746pt.
 
-LaTeX Warning: Float too large for page by 65.34816pt on input line 684.
+LaTeX Warning: Float too large for page by 65.34816pt on input line 590.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -890,7 +906,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [29] [30 <./rysunki/diagram_analiz.png>]
 Rozdzia\PlPrIeC {\l } 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--699
+Underfull \hbox (badness 10000) in paragraph at lines 604--605
 
  []
 
@@ -901,13 +917,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 698--699
 File: ./rysunki/wykres_bez_lecz_t120_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_t0.jpg  used on input l
-ine 732.
+ine 638.
 (pdftex.def)             Requested size: 330.76329pt x 194.01035pt.
 <./rysunki/wykres_bez_lecz_promien_t0.jpg, id=959, 605.26125pt x 354.57469pt>
 File: ./rysunki/wykres_bez_lecz_promien_t0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_t0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_t0.jpg  used on inpu
-t line 735.
+t line 641.
 (pdftex.def)             Requested size: 330.76329pt x 193.76688pt.
  [33 <./rysunki/wykres_bez_lecz_t120_t0.jpg> <./rysunki/wykres_bez_lecz_promien
 _t0.jpg>]
@@ -915,10 +931,10 @@ _t0.jpg>]
 File: ./rysunki/bez_lecz_sym1_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym1_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym1_progres.jpg  used on input lin
-e 745.
+e 651.
 (pdftex.def)             Requested size: 330.76329pt x 248.07095pt.
  [34 <./rysunki/bez_lecz_sym1_progres.jpg>] [35]
-Underfull \hbox (badness 10000) in paragraph at lines 773--774
+Underfull \hbox (badness 10000) in paragraph at lines 679--680
 
  []
 
@@ -927,13 +943,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 773--774
 File: ./rysunki/wykres_bez_lecz_t120_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_t120_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_t120_c0.jpg  used on input l
-ine 801.
+ine 707.
 (pdftex.def)             Requested size: 330.76329pt x 193.87247pt.
 <./rysunki/wykres_bez_lecz_promien_c0.jpg, id=990, 606.76688pt x 344.78813pt>
 File: ./rysunki/wykres_bez_lecz_promien_c0.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_bez_lecz_promien_c0.jpg>
 Package pdftex.def Info: ./rysunki/wykres_bez_lecz_promien_c0.jpg  used on inpu
-t line 804.
+t line 710.
 (pdftex.def)             Requested size: 330.76329pt x 187.95578pt.
  [37 <./rysunki/wykres_bez_lecz_t120_c0.jpg> <./rysunki/wykres_bez_lecz_promien
 _c0.jpg>]
@@ -941,14 +957,14 @@ _c0.jpg>]
 File: ./rysunki/bez_lecz_sym2_progres.jpg Graphic file (type jpg)
 <use ./rysunki/bez_lecz_sym2_progres.jpg>
 Package pdftex.def Info: ./rysunki/bez_lecz_sym2_progres.jpg  used on input lin
-e 814.
+e 720.
 (pdftex.def)             Requested size: 330.76329pt x 248.07095pt.
  [38 <./rysunki/bez_lecz_sym2_progres.jpg>]
 Rozdzia\PlPrIeC {\l } 7.
 [39
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 863--864
+Underfull \hbox (badness 10000) in paragraph at lines 769--770
 
  []
 
@@ -962,7 +978,7 @@ File: ./rysunki/wykres_chemio_zmiany_liczby_dni_cyklu.jpg Graphic file (type jp
 g)
 <use ./rysunki/wykres_chemio_zmiany_liczby_dni_cyklu.jpg>
 Package pdftex.def Info: ./rysunki/wykres_chemio_zmiany_liczby_dni_cyklu.jpg  u
-sed on input line 901.
+sed on input line 807.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/wykres_chemio_zmiany_liczby_dni_cyklu8.jpg, id=1034, 562.1pt x 421.5
 75pt>
@@ -970,7 +986,7 @@ File: ./rysunki/wykres_chemio_zmiany_liczby_dni_cyklu8.jpg Graphic file (type j
 pg)
 <use ./rysunki/wykres_chemio_zmiany_liczby_dni_cyklu8.jpg>
 Package pdftex.def Info: ./rysunki/wykres_chemio_zmiany_liczby_dni_cyklu8.jpg  
-used on input line 904.
+used on input line 810.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_chemio_zmiany_liczby_dni_cyklu.jpg, id=1035, 365.11406pt x 
 112.92188pt>
@@ -978,7 +994,7 @@ File: ./rysunki/stezenie_chemio_zmiany_liczby_dni_cyklu.jpg Graphic file (type
 jpg)
 <use ./rysunki/stezenie_chemio_zmiany_liczby_dni_cyklu.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_chemio_zmiany_liczby_dni_cyklu.jpg 
- used on input line 907.
+ used on input line 813.
 (pdftex.def)             Requested size: 198.45662pt x 61.37836pt.
 <./rysunki/stezenie_chemio_zmiany_liczby_dni_cyklu8.jpg, id=1036, 362.10281pt x
  113.67468pt>
@@ -986,13 +1002,13 @@ File: ./rysunki/stezenie_chemio_zmiany_liczby_dni_cyklu8.jpg Graphic file (type
  jpg)
 <use ./rysunki/stezenie_chemio_zmiany_liczby_dni_cyklu8.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_chemio_zmiany_liczby_dni_cyklu8.jpg
-  used on input line 910.
+  used on input line 816.
 (pdftex.def)             Requested size: 198.45662pt x 62.3027pt.
  [42 <./rysunki/wykres_chemio_zmiany_liczby_dni_cyklu.jpg> <./rysunki/wykres_ch
 emio_zmiany_liczby_dni_cyklu8.jpg> <./rysunki/stezenie_chemio_zmiany_liczby_dni
 _cyklu.jpg> <./rysunki/stezenie_chemio_zmiany_liczby_dni_cyklu8.jpg>]
 [43] [44]
-Underfull \hbox (badness 10000) in paragraph at lines 938--939
+Underfull \hbox (badness 10000) in paragraph at lines 844--845
 
  []
 
@@ -1001,14 +1017,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 938--939
 File: ./rysunki/wykres_chemio_zmiany_dawki.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_chemio_zmiany_dawki.jpg>
 Package pdftex.def Info: ./rysunki/wykres_chemio_zmiany_dawki.jpg  used on inpu
-t line 988.
+t line 894.
 (pdftex.def)             Requested size: 220.50887pt x 165.37848pt.
 <./rysunki/stezenie_chemio_zmiany_dawki.jpg, id=1068, 371.88937pt x 103.13531pt
 >
 File: ./rysunki/stezenie_chemio_zmiany_dawki.jpg Graphic file (type jpg)
 <use ./rysunki/stezenie_chemio_zmiany_dawki.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_chemio_zmiany_dawki.jpg  used on in
-put line 991.
+put line 897.
 (pdftex.def)             Requested size: 220.50887pt x 61.15459pt.
  [47 <./rysunki/wykres_chemio_zmiany_dawki.jpg> <./rysunki/stezenie_chemio_zmia
 ny_dawki.jpg>]
@@ -1017,10 +1033,10 @@ pt>
 File: ./rysunki/dzien_regr_w_zaleznosci_od_dawki.jpg Graphic file (type jpg)
 <use ./rysunki/dzien_regr_w_zaleznosci_od_dawki.jpg>
 Package pdftex.def Info: ./rysunki/dzien_regr_w_zaleznosci_od_dawki.jpg  used o
-n input line 1000.
+n input line 906.
 (pdftex.def)             Requested size: 286.65883pt x 218.82234pt.
  [48 <./rysunki/dzien_regr_w_zaleznosci_od_dawki.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1024
+Underfull \hbox (badness 10000) in paragraph at lines 929--930
 
  []
 
@@ -1031,7 +1047,7 @@ File: ./rysunki/wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4.jpg Graph
 ic file (type jpg)
 <use ./rysunki/wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4.jpg>
 Package pdftex.def Info: ./rysunki/wykres_chemio_zmiany_dawki_w_kolejnych_powto
-rzeniach4.jpg  used on input line 1061.
+rzeniach4.jpg  used on input line 967.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5.jpg, id=1106, 
 562.1pt x 421.575pt>
@@ -1039,7 +1055,7 @@ File: ./rysunki/wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5.jpg Graph
 ic file (type jpg)
 <use ./rysunki/wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5.jpg>
 Package pdftex.def Info: ./rysunki/wykres_chemio_zmiany_dawki_w_kolejnych_powto
-rzeniach5.jpg  used on input line 1064.
+rzeniach5.jpg  used on input line 970.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4.jpg, id=1107
 , 362.85562pt x 109.1578pt>
@@ -1047,7 +1063,7 @@ File: ./rysunki/stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4.jpg Gra
 phic file (type jpg)
 <use ./rysunki/stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_chemio_zmiany_dawki_w_kolejnych_pow
-torzeniach4.jpg  used on input line 1067.
+torzeniach4.jpg  used on input line 973.
 (pdftex.def)             Requested size: 198.45662pt x 59.70218pt.
 <./rysunki/stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5.jpg, id=1108
 , 364.36125pt x 108.405pt>
@@ -1055,19 +1071,19 @@ File: ./rysunki/stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5.jpg Gra
 phic file (type jpg)
 <use ./rysunki/stezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_chemio_zmiany_dawki_w_kolejnych_pow
-torzeniach5.jpg  used on input line 1070.
+torzeniach5.jpg  used on input line 976.
 (pdftex.def)             Requested size: 198.45662pt x 59.04398pt.
  [51 <./rysunki/wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4.jpg> <./r
 ysunki/wykres_chemio_zmiany_dawki_w_kolejnych_powtorzeniach5.jpg> <./rysunki/st
 ezenie_chemio_zmiany_dawki_w_kolejnych_powtorzeniach4.jpg> <./rysunki/stezenie_
 chemio_zmiany_dawki_w_kolejnych_powtorzeniach5.jpg>]
-Overfull \hbox (4.10681pt too wide) in paragraph at lines 1078--1079
+Overfull \hbox (4.10681pt too wide) in paragraph at lines 984--985
 []\OT4/cmr/m/n/12 chemioterapia jest sku-tecz-na (wy-st¦-pu-je re-gre-sja no-wo
 -two-ru) w przy-pad-ku zmniej-
  []
 
 [52]
-Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
+Underfull \hbox (badness 10000) in paragraph at lines 999--1000
 
  []
 
@@ -1078,7 +1094,7 @@ File: ./rysunki/wykres_chemio_zmiany_liczby_powtorzen4.jpg Graphic file (type j
 pg)
 <use ./rysunki/wykres_chemio_zmiany_liczby_powtorzen4.jpg>
 Package pdftex.def Info: ./rysunki/wykres_chemio_zmiany_liczby_powtorzen4.jpg  
-used on input line 1147.
+used on input line 1053.
 (pdftex.def)             Requested size: 220.50887pt x 165.37848pt.
 <./rysunki/stezenie_chemio_zmiany_liczby_powtorzen4.jpg, id=1137, 359.09157pt x
  106.89937pt>
@@ -1086,11 +1102,11 @@ File: ./rysunki/stezenie_chemio_zmiany_liczby_powtorzen4.jpg Graphic file (type
  jpg)
 <use ./rysunki/stezenie_chemio_zmiany_liczby_powtorzen4.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_chemio_zmiany_liczby_powtorzen4.jpg
-  used on input line 1150.
+  used on input line 1056.
 (pdftex.def)             Requested size: 220.50887pt x 65.64566pt.
  [55 <./rysunki/wykres_chemio_zmiany_liczby_powtorzen4.jpg> <./rysunki/stezenie
 _chemio_zmiany_liczby_powtorzen4.jpg>] [56]
-Underfull \hbox (badness 10000) in paragraph at lines 1174--1175
+Underfull \hbox (badness 10000) in paragraph at lines 1080--1081
 
  []
 
@@ -1104,7 +1120,7 @@ File: ./rysunki/wykres_zmiany_dnia_rozpoczecia_cehmioterapii13.jpg Graphic file
  (type jpg)
 <use ./rysunki/wykres_zmiany_dnia_rozpoczecia_cehmioterapii13.jpg>
 Package pdftex.def Info: ./rysunki/wykres_zmiany_dnia_rozpoczecia_cehmioterapii
-13.jpg  used on input line 1213.
+13.jpg  used on input line 1119.
 (pdftex.def)             Requested size: 220.50887pt x 165.37848pt.
 <./rysunki/stezenie_zmiany_dnia_rozpoczecia_cehmioterapii13.jpg, id=1162, 363.6
 0844pt x 103.88812pt>
@@ -1112,7 +1128,7 @@ File: ./rysunki/stezenie_zmiany_dnia_rozpoczecia_cehmioterapii13.jpg Graphic fi
 le (type jpg)
 <use ./rysunki/stezenie_zmiany_dnia_rozpoczecia_cehmioterapii13.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_zmiany_dnia_rozpoczecia_cehmioterap
-ii13.jpg  used on input line 1216.
+ii13.jpg  used on input line 1122.
 (pdftex.def)             Requested size: 220.50887pt x 63.00389pt.
 
 
@@ -1124,7 +1140,7 @@ Rozdzia\PlPrIeC {\l } 8.
 [60
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1270
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1176
 
  []
 
@@ -1138,7 +1154,7 @@ File: ./rysunki/wykres_immuno_zmiany_wielkosci_guza1e6.jpg Graphic file (type j
 pg)
 <use ./rysunki/wykres_immuno_zmiany_wielkosci_guza1e6.jpg>
 Package pdftex.def Info: ./rysunki/wykres_immuno_zmiany_wielkosci_guza1e6.jpg  
-used on input line 1296.
+used on input line 1202.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/wykres_immuno_zmiany_wielkosci_guza18e7.jpg, id=1193, 562.1pt x 421.
 575pt>
@@ -1146,7 +1162,7 @@ File: ./rysunki/wykres_immuno_zmiany_wielkosci_guza18e7.jpg Graphic file (type
 jpg)
 <use ./rysunki/wykres_immuno_zmiany_wielkosci_guza18e7.jpg>
 Package pdftex.def Info: ./rysunki/wykres_immuno_zmiany_wielkosci_guza18e7.jpg 
- used on input line 1299.
+ used on input line 1205.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_immuno_zmiany_wielkosci_guza1e6.jpg, id=1194, 365.11406pt x
  99.37125pt>
@@ -1154,12 +1170,12 @@ File: ./rysunki/stezenie_immuno_zmiany_wielkosci_guza1e6.jpg Graphic file (type
  jpg)
 <use ./rysunki/stezenie_immuno_zmiany_wielkosci_guza1e6.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_immuno_zmiany_wielkosci_guza1e6.jpg
-  used on input line 1302.
+  used on input line 1208.
 (pdftex.def)             Requested size: 198.45662pt x 54.01295pt.
 <./rysunki/pustkja.jpg, id=1195, 315.42844pt x 100.12407pt>
 File: ./rysunki/pustkja.jpg Graphic file (type jpg)
 <use ./rysunki/pustkja.jpg>
-Package pdftex.def Info: ./rysunki/pustkja.jpg  used on input line 1305.
+Package pdftex.def Info: ./rysunki/pustkja.jpg  used on input line 1211.
 (pdftex.def)             Requested size: 198.45662pt x 62.99446pt.
 
 
@@ -1168,7 +1184,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [62] [63 <./rysunki/wykres_immuno_zmiany_wielkosci_guza1e6.jpg> <./rysunki/wykr
 es_immuno_zmiany_wielkosci_guza18e7.jpg> <./rysunki/stezenie_immuno_zmiany_wiel
 kosci_guza1e6.jpg> <./rysunki/pustkja.jpg>] [64]
-Underfull \hbox (badness 10000) in paragraph at lines 1330--1331
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
 
  []
 
@@ -1177,14 +1193,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1330--1331
 File: ./rysunki/wykres_zmiany_dawki_IL2_przy_TIL.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_zmiany_dawki_IL2_przy_TIL.jpg>
 Package pdftex.def Info: ./rysunki/wykres_zmiany_dawki_IL2_przy_TIL.jpg  used o
-n input line 1368.
+n input line 1274.
 (pdftex.def)             Requested size: 220.50887pt x 165.37848pt.
 <./rysunki/stezenie_zmiany_dawki_IL2_przy_TIL.jpg, id=1229, 371.13657pt x 98.61
 844pt>
 File: ./rysunki/stezenie_zmiany_dawki_IL2_przy_TIL.jpg Graphic file (type jpg)
 <use ./rysunki/stezenie_zmiany_dawki_IL2_przy_TIL.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_zmiany_dawki_IL2_przy_TIL.jpg  used
- on input line 1371.
+ on input line 1277.
 (pdftex.def)             Requested size: 220.50887pt x 58.59517pt.
 
 
@@ -1192,7 +1208,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [66] [67 <./rysunki/wykres_zmiany_dawki_IL2_przy_TIL.jpg> <./rysunki/stezenie_z
 miany_dawki_IL2_przy_TIL.jpg>] [68]
-Underfull \hbox (badness 10000) in paragraph at lines 1397--1398
+Underfull \hbox (badness 10000) in paragraph at lines 1303--1304
 
  []
 
@@ -1201,14 +1217,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1397--1398
 File: ./rysunki/wykres_zmiany_dawki_TIL_przy_IL2.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_zmiany_dawki_TIL_przy_IL2.jpg>
 Package pdftex.def Info: ./rysunki/wykres_zmiany_dawki_TIL_przy_IL2.jpg  used o
-n input line 1437.
+n input line 1343.
 (pdftex.def)             Requested size: 220.50887pt x 165.37848pt.
 <./rysunki/stezenie_zmiany_dawki_TIL_przy_IL2.jpg, id=1259, 368.1253pt x 97.112
 81pt>
 File: ./rysunki/stezenie_zmiany_dawki_TIL_przy_IL2.jpg Graphic file (type jpg)
 <use ./rysunki/stezenie_zmiany_dawki_TIL_przy_IL2.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_zmiany_dawki_TIL_przy_IL2.jpg  used
- on input line 1440.
+ on input line 1346.
 (pdftex.def)             Requested size: 220.50887pt x 58.1733pt.
 
 
@@ -1216,12 +1232,12 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [70] [71 <./rysunki/wykres_zmiany_dawki_TIL_przy_IL2.jpg> <./rysunki/stezenie_z
 miany_dawki_TIL_przy_IL2.jpg>] [72]
-Underfull \hbox (badness 10000) in paragraph at lines 1463--1464
+Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
 
  []
 
 
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1471--1496
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1377--1402
  [][] 
  []
 
@@ -1234,7 +1250,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/wykres_zmiany_liczby_powtorzen_IL2.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_zmiany_liczby_powtorzen_IL2.jpg>
 Package pdftex.def Info: ./rysunki/wykres_zmiany_liczby_powtorzen_IL2.jpg  used
- on input line 1504.
+ on input line 1410.
 (pdftex.def)             Requested size: 220.50887pt x 165.37848pt.
 <./rysunki/stezenie_zmiany_liczby_powtorzen_IL2.jpg, id=1289, 358.33875pt x 96.
 36pt>
@@ -1242,7 +1258,7 @@ File: ./rysunki/stezenie_zmiany_liczby_powtorzen_IL2.jpg Graphic file (type jpg
 )
 <use ./rysunki/stezenie_zmiany_liczby_powtorzen_IL2.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_zmiany_liczby_powtorzen_IL2.jpg  us
-ed on input line 1507.
+ed on input line 1413.
 (pdftex.def)             Requested size: 220.50887pt x 59.29706pt.
 
 
@@ -1250,7 +1266,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [74] [75 <./rysunki/wykres_zmiany_liczby_powtorzen_IL2.jpg> <./rysunki/stezenie
 _zmiany_liczby_powtorzen_IL2.jpg>] [76]
-Underfull \hbox (badness 10000) in paragraph at lines 1531--1532
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
 
  []
 
@@ -1261,7 +1277,7 @@ File: ./rysunki/wykres_zmiany_dnia_rozpoczecia_immunoterapii_IL2.jpg Graphic fi
 le (type jpg)
 <use ./rysunki/wykres_zmiany_dnia_rozpoczecia_immunoterapii_IL2.jpg>
 Package pdftex.def Info: ./rysunki/wykres_zmiany_dnia_rozpoczecia_immunoterapii
-_IL2.jpg  used on input line 1576.
+_IL2.jpg  used on input line 1482.
 (pdftex.def)             Requested size: 220.50887pt x 165.37848pt.
 <./rysunki/stezenie_zmiany_dnia_rozpoczecia_immunoterapii_IL2.jpg, id=1327, 378
 .66469pt x 100.87688pt>
@@ -1269,7 +1285,7 @@ File: ./rysunki/stezenie_zmiany_dnia_rozpoczecia_immunoterapii_IL2.jpg Graphic
 file (type jpg)
 <use ./rysunki/stezenie_zmiany_dnia_rozpoczecia_immunoterapii_IL2.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_zmiany_dnia_rozpoczecia_immunoterap
-ii_IL2.jpg  used on input line 1579.
+ii_IL2.jpg  used on input line 1485.
 (pdftex.def)             Requested size: 220.50887pt x 58.74413pt.
  [79 <./rysunki/wykres_zmiany_dnia_rozpoczecia_immunoterapii_IL2.jpg> <./rysunk
 i/stezenie_zmiany_dnia_rozpoczecia_immunoterapii_IL2.jpg>] [80]
@@ -1280,14 +1296,14 @@ Rozdzia\PlPrIeC {\l } 9.
 <./rysunki/wykres_skojarzone.jpg, id=1351, 562.1pt x 421.575pt>
 File: ./rysunki/wykres_skojarzone.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_skojarzone.jpg>
-Package pdftex.def Info: ./rysunki/wykres_skojarzone.jpg  used on input line 16
-11.
+Package pdftex.def Info: ./rysunki/wykres_skojarzone.jpg  used on input line 15
+17.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_skojarzone.jpg, id=1356, 364.36125pt x 204.765pt>
 File: ./rysunki/stezenie_skojarzone.jpg Graphic file (type jpg)
 <use ./rysunki/stezenie_skojarzone.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_skojarzone.jpg  used on input line 
-1614.
+1520.
 (pdftex.def)             Requested size: 198.45662pt x 111.52753pt.
  [82 <./rysunki/wykres_skojarzone.jpg> <./rysunki/stezenie_skojarzone.jpg>] [83
 ]
@@ -1295,13 +1311,13 @@ Package pdftex.def Info: ./rysunki/stezenie_skojarzone.jpg  used on input line
 File: ./rysunki/wykres_skojarzone200.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_skojarzone200.jpg>
 Package pdftex.def Info: ./rysunki/wykres_skojarzone200.jpg  used on input line
- 1661.
+ 1567.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_skojarzone200.jpg, id=1389, 364.36125pt x 206.27063pt>
 File: ./rysunki/stezenie_skojarzone200.jpg Graphic file (type jpg)
 <use ./rysunki/stezenie_skojarzone200.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_skojarzone200.jpg  used on input li
-ne 1664.
+ne 1570.
 (pdftex.def)             Requested size: 198.45662pt x 112.34758pt.
 
 
@@ -1313,18 +1329,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./rysunki/wykres_skojarzone_dawka1_75.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_skojarzone_dawka1_75.jpg>
 Package pdftex.def Info: ./rysunki/wykres_skojarzone_dawka1_75.jpg  used on inp
-ut line 1740.
+ut line 1646.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_skojarzone_dawka1_75.jpg, id=1416, 374.14781pt x 209.28188p
 t>
 File: ./rysunki/stezenie_skojarzone_dawka1_75.jpg Graphic file (type jpg)
 <use ./rysunki/stezenie_skojarzone_dawka1_75.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_skojarzone_dawka1_75.jpg  used on i
-nput line 1743.
+nput line 1649.
 (pdftex.def)             Requested size: 198.45662pt x 111.00826pt.
- [88 <./rysunki/wykres_skojarzone_dawka1_75.jpg> <./rysunki/stezenie_skojarzone
-_dawka1_75.jpg>] [89]
-Overfull \hbox (5.97644pt too wide) in paragraph at lines 1764--1778
+
+Underfull \hbox (badness 2865) in paragraph at lines 1649--1649
+ \OT4/cmr/m/n/10 ki do-zo-wa-ne-go cy-to-sta-ty-ka $\OML/plm/m/it/10 V[] \OT4/c
+mr/m/n/10 = 1\OML/plm/m/it/10 ; \OT4/cmr/m/n/10 75$.| 
+ []
+
+[88 <./rysunki/wykres_skojarzone_dawka1_75.jpg> <./rysunki/stezenie_skojarzone_
+dawka1_75.jpg>] [89]
+Overfull \hbox (5.97644pt too wide) in paragraph at lines 1670--1684
  [][] 
  []
 
@@ -1332,14 +1354,14 @@ Overfull \hbox (5.97644pt too wide) in paragraph at lines 1764--1778
 File: ./rysunki/wykres_skojarzone_l_powt1.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_skojarzone_l_powt1.jpg>
 Package pdftex.def Info: ./rysunki/wykres_skojarzone_l_powt1.jpg  used on input
- line 1785.
+ line 1691.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_skojarzone_l_powt1.jpg, id=1436, 371.88937pt x 209.28188pt>
 
 File: ./rysunki/stezenie_skojarzone_l_powt1.jpg Graphic file (type jpg)
 <use ./rysunki/stezenie_skojarzone_l_powt1.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_skojarzone_l_powt1.jpg  used on inp
-ut line 1788.
+ut line 1694.
 (pdftex.def)             Requested size: 198.45662pt x 111.68526pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1350,14 +1372,14 @@ ne_l_powt1.jpg>]
 File: ./rysunki/wykres_skojarzone_l_powt1_drozp2.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_skojarzone_l_powt1_drozp2.jpg>
 Package pdftex.def Info: ./rysunki/wykres_skojarzone_l_powt1_drozp2.jpg  used o
-n input line 1825.
+n input line 1731.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_skojarzone_l_powt1_drozp2.jpg, id=1455, 378.66469pt x 198.7
 425pt>
 File: ./rysunki/stezenie_skojarzone_l_powt1_drozp2.jpg Graphic file (type jpg)
 <use ./rysunki/stezenie_skojarzone_l_powt1_drozp2.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_skojarzone_l_powt1_drozp2.jpg  used
- on input line 1828.
+ on input line 1734.
 (pdftex.def)             Requested size: 198.45662pt x 104.15941pt.
 
 
@@ -1371,7 +1393,7 @@ File: ./rysunki/wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL.jpg Graphic f
 ile (type jpg)
 <use ./rysunki/wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL.jpg>
 Package pdftex.def Info: ./rysunki/wykres_zmiana_immuno_stale_chemio_dawka_IL2_
-z_TIL.jpg  used on input line 1902.
+z_TIL.jpg  used on input line 1808.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL.jpg, id=1494, 35
 7.58594pt x 211.54031pt>
@@ -1379,7 +1401,7 @@ File: ./rysunki/stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL.jpg Graphic
  file (type jpg)
 <use ./rysunki/stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_zmiana_immuno_stale_chemio_dawka_IL
-2_z_TIL.jpg  used on input line 1905.
+2_z_TIL.jpg  used on input line 1811.
 (pdftex.def)             Requested size: 198.45662pt x 117.40302pt.
 <./rysunki/wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6.jpg, id=1495, 5
 62.1pt x 421.575pt>
@@ -1387,7 +1409,7 @@ File: ./rysunki/wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6.jpg Graphi
 c file (type jpg)
 <use ./rysunki/wykres_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6.jpg>
 Package pdftex.def Info: ./rysunki/wykres_zmiana_immuno_stale_chemio_dawka_IL2_
-z_TIL2e6.jpg  used on input line 1908.
+z_TIL2e6.jpg  used on input line 1814.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6.jpg, id=1496,
  371.88937pt x 206.27063pt>
@@ -1395,7 +1417,7 @@ File: ./rysunki/stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6.jpg Grap
 hic file (type jpg)
 <use ./rysunki/stezenie_zmiana_immuno_stale_chemio_dawka_IL2_z_TIL2e6.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_zmiana_immuno_stale_chemio_dawka_IL
-2_z_TIL2e6.jpg  used on input line 1911.
+2_z_TIL2e6.jpg  used on input line 1817.
 (pdftex.def)             Requested size: 198.45662pt x 110.07828pt.
 
 
@@ -1411,7 +1433,7 @@ File: ./rysunki/wykres_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL.jpg G
 raphic file (type jpg)
 <use ./rysunki/wykres_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL.jpg>
 Package pdftex.def Info: ./rysunki/wykres_zmiana_immuno_stale_chemio_powtorzeni
-a_IL2_bez_TIL.jpg  used on input line 1951.
+a_IL2_bez_TIL.jpg  used on input line 1857.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL.jpg, id=
 1529, 373.395pt x 204.765pt>
@@ -1420,18 +1442,24 @@ File: ./rysunki/stezenie_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL.jpg
 <use ./rysunki/stezenie_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL.jpg>
 
 Package pdftex.def Info: ./rysunki/stezenie_zmiana_immuno_stale_chemio_powtorze
-nia_IL2_bez_TIL.jpg  used on input line 1954.
+nia_IL2_bez_TIL.jpg  used on input line 1860.
 (pdftex.def)             Requested size: 198.45662pt x 108.83112pt.
- [100 <./rysunki/wykres_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL.jpg>
- <./rysunki/stezenie_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL.jpg>] [
-101]
+
+Overfull \hbox (6.31506pt too wide) in paragraph at lines 1867--1868
+\OT4/cmr/m/n/12 wy-ko-rzy-sta-nia TIL jest za-le»-na od licz-by po-wtó-rze« cy-
+klu IL-2; ko-niecz-ne s¡ co naj-
+ []
+
+[100 <./rysunki/wykres_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL.jpg> 
+<./rysunki/stezenie_zmiana_immuno_stale_chemio_powtorzenia_IL2_bez_TIL.jpg>]
+[101]
 <./rysunki/wykres_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL.jpg, id=154
 8, 562.1pt x 421.575pt>
 File: ./rysunki/wykres_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL.jpg Gr
 aphic file (type jpg)
 <use ./rysunki/wykres_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL.jpg>
 Package pdftex.def Info: ./rysunki/wykres_immuno_stale_chemio_dzien_rozpoczecia
-_IL2_bez_TIL.jpg  used on input line 1995.
+_IL2_bez_TIL.jpg  used on input line 1901.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL.jpg, id=1
 549, 368.87813pt x 204.01219pt>
@@ -1439,7 +1467,7 @@ File: ./rysunki/stezenie_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL.jpg
 Graphic file (type jpg)
 <use ./rysunki/stezenie_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_immuno_stale_chemio_dzien_rozpoczec
-ia_IL2_bez_TIL.jpg  used on input line 1998.
+ia_IL2_bez_TIL.jpg  used on input line 1904.
 (pdftex.def)             Requested size: 198.45662pt x 109.75714pt.
  [102 <./rysunki/wykres_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL.jpg> 
 <./rysunki/stezenie_immuno_stale_chemio_dzien_rozpoczecia_IL2_bez_TIL.jpg>] [10
@@ -1450,7 +1478,7 @@ File: ./rysunki/wykres_zmiana_immuno_okreslone_chemio.jpg Graphic file (type jp
 g)
 <use ./rysunki/wykres_zmiana_immuno_okreslone_chemio.jpg>
 Package pdftex.def Info: ./rysunki/wykres_zmiana_immuno_okreslone_chemio.jpg  u
-sed on input line 2070.
+sed on input line 1976.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_zmiana_immuno_okreslone_chemio.jpg, id=1589, 381.67593pt x 
 216.05719pt>
@@ -1458,7 +1486,7 @@ File: ./rysunki/stezenie_zmiana_immuno_okreslone_chemio.jpg Graphic file (type
 jpg)
 <use ./rysunki/stezenie_zmiana_immuno_okreslone_chemio.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_zmiana_immuno_okreslone_chemio.jpg 
- used on input line 2073.
+ used on input line 1979.
 (pdftex.def)             Requested size: 198.45662pt x 112.34048pt.
 <./rysunki/wykres_zmiana_immuno_okreslone_chemiopol.jpg, id=1590, 562.1pt x 421
 .575pt>
@@ -1466,7 +1494,7 @@ File: ./rysunki/wykres_zmiana_immuno_okreslone_chemiopol.jpg Graphic file (type
  jpg)
 <use ./rysunki/wykres_zmiana_immuno_okreslone_chemiopol.jpg>
 Package pdftex.def Info: ./rysunki/wykres_zmiana_immuno_okreslone_chemiopol.jpg
-  used on input line 2076.
+  used on input line 1982.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_zmiana_immuno_okreslone_chemiopol.jpg, id=1591, 376.40625pt
  x 213.79875pt>
@@ -1474,19 +1502,18 @@ File: ./rysunki/stezenie_zmiana_immuno_okreslone_chemiopol.jpg Graphic file (ty
 pe jpg)
 <use ./rysunki/stezenie_zmiana_immuno_okreslone_chemiopol.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_zmiana_immuno_okreslone_chemiopol.j
-pg  used on input line 2079.
+pg  used on input line 1985.
 (pdftex.def)             Requested size: 198.45662pt x 112.72557pt.
-
-[106 <./rysunki/wykres_zmiana_immuno_okreslone_chemio.jpg> <./rysunki/stezenie_
-zmiana_immuno_okreslone_chemio.jpg> <./rysunki/wykres_zmiana_immuno_okreslone_c
-hemiopol.jpg> <./rysunki/stezenie_zmiana_immuno_okreslone_chemiopol.jpg>]
-[107]
-Underfull \hbox (badness 10000) in paragraph at lines 2103--2104
+ [106 <./rysunki/wykres_zmiana_immuno_okreslone_chemio.jpg> <./rysunki/stezenie
+_zmiana_immuno_okreslone_chemio.jpg> <./rysunki/wykres_zmiana_immuno_okreslone_
+chemiopol.jpg> <./rysunki/stezenie_zmiana_immuno_okreslone_chemiopol.jpg>] [107
+]
+Underfull \hbox (badness 10000) in paragraph at lines 2009--2010
 
  []
 
 
-Overfull \hbox (11.89606pt too wide) in paragraph at lines 2111--2120
+Overfull \hbox (11.89606pt too wide) in paragraph at lines 2017--2026
  [][] 
  []
 
@@ -1500,7 +1527,7 @@ File: ./rysunki/wykres_czasy_wdrozenia_roznych_terapii.jpg Graphic file (type j
 pg)
 <use ./rysunki/wykres_czasy_wdrozenia_roznych_terapii.jpg>
 Package pdftex.def Info: ./rysunki/wykres_czasy_wdrozenia_roznych_terapii.jpg  
-used on input line 2128.
+used on input line 2034.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_czasy_wdrozenia_roznych_terapii.jpg, id=1626, 365.11406pt x
  201.00093pt>
@@ -1508,7 +1535,7 @@ File: ./rysunki/stezenie_czasy_wdrozenia_roznych_terapii.jpg Graphic file (type
  jpg)
 <use ./rysunki/stezenie_czasy_wdrozenia_roznych_terapii.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_czasy_wdrozenia_roznych_terapii.jpg
-  used on input line 2131.
+  used on input line 2037.
 (pdftex.def)             Requested size: 198.45662pt x 109.2535pt.
 <./rysunki/wykres_czasy_wdrozenia_roznych_terapii2.jpg, id=1627, 562.1pt x 421.
 575pt>
@@ -1516,7 +1543,7 @@ File: ./rysunki/wykres_czasy_wdrozenia_roznych_terapii2.jpg Graphic file (type
 jpg)
 <use ./rysunki/wykres_czasy_wdrozenia_roznych_terapii2.jpg>
 Package pdftex.def Info: ./rysunki/wykres_czasy_wdrozenia_roznych_terapii2.jpg 
- used on input line 2134.
+ used on input line 2040.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_czasy_wdrozenia_roznych_terapii2.jpg, id=1628, 365.86688pt 
 x 203.25937pt>
@@ -1524,7 +1551,7 @@ File: ./rysunki/stezenie_czasy_wdrozenia_roznych_terapii2.jpg Graphic file (typ
 e jpg)
 <use ./rysunki/stezenie_czasy_wdrozenia_roznych_terapii2.jpg>
 Package pdftex.def Info: ./rysunki/stezenie_czasy_wdrozenia_roznych_terapii2.jp
-g  used on input line 2137.
+g  used on input line 2043.
 (pdftex.def)             Requested size: 198.45662pt x 110.25465pt.
 
 
@@ -1538,7 +1565,7 @@ oznych_terapii2.jpg> <./rysunki/stezenie_czasy_wdrozenia_roznych_terapii2.jpg>]
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [112]
-Underfull \hbox (badness 10000) in paragraph at lines 2209--2210
+Underfull \hbox (badness 10000) in paragraph at lines 2115--2116
 
  []
 
@@ -1546,12 +1573,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 2209--2210
 <./rysunki/wykres_p2.jpg, id=1670, 562.1pt x 421.575pt>
 File: ./rysunki/wykres_p2.jpg Graphic file (type jpg)
 <use ./rysunki/wykres_p2.jpg>
-Package pdftex.def Info: ./rysunki/wykres_p2.jpg  used on input line 2230.
+Package pdftex.def Info: ./rysunki/wykres_p2.jpg  used on input line 2136.
 (pdftex.def)             Requested size: 198.45662pt x 148.84pt.
 <./rysunki/stezenie_p2.jpg, id=1679, 380.17032pt x 208.52907pt>
 File: ./rysunki/stezenie_p2.jpg Graphic file (type jpg)
 <use ./rysunki/stezenie_p2.jpg>
-Package pdftex.def Info: ./rysunki/stezenie_p2.jpg  used on input line 2233.
+Package pdftex.def Info: ./rysunki/stezenie_p2.jpg  used on input line 2139.
 (pdftex.def)             Requested size: 198.45662pt x 108.85892pt.
 
 
@@ -1568,13 +1595,13 @@ Rozdzia\PlPrIeC {\l } 11.
 ] [118] [119
 
 ] [120] [121]
-Underfull \hbox (badness 10000) in paragraph at lines 2321--2322
+Underfull \hbox (badness 10000) in paragraph at lines 2227--2228
 []\OT4/cmr/m/n/12 https://www.focus.pl/artykul/naukowcy-ktos-w-walii-ma-krew-kt
 ora-zabija-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2322--2323
+Underfull \hbox (badness 10000) in paragraph at lines 2228--2229
 []\OT4/cmr/m/n/12 https://healthcare-in-europe.com/en/news/new-t-cell-could-mak
 e-universal-
  []
@@ -1582,7 +1609,7 @@ e-universal-
 ) (Dodatek.tex [122]
 Rozdzia\PlPrIeC {\l } 12.
 
-Overfull \hbox (26.34036pt too wide) in paragraph at lines 8--34
+Overfull \hbox (26.34036pt too wide) in paragraph at lines 8--33
  [][] 
  []
 
@@ -1631,7 +1658,7 @@ ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy10.pfb><C:/Users/pc/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy6.pfb><C:/Users/pc/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plsy8.pfb><C:/Users/pc/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/pl/plti12.pfb>
-Output written on ImmunochemiotherapyModel.pdf (131 pages, 2695191 bytes).
+Output written on ImmunochemiotherapyModel.pdf (131 pages, 2695292 bytes).
 PDF statistics:
  1910 PDF objects out of 2073 (max. 8388607)
  385 named destinations out of 1000 (max. 500000)
