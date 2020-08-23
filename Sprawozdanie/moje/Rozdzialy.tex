@@ -1159,7 +1159,7 @@ Wnioski:
 \item chemioterapia przy u¿yciu dawki $V_M = 3$, która nie jest skuteczna dla 9 powtórzeñ cyklu (brak regresji nowotworu) przy wiêkszej iloœci powtórzeñ cyklu (19 powtórzeñ) pozwala osi¹gn¹æ pozytywny wynik leczenia; czas do wyst¹pienia regresji wynosi w tym przypadku 87 dni (ponad 3 razy wiêcej ni¿ przy 5 powtórzeniach i dawce $V_M = 5$), ale jest to mo¿liwoœæ zastosowania chemioterapii u pacjentów, których organizm jest zbyt zniszczony, by zastosowaæ wiêksz¹ dawkê cytostatyka.
 \end{itemize}
 
-Zgodnie z przeprowadzon¹ analiz¹ zmian liczby powtórzeñ cyklu mo¿na stwierdziæ, ¿e leczenie metod¹ chemioterapii jest procesem z³o¿onym, w którym jednym z istotnych czynników jest okreœlenie ile razy nale¿y powtórzyæ dozowanie cytostatyka u danego pacjenta. Symulacje umo¿liwiaj¹ wyznaczenie momentu, w którym dzia³anie cytostatyka pozwala obni¿yæ liczbê komórek nowotworowych do takiego poziomu, gdzie guz ulegnie regresji i nie zacznie na nowo wzrastaæ.
+Zgodnie z przeprowadzon¹ analiz¹ zmian liczby powtórzeñ cyklu mo¿na stwierdziæ, ¿e leczenie metod¹ chemioterapii jest procesem z³o¿onym, w którym jednym z istotnych czynników jest okreœlenie ile razy nale¿y powtórzyæ dozowanie cytostatyka u danego pacjenta. Symulacje umo¿liwiaj¹ wyznaczenie momentu, w którym dzia³anie cytostatyka obni¿a liczbê komórek nowotworowych do takiej wartoœci, przy której guz ulega regresji i nie zaczyna na nowo wzrastaæ.
 
 \newpage
 \section{Scenariusz V -- zmiana dnia rozpoczêcia chemioterapii (dozowania cytostatyka)}
@@ -1225,7 +1225,7 @@ Wnioski:
 \item dla dawki $V_M = 4,5$ przesuniêcie dnia rozpoczêcia chemioterapii zaledwie o 6 dni skutkuje negatywnym wynikiem leczenia (brakiem regresji nowotworu).
 \end{itemize}
 
-Skutecznoœæ chemioterapii silnie zale¿y od dnia jej rozpoczêcia. Jak wynika z symulacji, w pewnych przypadkach, nawet niewielkie zmiany (np. opóŸnienie leczenia o 6 dni dla dawki $V_M = 4,5$) mog¹ decydowaæ o wyniku leczenia.
+Skutecznoœæ chemioterapii w du¿ym stopniu zale¿y od dnia jej rozpoczêcia. Jak wynika z symulacji, w pewnych przypadkach, nawet niewielkie zmiany (np. opóŸnienie leczenia o 6 dni dla dawki $V_M = 4,5$) mog¹ decydowaæ o wyniku leczenia.
 
 \newpage
 \chapter{Leczenie metod¹ immunoterapii -- symulacje wykonane dla~modelu leczonego guza} \label{sym_i}
@@ -1315,6 +1315,8 @@ Wnioski:
 \end{itemize}
 %uk³ad os³abiony - pokonuje tylko niewielki  guz, zwiekszanie guza jak w artykule
 
+Immunoterapia to metoda leczenia mniej szkodliwa ni¿ chemioterapia, poniewa¿ skupia siê na wzmocnieniu organizmu. Daje ona mo¿liwoœæ zniszczenia komórek nowotworowych, jednak tylko w przypadku guza o niewielkim rozmiarze lub wtedy, gdy uk³ad immunologiczny jest zdrowy, nieos³abiony.
+
 \newpage
 \section{Scenariusz II -- zmiana dawki IL-2}
 \noindent \textbf{Podejmowany problem:} \newline Analiza zmian odpowiedzi uk³adu immunologicznego (liczby komórek nowotworowych oraz komórek uk³adu odpornoœciowego) w ostatnim dniu symulacji w~zale¿noœci od~wielkoœci dawki IL-2.
@@ -1379,6 +1381,8 @@ Wnioski:
 \item leczenie z wykorzystaniem IL-2 oraz TIL nie ró¿ni siê znacz¹co od leczenia z wykorzystaniem wy³¹cznie IL-2; wykorzystanie TIL w leczeniu nie ma wp³ywu na dzieñ ani dok³adny moment regresji nowotworu, jedyn¹ zmian¹ w stosunku do leczenia wy³¹cznie przy u¿yciu IL-2 s¹ bardzo ma³e zmiany (zmniejszenie) liczby komórek nowotworowych w ostatnim dniu symulacji w chwili $T_{k} = 120$ dni $T(120)$;
 \item leczenie z wykorzystaniem wy³¹cznie IL-2 jest w stanie doprowadziæ do regresji nowotworu; wykorzystanie TIL w immunoterapii nie jest konieczne.
 \end{itemize}
+
+Zgodnie z przeprowadzon¹ analiz¹, wielkoœæ dawki IL-2 w leczeniu metod¹ immunoterapii ma wp³yw na wyst¹pienie regresji nowotworu, jednak jej zwiêkszanie nie wp³ywa na moment, w którym regresja ta nastêpuje. Wykazano tak¿e, ¿e do skutecznoœci leczenia w tym przypadku nie jest konieczne u¿ycie TIL.
 
 \newpage
 \section{Scenariusz III -- zmiana dawki TIL}
@@ -1508,9 +1512,11 @@ Rys. \ref{wykresy_zmiany_liczby_powtorzen_IL2} przedstawia zmiany w czasie liczb
 \newpage
 Wnioski:
 \begin{itemize}
-\item liczba powtórzeñ cyklu IL-2 nie ma wp³ywu na skutecznoœæ leczenia (wyst¹pienie regresji nowotworu) niezale¿nie od liczby powtórzeñ cyklu (analizowano: 6, 10 oraz 14 powtórzeñ) nie wystêpuje regresja guza dla pocz¹tkowej liczby komórek nowotworowych $T(0) = 1,8 \cdot 10^{7}$; 
+\item liczba powtórzeñ cyklu IL-2 nie ma wp³ywu na skutecznoœæ leczenia (wyst¹pienie regresji nowotworu); niezale¿nie od liczby powtórzeñ cyklu (analizowano: 6, 10 oraz 14 powtórzeñ) nie wystêpuje regresja guza dla pocz¹tkowej liczby komórek nowotworowych $T(0) = 1,8 \cdot 10^{7}$; 
 \item dla ma³ej pocz¹tkowej liczby komórek nowotworowych $T(0) = 1 \cdot 10^{6}$ zmiana liczby powtórzeñ cyklu IL-2 nie wp³ywa na skutecznoœæ leczenia (w ka¿dym przypadku nastêpuje regresja nowotworu) ani na moment wyst¹pienia regresji (w ka¿dym przypadku dniem regresji jest 16 dzieñ symulacji).
 \end{itemize}
+
+W przeciwieñstwie do leczenia metod¹ chemioterapii, liczba powtórzeñ cyklu leczenia (dozowania IL-2) w immunoterapii nie ma wp³ywu na efekt terapii, a regresja guza nie wystêpuje dla guza o du¿ej pocz¹tkowej liczbie komórek nowotworowych ($T(0) = 1,8 \cdot 10^{7}$). Dla mniejszych guzów ($T(0) = 1 \cdot 10^{6}$) liczba powtórzeñ cyklu równie¿ nie wp³ywa na efekt terapii (w ka¿dym przypadku regresja wystêpuje), wiêc immunoterapiê mo¿na ograniczyæ do jednego cyklu dozowania IL-2.
 
 \newpage
 \section{Scenariusz V -- zmiana dnia rozpoczêcia immunoterapii}
@@ -1578,11 +1584,13 @@ Rys. \ref{wykresy_zmiany_dnia_rozpoczecia_immunoterapii_IL2} ukazuje zmiany w cz
 \newpage
 Wnioski:
 \begin{itemize}
-\item dzieñ rozpoczêcia immunoterapii (dozowania IL-2) przy dozowaniu TIL zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) ma wp³yw na skutecznoœæ leczenia (wyst¹pienie regresji nowotworu lub jej brak); przy rozpoczêciu dozowania IL-2 w 5 dniu symulacji (4 dni wczeœniej ni¿ dla warunków pocz¹tkowych (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}), gdzie nie nastêpuje regresja) w 14 dniu symulacji wystêpuje regresja nowotworu;
+\item dzieñ rozpoczêcia immunoterapii (dozowania IL-2) przy dozowaniu TIL zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) ma wp³yw na skutecznoœæ leczenia (wyst¹pienie regresji nowotworu lub jej brak); przy rozpoczêciu dozowania IL-2 w 5 dniu symulacji (tj. 4 dni wczeœniej ni¿ dla warunków pocz¹tkowych (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}), gdzie nie nastêpuje regresja) w 14 dniu symulacji wystêpuje regresja nowotworu;
 \item dzieñ rozpoczêcia immunoterapii (dozowania IL-2) przy dozowaniu TIL zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) ma wp³yw na czas wyst¹pienia regresji; od dnia rozpoczêcia dozowania IL-2 do dnia regresji mija 9 dni (z wyj¹tkiem rozpoczêcia dozowania IL-2 w pierwszym dniu - wtedy regresja nastêpuje po 8 kolejnych dniach symulacji);
 \item dzieñ rozpoczêcia immunoterapii (dozowania TIL) przy dozowaniu IL-2 zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) ma wp³yw na skutecznoœæ leczenia (wyst¹pienie regresji nowotworu lub jej brak); przy rozpoczêciu dozowania TIL w 3 dniu symulacji (6 dni wczeœniej ni¿ dla warunków pocz¹tkowych (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}), gdzie nie nastêpuje regresja) w 13 dniu symulacji wystêpuje regresja nowotworu;
 \item dzieñ rozpoczêcia immunoterapii (dozowania TIL) przy dozowaniu IL-2 zgodnie z warunkami pocz¹tkowymi (Tab. \ref{warunki_pocz¹tkowe_immunoterapii}) ma wp³yw na czas wyst¹pienia regresji; rozpoczêcie dozowania TIL o 1 dzieñ wczeœniej skutkuje skróceniem czasu koniecznego do wyst¹pienia regresji o 1 dzieñ, tj. dla rozpoczêcia leczenia w dzieñ: 3, 2 oraz 1 czas do regresji wynosi, odpowiednio: 10, 9 oraz 8 dni.
 \end{itemize}
+
+Podobnie, jak w przypadku chemioterapii, skutecznoœæ leczenia zale¿y od dnia jej rozpoczêcia, a przyspieszenie jej o zaledwie kilka dni mo¿e decydowaæ o wyst¹pieniu regresji nowotworu. Równoczeœnie, dzieñ rozpoczêcia immunoterapii nie wp³ywa znacz¹co na czas od momentu rozpoczêcia leczenia do momentu wyst¹pienia regresji.
 
 \newpage
 \chapter{Leczenie skojarzonymi metodami chemioterapii i~immunoterapii} \label{sym_ch_i}
