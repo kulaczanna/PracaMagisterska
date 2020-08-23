@@ -2006,6 +2006,8 @@ Wnioski:
 \item dzieñ regresji w leczeniu skojarzonym zale¿y od dnia rozpoczêcia immunoterapii (dozowania IL-2).
 \end{itemize}
 
+W leczeniu skojarzonym mo¿liwe jest uzyskanie regresji nowotworu przy pocz¹tkowych warunkach chemioterapii (Tab. \ref{warunki pocz¹tkowe_chemioterapii}) i ograniczeniu immunoterapii do wykorzystania wy³¹cznie TIL (nie jest konieczne równoczesne wykorzystanie IL-2). Z kolei w leczeniu wykorzystuj¹cym wy³¹cznie IL-2 mo¿liwe jest zmniejszenie dawki IL-2 do $V_I = 2 \cdot 10^{6}$ bez utraty skutecznoœci leczenia. Ponadto, regresja nastêpuje ju¿ przy dwóch powtórzeniach cyklu dozowania IL-2, podczas gdy w leczeniu wy³¹cznie metod¹ immunoterapii regresja nie wystêpowa³a, niezale¿nie od liczby powtórzeñ dla pocz¹tkowej liczby komórek nowotworowych $T(0) = 1,8 \cdot 10^{7}$. Skuteczn¹ immunoterapiê (w po³¹czeniu z chemioterapi¹ trwaj¹c¹ od pierwszego dnia symulacji) mo¿na rozpocz¹æ nawet w 14 dniu symulacji. 
+
 \newpage
 \section{Scenariusz III -- zmiana dawki IL-2 koniecznej dla uzyskania pozytywnego efektu leczenia dla okreœlonych warunków pocz¹tkowych chemioterapii}
 
@@ -2085,6 +2087,8 @@ Wnioski:
 \item w leczeniu skojarzonym wykorzystuj¹cym chemioterapiê zgodnie z warunkami pocz¹tkowymi (\ref{okreslone_warunki_pocz¹tkowe_chemioterapii}) oraz immunoterapiê w oparciu o IL-2 oraz TIL (\ref{warunki_pocz¹tkowe_immunoterapii}) mo¿liwe jest uzyskanie regresji nowotworu dla dawki dozowanego cytostatyka $V_M = 1$ oraz $V_M = 0,5$ poprzez nieznaczne zwiêkszenie dawki IL-2 (dla dawki $V_M = 1$ oraz $V_M = 0,5$ dawka IL-2 wynosi odpowiednio $V_I = 8 \cdot 10^{6}$ oraz $V_I = 2 \cdot 10^{7}$, podczas gdy dawka pocz¹tkowa IL-2 jest równa $V_I = 5 \cdot 10^{6}$); te dawki cytostatyka s¹ kilka razy mniejsze ni¿ dawki wykorzystane we wczeœniejszych symulacjach (dawka pocz¹tkowa $V_M = 5$) oraz znacznie mniejsze ni¿ dawka konieczna do wyst¹pienia regresji w leczeniu metod¹ wy³¹cznie chemioterapii dla cyklu o d³ugoœci 8 dni ($V_M = 13$); leczenie skojarzone umo¿liwia wiêc zminimalizowanie skutków ubocznych dzia³ania cytostatyka poprzez wzmocnienie organizmu wiêksz¹ iloœci¹ IL-2.
 \end{itemize}
 
+Dziêki leczeniu skojarzonemu mo¿liwe jest znaczne zmniejszenie dawki cytostatyka (np. do $V_M = 1$ lub $V_M = 0,5$), a w zwi¹zku z tym ograniczenie do minimum nara¿ania pacjenta na mo¿liwe skutki uboczne zwi¹zane z dzia³aniem cytostatyka.
+
 \newpage
 \section{Scenariusz IV -- zmiany czasu wdro¿enia poszczególnych terapii}
 
@@ -2140,6 +2144,8 @@ Wnioski:
 \begin{itemize}
 \item w leczeniu skojarzonym metod¹ chemioterapii i immunoterapii czas potrzebny do uzyskania regresji nowotworu zale¿y od czasu wdro¿enia poszczególnych terapii; w przypadku rozpoczêcia chemioterapii w 1 dniu, a immunoterapii w 8 dniu symulacji, regresja nastêpuje w dniu 14, natomiast dla odwrotnej kolejnoœci regresja nastêpuje oko³o 1,5 razy szybciej, tj. w dniu 9 symulacji.
 \end{itemize}
+
+W leczeniu skojarzonym, poza tym jakie metody s¹ wykorzystywane, wa¿ne jest tak¿e w jakiej kolejnoœci s¹ one stosowane u pacjenta. Zgodnie z przeprowadzon¹ analiz¹, nowotwór zostaje zniszczony szybciej, jeœli najpierw wdra¿ana jest immunoterapia, a po jej zakoñczeniu chemioterapia. 
 
 \newpage
 \section{Scenariusz V -- porównanie stanu uk³adu immunologicznego u ró¿nych pacjentów}
@@ -2234,6 +2240,8 @@ Wnioski:
 \begin{itemize}
 \item skutecznoœæ leczenia skojarzonego metod¹ chemioterapii (\ref{warunki_pocz¹tkowe_chemioterapii_light}) i immunoterapii (\ref{warunki_pocz¹tkowe_immunoterapii_dopasowane_do_chemio_light}) zale¿y od cech osobnicznych uk³adu immunologicznego pacjenta takich, jak: tempo dezaktywacji limfocytów $T_{CD8+}$ oraz komórek NK przez komórki nowotworu, cytotoksycznoœæ limfocytów $T_{CD8+}$ czy liczba kr¹¿¹cych limfocytów i tempo ich wymierania;
 \item istnieje mo¿liwoœæ dopasowania symulacji (modelu) do indywidualnego pacjenta (jego cech osobnicznych) w celu okreœlenia optymalnego dla niego leczenia skojarzonego. \end{itemize}
+
+Skutecznoœæ leczenia skojarzonego jest zale¿na od pacjenta, u którego leczenie to jest podejmowane, tj. od cech osobniczych zwi¹zanych z jego uk³adem immunologicznym. Dziêki matematycznemu modelowaniu oraz symulacjom, przy znanych parametrach charakterystycznych dla danego pacjenta, leczenie to mo¿e byæ do niego dopasowane zanim zostanie wdro¿one w praktyce. Taka personalizacja modelu mo¿e pomóc oszacowaæ skutecznoœæ terapii dla konkretnego pacjenta, np. bior¹c pod uwagê os³abienie uk³adu immunologicznego wspó³istniej¹ca chorob¹.
 
 \chapter{Podsumowanie}
 W pracy rozwa¿ano model matematyczny pozwalaj¹cy przeprowadziæ symulacje rozwoju komórek nowotworowych w organizmie, a tak¿e odpowiedzi uk³adu immunologicznego, tj. zmian w czasie liczby komórek NK, limfocytów $T_{CD8+}$ oraz limfocytów kr¹¿¹cych na rozwijaj¹cy siê nowotwór. Ponadto model ten umo¿liwia uwzglêdnienie procesu leczenia nowotworu metod¹ chemioterapii, immunoterapii oraz skojarzonymi metodami chemioterapii i immunoterapii. Matematyczne modelowanie umo¿liwia symulacjê badania przed przeprowadzeniem go w rzeczywistoœci, dziêki czemu pozwala poznaæ zbli¿ony efekt leczenia. To z kolei daje mo¿liwoœæ lepszego dopasowania terapii do konkretnego pacjenta, mo¿e zapobiec negatywnym efektom ubocznym (ujawnionym podczas symulacji), np. poprzez ograniczenie dawki cytostatyka podawanego pacjentowi do wartoœci granicznej, dla której zostaje osi¹gniêty zamierzony efekt (np. pokonanie nowotworu) przy jednoczesnej jak najmniejszej szkodliwoœci dla pacjenta. Ponadto, modelowanie mo¿e byæ przydatne w testowaniu nowych metod leczenia, które nie s¹ jeszcze wykorzystywane w praktyce.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

@@ -48,12 +48,12 @@
 \contentsline {subsection}{\numberline {9.2.1}Zmiana dawki IL-2}{96}{subsection.9.2.1}%
 \contentsline {subsection}{\numberline {9.2.2}Zmiana liczby powt\'orze\'n cyklu IL-2 dla leczenia bez wykorzystania TIL}{99}{subsection.9.2.2}%
 \contentsline {subsection}{\numberline {9.2.3}Zmiana dnia rozpocz\k ecia immunoterapii (dozowania IL-2) dla leczenia bez wykorzystania TIL}{101}{subsection.9.2.3}%
-\contentsline {section}{\numberline {9.3}Scenariusz III -- zmiana dawki IL-2 koniecznej dla uzyskania pozytywnego efektu leczenia dla okre\'slonych warunk\'ow pocz\k atkowych chemioterapii}{103}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{107}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Scenariusz V -- por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{111}{section.9.5}%
-\contentsline {chapter}{\numberline {10.}Podsumowanie}{115}{chapter.10}%
-\contentsline {chapter}{\numberline {11.}Perspektywy rozwoju}{116}{chapter.11}%
-\contentsline {section}{\numberline {11.1}Interferony}{116}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Nowa odmiana limfocyt\'ow typu T}{117}{section.11.2}%
-\contentsline {chapter}{\numberline {12.}Dodatek}{122}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Tabela skr\'ot\'ow}{122}{section.12.1}%
+\contentsline {section}{\numberline {9.3}Scenariusz III -- zmiana dawki IL-2 koniecznej dla uzyskania pozytywnego efektu leczenia dla okre\'slonych warunk\'ow pocz\k atkowych chemioterapii}{104}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Scenariusz IV -- zmiany czasu wdro\.zenia poszczeg\'olnych terapii}{108}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Scenariusz V -- por\'ownanie stanu uk\IeC {\l }adu immunologicznego u r\'o\.znych pacjent\'ow}{112}{section.9.5}%
+\contentsline {chapter}{\numberline {10.}Podsumowanie}{116}{chapter.10}%
+\contentsline {chapter}{\numberline {11.}Perspektywy rozwoju}{117}{chapter.11}%
+\contentsline {section}{\numberline {11.1}Interferony}{117}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Nowa odmiana limfocyt\'ow typu T}{118}{section.11.2}%
+\contentsline {chapter}{\numberline {12.}Dodatek}{123}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Tabela skr\'ot\'ow}{123}{section.12.1}%
